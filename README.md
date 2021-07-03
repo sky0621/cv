@@ -39,3 +39,13 @@ success Installed "@vitejs/create-app@2.4.4" with binaries:
 ✔ Select a variant: › vue-ts
     ...
 ```
+
+## use
+
+### vue-router
+
+https://github.com/vuejs/vue-router-next#quickstart
+
+### PRIME VUE
+
+https://primefaces.org/primevue/showcase/#/setup
