@@ -3,7 +3,7 @@
 ## env
 
 ```
-$ cat /etc/os-release 
+$ cat /etc/os-release
 NAME="Ubuntu"
 VERSION="20.04.2 LTS (Focal Fossa)"
 $
@@ -50,8 +50,24 @@ https://github.com/vuejs/vue-router-next#quickstart
 
 https://primefaces.org/primevue/showcase/#/setup
 
-### linter
+### lint
 
 ```
 yarn add -D eslint eslint-plugin-vue @vue/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
+```
+
+```
+yarn add -D husky lint-staged
+```
+
+### prettier
+
+```
+yarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier
+```
+
+### stylelint
+
+```
+yarn add -D stylelint stylelint-config-recommended stylelint-config-standard
 ```

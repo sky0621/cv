@@ -7,11 +7,11 @@ export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/cv/' : './',
   resolve: {
     alias: {
-      '@': path.resolve('__dirname', '/src')
-    }
+      '@': path.resolve('__dirname', '/src'),
+    },
   },
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
   },
-  plugins: [vue()]
+  plugins: [vue()],
 })
