@@ -49,3 +49,9 @@ https://github.com/vuejs/vue-router-next#quickstart
 ### PRIME VUE
 
 https://primefaces.org/primevue/showcase/#/setup
+
+### linter
+
+```
+yarn add -D eslint eslint-plugin-vue @vue/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
+```
