@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
+import Home from '../pages/Home.vue'
+import CatalogIndex from '../pages/catalog/Index.vue'
+import CatalogButton from '../pages/catalog/Button.vue'
+import CatalogSplitButton from '../pages/catalog/SplitButton.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -9,9 +11,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Home,
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About,
+    path: '/catalog',
+    name: 'CatalogIndex',
+    component: CatalogIndex,
+  },
+  {
+    path: '/catalog/button',
+    name: 'CatalogButton',
+    component: CatalogButton,
   },
 ]
 
