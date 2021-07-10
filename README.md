@@ -50,6 +50,10 @@ https://github.com/vuejs/vue-router-next#quickstart
 
 https://primefaces.org/primevue/showcase/#/setup
 
+#### primeflex
+
+https://primefaces.org/primevue/showcase/#/primeflex
+
 ### lint
 
 ```
@@ -70,4 +74,10 @@ yarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier
 
 ```
 yarn add -D stylelint stylelint-config-recommended stylelint-config-standard
+```
+
+### sass
+
+```
+yarn add -D sass
 ```

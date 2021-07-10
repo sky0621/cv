@@ -1,5 +1,9 @@
 <template>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite !!! !!!" />
+  <div>A <i class="pi pi-check"></i></div>
+  <div>B <i class="pi pi-times"></i></div>
+  <div>C <i class="pi pi-spin pi-spinner" style="fontSize: 2rem"></i></div>
+  <div><Button label="SUBMIT" /></div>
 </template>
 
 <script lang="ts">
@@ -8,7 +12,6 @@
 
   export default defineComponent({
     name: 'Home',
-    // App.vueのものを貼り付け
     components: {
       HelloWorld,
     },
