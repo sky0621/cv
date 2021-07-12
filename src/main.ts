@@ -10,6 +10,13 @@ import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 
 import Button from 'primevue/button'
+import Menubar from 'primevue/menubar'
+import InputText from 'primevue/inputtext'
+import Avatar from 'primevue/avatar'
+import AvatarGroup from 'primevue/avatargroup'
+import Badge from 'primevue/badge'
+
+import BadgeDirective from 'primevue/badgedirective'
 
 const app = createApp(App)
 
@@ -17,5 +24,12 @@ app.use(router)
 app.use(PrimeVue, { ripple: true })
 
 app.component('Button', Button)
+app.component('Menubar', Menubar)
+app.component('InputText', InputText)
+app.component('Avatar', Avatar)
+app.component('AvatarGroup', AvatarGroup)
+app.component('Badge', Badge)
+
+app.directive('badge', BadgeDirective)
 
 app.mount('#app')

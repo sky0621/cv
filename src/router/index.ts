@@ -2,7 +2,9 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../pages/Home.vue'
 import CatalogIndex from '../pages/catalog/Index.vue'
 import CatalogButton from '../pages/catalog/Button.vue'
-import CatalogSplitButton from '../pages/catalog/SplitButton.vue'
+import CatalogGrid from '../pages/catalog/Grid.vue'
+import CatalogMenubar from '../pages/catalog/Menubar.vue'
+import CatalogAvatar from '../pages/catalog/Avatar.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -19,6 +21,21 @@ const routes: Array<RouteRecordRaw> = [
     path: '/catalog/button',
     name: 'CatalogButton',
     component: CatalogButton,
+  },
+  {
+    path: '/catalog/grid',
+    name: 'CatalogGrid',
+    component: CatalogGrid,
+  },
+  {
+    path: '/catalog/menubar',
+    name: 'CatalogMenubar',
+    component: CatalogMenubar,
+  },
+  {
+    path: '/catalog/avatar',
+    name: 'CatalogAvatar',
+    component: CatalogAvatar,
   },
 ]
 

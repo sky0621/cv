@@ -164,14 +164,14 @@
       <img
         alt="logo"
         src="https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png"
-        style="width: 1.5rem;"
+        style="width: 1.5rem"
       />
     </Button>
     <Button type="button" class="p-button-outlined p-button-success">
       <img
         alt="logo"
         src="https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png"
-        style="width: 1.5rem;"
+        style="width: 1.5rem"
       />
       <span class="p-ml-2 p-text-bold">PrimeVue</span>
     </Button>

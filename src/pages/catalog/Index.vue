@@ -2,6 +2,15 @@
   <div>
     <router-link to="/catalog/button"> Button </router-link>
   </div>
+  <div>
+    <router-link to="/catalog/grid"> Grid </router-link>
+  </div>
+  <div>
+    <router-link to="/catalog/menubar"> Menubar </router-link>
+  </div>
+  <div>
+    <router-link to="/catalog/avatar"> Avatar </router-link>
+  </div>
 </template>
 
 <script lang="ts">
