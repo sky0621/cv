@@ -1,7 +1,15 @@
 <template>
   <div>
     <div class="card">
-      <DataTable :value="products" responsive-layout="scroll">
+      <DataTable :value="products" responsive-layout="scroll" showGridlines>
+        <template #header> 基本情報 </template>
+        <Column field="code" header="key"></Column>
+        <Column field="name" header="value"></Column>
+      </DataTable>
+    </div>
+
+    <div class="card">
+      <DataTable :value="products" responsive-layout="scroll" showGridlines>
         <template #header> Scroll </template>
         <Column field="code" header="Code"></Column>
         <Column field="name" header="Name"></Column>
@@ -33,7 +41,7 @@
     </div>
 
     <div class="card">
-      <DataTable :value="products" responsive-layout="stack" breakpoint="960px">
+      <DataTable :value="products" responsive-layout="stack" breakpoint="960px" showGridlines>
         <template #header> Stack </template>
         <Column field="code" header="Code"></Column>
         <Column field="name" header="Name"></Column>
