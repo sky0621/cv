@@ -15,6 +15,9 @@ import InputText from 'primevue/inputtext'
 import Avatar from 'primevue/avatar'
 import AvatarGroup from 'primevue/avatargroup'
 import Badge from 'primevue/badge'
+import DataTable from 'primevue/datatable'
+import Column from 'primevue/column'
+import ColumnGroup from 'primevue/columngroup'
 
 import BadgeDirective from 'primevue/badgedirective'
 
@@ -29,6 +32,9 @@ app.component('InputText', InputText)
 app.component('Avatar', Avatar)
 app.component('AvatarGroup', AvatarGroup)
 app.component('Badge', Badge)
+app.component('DataTable', DataTable)
+app.component('Column', Column)
+app.component('ColumnGroup', ColumnGroup)
 
 app.directive('badge', BadgeDirective)
 

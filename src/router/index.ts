@@ -5,6 +5,7 @@ import CatalogButton from '../pages/catalog/Button.vue'
 import CatalogGrid from '../pages/catalog/Grid.vue'
 import CatalogMenubar from '../pages/catalog/Menubar.vue'
 import CatalogAvatar from '../pages/catalog/Avatar.vue'
+import CatalogDataTableResponsive from '../pages/catalog/DataTableResponsive.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -36,6 +37,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/catalog/avatar',
     name: 'CatalogAvatar',
     component: CatalogAvatar,
+  },
+  {
+    path: '/catalog/dtresponsive',
+    name: 'CatalogDataTableResponsive',
+    component: CatalogDataTableResponsive,
   },
 ]
 

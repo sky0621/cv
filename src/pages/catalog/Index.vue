@@ -11,6 +11,11 @@
   <div>
     <router-link to="/catalog/avatar"> Avatar </router-link>
   </div>
+  <div>
+    <router-link to="/catalog/dtresponsive">
+      DataTable: Responsive
+    </router-link>
+  </div>
 </template>
 
 <script lang="ts">

@@ -102,23 +102,9 @@
     <div class="p-col-12 p-md-4">
       <div class="card">
         <h5>Image</h5>
-        <Avatar
-          image="/logo.png"
-          class="p-mr-2"
-          size="xlarge"
-          shape="circle"
-        />
-        <Avatar
-          image="/logo.png"
-          class="p-mr-2"
-          size="large"
-          shape="circle"
-        />
-        <Avatar
-          image="/logo.png"
-          class="p-mr-2"
-          shape="circle"
-        />
+        <Avatar image="/logo.png" class="p-mr-2" size="xlarge" shape="circle" />
+        <Avatar image="/logo.png" class="p-mr-2" size="large" shape="circle" />
+        <Avatar image="/logo.png" class="p-mr-2" shape="circle" />
       </div>
     </div>
 
@@ -126,21 +112,9 @@
       <div class="card">
         <h5>Avatar Group</h5>
         <AvatarGroup class="p-mb-3">
-          <Avatar
-            image="/logo.png"
-            size="large"
-            shape="circle"
-          />
-          <Avatar
-            image="/logo.png"
-            size="large"
-            shape="circle"
-          />
-          <Avatar
-            image="/logo.png"
-            size="large"
-            shape="circle"
-          />
+          <Avatar image="/logo.png" size="large" shape="circle" />
+          <Avatar image="/logo.png" size="large" shape="circle" />
+          <Avatar image="/logo.png" size="large" shape="circle" />
           <Avatar
             label="+2"
             shape="circle"
@@ -154,11 +128,7 @@
     <div class="p-col-12 p-md-4">
       <div class="card">
         <h5>Image - Badge</h5>
-        <Avatar
-          v-badge.danger="4"
-          image="/logo.png"
-          size="xlarge"
-        />
+        <Avatar v-badge.danger="4" image="/logo.png" size="xlarge" />
       </div>
     </div>
   </div>
