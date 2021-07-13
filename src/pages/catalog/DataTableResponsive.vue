@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="card">
-      <DataTable :value="products" responsive-layout="scroll" showGridlines>
+      <DataTable :value="products" responsive-layout="scroll" show-gridlines>
         <template #header> 基本情報 </template>
-        <Column field="code" header="key"></Column>
-        <Column field="name" header="value"></Column>
+        <Column field="name" header="key"></Column>
+        <Column field="image" header="value"></Column>
       </DataTable>
     </div>
 
     <div class="card">
-      <DataTable :value="products" responsive-layout="scroll" showGridlines>
+      <DataTable :value="products" responsive-layout="scroll" show-gridlines>
         <template #header> Scroll </template>
         <Column field="code" header="Code"></Column>
         <Column field="name" header="Name"></Column>
@@ -41,7 +41,12 @@
     </div>
 
     <div class="card">
-      <DataTable :value="products" responsive-layout="stack" breakpoint="960px" showGridlines>
+      <DataTable
+        :value="products"
+        responsive-layout="stack"
+        breakpoint="960px"
+        show-gridlines
+      >
         <template #header> Stack </template>
         <Column field="code" header="Code"></Column>
         <Column field="name" header="Name"></Column>

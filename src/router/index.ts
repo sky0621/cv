@@ -1,4 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+
+import Basic from '../pages/Basic.vue'
+
 import Home from '../pages/Home.vue'
 import CatalogIndex from '../pages/catalog/Index.vue'
 import CatalogButton from '../pages/catalog/Button.vue'
@@ -10,6 +13,11 @@ import CatalogDataTableResponsive from '../pages/catalog/DataTableResponsive.vue
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
+    name: 'Basic',
+    component: Basic,
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home,
   },

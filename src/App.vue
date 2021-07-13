@@ -1,16 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <div id="nav">
-    <router-link to="/"> Home </router-link> |
-    <router-link to="/catalog"> Catalog </router-link>
-  </div>
+  <TabMenu :model="items" />
   <router-view />
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent, ref } from 'vue'
 
-  export default defineComponent({ name: 'App' })
+  export default defineComponent({
+    name: 'App',
+    setup() {
+      const items = ref([
+        {
+          label: 'Basic',
+          icon: 'pi pi-fw pi-home',
+          to: '/',
+        },
+        {
+          label: 'Skill',
+          icon: 'pi pi-fw pi-desktop',
+          to: '/skill',
+        },
+        {
+          label: 'Career',
+          icon: 'pi pi-fw pi-book',
+          to: '/career',
+        },
+      ])
+      return { items }
+    },
+  })
 </script>
 
 <style lang="scss">
@@ -21,13 +39,5 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-  }
-
-  #nav {
-    padding: 10px;
-  }
-
-  #nav a {
-    font-weight: bold;
   }
 </style>

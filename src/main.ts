@@ -21,6 +21,9 @@ import ColumnGroup from 'primevue/columngroup'
 
 import BadgeDirective from 'primevue/badgedirective'
 
+// use App.vue
+import TabMenu from 'primevue/tabmenu'
+
 const app = createApp(App)
 
 app.use(router)
@@ -37,5 +40,7 @@ app.component('Column', Column)
 app.component('ColumnGroup', ColumnGroup)
 
 app.directive('badge', BadgeDirective)
+
+app.component('TabMenu', TabMenu)
 
 app.mount('#app')
