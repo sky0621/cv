@@ -1,8 +1,29 @@
 {
   "data": [
     {
-      "name": "sky0621",
-      "image": "logo.png"
+      "nickname": "sky0621",
+      "birthday": "1978-06-01",
+      "job": "ソフトウェア開発者",
+      "belong2": "個人事業主",
+      "output": [
+        {
+          "name": "Qiita",
+          "url": "https://qiita.com/sky0621"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/sky0621/"
+        }
+      ],
+      "like": ["Go", "Vue.js", "GraphQL", "GCP", "Scrum", "Linux", "EdTech"],
+      "qualification": [
+        {
+          "name":  "GOOGLE CLOUD CERTIFIED Associate Cloud Engineer",
+          "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
+          "date": "2018-09-23",
+          "note": "有効期限切れ・・・。"
+        }
+      ]
     }
   ]
 }

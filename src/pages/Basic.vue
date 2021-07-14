@@ -1,9 +1,12 @@
 <template>
-  <div>{{ basicInfo }}</div>
-  <DataTable :value="basicInfo" responsive-layout="scroll" show-gridlines>
-    <template #header> 基本情報 </template>
-    <Column field="code" header="key"></Column>
-    <Column field="name" header="value"></Column>
+  <DataTable :value="basicInfo" responsive-layout="stack" show-gridlines>
+    <Column field="nickname" header="ニックネーム"></Column>
+    <Column field="birthday" header="年齢"></Column>
+    <Column field="job" header="職業"></Column>
+    <Column field="belong2" header="所属"></Column>
+    <Column field="output" header="アウトプット"></Column>
+    <Column field="like" header="お気に入り"></Column>
+    <Column field="qualification" header="資格"></Column>
   </DataTable>
 </template>
 
