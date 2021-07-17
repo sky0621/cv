@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import Basic from '../pages/Basic.vue'
+import PagesBasic from '../pages/Basic.vue'
+import PagesSkill from '../pages/Skill.vue'
+import PagesCareer from '../pages/Career.vue'
 
 import Home from '../pages/Home.vue'
 import CatalogIndex from '../pages/catalog/Index.vue'
@@ -14,12 +16,17 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Basic',
-    component: Basic,
+    component: PagesBasic,
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: Home,
+    path: '/skill',
+    name: 'Skill',
+    component: PagesSkill,
+  },
+  {
+    path: '/career',
+    name: 'Career',
+    component: PagesCareer,
   },
   {
     path: '/catalog',

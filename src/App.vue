@@ -33,7 +33,7 @@
 
 <style lang="scss">
   html {
-    font-size: 26px;
+    font-size: 16px;
   }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
