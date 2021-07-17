@@ -1,12 +1,16 @@
 <template>
-  <div>Skill</div>
+  <Skill />
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue'
+  import Skill from '../components/Skill.vue'
 
   export default defineComponent({
-    name: 'PagesSkill',
+    name: 'SkillPage',
+    components: {
+      Skill,
+    },
   })
 </script>
 

@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import PagesBasic from '../pages/Basic.vue'
-import PagesSkill from '../pages/Skill.vue'
-import PagesCareer from '../pages/Career.vue'
+import BasicPage from '../pages/Basic.vue'
+import SkillPage from '../pages/Skill.vue'
+import CareerPage from '../pages/Career.vue'
 
 import Home from '../pages/Home.vue'
 import CatalogIndex from '../pages/catalog/Index.vue'
@@ -15,18 +15,18 @@ import CatalogDataTableResponsive from '../pages/catalog/DataTableResponsive.vue
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Basic',
-    component: PagesBasic,
+    name: 'BasicPage',
+    component: BasicPage,
   },
   {
     path: '/skill',
-    name: 'Skill',
-    component: PagesSkill,
+    name: 'SkillPage',
+    component: SkillPage,
   },
   {
     path: '/career',
-    name: 'Career',
-    component: PagesCareer,
+    name: 'CareerPage',
+    component: CareerPage,
   },
   {
     path: '/catalog',

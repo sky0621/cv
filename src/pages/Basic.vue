@@ -1,5 +1,5 @@
 <template>
-  <div>Basic</div>
+  <Basic />
 </template>
 
 <script lang="ts">
@@ -7,8 +7,8 @@
   import Basic from '../components/Basic.vue'
 
   export default defineComponent({
-    name: 'PagesBasic',
-    component: {
+    name: 'BasicPage',
+    components: {
       Basic,
     },
   })
