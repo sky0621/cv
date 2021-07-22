@@ -10,14 +10,18 @@
     <Column field="job" header="職業"></Column>
     <Column field="belongTo" header="所属"></Column>
     <Column field="outputs" header="アウトプット">
-      <template #body="slotProps"> {{ slotProps.data }} </template>
+      <template #body="slotProps">
+        {{ slotProps.data ? slotProps.data.outputs : '' }}
+      </template>
     </Column>
     <Column field="likes" header="お気に入り">
-      <template #body="slotProps"> {{ slotProps.data }} </template>
+      <template #body="slotProps">
+        {{ slotProps.data ? slotProps.data.likes : '' }}
+      </template>
     </Column>
     <Column field="qualifications" header="資格">
       <template #body="slotProps">
-        {{ slotProps.data }}
+        {{ slotProps.data ? slotProps.data.qualifications : '' }}
       </template>
     </Column>
   </DataTable>
