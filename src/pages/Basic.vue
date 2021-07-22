@@ -18,7 +18,7 @@
       onMounted(async () => {
         try {
           const basicPromise = await new BasicService().getBasicInfo()
-          basic.value = basicPromise.data
+          basic.value = basicPromise
         } catch (e) {
           console.error(e)
         }
