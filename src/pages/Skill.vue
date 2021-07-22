@@ -4,7 +4,7 @@
 
 <script lang="ts">
   import { defineComponent } from 'vue'
-  import Skill from '../components/Skill.vue'
+  import Skill from '@/components/Skill.vue'
 
   export default defineComponent({
     name: 'SkillPage',

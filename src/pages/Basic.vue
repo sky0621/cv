@@ -5,7 +5,7 @@
 <script lang="ts">
   import { defineComponent, ref, onMounted } from 'vue'
   import Basic from '@/components/Basic.vue'
-  import BasicService from '@/service/BasicService'
+  import { BasicService } from '@/service/BasicService'
 
   export default defineComponent({
     name: 'BasicPage',

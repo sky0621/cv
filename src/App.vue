@@ -12,7 +12,7 @@
       const items = ref([
         {
           label: 'Basic',
-          icon: 'pi pi-fw pi-home',
+          icon: 'pi pi-fw pi-id-card',
           to: '/',
         },
         {

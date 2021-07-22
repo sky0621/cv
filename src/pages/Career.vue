@@ -4,7 +4,7 @@
 
 <script lang="ts">
   import { defineComponent } from 'vue'
-  import Career from '../components/Career.vue'
+  import Career from '@/components/Career.vue'
 
   export default defineComponent({
     name: 'CareerPage',

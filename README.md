@@ -81,3 +81,9 @@ yarn add -D stylelint stylelint-config-recommended stylelint-config-standard
 ```
 yarn add -D sass
 ```
+
+### date-fns
+
+```
+yarn add date-fns
+```
