@@ -1,24 +1,28 @@
 <template>
-  <Basic :basic="basic" />
+  <BasicComponent :basic="basic" />
 </template>
 
 <script lang="ts">
-  import { defineComponent, ref, onMounted } from 'vue'
-  import Basic from '@/components/Basic.vue'
+  import { defineComponent, onMounted, ref } from 'vue'
+  import BasicComponent from '@/components/Basic.vue'
   import { BasicService } from '@/service/BasicService'
 
   export default defineComponent({
     name: 'BasicPage',
     components: {
-      Basic,
+      BasicComponent,
     },
     setup() {
-      onMounted(() => {
-        basicService.value.getBasicInfo().then((data) => (basic.value = data))
-      })
-
       const basic = ref()
-      const basicService = ref(new BasicService())
+
+      onMounted(async () => {
+        try {
+          const basicPromise = await new BasicService().getBasicInfo()
+          basic.value = basicPromise.data
+        } catch (e) {
+          console.error(e)
+        }
+      })
 
       return { basic }
     },

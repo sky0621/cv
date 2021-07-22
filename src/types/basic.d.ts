@@ -1,4 +1,4 @@
-export default interface Basic {
+export interface Basic {
   nickname: string
   birthday: string
   job: string

@@ -6,10 +6,18 @@ export class CalculationService {
     if (!b) return '?'
     const ymd = b.split('-')
     if (ymd.length !== 3) return '?'
-    const bDay = new Date(ymd[0], ymd[1] - 1, ymd[2])
-    const now = new Date()
-    const diff = differenceInCalendarYears(now, bDay)
-    return diff
+    try {
+      const y = parseInt(ymd[0], 10)
+      const m = parseInt(ymd[1], 10)
+      const d = parseInt(ymd[2], 10)
+      const bDay = new Date(y, m - 1, d)
+      const now = new Date()
+      const diff = differenceInCalendarYears(now, bDay)
+      return diff.toString(10)
+    } catch (e) {
+      console.error(e)
+    }
+    return '?'
   }
 
   now(): string {

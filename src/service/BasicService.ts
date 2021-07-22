@@ -1,8 +1,8 @@
 import axios from 'axios'
-import { Basic } from '@/types/basic.d.ts'
+import { Basic } from '@/types/basic'
 
 export class BasicService {
-  getBasicInfo(): Basic {
-    return axios.get('data/basic.json').then((res) => res.data)
+  getBasicInfo(): Promise<Basic> {
+    return axios.get('data/basic.json')
   }
 }

@@ -25,11 +25,11 @@
 
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
-  import { Basic } from '@/types/basic.d.ts'
-  import { CalculationService } from '@/service/CalculationService.ts'
+  import { Basic } from '@/types/basic'
+  import { CalculationService } from '@/service/CalculationService'
 
   export default defineComponent({
-    name: 'Basic',
+    name: 'BasicComponent',
     props: {
       basic: {
         type: Object as PropType<Basic>,
@@ -39,12 +39,14 @@
     },
     setup(props) {
       const basics = computed(() => {
-        if (!props) return []
+        if (!props || !props.basic) return []
         return [props.basic]
       })
+
       const cs = new CalculationService()
       const ageFromBirthday = cs.ageFromBirthday
       const now = cs.now
+
       return { basics, ageFromBirthday, now }
     },
   })
