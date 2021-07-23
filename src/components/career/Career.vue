@@ -1,6 +1,8 @@
 <template>
   <template v-for="c in careers_" :key="c.id">
-    <div>{{ c }}</div>
+    <div>{{ c.from }} - {{ c.to }} {{ c.title }}</div>
+    <Divider />
+    <div>{{ c.summary }}</div>
   </template>
 </template>
 

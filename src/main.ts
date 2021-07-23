@@ -29,8 +29,10 @@ import DataView from 'primevue/dataview'
 import Chip from 'primevue/chip'
 // use components/basic/Qualification.vue
 import Card from 'primevue/card'
-// use
+// use components/CareerGroup.vue
 import Panel from 'primevue/panel'
+// use components/career/Career.vue
+import Divider from 'primevue/divider'
 
 const app = createApp(App)
 
@@ -54,5 +56,6 @@ app.component('DataView', DataView)
 app.component('Chip', Chip)
 app.component('Card', Card)
 app.component('Panel', Panel)
+app.component('Divider', Divider)
 
 app.mount('#app')
