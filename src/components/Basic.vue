@@ -12,19 +12,7 @@
     <Column field="outputs" header="アウトプット">
       <template #body="slotProps">
         <template v-if="slotProps.data">
-          <DataView :value="slotProps.data.outputs" layout="grid">
-            <template #grid="inSlotProps">
-              <div class="p-mr-3 p-mb-2">
-                <i :class="inSlotProps.data.icon"></i
-                ><a
-                  :href="inSlotProps.data.url"
-                  target="_blank"
-                  class="p-ml-1"
-                  >{{ inSlotProps.data.name }}</a
-                >
-              </div>
-            </template>
-          </DataView>
+          <BasicOutputComponent :outputs="slotProps.data.outputs" />
         </template>
       </template>
     </Column>
@@ -45,9 +33,13 @@
   import { defineComponent, PropType, computed } from 'vue'
   import { Basic } from '@/types/basic'
   import { CalculationService } from '@/service/CalculationService'
+  import BasicOutputComponent from '@/components/basic/Output.vue'
 
   export default defineComponent({
     name: 'BasicComponent',
+    components: {
+      BasicOutputComponent,
+    },
     props: {
       basic: {
         type: Object as PropType<Basic>,
