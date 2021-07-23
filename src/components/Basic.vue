@@ -3,8 +3,9 @@
     <Column field="nickname" header="ニックネーム"></Column>
     <Column field="birthday" header="年齢">
       <template #body="slotProps">
-        {{ slotProps.data ? ageFromBirthday(slotProps.data.birthday) : '' }}
-        歳（{{ now() }} 現在）
+        <template v-if="slotProps.data">
+          <BasicAgeComponent :birthday="slotProps.data.birthday" />
+        </template>
       </template>
     </Column>
     <Column field="job" header="職業"></Column>
@@ -32,18 +33,18 @@
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
   import { Basic } from '@/types/basic'
-  import { CalculationService } from '@/service/CalculationService'
+  import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
 
   export default defineComponent({
     name: 'BasicComponent',
     components: {
+      BasicAgeComponent,
       BasicOutputComponent,
     },
     props: {
       basic: {
         type: Object as PropType<Basic>,
-        required: true,
         default: undefined,
       },
     },
@@ -52,12 +53,7 @@
         if (!props || !props.basic) return []
         return [props.basic]
       })
-
-      const cs = new CalculationService()
-      const ageFromBirthday = cs.ageFromBirthday
-      const now = cs.now
-
-      return { basics, ageFromBirthday, now }
+      return { basics }
     },
   })
 </script>
