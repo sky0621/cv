@@ -2,24 +2,20 @@
   <DataTable :value="basics" responsive-layout="stack" show-gridlines>
     <Column field="nickname" header="ニックネーム"></Column>
     <Column field="birthday" header="年齢">
-      <template #body="slotProps">
-        <template v-if="slotProps.data">
-          <BasicAgeComponent :birthday="slotProps.data.birthday" />
-        </template>
+      <template #body="slot">
+        <BasicAgeComponent v-if="slot.data" :birthday="slot.data.birthday" />
       </template>
     </Column>
     <Column field="job" header="職業"></Column>
     <Column field="belongTo" header="所属"></Column>
     <Column field="outputs" header="アウトプット">
-      <template #body="slotProps">
-        <template v-if="slotProps.data">
-          <BasicOutputComponent :outputs="slotProps.data.outputs" />
-        </template>
+      <template #body="slot">
+        <BasicOutputComponent v-if="slot.data" :outputs="slot.data.outputs" />
       </template>
     </Column>
     <Column field="likes" header="お気に入り">
-      <template #body="slotProps">
-        {{ slotProps.data ? slotProps.data.likes : '' }}
+      <template #body="slot">
+        <BasicLikeComponent v-if="slot.data" :likes="slot.data.likes" />
       </template>
     </Column>
     <Column field="qualifications" header="資格">
@@ -35,12 +31,14 @@
   import { Basic } from '@/types/basic'
   import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
+  import BasicLikeComponent from '@/components/basic/Like.vue'
 
   export default defineComponent({
     name: 'BasicComponent',
     components: {
       BasicAgeComponent,
       BasicOutputComponent,
+      BasicLikeComponent,
     },
     props: {
       basic: {

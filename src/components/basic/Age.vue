@@ -9,7 +9,6 @@
     props: {
       birthday: {
         type: String,
-        required: true,
         default: '',
       },
     },

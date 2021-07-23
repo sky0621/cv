@@ -1,10 +1,10 @@
 <template>
   <DataView :value="outputs_" layout="grid">
-    <template #grid="slotProps">
+    <template #grid="slot">
       <div class="p-mr-3 p-mb-2">
-        <i :class="slotProps.data.icon"></i
-        ><a :href="slotProps.data.url" target="_blank" class="p-ml-1">{{
-          slotProps.data.name
+        <i :class="slot.data.icon"></i
+        ><a :href="slot.data.url" target="_blank" class="p-ml-1">{{
+          slot.data.name
         }}</a>
       </div>
     </template>
@@ -20,8 +20,7 @@
     props: {
       outputs: {
         type: Array as PropType<Output[]>,
-        required: true,
-        default: undefined,
+        default: () => [],
       },
     },
     setup(props) {
