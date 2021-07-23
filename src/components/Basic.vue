@@ -1,6 +1,13 @@
 <template>
   <DataTable :value="basics" responsive-layout="stack" show-gridlines>
-    <Column field="nickname" header="ニックネーム"></Column>
+    <Column field="nickname" header="ニックネーム">
+      <template #body="slot">
+        <BasicNicknameComponent
+          v-if="slot.data"
+          :nickname="slot.data.nickname"
+        />
+      </template>
+    </Column>
     <Column field="birthday" header="年齢">
       <template #body="slot">
         <BasicAgeComponent v-if="slot.data" :birthday="slot.data.birthday" />
@@ -32,6 +39,7 @@
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
   import { Basic } from '@/types/basic'
+  import BasicNicknameComponent from '@/components/basic/Nickname.vue'
   import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
   import BasicLikeComponent from '@/components/basic/Like.vue'
@@ -40,6 +48,7 @@
   export default defineComponent({
     name: 'BasicComponent',
     components: {
+      BasicNicknameComponent,
       BasicAgeComponent,
       BasicOutputComponent,
       BasicLikeComponent,

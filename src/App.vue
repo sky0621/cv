@@ -1,5 +1,12 @@
 <template>
-  <TabMenu :model="items" />
+  <div class="p-grid">
+    <div class="p-col-fixed" style="width: 100px">
+      <Avatar image="/avatar.png" size="xlarge"></Avatar>
+    </div>
+    <div class="p-col">
+      <TabMenu :model="items" />
+    </div>
+  </div>
   <router-view />
 </template>
 
@@ -41,6 +48,5 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
   }
 </style>
