@@ -1,0 +1,100 @@
+{
+  "careerGroup": [
+    {
+      "title": "AdTech系企業にて就労中",
+      "careers": [
+        {
+          "title": "広告系Webシステム新規開発",
+          "from": "2019-10",
+          "to": "",
+          "summary": "-",
+          "task": "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当",
+          "skillGroups": [
+            {
+              "title": "Frontend(SSR, SPA)",
+              "skills": [
+                {
+                  "name": "TypeScript"
+                },
+                {
+                  "name": "Vue.js",
+                  "versions": ["2系"]
+                },
+                {
+                  "name": "Nuxt.js"
+                },
+                {
+                  "name": "Vuetify"
+                },
+                {
+                  "name": "Apollo"
+                }
+              ]
+            },
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "name": "Golang",
+                  "versions": ["v1.13", "v1.14", "v1.15"]
+                },
+                {
+                  "name": "gqlgen"
+                },
+                {
+                  "name": "SQLBoiler"
+                },
+                {
+                  "name": "Wire"
+                }
+              ]
+            },
+            {
+              "title": "Infra(GCP)",
+              "skills": [
+                {
+                  "name": "GKE"
+                },
+                {
+                  "name": "Cloud SQL(PostgreSQL)"
+                },
+                {
+                  "name": "Cloud Storage"
+                },
+                {
+                  "name": "Cloud Pub/Sub"
+                },
+                {
+                  "name": "Cloud Functions"
+                },
+                {
+                  "name": "Cloud Run"
+                },
+                {
+                  "name": "Firestore(Native mode)"
+                },
+                {
+                  "name": "Cloud Build"
+                }
+              ]
+            },
+            {
+              "title": "その他",
+              "skills": [
+                {
+                  "name": "GraphQL"
+                },
+                {
+                  "name": "Auth0"
+                },
+                {
+                  "name": "SendGrid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
