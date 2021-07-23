@@ -1,12 +1,25 @@
 <template>
-  <template v-for="g in careerGroups_" :key="g.id">
-    <Panel :toggleable="true">
-      <template #header>
-        {{ g.title }}
+  <div class="card">
+    <Timeline
+      :value="careerGroups_"
+      align="alternate"
+      class="customized-timeline"
+    >
+      <template #opposite="slot">
+        <div class="p-text-secondary" style="min-width: 80px">
+          {{ slot.item.period.from }} ~ {{ slot.item.period.to }}
+        </div>
       </template>
-      <CareerComponent :careers="g.careers" />
-    </Panel>
-  </template>
+      <template #content="slot">
+        <Panel :toggleable="true" class="p-mb-4">
+          <template #header>
+            {{ slot.item.title }}
+          </template>
+          <CareerComponent :careers="slot.item.careers" />
+        </Panel>
+      </template>
+    </Timeline>
+  </div>
 </template>
 
 <script lang="ts">
@@ -35,4 +48,24 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+  @media screen and (max-width: 960px) {
+    ::v-deep(.customized-timeline) {
+      .p-timeline-event:nth-child(even) {
+        flex-direction: row !important;
+
+        .p-timeline-event-content {
+          text-align: left !important;
+        }
+      }
+
+      .p-timeline-event-opposite {
+        flex: 0;
+      }
+
+      .p-card {
+        margin-top: 1rem;
+      }
+    }
+  }
+</style>

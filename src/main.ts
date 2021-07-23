@@ -22,6 +22,7 @@ import BadgeDirective from 'primevue/badgedirective'
 // use App.vue
 import Avatar from 'primevue/avatar'
 import TabMenu from 'primevue/tabmenu'
+
 // use components/Basic.vue etc...
 import DataTable from 'primevue/datatable'
 // use components/basic/Like.vue etc...
@@ -29,10 +30,13 @@ import DataView from 'primevue/dataview'
 import Chip from 'primevue/chip'
 // use components/basic/Qualification.vue
 import Card from 'primevue/card'
+
 // use components/CareerGroup.vue
 import Panel from 'primevue/panel'
 // use components/career/Career.vue
 import Divider from 'primevue/divider'
+// use
+import Timeline from 'primevue/timeline'
 
 const app = createApp(App)
 
@@ -57,5 +61,6 @@ app.component('Chip', Chip)
 app.component('Card', Card)
 app.component('Panel', Panel)
 app.component('Divider', Divider)
+app.component('Timeline', Timeline)
 
 app.mount('#app')

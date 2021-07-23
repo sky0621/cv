@@ -1,7 +1,13 @@
 export interface CareerGroup {
   id: number
   title: string
+  period: Period
   careers: Career[]
+}
+
+export interface Period {
+  from: string
+  to: string
 }
 
 export interface Career {
