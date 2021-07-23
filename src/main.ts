@@ -18,6 +18,8 @@ import Badge from 'primevue/badge'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import ColumnGroup from 'primevue/columngroup'
+import DataView from 'primevue/dataview'
+import Card from 'primevue/card'
 
 import BadgeDirective from 'primevue/badgedirective'
 
@@ -38,6 +40,8 @@ app.component('Badge', Badge)
 app.component('DataTable', DataTable)
 app.component('Column', Column)
 app.component('ColumnGroup', ColumnGroup)
+app.component('DataView', DataView)
+app.component('Card', Card)
 
 app.directive('badge', BadgeDirective)
 

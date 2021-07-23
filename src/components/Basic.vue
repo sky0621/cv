@@ -11,7 +11,21 @@
     <Column field="belongTo" header="所属"></Column>
     <Column field="outputs" header="アウトプット">
       <template #body="slotProps">
-        {{ slotProps.data ? slotProps.data.outputs : '' }}
+        <template v-if="slotProps.data">
+          <DataView :value="slotProps.data.outputs" layout="grid">
+            <template #grid="inSlotProps">
+              <div class="p-mr-3 p-mb-2">
+                <i :class="inSlotProps.data.icon"></i
+                ><a
+                  :href="inSlotProps.data.url"
+                  target="_blank"
+                  class="p-ml-1"
+                  >{{ inSlotProps.data.name }}</a
+                >
+              </div>
+            </template>
+          </DataView>
+        </template>
       </template>
     </Column>
     <Column field="likes" header="お気に入り">

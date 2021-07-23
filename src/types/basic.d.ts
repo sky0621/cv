@@ -11,6 +11,7 @@ export interface Basic {
 export interface Output {
   name: string
   url: string
+  icon: string
 }
 
 export interface Qualification {
