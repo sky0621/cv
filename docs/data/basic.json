@@ -18,7 +18,9 @@
   "likes": ["Go", "Vue.js", "GraphQL", "GCP", "Scrum", "Linux", "EdTech"],
   "qualifications": [
     {
-      "name":  "GOOGLE CLOUD CERTIFIED Associate Cloud Engineer",
+      "id": 1,
+      "name":  "Associate Cloud Engineer",
+      "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
       "date": "2018-09-23",
       "note": "有効期限切れ・・・。"

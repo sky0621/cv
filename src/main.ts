@@ -20,6 +20,7 @@ import Column from 'primevue/column'
 import ColumnGroup from 'primevue/columngroup'
 import DataView from 'primevue/dataview'
 import Card from 'primevue/card'
+import Chip from 'primevue/chip'
 
 import BadgeDirective from 'primevue/badgedirective'
 
@@ -42,6 +43,7 @@ app.component('Column', Column)
 app.component('ColumnGroup', ColumnGroup)
 app.component('DataView', DataView)
 app.component('Card', Card)
+app.component('Chip', Chip)
 
 app.directive('badge', BadgeDirective)
 

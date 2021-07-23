@@ -19,8 +19,11 @@
       </template>
     </Column>
     <Column field="qualifications" header="資格">
-      <template #body="slotProps">
-        {{ slotProps.data ? slotProps.data.qualifications : '' }}
+      <template #body="slot">
+        <BasicQualificationComponent
+          v-if="slot.data"
+          :qualifications="slot.data.qualifications"
+        />
       </template>
     </Column>
   </DataTable>
@@ -32,6 +35,7 @@
   import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
   import BasicLikeComponent from '@/components/basic/Like.vue'
+  import BasicQualificationComponent from '@/components/basic/Qualification.vue'
 
   export default defineComponent({
     name: 'BasicComponent',
@@ -39,6 +43,7 @@
       BasicAgeComponent,
       BasicOutputComponent,
       BasicLikeComponent,
+      BasicQualificationComponent,
     },
     props: {
       basic: {

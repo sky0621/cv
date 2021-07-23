@@ -1,7 +1,7 @@
 <template>
   <DataView :value="likes_" layout="grid">
     <template #grid="slot">
-      <div class="p-mr-3 p-mb-2">{{ slot.data }}</div>
+      <Chip class="p-mr-3 p-mb-2" :label="slot.data" />
     </template>
   </DataView>
 </template>

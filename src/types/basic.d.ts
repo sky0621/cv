@@ -15,7 +15,9 @@ export interface Output {
 }
 
 export interface Qualification {
+  id: number
   name: string
+  org: string
   url: string
   date: string
   note: string
