@@ -1,6 +1,7 @@
 {
   "careerGroup": [
     {
+      "id": 1,
       "title": "AdTech系企業にて就労中",
       "careers": [
         {
@@ -8,7 +9,7 @@
           "from": "2019-10",
           "to": "",
           "summary": "-",
-          "task": "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当",
+          "tasks": ["機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"],
           "skillGroups": [
             {
               "title": "Frontend(SSR, SPA)",
@@ -28,6 +29,9 @@
                 },
                 {
                   "name": "Apollo"
+                },
+                {
+                  "name": "Axios"
                 }
               ]
             },
@@ -89,6 +93,228 @@
                 },
                 {
                   "name": "SendGrid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MedTech系企業にて４ヶ月就労",
+      "careers": [
+        {
+          "title": "医療系ポータルサイトWebシステム保守・運用",
+          "from": "2019-06",
+          "to": "2019-09",
+          "summary": "サービス毎に異なるプログラミング言語・アーキテクチャを持つ医療系ポータルサイト",
+          "tasks": [
+            "Java8/Springで構築されたサービスのエンハンス開発",
+            "Scala2.11/play2.4で構築されたサービスのエンハンス開発",
+            "Kotlin/SpringBoot/Vue.jsで構築されたサービスのエンハンス開発etc..."
+          ],
+          "skillGroups": [
+            {
+              "title": "Frontend(SSR, SPA)",
+              "skills": [
+                {
+                  "name": "Vue.js",
+                  "versions": ["2系"]
+                }
+              ]
+            },
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "name": "Java",
+                  "versions": ["v1.8"]
+                },
+                {
+                  "name": "Spring"
+                },
+                {
+                  "name": "Scala",
+                  "versions": ["v2.11"]
+                },
+                {
+                  "name": "play",
+                  "versions": ["v2.4"]
+                },
+                {
+                  "name": "Kotlin"
+                }
+              ]
+            },
+            {
+              "title": "Infra(AWS)",
+              "skills": [
+                {
+                  "name": "ECS"
+                }
+              ]
+            },
+            {
+              "title": "その他",
+              "skills": [
+                {
+                  "name": "Terraform",
+                  "versions": ["v0.11"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "某Google Cloud Platformパートナー会社にて１０ヶ月就労",
+      "careers": [
+        {
+          "title": "防災用IoT機器管理Webシステム新規開発",
+          "from": "2018-11",
+          "to": "2019-05",
+          "summary": "防災用のIoT機器に対してWeb上からAPI経由で指示を出したり状態を管理するサービス",
+          "tasks": [
+            "Backend(Go)側のプロトタイプ作成。Frontend(Vue/Nuxt.js)各機能(認証認可, お知らせ機能, 各種バッチ関連)の実装 etc..."
+          ],
+          "skillGroups": [
+            {
+              "title": "Frontend(SPA)",
+              "skills": [
+                {
+                  "name": "Vue.js",
+                  "versions": ["2系"]
+                },
+                {
+                  "name": "Nuxt.js"
+                },
+                {
+                  "name": "Vuex"
+                },
+                {
+                  "name": "Vuetify"
+                },
+                {
+                  "name": "Axios"
+                }
+              ]
+            },
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "name": "Golang",
+                  "versions": ["v1.11"]
+                }
+              ]
+            },
+            {
+              "title": "Infra(GCP)",
+              "skills": [
+                {
+                  "name": "App Engine(Standard)"
+                },
+                {
+                  "name": "Cloud Datastore"
+                },
+                {
+                  "name": "Cloud SQL(PostgreSQL)"
+                },
+                {
+                  "name": "Bigtable"
+                },
+                {
+                  "name": "Cloud Functions(Node.js/TypeScript)"
+                },
+                {
+                  "name": "FirebaseAuth"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "購買分析基盤新規開発",
+          "from": "2018-10",
+          "to": "2018-11",
+          "summary": "顧客の購買状況・行動を分析するサービス",
+          "tasks": [
+            "Backend(Java)の分析APIのベース部分の実装。（期間限定のサポート要員として参画）"
+          ],
+          "skillGroups": [
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "name": "Java",
+                  "versions": ["v1.8"]
+                }
+              ]
+            },
+            {
+              "title": "Infra(GCP)",
+              "skills": [
+                {
+                  "name": "App Engine(Standard)"
+                },
+                {
+                  "name": "Cloud Datastore"
+                },
+                {
+                  "name": "BigQuery"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "手書き帳票の識字Webシステム新規開発",
+          "from": "2018-08",
+          "to": "2018-09",
+          "summary": "手書きの帳票を、あらかじめ登録しておいたテンプレートと突き合わせて（WebAPIを使って）識字分析するサービス",
+          "tasks": [
+            "Backend(Java)の機能改修全般。及びテストコードの充実化。"
+          ],
+          "skillGroups": [
+            {
+              "title": "Frontend",
+              "skills": [
+                {
+                  "name": "Angular",
+                  "versions": ["v6"]
+                },
+                {
+                  "name": "TypeScript"
+                }
+              ]
+            },
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "name": "Java",
+                  "versions": ["v1.8"]
+                }
+              ]
+            },
+            {
+              "title": "Infra(GCP)",
+              "skills": [
+                {
+                  "name": "App Engine(Standard)"
+                },
+                {
+                  "name": "Cloud Datastore"
+                },
+                {
+                  "name": "BigQuery"
+                },
+                {
+                  "name": "Cloud Endpoints"
+                },
+                {
+                  "name": "FirebaseAuth"
                 }
               ]
             }

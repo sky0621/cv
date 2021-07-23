@@ -1,14 +1,16 @@
 export interface CareerGroup {
+  id: number
   title: string
   careers: Career[]
 }
 
 export interface Career {
+  id: number
   title: string
   from: string
   to: string
   summary: string
-  task: string
+  tasks: string[]
   skillGroups: SkillGroup[]
 }
 

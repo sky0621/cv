@@ -1,16 +1,16 @@
 <template>
-  <CareerComponent :career-groups="careerGroups" />
+  <CareerGroupComponent :career-groups="careerGroups" />
 </template>
 
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
-  import CareerComponent from '@/components/Career.vue'
+  import CareerGroupComponent from '@/components/CareerGroup.vue'
   import { CareerService } from '@/service/CareerService'
 
   export default defineComponent({
     name: 'CareerPage',
     components: {
-      CareerComponent,
+      CareerGroupComponent,
     },
     setup() {
       const careerGroups = ref()

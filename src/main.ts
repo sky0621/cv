@@ -20,16 +20,17 @@ import ColumnGroup from 'primevue/columngroup'
 import BadgeDirective from 'primevue/badgedirective'
 
 // use App.vue
+import Avatar from 'primevue/avatar'
 import TabMenu from 'primevue/tabmenu'
 // use components/Basic.vue etc...
 import DataTable from 'primevue/datatable'
 // use components/basic/Like.vue etc...
 import DataView from 'primevue/dataview'
 import Chip from 'primevue/chip'
-// use components/basic/Nickname.vue
-import Avatar from 'primevue/avatar'
 // use components/basic/Qualification.vue
 import Card from 'primevue/card'
+// use
+import Panel from 'primevue/panel'
 
 const app = createApp(App)
 
@@ -46,11 +47,12 @@ app.component('ColumnGroup', ColumnGroup)
 
 app.directive('badge', BadgeDirective)
 
+app.component('Avatar', Avatar)
 app.component('TabMenu', TabMenu)
 app.component('DataTable', DataTable)
 app.component('DataView', DataView)
 app.component('Chip', Chip)
-app.component('Avatar', Avatar)
 app.component('Card', Card)
+app.component('Panel', Panel)
 
 app.mount('#app')
