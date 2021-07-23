@@ -22,7 +22,7 @@
         </div>
         <div class="p-text-bold">使用技術</div>
         <template v-for="(g, gIdx) in c.skillGroups" :key="gIdx">
-          <div>【{{ g.title }}】</div>
+          <div v-if="g.title !== ''">【{{ g.title }}】</div>
           <div class="p-mb-4">
             <template v-for="(s, sIdx) in g.skills" :key="sIdx">
               <div>
