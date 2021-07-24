@@ -1,14 +1,20 @@
 <template>
-  <div>SkillGroup</div>
-  <div>{{ skillGroups_ }}</div>
+  <template v-for="g in skillGroups_" :key="g.id">
+    <div class="p-my-3 p-text-bold">{{ g.name }}</div>
+    <SkillComponent :skills="g.skills" />
+  </template>
 </template>
 
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
   import { SkillGroup } from '@/types/skill'
+  import SkillComponent from '@/components/skill/Skill.vue'
 
   export default defineComponent({
     name: 'SkillGroupComponent',
+    components: {
+      SkillComponent,
+    },
     props: {
       skillGroups: {
         type: Array as PropType<SkillGroup[]>,
