@@ -1,13 +1,11 @@
+import { Period } from '@/types/common'
+import { Skill } from '@/types/skill'
+
 export interface CareerGroup {
   id: number
   title: string
   period: Period
   careers: Career[]
-}
-
-export interface Period {
-  from: string
-  to: string
 }
 
 export interface Career {
@@ -23,9 +21,4 @@ export interface Career {
 export interface SkillGroup {
   title: string
   skills: Skill[]
-}
-
-export interface Skill {
-  name: string
-  versions: string[]
 }

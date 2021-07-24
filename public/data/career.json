@@ -20,22 +20,28 @@
               "title": "Frontend(SSR, SPA)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "TypeScript"
                 },
                 {
+                  "id": 2,
                   "name": "Vue.js",
                   "versions": ["2系"]
                 },
                 {
+                  "id": 3,
                   "name": "Nuxt.js"
                 },
                 {
+                  "id": 4,
                   "name": "Vuetify"
                 },
                 {
+                  "id": 5,
                   "name": "Apollo"
                 },
                 {
+                  "id": 6,
                   "name": "Axios"
                 }
               ]
@@ -44,19 +50,24 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Golang",
                   "versions": ["v1.13", "v1.14", "v1.15"]
                 },
                 {
+                  "id": 2,
                   "name": "chi"
                 },
                 {
+                  "id": 3,
                   "name": "gqlgen"
                 },
                 {
+                  "id": 4,
                   "name": "SQLBoiler"
                 },
                 {
+                  "id": 5,
                   "name": "Wire"
                 }
               ]
@@ -65,27 +76,35 @@
               "title": "Infra(GCP)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "GKE"
                 },
                 {
+                  "id": 2,
                   "name": "Cloud SQL(PostgreSQL)"
                 },
                 {
+                  "id": 3,
                   "name": "Cloud Storage"
                 },
                 {
+                  "id": 4,
                   "name": "Cloud Pub/Sub"
                 },
                 {
+                  "id": 5,
                   "name": "Cloud Functions"
                 },
                 {
+                  "id": 6,
                   "name": "Cloud Run"
                 },
                 {
+                  "id": 7,
                   "name": "Firestore(Native mode)"
                 },
                 {
+                  "id": 8,
                   "name": "Cloud Build"
                 }
               ]
@@ -94,12 +113,15 @@
               "title": "Others",
               "skills": [
                 {
+                  "id": 1,
                   "name": "GraphQL"
                 },
                 {
+                  "id": 2,
                   "name": "Auth0"
                 },
                 {
+                  "id": 3,
                   "name": "SendGrid"
                 }
               ]
@@ -132,6 +154,7 @@
               "title": "Frontend(SSR, SPA)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Vue.js",
                   "versions": ["2系"]
                 }
@@ -141,21 +164,26 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v1.8"]
                 },
                 {
+                  "id": 2,
                   "name": "Spring"
                 },
                 {
+                  "id": 3,
                   "name": "Scala",
                   "versions": ["v2.11"]
                 },
                 {
+                  "id": 4,
                   "name": "play",
                   "versions": ["v2.4"]
                 },
                 {
+                  "id": 5,
                   "name": "Kotlin"
                 }
               ]
@@ -164,6 +192,7 @@
               "title": "Infra(AWS)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "ECS"
                 }
               ]
@@ -172,6 +201,7 @@
               "title": "Others",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Terraform",
                   "versions": ["v0.11"]
                 }
@@ -203,19 +233,24 @@
               "title": "Frontend(SPA)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Vue.js",
                   "versions": ["2系"]
                 },
                 {
+                  "id": 2,
                   "name": "Nuxt.js"
                 },
                 {
+                  "id": 3,
                   "name": "Vuex"
                 },
                 {
+                  "id": 4,
                   "name": "Vuetify"
                 },
                 {
+                  "id": 5,
                   "name": "Axios"
                 }
               ]
@@ -224,13 +259,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Golang",
                   "versions": ["v1.11"]
                 },
                 {
+                  "id": 2,
                   "name": "Echo"
                 },
                 {
+                  "id": 3,
                   "name": "Gorm"
                 }
               ]
@@ -239,21 +277,27 @@
               "title": "Infra(GCP)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "App Engine(Standard)"
                 },
                 {
+                  "id": 2,
                   "name": "Cloud Datastore"
                 },
                 {
+                  "id": 3,
                   "name": "Cloud SQL(PostgreSQL)"
                 },
                 {
+                  "id": 4,
                   "name": "Bigtable"
                 },
                 {
+                  "id": 5,
                   "name": "Cloud Functions(Node.js/TypeScript)"
                 },
                 {
+                  "id": 6,
                   "name": "FirebaseAuth"
                 }
               ]
@@ -274,6 +318,7 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v1.8"]
                 }
@@ -283,12 +328,15 @@
               "title": "Infra(GCP)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "App Engine(Standard)"
                 },
                 {
+                  "id": 2,
                   "name": "Cloud Datastore"
                 },
                 {
+                  "id": 3,
                   "name": "BigQuery"
                 }
               ]
@@ -309,10 +357,12 @@
               "title": "Frontend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Angular",
                   "versions": ["v6"]
                 },
                 {
+                  "id": 2,
                   "name": "TypeScript"
                 }
               ]
@@ -321,6 +371,7 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v1.8"]
                 }
@@ -330,18 +381,23 @@
               "title": "Infra(GCP)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "App Engine(Standard)"
                 },
                 {
+                  "id": 2,
                   "name": "Cloud Datastore"
                 },
                 {
+                  "id": 3,
                   "name": "BigQuery"
                 },
                 {
+                  "id": 4,
                   "name": "Cloud Endpoints"
                 },
                 {
+                  "id": 5,
                   "name": "FirebaseAuth"
                 }
               ]
@@ -375,10 +431,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Golang",
                   "versions": ["v1.9"]
                 },
                 {
+                  "id": 2,
+                  "name": "Gorm"
+                },
+                {
+                  "id": 3,
                   "name": "gRPC"
                 }
               ]
@@ -387,21 +449,27 @@
               "title": "Infra(GCP)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "GKE"
                 },
                 {
+                  "id": 2,
                   "name": "Cloud SQL"
                 },
                 {
+                  "id": 3,
                   "name": "Cloud Datastore"
                 },
                 {
+                  "id": 4,
                   "name": "Cloud Pub/Sub"
                 },
                 {
+                  "id": 5,
                   "name": "Cloud Functions"
                 },
                 {
+                  "id": 6,
                   "name": "Container Registry"
                 }
               ]
@@ -410,9 +478,11 @@
               "title": "Others",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Docker"
                 },
                 {
+                  "id": 2,
                   "name": "MicroService"
                 }
               ]
@@ -434,10 +504,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Golang",
                   "versions": ["v1.7"]
                 },
                 {
+                  "id": 2,
+                  "name": "Gorm"
+                },
+                {
+                  "id": 3,
                   "name": "gRPC"
                 }
               ]
@@ -446,30 +522,39 @@
               "title": "Infra(AWS)",
               "skills": [
                 {
+                  "id": 1,
                   "name": "EC2"
                 },
                 {
+                  "id": 2,
                   "name": "S3"
                 },
                 {
+                  "id": 3,
                   "name": "Cloud Front"
                 },
                 {
+                  "id": 4,
                   "name": "SQS"
                 },
                 {
+                  "id": 5,
                   "name": "RDB"
                 },
                 {
+                  "id": 6,
                   "name": "DynamoDB"
                 },
                 {
+                  "id": 7,
                   "name": "RedShift"
                 },
                 {
+                  "id": 8,
                   "name": "ElastiCache"
                 },
                 {
+                  "id": 9,
                   "name": "ECR"
                 }
               ]
@@ -478,9 +563,11 @@
               "title": "Others",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Docker"
                 },
                 {
+                  "id": 2,
                   "name": "MicroService"
                 }
               ]
@@ -509,13 +596,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v6"]
                 },
                 {
+                  "id": 2,
                   "name": "Oracle"
                 },
                 {
+                  "id": 3,
                   "name": "Seasar2"
                 }
               ]
@@ -546,13 +636,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v6"]
                 },
                 {
+                  "id": 2,
                   "name": "Oracle"
                 },
                 {
+                  "id": 3,
                   "name": "Seasar2"
                 }
               ]
@@ -561,6 +654,7 @@
               "title": "Others",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Scrum"
                 }
               ]
@@ -597,16 +691,20 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v6"]
                 },
                 {
+                  "id": 2,
                   "name": "MySQL"
                 },
                 {
+                  "id": 3,
                   "name": "Seasar2"
                 },
                 {
+                  "id": 4,
                   "name": "Android",
                   "versions": ["v4"]
                 }
@@ -634,13 +732,16 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java",
                   "versions": ["v6"]
                 },
                 {
+                  "id": 2,
                   "name": "Seasar2"
                 },
                 {
+                  "id": 3,
                   "name": "Android",
                   "versions": ["v4"]
                 }
@@ -678,16 +779,20 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "PHP",
                   "versions": ["v5"]
                 },
                 {
+                  "id": 2,
                   "name": "MySQL"
                 },
                 {
+                  "id": 3,
                   "name": "Kohana"
                 },
                 {
+                  "id": 4,
                   "name": "Python",
                   "versions": ["v2系"]
                 }
@@ -724,6 +829,7 @@
               "title": "Backend",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Android",
                   "versions": ["v2.3"]
                 }
@@ -769,33 +875,43 @@
               "title": "",
               "skills": [
                 {
+                  "id": 1,
                   "name": "Java"
                 },
                 {
+                  "id": 2,
                   "name": "Oracle"
                 },
                 {
+                  "id": 3,
                   "name": "PostgreSQL"
                 },
                 {
+                  "id": 4,
                   "name": "DB2"
                 },
                 {
+                  "id": 5,
                   "name": "MySQL"
                 },
                 {
+                  "id": 6,
                   "name": "Struts"
                 },
                 {
+                  "id": 7,
                   "name": "UML"
                 },
                 {
+                  "id": 8,
                   "name": "XML/XSLT"
                 },
                 {
+                  "id": 9,
                   "name": "SOAP"
                 },
                 {
+                  "id": 10,
                   "name": "WebSAM"
                 }
               ]

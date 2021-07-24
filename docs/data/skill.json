@@ -1,0 +1,325 @@
+{
+  "skillGroup": [
+    {
+      "id": 1,
+      "name": "プログラミング言語",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Golang",
+          "versions": ["v1.7", "v1.9", "v1.11", "v1.13", "v1.14", "v1.15"],
+          "experience": {
+            "total": "5年以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": "2021-07"
+              },
+              {
+                "from": "2018-11",
+                "to": "2019-05"
+              },
+              {
+                "from": "2016-11",
+                "to": "2018-06"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Java",
+          "versions": ["v1.4", "v1.5", "v1.6", "v1.7", "v1.8"],
+          "experience": {
+            "total": "15年3ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              },
+              {
+                "from": "2018-10",
+                "to": "2018-11"
+              },
+              {
+                "from": "2018-08",
+                "to": "2018-09"
+              },
+              {
+                "from": "2014-11",
+                "to": "2016-09"
+              },
+              {
+                "from": "2014-11",
+                "to": "2016-03"
+              },
+              {
+                "from": "2014-04",
+                "to": "2014-09"
+              },
+              {
+                "from": "2013-07",
+                "to": "2014-09"
+              },
+              {
+                "from": "2002-04",
+                "to": "2011-09"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Android(Java)",
+          "versions": ["v2.3", "v4"],
+          "experience": {
+            "total": "2年2ヶ月",
+            "periods": [
+              {
+                "from": "2014-04",
+                "to": "2014-09"
+              },
+              {
+                "from": "2013-07",
+                "to": "2014-09"
+              },
+              {
+                "from": "2011-10",
+                "to": "2012-02"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "JavaScript",
+          "experience": {
+            "total": "7ヶ月",
+            "periods": [
+              {
+                "from": "2018-11",
+                "to": "2019-05"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "TypeScript",
+          "experience": {
+            "total": "2年",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              },
+              {
+                "from": "2018-08",
+                "to": "2018-09"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "PHP",
+          "versions": ["v5"],
+          "experience": {
+            "total": "1年4ヶ月",
+            "periods": [
+              {
+                "from": "2012-03",
+                "to": "2013-06"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Scala",
+          "versions": ["v2.11"],
+          "experience": {
+            "total": "4ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "Kotlin",
+          "experience": {
+            "total": "4ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Webアプリケーションフレームワーク",
+      "skills": [
+        {
+          "id": 1,
+          "name": "chi (Golang)"
+        },
+        {
+          "id": 2,
+          "name": "Echo (Golang)"
+        },
+        {
+          "id": 3,
+          "name": "Spring (Java)"
+        },
+        {
+          "id": 4,
+          "name": "play (Scala)"
+        },
+        {
+          "id": 5,
+          "name": "Seasar2 (Java)"
+        },
+        {
+          "id": 6,
+          "name": "Kohana (PHP)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "フロントエンドフレームワーク",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Vue.js/Nuxt.js"
+        },
+        {
+          "id": 2,
+          "name": "Angular"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Web API",
+      "skills": [
+        {
+          "id": 1,
+          "name": "REST (Java/Golang)"
+        },
+        {
+          "id": 2,
+          "name": "gRPC (Golang)"
+        },
+        {
+          "id": 3,
+          "name": "GraphQL (Golang/TypeScript)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "データベース",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Oracle"
+        },
+        {
+          "id": 2,
+          "name": "PostgreSQL"
+        },
+        {
+          "id": 3,
+          "name": "MySQL"
+        },
+        {
+          "id": 4,
+          "name": "DB2"
+        },
+        {
+          "id": 5,
+          "name": "Microsoft SQL Server"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "クラウド",
+      "skills": [
+        {
+          "id": 1,
+          "name": "AWS"
+        },
+        {
+          "id": 2,
+          "name": "GCP"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "OS",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Windows"
+        },
+        {
+          "id": 2,
+          "name": "Mac"
+        },
+        {
+          "id": 3,
+          "name": "Linux"
+        },
+        {
+          "id": 4,
+          "name": "Unix"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "その他",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Scrum"
+        },
+        {
+          "id": 2,
+          "name": "Terraform"
+        },
+        {
+          "id": 3,
+          "name": "Docker"
+        },
+        {
+          "id": 4,
+          "name": "MicroService"
+        },
+        {
+          "id": 5,
+          "name": "Auth0"
+        },
+        {
+          "id": 6,
+          "name": "SendGrid"
+        }
+      ]
+    }
+  ]
+}

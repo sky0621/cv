@@ -2,13 +2,13 @@
   "skillGroup": [
     {
       "id": 1,
-      "title": "プログラミング言語",
+      "name": "プログラミング言語",
       "skills": [
         {
           "id": 1,
-          "title": "Golang",
+          "name": "Golang",
           "versions": ["v1.7", "v1.9", "v1.11", "v1.13", "v1.14", "v1.15"],
-          "period": {
+          "experience": {
             "total": "5年以上",
             "periods": [
               {
@@ -32,9 +32,9 @@
         },
         {
           "id": 2,
-          "title": "Java",
+          "name": "Java",
           "versions": ["v1.4", "v1.5", "v1.6", "v1.7", "v1.8"],
-          "period": {
+          "experience": {
             "total": "15年3ヶ月",
             "periods": [
               {
@@ -74,9 +74,9 @@
         },
         {
           "id": 3,
-          "title": "Android(Java)",
+          "name": "Android(Java)",
           "versions": ["v2.3", "v4"],
-          "period": {
+          "experience": {
             "total": "2年2ヶ月",
             "periods": [
               {
@@ -96,8 +96,8 @@
         },
         {
           "id": 4,
-          "title": "JavaScript",
-          "period": {
+          "name": "JavaScript",
+          "experience": {
             "total": "7ヶ月",
             "periods": [
               {
@@ -109,8 +109,8 @@
         },
         {
           "id": 4,
-          "title": "TypeScript",
-          "period": {
+          "name": "TypeScript",
+          "experience": {
             "total": "2年",
             "periods": [
               {
@@ -126,9 +126,9 @@
         },
         {
           "id": 4,
-          "title": "PHP",
+          "name": "PHP",
           "versions": ["v5"],
-          "period": {
+          "experience": {
             "total": "1年4ヶ月",
             "periods": [
               {
@@ -140,9 +140,9 @@
         },
         {
           "id": 5,
-          "title": "Scala",
+          "name": "Scala",
           "versions": ["v2.11"],
-          "period": {
+          "experience": {
             "total": "4ヶ月",
             "periods": [
               {
@@ -154,8 +154,8 @@
         },
         {
           "id": 6,
-          "title": "Kotlin",
-          "period": {
+          "name": "Kotlin",
+          "experience": {
             "total": "4ヶ月",
             "periods": [
               {
@@ -169,53 +169,45 @@
     },
     {
       "id": 2,
-      "title": "Webアプリケーションフレームワーク",
+      "name": "Webアプリケーションフレームワーク",
       "skills": [
         {
           "id": 1,
-          "title": "chi",
-          "language": "Golang"
+          "name": "chi (Golang)"
         },
         {
           "id": 2,
-          "title": "Echo",
-          "language": "Golang"
+          "name": "Echo (Golang)"
         },
         {
           "id": 3,
-          "title": "Spring",
-          "language": "Java"
+          "name": "Spring (Java)"
         },
         {
           "id": 4,
-          "title": "play",
-          "language": "Scala"
+          "name": "play (Scala)"
         },
         {
           "id": 5,
-          "title": "Seasar2",
-          "language": "Java"
+          "name": "Seasar2 (Java)"
         },
         {
           "id": 6,
-          "title": "Kohana",
-          "language": "PHP"
+          "name": "Kohana (PHP)"
         }
       ]
     },
     {
       "id": 3,
-      "title": "フロントエンドフレームワーク",
+      "name": "フロントエンドフレームワーク",
       "skills": [
         {
           "id": 1,
-          "title": "Vue.js/Nuxt.js",
-          "language": "JavaScript"
+          "name": "Vue.js/Nuxt.js"
         },
         {
           "id": 2,
-          "title": "Angular",
-          "language": "TypeScript"
+          "name": "Angular"
         }
       ]
     },
@@ -225,110 +217,107 @@
       "skills": [
         {
           "id": 1,
-          "title": "REST",
-          "language": "Java/Golang"
+          "name": "REST (Java/Golang)"
         },
         {
           "id": 2,
-          "title": "gRPC",
-          "language": "Golang"
+          "name": "gRPC (Golang)"
         },
         {
           "id": 3,
-          "title": "GraphQL",
-          "language": "Golang/TypeScript"
+          "name": "GraphQL (Golang/TypeScript)"
         }
       ]
     },
     {
       "id": 5,
-      "title": "データベース",
+      "name": "データベース",
       "skills": [
         {
           "id": 1,
-          "title": "Oracle"
+          "name": "Oracle"
         },
         {
           "id": 2,
-          "title": "PostgreSQL"
+          "name": "PostgreSQL"
         },
         {
           "id": 3,
-          "title": "MySQL"
+          "name": "MySQL"
         },
         {
           "id": 4,
-          "title": "DB2"
+          "name": "DB2"
         },
         {
           "id": 5,
-          "title": "Microsoft SQL Server"
+          "name": "Microsoft SQL Server"
         }
       ]
     },
     {
       "id": 6,
-      "title": "クラウド",
+      "name": "クラウド",
       "skills": [
         {
           "id": 1,
-          "title": "AWS"
+          "name": "AWS"
         },
         {
           "id": 2,
-          "title": "GCP"
+          "name": "GCP"
         }
       ]
     },
     {
       "id": 7,
-      "title": "OS",
+      "name": "OS",
       "skills": [
         {
           "id": 1,
-          "title": "Windows"
+          "name": "Windows"
         },
         {
           "id": 2,
-          "title": "Mac"
+          "name": "Mac"
         },
         {
           "id": 3,
-          "title": "Linux"
+          "name": "Linux"
         },
         {
           "id": 4,
-          "title": "Unix"
+          "name": "Unix"
         }
       ]
     },
     {
       "id": 8,
-      "title": "その他",
+      "name": "その他",
       "skills": [
         {
           "id": 1,
-          "title": "Scrum"
+          "name": "Scrum"
         },
         {
           "id": 2,
-          "title": "Terraform"
+          "name": "Terraform"
         },
         {
           "id": 3,
-          "title": "Docker"
+          "name": "Docker"
         },
         {
           "id": 4,
-          "title": "MicroService"
+          "name": "MicroService"
         },
         {
           "id": 5,
-          "title": "Auth0"
+          "name": "Auth0"
         },
         {
           "id": 6,
-          "title": "SendGrid"
+          "name": "SendGrid"
         }
       ]
     }
