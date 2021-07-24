@@ -12,21 +12,26 @@
               {{ v }}
             </template>
           </template>
-          <template v-if="s.experience" #content>
-            <div class="p-mb-2">経験：{{ s.experience?.total }}</div>
-            <Inplace :closable="true">
-              <template #display> breakdown </template>
-              <template #content>
-                <template
-                  v-for="(p, pIdx) in s.experience?.periods"
-                  :key="pIdx"
-                >
-                  <div class="p-text-secondary p-mb-1">
-                    {{ p.from }} ~ {{ p.to }}
-                  </div>
+          <template v-if="s.summary || s.experience" #content>
+            <template v-if="s.summary">
+              <div class="p-mb-2">{{ s.summary }}</div>
+            </template>
+            <template v-if="s.experience">
+              <div class="p-mb-2">経験：{{ s.experience?.total }}</div>
+              <Inplace :closable="true">
+                <template #display> breakdown </template>
+                <template #content>
+                  <template
+                    v-for="(p, pIdx) in s.experience?.periods"
+                    :key="pIdx"
+                  >
+                    <div class="p-text-secondary p-mb-1">
+                      {{ p.from }} ~ {{ p.to }}
+                    </div>
+                  </template>
                 </template>
-              </template>
-            </Inplace>
+              </Inplace>
+            </template>
           </template>
         </Card>
       </div>

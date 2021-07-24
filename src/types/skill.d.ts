@@ -10,6 +10,7 @@ export interface Skill {
   id: number
   name: string
   versions?: string[]
+  summary?: string
   experience?: Experience
 }
 

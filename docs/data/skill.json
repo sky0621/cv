@@ -8,6 +8,7 @@
           "id": 1,
           "name": "Golang",
           "versions": ["v1.7", "v1.9", "v1.11", "v1.13", "v1.14", "v1.15"],
+          "summary": "現在参画中の案件にて使用中",
           "experience": {
             "total": "5年以上",
             "periods": [
@@ -110,6 +111,7 @@
         {
           "id": 4,
           "name": "TypeScript",
+          "summary": "現在参画中の案件にて使用中",
           "experience": {
             "total": "2年",
             "periods": [
@@ -164,6 +166,11 @@
               }
             ]
           }
+        },
+        {
+          "id": 7,
+          "name": "Python",
+          "versions": ["v2系", "v3系"]
         }
       ]
     },
@@ -173,27 +180,97 @@
       "skills": [
         {
           "id": 1,
-          "name": "chi (Golang)"
+          "name": "chi (Golang)",
+          "experience": {
+            "total": "1年10ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              }
+            ]
+          }
         },
         {
           "id": 2,
-          "name": "Echo (Golang)"
+          "name": "Echo (Golang)",
+          "experience": {
+            "total": "1年9ヶ月",
+            "periods": [
+              {
+                "from": "2017-12",
+                "to": "2018-06"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
         },
         {
           "id": 3,
-          "name": "Spring (Java)"
+          "name": "Spring (Java)",
+          "experience": {
+            "total": "4ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              }
+            ]
+          }
         },
         {
           "id": 4,
-          "name": "play (Scala)"
+          "name": "play (Scala)",
+          "experience": {
+            "total": "4ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              }
+            ]
+          }
         },
         {
           "id": 5,
-          "name": "Seasar2 (Java)"
+          "name": "Seasar2 (Java)",
+          "experience": {
+            "total": "3年8ヶ月",
+            "periods": [
+              {
+                "from": "2016-04",
+                "to": "2016-09"
+              },
+              {
+                "from": "2014-11",
+                "to": "2016-03"
+              },
+              {
+                "from": "2014-04",
+                  "to": "2014-09"
+              },
+              {
+                "from": "2013-07",
+                "to": "2014-09"
+              }
+            ]
+          }
         },
         {
           "id": 6,
-          "name": "Kohana (PHP)"
+          "name": "Kohana (PHP)",
+          "experience": {
+            "total": "1年4ヶ月",
+            "periods": [
+              {
+                "from": "2012-03",
+                "to": "2013-06"
+              }
+            ]
+          }
         }
       ]
     },
@@ -203,47 +280,194 @@
       "skills": [
         {
           "id": 1,
-          "name": "Vue.js/Nuxt.js"
+          "name": "Vue.js/Nuxt.js",
+          "summary": "現在参画中の案件にて使用中",
+          "experience": {
+            "total": "2年5ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              },
+              {
+                "from": "2018-11",
+                "to": "2019-05"
+              }
+            ]
+          }
         },
         {
           "id": 2,
-          "name": "Angular"
+          "name": "Angular",
+          "experience": {
+            "total": "2ヶ月",
+            "periods": [
+              {
+                "from": "2018-08",
+                "to": "2018-09"
+              }
+            ]
+          }
         }
       ]
     },
     {
       "id": 4,
-      "title": "Web API",
+      "name": "Web API",
       "skills": [
         {
           "id": 1,
-          "name": "REST (Java/Golang)"
+          "name": "REST (Java/Golang)",
+          "experience": {
+            "total": "9ヶ月",
+            "periods": [
+              {
+                "from": "2018-11",
+                "to": "2019-05"
+              },
+              {
+                "from": "2018-08",
+                "to": "2018-09"
+              }
+            ]
+          }
         },
         {
           "id": 2,
-          "name": "gRPC (Golang)"
+          "name": "gRPC (Golang)",
+          "experience": {
+            "total": "1年9ヶ月",
+            "periods": [
+              {
+                "from": "2017-12",
+                "to": "2018-06"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
         },
         {
           "id": 3,
-          "name": "GraphQL (Golang/TypeScript)"
+          "name": "GraphQL (Golang/TypeScript)",
+          "summary": "現在参画中の案件にて使用中",
+          "experience": {
+            "total": "1年10ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              }
+            ]
+          }
         }
       ]
     },
     {
       "id": 5,
+      "name": "クラウド",
+      "skills": [
+        {
+          "id": 1,
+          "name": "AWS",
+          "experience": {
+            "total": "1年6ヶ月",
+            "periods": [
+              {
+                "from": "2019-06",
+                "to": "2019-09"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "GCP",
+          "summary": "現在参画中の案件にて使用中",
+          "experience": {
+            "total": "3年3ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              },
+              {
+                "from": "2018-11",
+                "to": "2019-05"
+              },
+              {
+                "from": "2018-10",
+                "to": "2018-11"
+              },
+              {
+                "from": "2018-08",
+                "to": "2018-09"
+              },
+              {
+                "from": "2017-12",
+                "to": "2018-06"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
       "name": "データベース",
       "skills": [
         {
           "id": 1,
-          "name": "Oracle"
+          "name": "Oracle",
+          "experience": {
+            "total": "1年11ヶ月以上",
+            "periods": [
+              {
+                "from": "2016-04",
+                "to": "2016-09"
+              },
+              {
+                "from": "2014-11",
+                "to": "2016-03"
+              }
+            ]
+          }
         },
         {
           "id": 2,
-          "name": "PostgreSQL"
+          "name": "PostgreSQL",
+          "experience": {
+            "total": "1年10ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              }
+            ]
+          }
         },
         {
           "id": 3,
-          "name": "MySQL"
+          "name": "MySQL",
+          "experience": {
+            "total": "1年10ヶ月",
+            "periods": [
+              {
+                "from": "2014-04",
+                "to": "2014-09"
+              },
+              {
+                "from": "2012-03",
+                "to": "2013-06"
+              }
+            ]
+          }
         },
         {
           "id": 4,
@@ -256,34 +480,23 @@
       ]
     },
     {
-      "id": 6,
-      "name": "クラウド",
-      "skills": [
-        {
-          "id": 1,
-          "name": "AWS"
-        },
-        {
-          "id": 2,
-          "name": "GCP"
-        }
-      ]
-    },
-    {
       "id": 7,
       "name": "OS",
       "skills": [
         {
           "id": 1,
-          "name": "Windows"
+          "name": "Windows",
+          "summary": "人並み。ここ数年、ほぼ使っていない。"
         },
         {
           "id": 2,
-          "name": "Mac"
+          "name": "Mac",
+          "summary": "過去、数年ほど開発端末として使用。"
         },
         {
           "id": 3,
-          "name": "Linux"
+          "name": "Linux",
+          "summary": "Golang案件では、開発端末にも用いる。極力、コマンド使う派。現在参画中の案件でUbuntuを開発端末として使用中。"
         },
         {
           "id": 4,
@@ -297,7 +510,17 @@
       "skills": [
         {
           "id": 1,
-          "name": "Scrum"
+          "name": "Scrum",
+          "summary": "チームビルディングから参加した経験あり",
+          "experience": {
+            "total": "11ヶ月",
+            "periods": [
+              {
+                "from": "2014-11",
+                "to": "2016-03"
+              }
+            ]
+          }
         },
         {
           "id": 2,
@@ -305,19 +528,69 @@
         },
         {
           "id": 3,
-          "name": "Docker"
+          "name": "Docker",
+          "experience": {
+            "total": "3年7ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              },
+              {
+                "from": "2017-12",
+                "to": "2018-06"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
         },
         {
           "id": 4,
-          "name": "MicroService"
+          "name": "MicroService",
+          "experience": {
+            "total": "1年9ヶ月",
+            "periods": [
+              {
+                "from": "2017-12",
+                "to": "2018-06"
+              },
+              {
+                "from": "2016-11",
+                "to": "2017-12"
+              }
+            ]
+          }
         },
         {
           "id": 5,
-          "name": "Auth0"
+          "name": "Auth0",
+          "summary": "現在参画中の案件にて使用中",
+          "experience": {
+            "total": "1年10ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              }
+            ]
+          }
         },
         {
           "id": 6,
-          "name": "SendGrid"
+          "name": "SendGrid",
+          "summary": "現在参画中の案件にて使用中",
+          "experience": {
+            "total": "1年10ヶ月以上",
+            "periods": [
+              {
+                "from": "2019-10",
+                "to": ""
+              }
+            ]
+          }
         }
       ]
     }
