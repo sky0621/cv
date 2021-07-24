@@ -48,6 +48,9 @@
                   "versions": ["v1.13", "v1.14", "v1.15"]
                 },
                 {
+                  "name": "chi"
+                },
+                {
                   "name": "gqlgen"
                 },
                 {
@@ -223,6 +226,12 @@
                 {
                   "name": "Golang",
                   "versions": ["v1.11"]
+                },
+                {
+                  "name": "Echo"
+                },
+                {
+                  "name": "Gorm"
                 }
               ]
             },
