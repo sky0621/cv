@@ -9,22 +9,13 @@ import 'primeicons/primeicons.css'
 
 import 'primeflex/primeflex.css'
 
-import Button from 'primevue/button'
-import Menubar from 'primevue/menubar'
-import InputText from 'primevue/inputtext'
-import AvatarGroup from 'primevue/avatargroup'
-import Badge from 'primevue/badge'
-import Column from 'primevue/column'
-import ColumnGroup from 'primevue/columngroup'
-
-import BadgeDirective from 'primevue/badgedirective'
-
 // use App.vue
 import Avatar from 'primevue/avatar'
 import TabMenu from 'primevue/tabmenu'
 
 // use components/Basic.vue etc...
 import DataTable from 'primevue/datatable'
+import Column from 'primevue/column'
 // use components/basic/Like.vue etc...
 import DataView from 'primevue/dataview'
 import Chip from 'primevue/chip'
@@ -33,34 +24,28 @@ import Card from 'primevue/card'
 
 // use components/CareerGroup.vue
 import Panel from 'primevue/panel'
-// use components/career/Career.vue
+// use components/career/Career.vue etc...
 import Divider from 'primevue/divider'
-// use
+// use components/CareerGroup.vue
 import Timeline from 'primevue/timeline'
+// use components/skill/Skill.vue
+import Inplace from 'primevue/inplace'
 
 const app = createApp(App)
 
 app.use(router)
 app.use(PrimeVue, { ripple: true })
 
-app.component('Button', Button)
-app.component('Menubar', Menubar)
-app.component('InputText', InputText)
-app.component('AvatarGroup', AvatarGroup)
-app.component('Badge', Badge)
-app.component('Column', Column)
-app.component('ColumnGroup', ColumnGroup)
-
-app.directive('badge', BadgeDirective)
-
 app.component('Avatar', Avatar)
 app.component('TabMenu', TabMenu)
 app.component('DataTable', DataTable)
+app.component('Column', Column)
 app.component('DataView', DataView)
 app.component('Chip', Chip)
 app.component('Card', Card)
 app.component('Panel', Panel)
 app.component('Divider', Divider)
 app.component('Timeline', Timeline)
+app.component('Inplace', Inplace)
 
 app.mount('#app')

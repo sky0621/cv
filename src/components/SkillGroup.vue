@@ -1,6 +1,8 @@
 <template>
   <template v-for="g in skillGroups_" :key="g.id">
+    <Divider />
     <div class="p-my-3 p-text-bold">{{ g.name }}</div>
+    <Divider />
     <SkillComponent :skills="g.skills" />
   </template>
 </template>

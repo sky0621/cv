@@ -6,7 +6,7 @@
       class="customized-timeline"
     >
       <template #opposite="slot">
-        <div class="p-text-secondary" style="min-width: 80px">
+        <div class="p-text-secondary">
           {{ slot.item.period.from }} ~ {{ slot.item.period.to }}
         </div>
       </template>

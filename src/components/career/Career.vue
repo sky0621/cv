@@ -2,9 +2,7 @@
   <template v-for="c in careers_" :key="c.id">
     <Card class="p-text-left p-mb-2">
       <template #header>
-        <div class="p-pl-3 p-pt-3" style="min-width: 15rem">
-          {{ c.from }} - {{ c.to }}
-        </div>
+        <div class="p-pl-3 p-pt-3">{{ c.from }} - {{ c.to }}</div>
       </template>
       <template #title>
         <div>{{ c.title }}</div>
