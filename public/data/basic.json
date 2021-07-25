@@ -14,9 +14,11 @@
       "url": "https://github.com/sky0621/",
       "icon": "pi pi-github"
     },
+
     {
       "name": "当サイト構築ソース",
-      "url": "https://github.com/sky0621/cv"
+      "url": "https://github.com/sky0621/cv",
+      "icon": "pi pi-globe"
     }
   ],
   "likes": ["Go", "Vue.js", "GraphQL", "GCP", "Scrum", "Linux", "EdTech", "JetBrains"],
