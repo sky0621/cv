@@ -23,6 +23,11 @@
           to: '/',
         },
         {
+          label: 'Note',
+          icon: 'pi pi-fw pi-exclamation-circle',
+          to: '/note',
+        },
+        {
           label: 'Skill',
           icon: 'pi pi-fw pi-desktop',
           to: '/skill',

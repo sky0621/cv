@@ -22,12 +22,16 @@ import Chip from 'primevue/chip'
 // use components/basic/Qualification.vue
 import Card from 'primevue/card'
 
+// use
+import Textarea from 'primevue/textarea'
+
 // use components/CareerGroup.vue
 import Panel from 'primevue/panel'
 // use components/career/Career.vue etc...
 import Divider from 'primevue/divider'
 // use components/CareerGroup.vue
 import Timeline from 'primevue/timeline'
+
 // use components/skill/Skill.vue
 import Inplace from 'primevue/inplace'
 
@@ -43,6 +47,7 @@ app.component('Column', Column)
 app.component('DataView', DataView)
 app.component('Chip', Chip)
 app.component('Card', Card)
+app.component('Textarea', Textarea)
 app.component('Panel', Panel)
 app.component('Divider', Divider)
 app.component('Timeline', Timeline)

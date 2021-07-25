@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import BasicPage from '@/pages/Basic.vue'
+import NotePage from '@/pages/Note.vue'
 import SkillPage from '@/pages/Skill.vue'
 import CareerPage from '@/pages/Career.vue'
 
@@ -9,6 +10,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'BasicPage',
     component: BasicPage,
+  },
+  {
+    path: '/note',
+    name: 'NotePage',
+    component: NotePage,
   },
   {
     path: '/skill',
