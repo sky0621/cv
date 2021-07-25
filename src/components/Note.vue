@@ -85,7 +85,10 @@
         return props.note
       })
 
-      const summary = note_.value?.summary
+      const summary = computed(() => {
+        if (!props || !props.note) return undefined
+        return props.note.summary
+      })
 
       const now = new CalculationService().now
 
