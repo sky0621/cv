@@ -46,13 +46,26 @@ success Installed "@vitejs/create-app@2.4.4" with binaries:
 
 https://github.com/vuejs/vue-router-next#quickstart
 
+```
+yarn add vue-router@4
+```
+
 ### PRIME VUE
 
 https://primefaces.org/primevue/showcase/#/setup
 
+```
+yarn add primevue@3.6.0
+yarn add primeicons
+```
+
 #### primeflex
 
 https://primefaces.org/primevue/showcase/#/primeflex
+
+```
+yarn add primeflex@2.0.0
+```
 
 ### lint
 

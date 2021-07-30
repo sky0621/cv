@@ -52,3 +52,30 @@ Done. Now run:
 
 Done in 19.53s.
 ```
+
+## use
+
+### vue-router
+
+https://github.com/vuejs/vue-router-next#quickstart
+
+```
+yarn add vue-router@4
+```
+
+### PRIME VUE
+
+https://primefaces.org/primevue/showcase/#/setup
+
+```
+yarn add primevue@3.6.0
+yarn add primeicons
+```
+
+#### primeflex
+
+https://primefaces.org/primevue/showcase/#/primeflex
+
+```
+yarn add primeflex@2.0.0
+```
