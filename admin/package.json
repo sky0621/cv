@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite --port 3001",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",
+    "lint:style": "stylelint src/**/*.{css,scss,vue} --fix"
   },
   "dependencies": {
     "date-fns": "^2.23.0",
