@@ -9,6 +9,10 @@ import 'primeicons/primeicons.css'
 
 import 'primeflex/primeflex.css'
 
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
+
 const app = createApp(App)
 
 app.use(router)

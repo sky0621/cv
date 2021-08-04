@@ -79,3 +79,31 @@ https://primefaces.org/primevue/showcase/#/primeflex
 ```
 yarn add primeflex@2.0.0
 ```
+
+#### axios
+
+```
+yarn add axios
+```
+
+#### prisma
+
+https://www.prisma.io/
+
+```
+yarn add -D prisma
+```
+
+```
+npx prisma init
+
+npx prisma introspect
+```
+
+```
+yarn add @prisma/client
+```
+
+```
+npx prisma generate
+```
