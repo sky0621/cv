@@ -1,0 +1,68 @@
+# cv - admin - backend
+
+## env
+
+```
+$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.2 LTS (Focal Fossa)"
+$
+$ nvm version
+v16.0.0
+$
+$ node -v
+v16.0.0
+$
+$ npm -v
+7.10.0
+$
+$ vue --version
+@vue/cli 4.5.12
+$
+$ yarn -v
+1.22.10
+```
+
+## create project
+
+```
+yarn init
+```
+
+## use
+
+### express
+
+```
+yarn add express
+
+yarn add -D @types/express
+```
+
+### prisma
+
+```
+yarn add @prisma/client
+
+yarn add -D prisma
+```
+
+### ts-node
+
+```
+yarn add -D ts-node
+
+yarn add -D @types/node
+```
+
+### typescript
+
+```
+yarn add -D typescript
+```
+
+## setup
+
+```
+npx prisma generate
+```

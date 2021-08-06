@@ -1,4 +1,4 @@
-# cv - admin
+# cv - admin - frontend
 
 ## env
 
