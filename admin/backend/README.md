@@ -61,6 +61,14 @@ yarn add -D @types/node
 yarn add -D typescript
 ```
 
+### cors
+
+```
+yarn add cors
+
+yarn add -D @types/cors
+```
+
 ## setup
 
 ### prisma
