@@ -13,7 +13,6 @@ app.get('/basic', async (req, res) => {
 
 app.get('/basic/:id', async (req, res) => {
     const { id }: { id?: string } = req.params
-    console.log(id)
     const basic = await prisma.basic.findUnique({
         where: { id: Number(id) },
     })

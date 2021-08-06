@@ -80,30 +80,36 @@ https://primefaces.org/primevue/showcase/#/primeflex
 yarn add primeflex@2.0.0
 ```
 
+### lint
+
+```
+yarn add -D eslint eslint-plugin-vue @vue/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
+```
+
+```
+yarn add -D husky lint-staged
+```
+
+### prettier
+
+```
+yarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier
+```
+
+### stylelint
+
+```
+yarn add -D stylelint stylelint-config-recommended stylelint-config-standard
+```
+
+### sass
+
+```
+yarn add -D sass
+```
+
 #### axios
 
 ```
 yarn add axios
-```
-
-#### prisma
-
-https://www.prisma.io/
-
-```
-yarn add -D prisma
-```
-
-```
-npx prisma init
-
-npx prisma introspect
-```
-
-```
-yarn add @prisma/client
-```
-
-```
-npx prisma generate
 ```

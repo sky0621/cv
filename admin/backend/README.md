@@ -63,6 +63,14 @@ yarn add -D typescript
 
 ## setup
 
+### prisma
+
+https://www.prisma.io/
+
 ```
+npx prisma init
+
+npx prisma introspect
+
 npx prisma generate
 ```
