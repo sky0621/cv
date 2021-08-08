@@ -1,8 +1,10 @@
 <template>
-  <div>Basic2</div>
-  <template v-for="b in basics_" :key="b.id">
-    <div>{{ b }}</div>
-  </template>
+  <DataTable :value="basics_" responsive-layout="stack" show-gridlines>
+    <Column field="nickname" header="ニックネーム"></Column>
+    <Column field="birthday" header="生年月日"></Column>
+    <Column field="job" header="職業"></Column>
+    <Column field="belongTo" header="所属"></Column>
+  </DataTable>
 </template>
 
 <script lang="ts">
@@ -22,6 +24,7 @@
         if (!props || !props.basics) return []
         return props.basics
       })
+      console.log(basics_)
       return { basics_ }
     },
   })
