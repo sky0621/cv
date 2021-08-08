@@ -1,5 +1,5 @@
 <template>
-  <BasicListComponent />
+  <BasicListComponent :basics="basics" />
 </template>
 
 <script lang="ts">
@@ -13,18 +13,18 @@
       BasicListComponent,
     },
     setup() {
-      const basic = ref()
+      const basics = ref()
 
       onMounted(async () => {
         try {
-          basic.value = await new BasicService().list()
-          console.log(basic.value)
+          basics.value = await new BasicService().list()
+          console.log(basics.value)
         } catch (e) {
           console.error(e)
         }
       })
 
-      return { basic }
+      return { basics }
     },
   })
 </script>
