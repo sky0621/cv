@@ -11,6 +11,8 @@ import 'primeflex/primeflex.css'
 
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
+import SpeedDial from 'primevue/speeddial'
+import InputText from 'primevue/inputtext'
 
 const app = createApp(App)
 
@@ -19,5 +21,7 @@ app.use(PrimeVue, { ripple: true })
 
 app.component('DataTable', DataTable)
 app.component('Column', Column)
+app.component('SpeedDial', SpeedDial)
+app.component('InputText', InputText)
 
 app.mount('#app')

@@ -8,17 +8,34 @@ const prisma = new PrismaClient()
 app.use(express.json())
 app.use(cors())
 
+// ------------------------------------------------------------------
+// Basic
+// ------------------------------------------------------------------
+
 app.get('/basic', async (req, res) => {
     const basics = await prisma.basic.findMany()
     res.json(basics)
 })
 
 app.get('/basic/:id', async (req, res) => {
+    console.log(req.params)
     const { id }: { id?: string } = req.params
     const basic = await prisma.basic.findUnique({
         where: { id: Number(id) },
     })
     res.json(basic)
 })
+
+// ------------------------------------------------------------------
+// Note
+// ------------------------------------------------------------------
+
+// ------------------------------------------------------------------
+// Skill
+// ------------------------------------------------------------------
+
+// ------------------------------------------------------------------
+// Career
+// ------------------------------------------------------------------
 
 app.listen(3002, () => console.log('start server at :3002'))

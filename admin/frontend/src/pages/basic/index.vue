@@ -1,30 +1,29 @@
 <template>
-  <BasicListComponent :basics="basics" />
+  <BasicEditComponent :basic="basic" />
 </template>
 
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
-  import BasicListComponent from '@/components/basic/List.vue'
+  import BasicEditComponent from '@/components/basic/Edit.vue'
   import { BasicService } from '@/service/BasicService'
 
   export default defineComponent({
     name: 'BasicPage',
     components: {
-      BasicListComponent,
+      BasicEditComponent,
     },
     setup() {
-      const basics = ref()
+      const basic = ref()
 
       onMounted(async () => {
         try {
-          basics.value = await new BasicService().list()
-          console.log(basics.value)
+          basic.value = await new BasicService().get(1)
         } catch (e) {
           console.error(e)
         }
       })
 
-      return { basics }
+      return { basic }
     },
   })
 </script>
