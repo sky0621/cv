@@ -1,27 +1,38 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
-import PrimeVue from 'primevue/config'
+const app = createApp(App)
 
+// ルーティング
+// ------------------------------------------------------------------
+import router from './router'
+app.use(router)
+
+// バリデーション
+// ------------------------------------------------------------------
+import Vuelidate from 'vuelidate'
+app.use(Vuelidate)
+
+// UIフレームワーク
+// ------------------------------------------------------------------
+import PrimeVue from 'primevue/config'
 import 'primevue/resources/themes/saga-green/theme.css'
 import 'primevue/resources/primevue.min.css'
 import 'primeicons/primeicons.css'
-
 import 'primeflex/primeflex.css'
-
-import DataTable from 'primevue/datatable'
-import Column from 'primevue/column'
-import SpeedDial from 'primevue/speeddial'
-import InputText from 'primevue/inputtext'
-
-const app = createApp(App)
-
-app.use(router)
 app.use(PrimeVue, { ripple: true })
 
-app.component('DataTable', DataTable)
-app.component('Column', Column)
+// App.vue
+import SpeedDial from 'primevue/speeddial'
 app.component('SpeedDial', SpeedDial)
+
+// components/basic/Edit.vue
+import Dialog from 'primevue/dialog'
+app.component('Dialog', Dialog)
+import InputText from 'primevue/inputtext'
 app.component('InputText', InputText)
+import Calendar from 'primevue/calendar'
+app.component('Calendar', Calendar)
+import Button from 'primevue/button'
+app.component('Button', Button)
 
 app.mount('#app')

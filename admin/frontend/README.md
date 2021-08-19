@@ -113,3 +113,13 @@ yarn add -D sass
 ```
 yarn add axios
 ```
+
+#### vuelidate
+
+```
+yarn add vuelidate
+
+yarn add -D @vuelidate/core
+
+yarn add -D @vuelidate/validators
+```
