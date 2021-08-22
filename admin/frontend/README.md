@@ -1,125 +1,69 @@
-# cv - admin - frontend
+# frontend
 
-## env
+## Build Setup
 
-```
-$ cat /etc/os-release
-NAME="Ubuntu"
-VERSION="20.04.2 LTS (Focal Fossa)"
-$
-$ nvm version
-v16.0.0
-$
-$ node -v
-v16.0.0
-$
-$ npm -v
-7.10.0
-$
-$ vue --version
-@vue/cli 4.5.12
-$
-$ yarn -v
-1.22.10
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
 ```
 
-## create project
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-```
-$ yarn create @vitejs/app admin
-yarn create v1.22.10
-[1/4] Resolving packages...
-warning @vitejs/create-app@2.5.1: This package has been moved to create-vite, use npm init vite@latest instead
-[2/4] Fetching packages...
-[3/4] Linking dependencies...
-[4/4] Building fresh packages...
-success Installed "@vitejs/create-app@2.5.1" with binaries:
-      - create-app
-      - cva
+## Special Directories
 
-@vitejs/create-app is deprecated, use npm init vite instead
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-✔ Select a framework: › vue
-✔ Select a variant: › vue-ts
+### `assets`
 
-Scaffolding project in /home/sky0621/work/src/github.com/sky0621/cv/admin...
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-Done. Now run:
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
-  cd admin
-  yarn
-  yarn dev
+### `components`
 
-Done in 19.53s.
-```
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-## use
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-### vue-router
+### `layouts`
 
-https://github.com/vuejs/vue-router-next#quickstart
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
-```
-yarn add vue-router@4
-```
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
-### PRIME VUE
 
-https://primefaces.org/primevue/showcase/#/setup
+### `pages`
 
-```
-yarn add primevue@3.6.0
-yarn add primeicons
-```
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
 
-#### primeflex
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
-https://primefaces.org/primevue/showcase/#/primeflex
+### `plugins`
 
-```
-yarn add primeflex@2.0.0
-```
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
-### lint
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
 
-```
-yarn add -D eslint eslint-plugin-vue @vue/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
-```
+### `static`
 
-```
-yarn add -D husky lint-staged
-```
+This directory contains your static files. Each file inside this directory is mapped to `/`.
 
-### prettier
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-```
-yarn add -D prettier eslint-plugin-prettier @vue/eslint-config-prettier
-```
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
-### stylelint
+### `store`
 
-```
-yarn add -D stylelint stylelint-config-recommended stylelint-config-standard
-```
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-### sass
-
-```
-yarn add -D sass
-```
-
-#### axios
-
-```
-yarn add axios
-```
-
-#### vuelidate
-
-```
-yarn add vuelidate
-
-yarn add -D @vuelidate/core
-
-yarn add -D @vuelidate/validators
-```
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).

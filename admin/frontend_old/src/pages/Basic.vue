@@ -1,16 +1,16 @@
 <template>
-  <BasicEditComponent :basic="basic" />
+  <BasicComponent :basic="basic" />
 </template>
 
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
-  import BasicEditComponent from '@/components/basic/Edit.vue'
+  import BasicComponent from '@/components/Basic.vue'
   import { BasicService } from '@/service/BasicService'
 
   export default defineComponent({
     name: 'BasicPage',
     components: {
-      BasicEditComponent,
+      BasicComponent,
     },
     setup() {
       const basic = ref()
