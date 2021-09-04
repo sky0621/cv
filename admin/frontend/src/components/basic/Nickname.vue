@@ -1,5 +1,6 @@
 <template>
-  <InputText v-model="nickname_" />
+  <InputText id="nickname" v-model="nickname_" type="text" />
+  <label for="nickname">ニックネーム</label>
 </template>
 
 <script lang="ts">
@@ -14,7 +15,7 @@
       },
     },
     setup(props) {
-      const { nickname_ } = toRefs(props)
+      const nickname_ = toRefs(props).nickname
       return { nickname_ }
     },
   })
