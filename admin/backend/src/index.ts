@@ -12,15 +12,27 @@ app.use(cors())
 // Basic
 // ------------------------------------------------------------------
 
-app.get('/basic', async (req, res) => {
-    const basics = await prisma.basic.findMany()
-    res.json(basics)
-})
-
 app.get('/basic/:id', async (req, res) => {
     const { id }: { id?: string } = req.params
     const basic = await prisma.basic.findUnique({
         where: { id: Number(id) },
+        include: {
+            basic_output_relation: {
+                include: {
+                    output: true,
+                },
+            },
+            basic_like_relation: {
+                include: {
+                    like: true,
+                },
+            },
+            basic_qualification_relation: {
+                include: {
+                    qualification: true,
+                },
+            },
+        },
     })
     res.json(basic)
 })

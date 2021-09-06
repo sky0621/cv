@@ -61,10 +61,10 @@ model output {
 
 model qualification {
   id                           Int                            @id @default(autoincrement())
-  name                         Int
-  org                          Int?
-  url                          Int?
-  date                         Int?
-  note                         Int?
+  name                         String
+  org                          String?
+  url                          String?
+  date                         String?
+  note                         String?
   basic_qualification_relation basic_qualification_relation[]
 }

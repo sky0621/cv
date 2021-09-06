@@ -4,14 +4,20 @@ export interface Basic {
   job: string
   belongTo: string
   outputs: Output[]
-  likes: string[]
+  likes: Like[]
   qualifications: Qualification[]
 }
 
 export interface Output {
+  id: number
   name: string
   url: string
   icon: string
+}
+
+export interface Like {
+  id: number
+  name: string
 }
 
 export interface Qualification {

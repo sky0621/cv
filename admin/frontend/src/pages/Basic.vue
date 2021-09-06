@@ -23,6 +23,8 @@
         }
       })
 
+      console.log(basic.value)
+
       return { basic }
     },
   })
