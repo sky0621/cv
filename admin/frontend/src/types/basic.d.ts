@@ -1,4 +1,5 @@
 export interface Basic {
+  id: number
   nickname: string
   birthday: string
   job: string

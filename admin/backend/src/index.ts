@@ -14,6 +14,7 @@ app.use(cors())
 
 app.get('/basic/:id', async (req, res) => {
     const { id }: { id?: string } = req.params
+    console.log(id)
     const basic = await prisma.basic.findUnique({
         where: { id: Number(id) },
         include: {
@@ -34,12 +35,15 @@ app.get('/basic/:id', async (req, res) => {
             },
         },
     })
+    console.log(basic)
     res.json(basic)
 })
 
 app.put('/basic/:id', async (req, res) => {
-    const { id } = req.params
+    const { id }: { id?: string } = req.params
+    console.log(id)
     const { nickname, birthday, job, belongTo } = req.body
+    console.log(req.body)
     try {
         const updatedBasic = await prisma.basic.update({
             where: { id: Number(id) || undefined },

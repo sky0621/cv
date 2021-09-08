@@ -29,7 +29,7 @@
               <BasicOutputComponent :outputs="basic_.outputs" />
             </div>
           </div>
-          <Button type="submit" label="Save" class="p-mt-2" />
+          <Button type="button" label="Save" class="p-mt-2" @click="save" />
         </form>
       </div>
     </div>
@@ -44,6 +44,7 @@
   import BasicJobComponent from '@/components/basic/Job.vue'
   import BasicBelongToComponent from '@/components/basic/BelongTo.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
+  import { BasicService } from '@/service/BasicService'
 
   export default defineComponent({
     name: 'BasicComponent',
@@ -68,8 +69,19 @@
 
       console.log(basic_)
 
+      const save = async () => {
+        console.log('save')
+        console.log(basic_)
+        try {
+          await new BasicService().put(basic_.value)
+        } catch (e) {
+          console.error(e)
+        }
+      }
+
       return {
         basic_,
+        save,
       }
     },
   })
