@@ -24,6 +24,11 @@
               <BasicBelongToComponent :belong-to="basic_.belongTo" />
             </div>
           </div>
+          <div class="p-field p-mb-6">
+            <div class="p-float-label">
+              <BasicOutputComponent :outputs="basic_.outputs" />
+            </div>
+          </div>
           <Button type="submit" label="Save" class="p-mt-2" />
         </form>
       </div>
@@ -38,6 +43,7 @@
   import BasicBirthdayComponent from '@/components/basic/Birthday.vue'
   import BasicJobComponent from '@/components/basic/Job.vue'
   import BasicBelongToComponent from '@/components/basic/BelongTo.vue'
+  import BasicOutputComponent from '@/components/basic/Output.vue'
 
   export default defineComponent({
     name: 'BasicComponent',
@@ -46,6 +52,7 @@
       BasicBirthdayComponent,
       BasicJobComponent,
       BasicBelongToComponent,
+      BasicOutputComponent,
     },
     props: {
       basic: {
@@ -58,6 +65,8 @@
         if (!props || !props.basic) return {}
         return props.basic
       })
+
+      console.log(basic_)
 
       return {
         basic_,

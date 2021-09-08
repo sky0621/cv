@@ -25,7 +25,7 @@ app.use(PrimeVue, { ripple: true })
 import SpeedDial from 'primevue/speeddial'
 app.component('SpeedDial', SpeedDial)
 
-// components/basic/Edit.vue
+// components/basic/
 import Dialog from 'primevue/dialog'
 app.component('Dialog', Dialog)
 import InputText from 'primevue/inputtext'
@@ -34,5 +34,9 @@ import Calendar from 'primevue/calendar'
 app.component('Calendar', Calendar)
 import Button from 'primevue/button'
 app.component('Button', Button)
+import DataTable from 'primevue/datatable'
+app.component('DataTable', DataTable)
+import Column from 'primevue/column'
+app.component('Column', Column)
 
 app.mount('#app')
