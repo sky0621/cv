@@ -12,7 +12,7 @@ model basic {
   nickname                     String
   birthday                     String
   job                          String
-  belongTo                     String
+  belong_to                    String
   basic_like_relation          basic_like_relation[]
   basic_output_relation        basic_output_relation[]
   basic_qualification_relation basic_qualification_relation[]
