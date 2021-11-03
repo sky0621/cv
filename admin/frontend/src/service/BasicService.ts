@@ -1,8 +1,8 @@
 import axios from 'axios'
-import { Basic, Output } from '@/types/basic'
+import { Basic, Like, Output, Qualification } from '@/types/basic'
 
 export class BasicService {
-  async get(id: number): Basic {
+  async get(id: number): Promise<Basic> {
     return axios.get(`http://localhost:3002/basic/${id}`).then((res) => {
       // リレーション情報経由で「アウトプット」一覧を取得
       const outputRels = res.data.basic_output_relation
@@ -59,7 +59,7 @@ export class BasicService {
     })
   }
 
-  async put(req: Basic): Void {
+  async put(req: Basic): Promise<void> {
     return axios
       .put(`http://localhost:3002/basic/${req.id}`, { body: req })
       .then((res) => {
