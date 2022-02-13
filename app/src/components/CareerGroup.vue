@@ -11,7 +11,7 @@
         </div>
       </template>
       <template #content="slot">
-        <Panel :toggleable="true" class="p-mb-4">
+        <Panel :toggleable="true" :collapsed="true" class="p-mb-4">
           <template #header>
             {{ slot.item.title }}
           </template>
@@ -23,7 +23,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
+  import { computed, defineComponent, PropType } from 'vue'
   import { CareerGroup } from '@/types/career'
   import CareerComponent from '@/components/career/Career.vue'
 

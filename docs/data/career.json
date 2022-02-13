@@ -1,20 +1,130 @@
 {
   "careerGroup": [
     {
-      "id": 1,
-      "title": "AdTech系企業にて就労中",
+      "id": 9,
+      "title": "EdTech系企業にて就労中",
       "period": {
-        "from": "2019-10",
+        "from": "2022-01",
         "to": ""
       },
       "careers": [
         {
           "id": 1,
-          "title": "広告系Webシステム新規開発",
-          "from": "2019-10",
+          "title": "プログラミング教育システム開発・保守",
+          "from": "2022-01",
           "to": "",
           "summary": "-",
-          "tasks": ["機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"],
+          "tasks": [
+            "バックエンドの開発・保守全般を担当"
+          ],
+          "skillGroups": [
+            {
+              "title": "Backend",
+              "skills": [
+                {
+                  "id": 1,
+                  "name": "Golang",
+                  "versions": [
+                    "v1.17"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "chi"
+                },
+                {
+                  "id": 3,
+                  "name": "wire"
+                },
+                {
+                  "id": 4,
+                  "name": "ent"
+                },
+                {
+                  "id": 5,
+                  "name": "gorm"
+                },
+                {
+                  "id": 6,
+                  "name": "go-swagger"
+                }
+              ]
+            },
+            {
+              "title": "Infra(AWS)",
+              "skills": [
+                {
+                  "id": 1,
+                  "name": "EC2"
+                },
+                {
+                  "id": 2,
+                  "name": "ECS"
+                },
+                {
+                  "id": 3,
+                  "name": "Fargate"
+                },
+                {
+                  "id": 4,
+                  "name": "S3"
+                },
+                {
+                  "id": 5,
+                  "name": "RDS(MySQL/Aurora)"
+                }
+              ]
+            },
+            {
+              "title": "Others",
+              "skills": [
+                {
+                  "id": 1,
+                  "name": "docker"
+                },
+                {
+                  "id": 2,
+                  "name": "docker-compose"
+                },
+                {
+                  "id": 3,
+                  "name": "Apiary"
+                },
+                {
+                  "id": 4,
+                  "name": "SendGrid"
+                },
+                {
+                  "id": 5,
+                  "name": "Sentry"
+                },
+                {
+                  "id": 6,
+                  "name": "Clean Architecture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "AdTech系企業にて２年３ヶ月就労",
+      "period": {
+        "from": "2019-10",
+        "to": "2021-12"
+      },
+      "careers": [
+        {
+          "id": 1,
+          "title": "Web広告出稿管理システム新規開発",
+          "from": "2019-10",
+          "to": "2021-12",
+          "summary": "-",
+          "tasks": [
+            "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"
+          ],
           "skillGroups": [
             {
               "title": "Frontend(SSR, SPA)",
@@ -26,7 +136,9 @@
                 {
                   "id": 2,
                   "name": "Vue.js",
-                  "versions": ["2系"]
+                  "versions": [
+                    "2系"
+                  ]
                 },
                 {
                   "id": 3,
@@ -52,7 +164,12 @@
                 {
                   "id": 1,
                   "name": "Golang",
-                  "versions": ["v1.13", "v1.14", "v1.15"]
+                  "versions": [
+                    "v1.13",
+                    "v1.14",
+                    "v1.15",
+                    "v1.16"
+                  ]
                 },
                 {
                   "id": 2,
@@ -105,7 +222,31 @@
                 },
                 {
                   "id": 8,
+                  "name": "Cloud Tasks"
+                },
+                {
+                  "id": 9,
+                  "name": "Cloud Scheduler"
+                },
+                {
+                  "id": 10,
+                  "name": "Memorystore"
+                },
+                {
+                  "id": 11,
+                  "name": "API Gateway"
+                },
+                {
+                  "id": 12,
                   "name": "Cloud Build"
+                },
+                {
+                  "id": 13,
+                  "name": "Cloud Deploy"
+                },
+                {
+                  "id": 14,
+                  "name": "Container Registry"
                 }
               ]
             },
@@ -118,11 +259,23 @@
                 },
                 {
                   "id": 2,
-                  "name": "Auth0"
+                  "name": "gRPC"
                 },
                 {
                   "id": 3,
+                  "name": "gRPC-Gateway"
+                },
+                {
+                  "id": 4,
+                  "name": "Auth0"
+                },
+                {
+                  "id": 5,
                   "name": "SendGrid"
+                },
+                {
+                  "id": 6,
+                  "name": "Terraform"
                 }
               ]
             }
@@ -131,7 +284,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 7,
       "title": "MedTech系企業にて４ヶ月就労",
       "period": {
         "from": "2019-06",
@@ -156,7 +309,9 @@
                 {
                   "id": 1,
                   "name": "Vue.js",
-                  "versions": ["2系"]
+                  "versions": [
+                    "2系"
+                  ]
                 }
               ]
             },
@@ -166,7 +321,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v1.8"]
+                  "versions": [
+                    "v1.8"
+                  ]
                 },
                 {
                   "id": 2,
@@ -175,12 +332,16 @@
                 {
                   "id": 3,
                   "name": "Scala",
-                  "versions": ["v2.11"]
+                  "versions": [
+                    "v2.11"
+                  ]
                 },
                 {
                   "id": 4,
                   "name": "play",
-                  "versions": ["v2.4"]
+                  "versions": [
+                    "v2.4"
+                  ]
                 },
                 {
                   "id": 5,
@@ -203,7 +364,9 @@
                 {
                   "id": 1,
                   "name": "Terraform",
-                  "versions": ["v0.11"]
+                  "versions": [
+                    "v0.11"
+                  ]
                 }
               ]
             }
@@ -212,7 +375,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "Google Cloud Platformパートナー会社にて１０ヶ月就労",
       "period": {
         "from": "2018-11",
@@ -235,7 +398,9 @@
                 {
                   "id": 1,
                   "name": "Vue.js",
-                  "versions": ["2系"]
+                  "versions": [
+                    "2系"
+                  ]
                 },
                 {
                   "id": 2,
@@ -261,7 +426,9 @@
                 {
                   "id": 1,
                   "name": "Golang",
-                  "versions": ["v1.11"]
+                  "versions": [
+                    "v1.11"
+                  ]
                 },
                 {
                   "id": 2,
@@ -320,7 +487,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v1.8"]
+                  "versions": [
+                    "v1.8"
+                  ]
                 }
               ]
             },
@@ -359,7 +528,9 @@
                 {
                   "id": 1,
                   "name": "Angular",
-                  "versions": ["v6"]
+                  "versions": [
+                    "v6"
+                  ]
                 },
                 {
                   "id": 2,
@@ -373,7 +544,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v1.8"]
+                  "versions": [
+                    "v1.8"
+                  ]
                 }
               ]
             },
@@ -407,7 +580,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "AdTech系システム会社にて、１年８ヶ月就労",
       "period": {
         "from": "2016-11",
@@ -433,7 +606,9 @@
                 {
                   "id": 1,
                   "name": "Golang",
-                  "versions": ["v1.9"]
+                  "versions": [
+                    "v1.9"
+                  ]
                 },
                 {
                   "id": 2,
@@ -510,7 +685,9 @@
                 {
                   "id": 1,
                   "name": "Golang",
-                  "versions": ["v1.7"]
+                  "versions": [
+                    "v1.7"
+                  ]
                 },
                 {
                   "id": 2,
@@ -585,7 +762,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "某グループ企業にて、１年１１ヶ月就労",
       "period": {
         "from": "2014-11",
@@ -598,7 +775,9 @@
           "from": "2016-04",
           "to": "2016-09",
           "summary": "ネット予約No.1サービス",
-          "tasks": ["機能拡張、不具合修正の案件に要件を詰める段階からリリースまで担当。"],
+          "tasks": [
+            "機能拡張、不具合修正の案件に要件を詰める段階からリリースまで担当。"
+          ],
           "skillGroups": [
             {
               "title": "Backend",
@@ -606,7 +785,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v6"]
+                  "versions": [
+                    "v6"
+                  ]
                 },
                 {
                   "id": 2,
@@ -646,7 +827,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v6"]
+                  "versions": [
+                    "v6"
+                  ]
                 },
                 {
                   "id": 2,
@@ -672,7 +855,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "某サービス企業にて、１年３ヶ月就労",
       "period": {
         "from": "2013-07",
@@ -701,7 +884,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v6"]
+                  "versions": [
+                    "v6"
+                  ]
                 },
                 {
                   "id": 2,
@@ -714,7 +899,9 @@
                 {
                   "id": 4,
                   "name": "Android",
-                  "versions": ["v4"]
+                  "versions": [
+                    "v4"
+                  ]
                 }
               ]
             }
@@ -742,7 +929,9 @@
                 {
                   "id": 1,
                   "name": "Java",
-                  "versions": ["v6"]
+                  "versions": [
+                    "v6"
+                  ]
                 },
                 {
                   "id": 2,
@@ -751,7 +940,9 @@
                 {
                   "id": 3,
                   "name": "Android",
-                  "versions": ["v4"]
+                  "versions": [
+                    "v4"
+                  ]
                 }
               ]
             }
@@ -760,7 +951,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 2,
       "title": "某動画配信サービスシステム会社にて、１年９ヶ月就労",
       "period": {
         "from": "2011-10",
@@ -789,7 +980,9 @@
                 {
                   "id": 1,
                   "name": "PHP",
-                  "versions": ["v5"]
+                  "versions": [
+                    "v5"
+                  ]
                 },
                 {
                   "id": 2,
@@ -802,7 +995,9 @@
                 {
                   "id": 4,
                   "name": "Python",
-                  "versions": ["v2系"]
+                  "versions": [
+                    "v2系"
+                  ]
                 }
               ]
             }
@@ -839,7 +1034,9 @@
                 {
                   "id": 1,
                   "name": "Android",
-                  "versions": ["v2.3"]
+                  "versions": [
+                    "v2.3"
+                  ]
                 }
               ]
             }
@@ -848,7 +1045,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 1,
       "title": "★約９年半のサマリ",
       "period": {
         "from": "2002-04",
