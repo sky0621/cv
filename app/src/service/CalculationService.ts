@@ -12,7 +12,7 @@ export class CalculationService {
       const d = parseInt(ymd[2], 10)
       const bDay = new Date(y, m - 1, d)
       const now = new Date()
-      const diff = differenceInCalendarYears(now, bDay)
+      const diff = differenceInCalendarYears(now, bDay) - 1
       return diff.toString(10)
     } catch (e) {
       console.error(e)
