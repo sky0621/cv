@@ -13,10 +13,12 @@
       BasicComponent,
     },
     setup() {
+      console.log('Babababababasetup')
       const basic = ref()
 
       onMounted(async () => {
         try {
+          console.log('nononononon')
           basic.value = await new BasicService().get(1)
         } catch (e) {
           console.error(e)

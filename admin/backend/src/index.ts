@@ -1,7 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import {PrismaClient} from '@prisma/client'
-import {BasicService} from './basic'
+import {BasicService} from './service/basic'
+import {IBasic} from "../../types/basic";
 
 const app = express()
 const prisma = new PrismaClient()
@@ -16,8 +17,11 @@ app.use(cors())
 
 app.get('/basic/:id', async (req, res) => {
     const {id}: { id?: string } = req.params
-    const basic = await basicService.findById(id)
+    const basic: IBasic | null = await basicService.findById(id)
     console.log(basic)
+    if (!basic) {
+        return res.json({})
+    }
     res.json(basic)
 })
 

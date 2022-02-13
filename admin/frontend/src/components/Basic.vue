@@ -37,14 +37,14 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
-  import { Basic } from '@/types/basic'
+  import { computed, defineComponent, PropType } from 'vue'
   import BasicNicknameComponent from '@/components/basic/Nickname.vue'
   import BasicBirthdayComponent from '@/components/basic/Birthday.vue'
   import BasicJobComponent from '@/components/basic/Job.vue'
   import BasicBelongToComponent from '@/components/basic/BelongTo.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
   import { BasicService } from '@/service/BasicService'
+  import { IBasic } from '../../../types/basic'
 
   export default defineComponent({
     name: 'BasicComponent',
@@ -57,13 +57,13 @@
     },
     props: {
       basic: {
-        type: Object as PropType<Basic>,
-        default: undefined,
+        type: Object as PropType<IBasic>,
+        default: null,
       },
     },
     setup(props) {
       const basic_ = computed(() => {
-        if (!props || !props.basic) return {}
+        if (!props || !props.basic) return null
         return props.basic
       })
 
