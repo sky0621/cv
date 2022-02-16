@@ -1,5 +1,5 @@
-import {PrismaClient} from "@prisma/client";
-import {IBasic} from "../../../types/basic";
+import {PrismaClient} from '@prisma/client'
+import {Basic} from '../types/basic'
 
 export class BasicService {
     client: PrismaClient
@@ -8,8 +8,8 @@ export class BasicService {
         this.client = client
     }
 
-    async findById(id: string): Promise<IBasic | null> {
-        const result = await this.client.basic.findUnique({
+    async findById(id: string): Promise<Basic | null> {
+        const basicModel = await this.client.basic.findUnique({
             where: {id: Number(id)},
             include: {
                 basic_output_relation: {include: {output: true}},
@@ -17,15 +17,18 @@ export class BasicService {
                 basic_qualification_relation: {include: {qualification: true}},
             },
         })
-        if (!result) {
+        if (!basicModel) {
             return null
         }
         return {
-            id: result.id,
-            nickname: result.nickname,
-            birthday: result.birthday,
-            job: result.job,
-            belongTo: result.belong_to
+            id: basicModel.id,
+            nickname: basicModel.nickname,
+            birthday: basicModel.birthday,
+            job: basicModel.job,
+            belongTo: basicModel.belong_to,
+            outputs: [],
+            likes: [],
+            qualifications: []
         }
     }
 
