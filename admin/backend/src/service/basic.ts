@@ -1,5 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-import {Basic} from '../types/basic'
+import {Basic, Output, Qualification} from '../types/basic'
 
 export class BasicService {
     client: PrismaClient
@@ -26,20 +26,32 @@ export class BasicService {
             birthday: basicModel.birthday,
             job: basicModel.job,
             belongTo: basicModel.belong_to,
-            outputs: [],
-            likes: [],
-            qualifications: []
+            outputs: basicModel.basic_output_relation.map(o => ({
+                id: o.output.id,
+                name: o.output.name,
+                url: o.output.url,
+                icon: o.output.icon
+            } as Output)),
+            likes: basicModel.basic_like_relation.map(l => l.like.name),
+            qualifications: basicModel.basic_qualification_relation.map(q => ({
+                id: q.qualification.id,
+                name: q.qualification.name,
+                org: q.qualification.org,
+                url: q.qualification.url,
+                date: q.qualification.date,
+                note: q.qualification.note
+            } as Qualification))
         }
     }
 
-    async updateById(id: string, nickname: string, birthday: string, job: string, belongTo: string): Promise<any> {
+    async updateById(basicModel: Basic): Promise<any> {
         return await this.client.basic.update({
-            where: {id: Number(id) || undefined},
+            where: {id: Number(basicModel.id) || undefined},
             data: {
-                nickname: nickname,
-                birthday: birthday,
-                job: job,
-                belong_to: belongTo,
+                nickname: basicModel.nickname,
+                birthday: basicModel.birthday,
+                job: basicModel.job,
+                belong_to: basicModel.belongTo,
             },
         })
     }

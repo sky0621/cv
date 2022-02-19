@@ -10,6 +10,7 @@ export type Basic = {
 }
 
 export type Output = {
+    id: number
     name: string
     url: string
     icon: string

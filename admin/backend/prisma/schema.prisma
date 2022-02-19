@@ -21,8 +21,8 @@ model basic {
 model basic_like_relation {
   basic_id Int
   like_id  Int
-  basic    basic @relation(fields: [basic_id], references: [id])
-  like     like  @relation(fields: [like_id], references: [id])
+  basic    basic @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  like     like  @relation(fields: [like_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 
   @@id([basic_id, like_id])
 }
@@ -30,8 +30,8 @@ model basic_like_relation {
 model basic_output_relation {
   basic_id  Int
   output_id Int
-  basic     basic  @relation(fields: [basic_id], references: [id])
-  output    output @relation(fields: [output_id], references: [id])
+  basic     basic  @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  output    output @relation(fields: [output_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 
   @@id([basic_id, output_id])
 }
@@ -39,8 +39,8 @@ model basic_output_relation {
 model basic_qualification_relation {
   basic_id         Int
   qualification_id Int
-  basic            basic         @relation(fields: [basic_id], references: [id])
-  qualification    qualification @relation(fields: [qualification_id], references: [id])
+  basic            basic         @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  qualification    qualification @relation(fields: [qualification_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 
   @@id([basic_id, qualification_id])
 }
