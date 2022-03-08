@@ -1,4 +1,9 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import {
+  createRouter,
+  createWebHistory,
+  RouteRecordRaw,
+  RouterOptions,
+} from 'vue-router'
 
 import BasicPage from '@/pages/Basic.vue'
 import NotePage from '@/pages/Note.vue'
@@ -28,7 +33,7 @@ const routes: Array<RouteRecordRaw> = [
   },
 ]
 
-const router = createRouter({
+const router = createRouter(<RouterOptions>{
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })

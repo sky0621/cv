@@ -1,3 +1,4 @@
+//import {PrismaClient} from '../generated/prisma-client-js'
 import {PrismaClient} from '@prisma/client'
 import {Basic, Output, Qualification} from '../types/basic'
 
@@ -11,11 +12,7 @@ export class BasicService {
     async findById(id: string): Promise<Basic | null> {
         const basicModel = await this.client.basic.findUnique({
             where: {id: Number(id)},
-            include: {
-                basic_output_relation: {include: {output: true}},
-                basic_like_relation: {include: {like: true}},
-                basic_qualification_relation: {include: {qualification: true}},
-            },
+            include: {likes: true, outputs: true, qualifications: true,},
         })
         if (!basicModel) {
             return null
@@ -26,33 +23,28 @@ export class BasicService {
             birthday: basicModel.birthday,
             job: basicModel.job,
             belongTo: basicModel.belong_to,
-            outputs: basicModel.basic_output_relation.map(o => ({
-                id: o.output.id,
-                name: o.output.name,
-                url: o.output.url,
-                icon: o.output.icon
+            likes: basicModel.likes.map(l => l.name),
+            outputs: basicModel.outputs.map(o => ({
+                id: o.id,
+                name: o.name,
+                url: o.url,
+                icon: o.icon
             } as Output)),
-            likes: basicModel.basic_like_relation.map(l => l.like.name),
-            qualifications: basicModel.basic_qualification_relation.map(q => ({
-                id: q.qualification.id,
-                name: q.qualification.name,
-                org: q.qualification.org,
-                url: q.qualification.url,
-                date: q.qualification.date,
-                note: q.qualification.note
+            qualifications: basicModel.qualifications.map(q => ({
+                id: q.id,
+                name: q.name,
+                org: q.org,
+                url: q.url,
+                date: q.date,
+                note: q.note
             } as Qualification))
         }
     }
 
     async updateById(basicModel: Basic): Promise<any> {
-        return await this.client.basic.update({
-            where: {id: Number(basicModel.id) || undefined},
-            data: {
-                nickname: basicModel.nickname,
-                birthday: basicModel.birthday,
-                job: basicModel.job,
-                belong_to: basicModel.belongTo,
-            },
-        })
+        const before = await this.findById(String(basicModel.id))
+
+        // FIXME: use transaction
+
     }
 }

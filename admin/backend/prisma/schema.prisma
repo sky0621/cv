@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  output   = "../src/generated/prisma-client-js"
 }
 
 datasource db {
@@ -7,64 +8,37 @@ datasource db {
   url      = "file:../db/admin.db"
 }
 
-model basic {
-  id                           Int                            @id @default(autoincrement())
-  nickname                     String
-  birthday                     String
-  job                          String
-  belong_to                    String
-  basic_like_relation          basic_like_relation[]
-  basic_output_relation        basic_output_relation[]
-  basic_qualification_relation basic_qualification_relation[]
+model Basic {
+  id             Int             @id @default(autoincrement())
+  nickname       String
+  birthday       String
+  job            String
+  belong_to      String
+  likes          Like[]
+  outputs        Output[]
+  qualifications Qualification[]
 }
 
-model basic_like_relation {
-  basic_id Int
-  like_id  Int
-  basic    basic @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  like     like  @relation(fields: [like_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-
-  @@id([basic_id, like_id])
+model Like {
+  id     Int     @id @default(autoincrement())
+  name   String
+  basics Basic[]
 }
 
-model basic_output_relation {
-  basic_id  Int
-  output_id Int
-  basic     basic  @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  output    output @relation(fields: [output_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-
-  @@id([basic_id, output_id])
+model Output {
+  id     Int     @id @default(autoincrement())
+  name   String
+  url    String?
+  icon   String?
+  basics Basic[]
 }
 
-model basic_qualification_relation {
-  basic_id         Int
-  qualification_id Int
-  basic            basic         @relation(fields: [basic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  qualification    qualification @relation(fields: [qualification_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-
-  @@id([basic_id, qualification_id])
-}
-
-model like {
-  id                  Int                   @id @default(autoincrement())
-  name                String
-  basic_like_relation basic_like_relation[]
-}
-
-model output {
-  id                    Int                     @id @default(autoincrement())
-  name                  String
-  url                   String?
-  icon                  String?
-  basic_output_relation basic_output_relation[]
-}
-
-model qualification {
-  id                           Int                            @id @default(autoincrement())
-  name                         String
-  org                          String?
-  url                          String?
-  date                         String?
-  note                         String?
-  basic_qualification_relation basic_qualification_relation[]
+model Qualification {
+  id     Int     @id @default(autoincrement())
+  name   String
+  org    String?
+  url    String?
+  date   String?
+  note   String?
+  basics Basic[]
 }

@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../db/admin.db"
+}
+
+model Basic {
+  id             Int             @id @default(autoincrement())
+  nickname       String
+  birthday       String
+  job            String
+  belong_to      String
+  likes          Like[]
+  outputs        Output[]
+  qualifications Qualification[]
+}
+
+model Like {
+  id     Int     @id @default(autoincrement())
+  name   String
+  basics Basic[]
+}
+
+model Output {
+  id     Int     @id @default(autoincrement())
+  name   String
+  url    String?
+  icon   String?
+  basics Basic[]
+}
+
+model Qualification {
+  id     Int     @id @default(autoincrement())
+  name   String
+  org    String?
+  url    String?
+  date   String?
+  note   String?
+  basics Basic[]
+}
