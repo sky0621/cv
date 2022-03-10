@@ -5,7 +5,7 @@ export type Basic = {
     job: string
     belongTo: string
     outputs: Output[]
-    likes: string[]
+    likes: Like[]
     qualifications: Qualification[]
 }
 
@@ -14,6 +14,11 @@ export type Output = {
     name: string
     url: string
     icon: string
+}
+
+export type Like = {
+    id: number
+    name: string
 }
 
 export type Qualification = {
