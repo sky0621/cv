@@ -16,21 +16,23 @@ app.use(cors())
 // ------------------------------------------------------------------
 
 app.get('/basic/:id', async (req, res) => {
-    const {id}: { id?: string } = req.params
-    const basic: Basic | null = await basicService.findById(id)
-    console.log(basic)
-    if (!basic) {
-        return res.json({})
+    try {
+        const {id}: { id?: string } = req.params
+        const basic: Basic | null = await basicService.findById(id)
+        if (!basic) {
+            return res.json({})
+        }
+        return res.status(200).json(basic)
+    } catch (e) {
+        return res.status(500).json({error: e})
     }
-    return res.json(basic)
 })
 
 app.put('/basic/:id', async (req, res) => {
-    const {id}: { id?: string } = req.params
-    console.log(req.params)
-    console.log(req.body)
-    const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
     try {
+        const {id}: { id?: string } = req.params
+        const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
+
         const outputModels: Output[] = outputs.map((o: {
             name: string;
             url: string;
@@ -71,9 +73,10 @@ app.put('/basic/:id', async (req, res) => {
         }
 
         const updatedBasic = basicService.updateById(basicModel)
-        res.json(updatedBasic)
-    } catch (error) {
-        res.json({error: `Basic with ID ${id} does not exist in the database`})
+        return res.status(200).json(updatedBasic)
+    } catch (e) {
+        console.log(e)
+        return res.status(500).json({error: e})
     }
 })
 
