@@ -72,7 +72,10 @@ app.put('/basic/:id', async (req, res) => {
             qualifications: qualificationModels,
         }
 
-        const updatedBasic = basicService.updateById(basicModel)
+        const updatedBasic = await basicService.update(basicModel)
+
+        console.log(updatedBasic)
+
         return res.status(200).json(updatedBasic)
     } catch (e) {
         console.log(e)

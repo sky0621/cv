@@ -16,9 +16,6 @@ $
 $ npm -v
 7.10.0
 $
-$ vue --version
-@vue/cli 4.5.12
-$
 $ yarn -v
 1.22.10
 ```

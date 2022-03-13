@@ -1,5 +1,6 @@
 import {PrismaClient} from '@prisma/client'
 import {Basic, Like, Output, Qualification} from '../types/basic'
+import * as fs from "fs";
 
 export class BasicService {
     client: PrismaClient
@@ -45,10 +46,10 @@ export class BasicService {
         }
     }
 
-    async updateById(basicModel: Basic): Promise<any> {
+    async update(basicModel: Basic): Promise<Basic | null> {
         const before = await this.findById(String(basicModel.id))
         if (!before) {
-            return
+            return null
         }
 
         await this.client.$transaction([
@@ -93,5 +94,14 @@ export class BasicService {
                 },
             }),
         ])
+
+        const after = await this.findById(String(basicModel.id))
+        if (!after) {
+            return null
+        }
+
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
+
+        return after
     }
 }
