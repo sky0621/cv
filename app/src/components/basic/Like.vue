@@ -1,19 +1,20 @@
 <template>
   <DataView :value="likes_" layout="grid">
     <template #grid="slot">
-      <Chip class="p-mr-3 p-mb-2" :label="slot.data" />
+      <Chip class="p-mr-3 p-mb-2" :label="slot.data.name" />
     </template>
   </DataView>
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
+  import { computed, defineComponent, PropType } from 'vue'
+  import { Like } from '@/types/basic'
 
   export default defineComponent({
     name: 'BasicLikeComponent',
     props: {
       likes: {
-        type: Array as PropType<string[]>,
+        type: Array as PropType<Like[]>,
         default: () => [],
       },
     },

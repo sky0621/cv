@@ -1,17 +1,24 @@
 export interface Basic {
+  id: number
   nickname: string
   birthday: string
   job: string
   belongTo: string
   outputs: Output[]
-  likes: string[]
+  likes: Like[]
   qualifications: Qualification[]
 }
 
 export interface Output {
+  id: number
   name: string
   url: string
   icon: string
+}
+
+export type Like = {
+  id: number
+  name: string
 }
 
 export interface Qualification {
