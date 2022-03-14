@@ -6,19 +6,19 @@
   "belongTo": "フリー（個人事業主）",
   "outputs": [
     {
-      "id": 61,
+      "id": 64,
       "name": "Qiita",
       "url": "https://qiita.com/sky0621",
       "icon": "pi pi-globe"
     },
     {
-      "id": 62,
+      "id": 65,
       "name": "GitHub",
       "url": "https://github.com/sky0621/",
       "icon": "pi pi-github"
     },
     {
-      "id": 63,
+      "id": 66,
       "name": "当サイト構築ソース",
       "url": "https://github.com/sky0621/cv",
       "icon": "pi pi-globe"
@@ -26,41 +26,41 @@
   ],
   "likes": [
     {
-      "id": 88,
+      "id": 96,
       "name": "Go"
     },
     {
-      "id": 89,
-      "name": "Vue.js"
+      "id": 97,
+      "name": "Vue.js/Nuxt.js"
     },
     {
-      "id": 90,
+      "id": 98,
       "name": "GraphQL"
     },
     {
-      "id": 91,
+      "id": 99,
       "name": "GCP"
     },
     {
-      "id": 92,
+      "id": 100,
       "name": "Scrum"
     },
     {
-      "id": 93,
+      "id": 101,
       "name": "Linux"
     },
     {
-      "id": 94,
+      "id": 102,
       "name": "EdTech"
     },
     {
-      "id": 95,
+      "id": 103,
       "name": "JetBrains"
     }
   ],
   "qualifications": [
     {
-      "id": 14,
+      "id": 15,
       "name": "Associate Cloud Engineer",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
