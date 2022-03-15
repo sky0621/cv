@@ -23,7 +23,7 @@ export class BasicService {
             nickname: basicModel.nickname,
             birthday: basicModel.birthday,
             job: basicModel.job,
-            belongTo: basicModel.belong_to,
+            belongTo: basicModel.belongTo,
 
             outputs: basicModel.outputs?.map(o => ({
                 id: o.id,
@@ -63,7 +63,7 @@ export class BasicService {
                     nickname: basicModel.nickname,
                     birthday: basicModel.birthday,
                     job: basicModel.job,
-                    belong_to: basicModel.belongTo,
+                    belongTo: basicModel.belongTo,
 
                     outputs: {
                         create:

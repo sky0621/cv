@@ -1,16 +1,46 @@
 import express from 'express'
 import cors from 'cors'
 import {PrismaClient} from '@prisma/client'
+import {UserService} from "./service/user";
 import {BasicService} from './service/basic'
+import {NoteService} from './service/note'
 import {Basic, Like, Output, Qualification} from "./types/basic";
+import {Note} from "./types/note"
+import {User} from "./types/user";
 
 const app = express()
-const prisma = new PrismaClient()
-const basicService = new BasicService(prisma)
-
 app.use(express.json())
 app.use(cors())
 
+const prisma = new PrismaClient()
+const userService = new UserService(prisma)
+const basicService = new BasicService(prisma)
+const noteService = new NoteService(prisma)
+
+// ------------------------------------------------------------------
+// User
+// ------------------------------------------------------------------
+
+app.post('/user', async (req, res) => {
+    try {
+        const {codeName} = req.body
+        const created = await userService.create(codeName)
+
+        return res.status(201).json(created)
+    } catch (e) {
+        return res.status(500).json({error: e})
+    }
+})
+
+app.get('/user/:codeName', async (req, res) => {
+    try {
+        const {codeName} = req.params
+        const user: User | null = await userService.findByCodeName(codeName)
+        return res.status(200).json(user)
+    } catch (e) {
+        return res.status(500).json({error: e})
+    }
+})
 // ------------------------------------------------------------------
 // Basic
 // ------------------------------------------------------------------
@@ -86,6 +116,19 @@ app.put('/basic/:id', async (req, res) => {
 // ------------------------------------------------------------------
 // Note
 // ------------------------------------------------------------------
+
+app.get('/note/:id', async (req, res) => {
+    try {
+        const {id}: { id?: string } = req.params
+        const note: Note | null = await noteService.findById(id)
+        if (!note) {
+            return res.json({})
+        }
+        return res.status(200).json(note)
+    } catch (e) {
+        return res.status(500).json({error: e})
+    }
+})
 
 // ------------------------------------------------------------------
 // Skill

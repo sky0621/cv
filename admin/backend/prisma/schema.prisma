@@ -7,37 +7,67 @@ datasource db {
   url      = "file:../db/admin.db"
 }
 
+model User {
+  id       Int    @id @default(autoincrement())
+  codeName String @unique
+  basic    Basic?
+  note     Note?
+}
+
 model Basic {
   id             Int             @id @default(autoincrement())
   nickname       String
   birthday       String
   job            String
-  belong_to      String
+  belongTo       String
+  userId         Int             @unique
+  user           User            @relation(fields: [userId], references: [id])
   likes          Like[]
   outputs        Output[]
   qualifications Qualification[]
 }
 
 model Like {
-  id     Int     @id @default(autoincrement())
-  name   String
-  basics Basic[]
+  id      Int    @id @default(autoincrement())
+  name    String
+  basicId Int
+  basic   Basic  @relation(fields: [basicId], references: [id])
 }
 
 model Output {
-  id     Int     @id @default(autoincrement())
-  name   String
-  url    String?
-  icon   String?
-  basics Basic[]
+  id      Int     @id @default(autoincrement())
+  name    String
+  url     String?
+  icon    String?
+  basicId Int
+  basic   Basic   @relation(fields: [basicId], references: [id])
 }
 
 model Qualification {
-  id     Int     @id @default(autoincrement())
-  name   String
-  org    String?
-  url    String?
-  date   String?
-  note   String?
-  basics Basic[]
+  id      Int     @id @default(autoincrement())
+  name    String
+  org     String?
+  url     String?
+  date    String?
+  note    String?
+  basicId Int
+  basic   Basic   @relation(fields: [basicId], references: [id])
+}
+
+model Note {
+  id             Int        @id @default(autoincrement())
+  label          String
+  showNow        Boolean    @default(false)
+  isMultipleLine Boolean    @default(false)
+  memo           String?
+  userId         Int        @unique
+  user           User       @relation(fields: [userId], references: [id])
+  items          NoteItem[]
+}
+
+model NoteItem {
+  id     Int    @id @default(autoincrement())
+  text   String
+  noteId Int
+  note   Note   @relation(fields: [noteId], references: [id])
 }
