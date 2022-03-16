@@ -1,5 +1,5 @@
 export type Basic = {
-    id: number
+    id?: number
     nickname: string
     birthday: string
     job: string
@@ -10,19 +10,19 @@ export type Basic = {
 }
 
 export type Output = {
-    id: number
+    id?: number
     name: string
     url: string
     icon: string
 }
 
 export type Like = {
-    id: number
+    id?: number
     name: string
 }
 
 export type Qualification = {
-    id: number
+    id?: number
     name: string
     org: string
     url: string
