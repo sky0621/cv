@@ -1,5 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-import {User} from "../types/user";
+import {UserModel} from "../types/user";
 
 export class UserService {
     client: PrismaClient
@@ -8,7 +8,7 @@ export class UserService {
         this.client = client
     }
 
-    async create(codeName: string): Promise<User | null> {
+    async create(codeName: string): Promise<UserModel> {
         const already = this.findByCodeName(codeName)
         if (already !== null) {
             return null
@@ -16,15 +16,8 @@ export class UserService {
         return this.client.user.create({data: {codeName: codeName}})
     }
 
-    async findByCodeName(codeName: string): Promise<User | null> {
-        const userModel = await this.client.user.findUnique({where: {codeName: codeName}})
-        if (!userModel) {
-            return null
-        }
-        return {
-            id: userModel.id,
-            codeName: userModel.codeName,
-        }
+    async findByCodeName(codeName: string): Promise<UserModel> {
+        return await this.client.user.findUnique({where: {codeName: codeName}})
     }
 }
 

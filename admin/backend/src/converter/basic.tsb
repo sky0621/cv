@@ -1,5 +1,9 @@
 import {Basic, Like, Output, Qualification} from "../types/basic";
 
+// ------------------------------------------------------------------
+// any -> type
+// ------------------------------------------------------------------
+
 export const toOutputs = (outputs: []) => {
     const outputModels: Output[] = outputs.map((o: {
         name: string;

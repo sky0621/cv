@@ -4,10 +4,9 @@ import {PrismaClient} from '@prisma/client'
 import {UserService} from "./service/user";
 import {BasicService} from './service/basic'
 import {NoteService} from './service/note'
-import {Basic} from "./types/basic";
 import {Note} from "./types/note"
 import {User} from "./types/user";
-import {toBasic} from "./converter/basic";
+import {BasicModel} from "./types/basic";
 
 const app = express()
 app.use(express.json())
@@ -64,9 +63,15 @@ app.post('/user/:codeName/basic', async (req, res) => {
         }
 
         const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
-        const basicModel = toBasic(nickname, birthday, job, belongTo, outputs, likes, qualifications)
-
-        const basic = await basicService.create(user.id, basicModel)
+        const basic = await basicService.create(user.id, {
+            nickname: nickname,
+            birthday: birthday,
+            job: job,
+            belongTo: belongTo,
+            outputs: outputs,
+            likes: likes,
+            qualifications: qualifications
+        } as BasicModel)
         if (!basic) {
             return res.status(400).json({})
         }
@@ -86,7 +91,7 @@ app.get('/user/:codeName/basic', async (req, res) => {
             return res.status(500).json({error: 'unknown'})
         }
 
-        const basic: Basic | null = await basicService.findByUserId(user.id)
+        const basic: BasicModel = await basicService.findByUserId(user.id)
         if (!basic) {
             return res.status(404).json({})
         }
@@ -97,7 +102,7 @@ app.get('/user/:codeName/basic', async (req, res) => {
 })
 
 // 基礎情報の更新
-app.put('/user/:codeName/basic', async (req, res) => {
+/*app.put('/user/:codeName/basic', async (req, res) => {
     try {
         const {codeName}: { codeName: string } = req.params
         const user = await userService.findByCodeName(codeName)
@@ -117,7 +122,7 @@ app.put('/user/:codeName/basic', async (req, res) => {
         console.log(e)
         return res.status(500).json({error: e})
     }
-})
+})*/
 
 // ------------------------------------------------------------------
 // Note

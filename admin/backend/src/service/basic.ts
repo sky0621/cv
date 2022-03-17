@@ -1,6 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-import {Basic, Like, Output, Qualification} from '../types/basic'
-import * as fs from "fs";
+import {BasicModel} from "../types/basic";
 
 export class BasicService {
     client: PrismaClient
@@ -9,48 +8,15 @@ export class BasicService {
         this.client = client
     }
 
-    async findByUserId(userId: number): Promise<Basic | null> {
-        const basicModel = await this.client.basic.findUnique({
+    async findByUserId(userId: number): Promise<BasicModel> {
+        return await this.client.basic.findUnique({
             where: {userId: userId},
             include: {likes: true, outputs: true, qualifications: true},
         })
-        if (!basicModel) {
-            return null
-        }
-
-        return {
-            id: basicModel.id,
-            nickname: basicModel.nickname,
-            birthday: basicModel.birthday,
-            job: basicModel.job,
-            belongTo: basicModel.belongTo,
-
-            outputs: basicModel.outputs?.map(o => ({
-                id: o.id,
-                name: o.name,
-                url: o.url,
-                icon: o.icon
-            } as Output)),
-            likes: basicModel.likes?.map(l => ({
-                id: l.id,
-                name: l.name,
-            } as Like)),
-            qualifications: basicModel.qualifications?.map(q => ({
-                id: q.id,
-                name: q.name,
-                org: q.org,
-                url: q.url,
-                date: q.date,
-                note: q.note
-            } as Qualification))
-        }
     }
 
-    async create(userId: number, basicModel: Basic): Promise<Basic | null> {
-        const user = this.findByUserId(userId)
-        if (user !== null) {
-            return null
-        }
+    async create(userId: number, basicModel: BasicModel): Promise<BasicModel> {
+        if (!basicModel) return null
         await this.client.$transaction([
             this.client.basic.create({
                 data: {
@@ -94,62 +60,62 @@ export class BasicService {
     }
 
     // FIXME:
-    async update(userId: number, basicModel: Basic): Promise<Basic | null> {
-        const before = await this.findByUserId(userId)
-        if (!before) {
-            return null
-        }
+    /*      async update(userId: number, basicModel: Basic): Promise<Basic | null> {
+              const before = await this.findByUserId(userId)
+              if (!before) {
+                  return null
+              }
 
-        await this.client.$transaction([
-            // this.client.output.deleteMany({where: {id: {in: before.outputs?.map(o => o.id)}}}),
-            // this.client.like.deleteMany({where: {id: {in: before.likes?.map(l => l.id)}}}),
-            // this.client.qualification.deleteMany({where: {id: {in: before.qualifications?.map(q => q.id)}}}),
+              await this.client.$transaction([
+                  // this.client.output.deleteMany({where: {id: {in: before.outputs?.map(o => o.id)}}}),
+                  // this.client.like.deleteMany({where: {id: {in: before.likes?.map(l => l.id)}}}),
+                  // this.client.qualification.deleteMany({where: {id: {in: before.qualifications?.map(q => q.id)}}}),
 
-            this.client.basic.update({
-                where: {id: Number(basicModel.id) || undefined},
-                data: {
-                    nickname: basicModel.nickname,
-                    birthday: basicModel.birthday,
-                    job: basicModel.job,
-                    belongTo: basicModel.belongTo,
+                  this.client.basic.update({
+                      where: {id: Number(basicModel.id) || undefined},
+                      data: {
+                          nickname: basicModel.nickname,
+                          birthday: basicModel.birthday,
+                          job: basicModel.job,
+                          belongTo: basicModel.belongTo,
 
-                    outputs: {
-                        create:
-                            basicModel.outputs?.map(o => ({
-                                name: o.name,
-                                url: o.url,
-                                icon: o.icon,
-                            })),
-                    },
+                          outputs: {
+                              create:
+                                  basicModel.outputs?.map(o => ({
+                                      name: o.name,
+                                      url: o.url,
+                                      icon: o.icon,
+                                  })),
+                          },
 
-                    likes: {
-                        create:
-                            basicModel.likes?.map(l => ({
-                                name: l.name,
-                            })),
-                    },
+                          likes: {
+                              create:
+                                  basicModel.likes?.map(l => ({
+                                      name: l.name,
+                                  })),
+                          },
 
-                    qualifications: {
-                        create:
-                            basicModel.qualifications?.map(q => ({
-                                name: q.name,
-                                org: q.org,
-                                url: q.url,
-                                date: q.date,
-                                note: q.note,
-                            }))
-                    }
-                },
-            }),
-        ])
+                          qualifications: {
+                              create:
+                                  basicModel.qualifications?.map(q => ({
+                                      name: q.name,
+                                      org: q.org,
+                                      url: q.url,
+                                      date: q.date,
+                                      note: q.note,
+                                  }))
+                          }
+                      },
+                  }),
+              ])
 
-        const after = await this.findByUserId(userId)
-        if (!after) {
-            return null
-        }
+              const after = await this.findByUserId(userId)
+              if (!after) {
+                  return null
+              }
 
-        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
+              fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
 
-        return after
-    }
+              return after
+          }*/
 }

@@ -1,9 +1,3 @@
-import {Basic} from "./basic";
-import {Note} from "./note";
+import {User} from "@prisma/client";
 
-export type User = {
-    id: number
-    codeName: string
-    basic?: Basic
-    note?: Note
-}
+export type UserModel = User | null
