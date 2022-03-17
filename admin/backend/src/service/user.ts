@@ -9,7 +9,7 @@ export class UserService {
     }
 
     async create(codeName: string): Promise<UserModel> {
-        const already = this.findByCodeName(codeName)
+        const already = await this.findByCodeName(codeName)
         if (already !== null) {
             return null
         }
@@ -17,7 +17,7 @@ export class UserService {
     }
 
     async findByCodeName(codeName: string): Promise<UserModel> {
-        return await this.client.user.findUnique({where: {codeName: codeName}})
+        return this.client.user.findUnique({where: {codeName: codeName}})
     }
 }
 

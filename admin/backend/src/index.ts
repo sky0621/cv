@@ -5,7 +5,6 @@ import {UserService} from "./service/user";
 import {BasicService} from './service/basic'
 import {NoteService} from './service/note'
 import {Note} from "./types/note"
-import {User} from "./types/user";
 import {BasicModel} from "./types/basic";
 
 const app = express()
@@ -39,7 +38,7 @@ app.post('/user', async (req, res) => {
 app.get('/user/:codeName', async (req, res) => {
     try {
         const {codeName} = req.params
-        const user: User | null = await userService.findByCodeName(codeName)
+        const user = await userService.findByCodeName(codeName)
         if (user === null) {
             return res.status(404).json({})
         }
