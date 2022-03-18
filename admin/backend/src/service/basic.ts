@@ -8,11 +8,10 @@ export class BasicService {
         this.client = client
     }
 
-    async create(userId: number, basicModel: BasicModel): Promise<BasicModel> {
+    async create(basicModel: BasicModel): Promise<BasicModel> {
         if (!basicModel) return null
-        console.log(basicModel.outputs)
 
-        const already = await this.findByUserId(userId)
+        const already = await this.findByUserId(basicModel.userId)
         if (already !== null) {
             return null
         }
@@ -24,15 +23,15 @@ export class BasicService {
                     birthday: basicModel.birthday,
                     job: basicModel.job,
                     belongTo: basicModel.belongTo,
-                    userId: userId,
+                    userId: basicModel.userId,
                     outputs: {create: basicModel.outputs},
-                    likes: {create: basicModel.likes?.map((l) => ({name: l.name as string}))},
+                    likes: {create: basicModel.likes},
                     qualifications: {create: basicModel.qualifications}
                 },
             })
         ])
 
-        return this.findByUserId(userId)
+        return this.findByUserId(basicModel.userId)
     }
 
     async findByUserId(userId: number): Promise<BasicModel> {

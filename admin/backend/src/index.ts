@@ -61,16 +61,8 @@ app.post('/user/:codeName/basic', async (req, res) => {
         }
 
         const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
-        const param = {
-            nickname: nickname,
-            birthday: birthday,
-            job: job,
-            belongTo: belongTo,
-            outputs: outputs,
-            likes: likes,
-            qualifications: qualifications
-        } as BasicModel
-        const basic = await basicService.create(user.id, param)
+        const param = {nickname, birthday, job, belongTo, userId: user.id, outputs, likes, qualifications} as BasicModel
+        const basic = await basicService.create(param)
         if (!basic) {
             return res.status(400).json({})
         }
