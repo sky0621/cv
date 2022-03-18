@@ -93,27 +93,26 @@ app.get('/user/:codeName/basic', async (req, res) => {
 })
 
 // 基礎情報の更新
-/*app.put('/user/:codeName/basic', async (req, res) => {
+app.put('/user/:codeName/basic', async (req, res) => {
     try {
         const {codeName}: { codeName: string } = req.params
         const user = await userService.findByCodeName(codeName)
-        if (!user) {
-            return res.status(500).json({error: 'unknown'})
+        if (user === null) {
+            return res.status(400).json({})
         }
 
         const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
-        const basicModel = toBasic(nickname, birthday, job, belongTo, outputs, likes, qualifications)
-
-        const basic = await basicService.update(user.id, basicModel)
+        const param = {nickname, birthday, job, belongTo, userId: user.id, outputs, likes, qualifications} as BasicModel
+        const basic = await basicService.update(param)
         if (!basic) {
-            return res.status(500).json({error: 'unknown'})
+            return res.status(400).json({})
         }
         return res.status(200).json(basic)
     } catch (e) {
         console.log(e)
         return res.status(500).json({error: e})
     }
-})*/
+})
 
 // ------------------------------------------------------------------
 // Note

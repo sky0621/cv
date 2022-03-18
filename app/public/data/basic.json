@@ -1,71 +1,84 @@
 {
-  "id": 1,
-  "nickname": "sky0621",
+  "id": 6,
+  "nickname": "sky0621b",
   "birthday": "1978-06-01",
   "job": "ソフトウェア開発者",
   "belongTo": "フリー（個人事業主）",
-  "outputs": [
-    {
-      "id": 64,
-      "name": "Qiita",
-      "url": "https://qiita.com/sky0621",
-      "icon": "pi pi-globe"
-    },
-    {
-      "id": 65,
-      "name": "GitHub",
-      "url": "https://github.com/sky0621/",
-      "icon": "pi pi-github"
-    },
-    {
-      "id": 66,
-      "name": "当サイト構築ソース",
-      "url": "https://github.com/sky0621/cv",
-      "icon": "pi pi-globe"
-    }
-  ],
+  "userId": 1,
   "likes": [
     {
-      "id": 96,
-      "name": "Go"
+      "id": 41,
+      "name": "Gob",
+      "basicId": 6
     },
     {
-      "id": 97,
-      "name": "Vue.js/Nuxt.js"
+      "id": 42,
+      "name": "Vue.js/Nuxt.js",
+      "basicId": 6
     },
     {
-      "id": 98,
-      "name": "GraphQL"
+      "id": 43,
+      "name": "GraphQL",
+      "basicId": 6
     },
     {
-      "id": 99,
-      "name": "GCP"
+      "id": 44,
+      "name": "GCP",
+      "basicId": 6
     },
     {
-      "id": 100,
-      "name": "Scrum"
+      "id": 45,
+      "name": "Scrum",
+      "basicId": 6
     },
     {
-      "id": 101,
-      "name": "Linux"
+      "id": 46,
+      "name": "Linux",
+      "basicId": 6
     },
     {
-      "id": 102,
-      "name": "EdTech"
+      "id": 47,
+      "name": "EdTech",
+      "basicId": 6
     },
     {
-      "id": 103,
-      "name": "JetBrains"
+      "id": 48,
+      "name": "JetBrains",
+      "basicId": 6
+    }
+  ],
+  "outputs": [
+    {
+      "id": 19,
+      "name": "Qiitab",
+      "url": "https://qiita.com/sky0621",
+      "icon": "pi pi-globe",
+      "basicId": 6
+    },
+    {
+      "id": 20,
+      "name": "GitHub",
+      "url": "https://github.com/sky0621/",
+      "icon": "pi pi-github",
+      "basicId": 6
+    },
+    {
+      "id": 21,
+      "name": "当サイト構築ソース",
+      "url": "https://github.com/sky0621/cv",
+      "icon": "pi pi-globe",
+      "basicId": 6
     }
   ],
   "qualifications": [
     {
-      "id": 15,
-      "name": "Associate Cloud Engineer",
+      "id": 7,
+      "name": "Associate Cloud Engineerb",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
       "date": "2018",
-      "note": "有効期限切れ・・・。"
+      "note": "有効期限切れ・・・。",
+      "basicId": 6
     }
   ]
 }

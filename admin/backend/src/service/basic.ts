@@ -1,5 +1,6 @@
 import {PrismaClient} from '@prisma/client'
 import {BasicModel} from "../types";
+import * as fs from "fs";
 
 export class BasicService {
     client: PrismaClient
@@ -31,6 +32,8 @@ export class BasicService {
             })
         ])
 
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basicModel, null, 2))
+
         return this.findByUserId(basicModel.userId)
     }
 
@@ -41,63 +44,41 @@ export class BasicService {
         })
     }
 
-    // FIXME:
-    /*      async update(userId: number, basicModel: Basic): Promise<Basic | null> {
-              const before = await this.findByUserId(userId)
-              if (!before) {
-                  return null
-              }
+    async update(basicModel: BasicModel): Promise<BasicModel | null> {
+        if (!basicModel) return null
 
-              await this.client.$transaction([
-                  // this.client.output.deleteMany({where: {id: {in: before.outputs?.map(o => o.id)}}}),
-                  // this.client.like.deleteMany({where: {id: {in: before.likes?.map(l => l.id)}}}),
-                  // this.client.qualification.deleteMany({where: {id: {in: before.qualifications?.map(q => q.id)}}}),
+        const before = await this.findByUserId(basicModel.userId)
+        if (before === null) {
+            return null
+        }
 
-                  this.client.basic.update({
-                      where: {id: Number(basicModel.id) || undefined},
-                      data: {
-                          nickname: basicModel.nickname,
-                          birthday: basicModel.birthday,
-                          job: basicModel.job,
-                          belongTo: basicModel.belongTo,
+        await this.client.$transaction([
+            this.client.output.deleteMany({where: {id: {in: before.outputs?.map(o => o.id)}}}),
+            this.client.like.deleteMany({where: {id: {in: before.likes?.map(l => l.id)}}}),
+            this.client.qualification.deleteMany({where: {id: {in: before.qualifications?.map(q => q.id)}}}),
 
-                          outputs: {
-                              create:
-                                  basicModel.outputs?.map(o => ({
-                                      name: o.name,
-                                      url: o.url,
-                                      icon: o.icon,
-                                  })),
-                          },
+            this.client.basic.update({
+                where: {id: Number(before.id) || undefined},
+                data: {
+                    nickname: basicModel.nickname,
+                    birthday: basicModel.birthday,
+                    job: basicModel.job,
+                    belongTo: basicModel.belongTo,
+                    userId: basicModel.userId,
+                    outputs: {create: basicModel.outputs},
+                    likes: {create: basicModel.likes},
+                    qualifications: {create: basicModel.qualifications}
+                },
+            }),
+        ])
 
-                          likes: {
-                              create:
-                                  basicModel.likes?.map(l => ({
-                                      name: l.name,
-                                  })),
-                          },
+        const after = await this.findByUserId(basicModel.userId)
+        if (!after) {
+            return null
+        }
 
-                          qualifications: {
-                              create:
-                                  basicModel.qualifications?.map(q => ({
-                                      name: q.name,
-                                      org: q.org,
-                                      url: q.url,
-                                      date: q.date,
-                                      note: q.note,
-                                  }))
-                          }
-                      },
-                  }),
-              ])
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
 
-              const after = await this.findByUserId(userId)
-              if (!after) {
-                  return null
-              }
-
-              fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
-
-              return after
-          }*/
+        return after
+    }
 }
