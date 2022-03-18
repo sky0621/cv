@@ -72,13 +72,8 @@ export class BasicService {
             }),
         ])
 
-        const after = await this.findByUserId(basicModel.userId)
-        if (!after) {
-            return null
-        }
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basicModel, null, 2))
 
-        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(after, null, 2))
-
-        return after
+        return this.findByUserId(basicModel.userId)
     }
 }
