@@ -1,5 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-import {BasicModel} from "../types/basic";
+import {BasicModel} from "../types";
 
 export class BasicService {
     client: PrismaClient
@@ -8,15 +8,15 @@ export class BasicService {
         this.client = client
     }
 
-    async findByUserId(userId: number): Promise<BasicModel> {
-        return await this.client.basic.findUnique({
-            where: {userId: userId},
-            include: {likes: true, outputs: true, qualifications: true},
-        })
-    }
-
     async create(userId: number, basicModel: BasicModel): Promise<BasicModel> {
         if (!basicModel) return null
+        console.log(basicModel.outputs)
+
+        const already = await this.findByUserId(userId)
+        if (already !== null) {
+            return null
+        }
+
         await this.client.$transaction([
             this.client.basic.create({
                 data: {
@@ -25,38 +25,21 @@ export class BasicService {
                     job: basicModel.job,
                     belongTo: basicModel.belongTo,
                     userId: userId,
-
-                    outputs: {
-                        create:
-                            basicModel.outputs?.map(o => ({
-                                name: o.name,
-                                url: o.url,
-                                icon: o.icon,
-                            })),
-                    },
-
-                    likes: {
-                        create:
-                            basicModel.likes?.map(l => ({
-                                name: l.name,
-                            })),
-                    },
-
-                    qualifications: {
-                        create:
-                            basicModel.qualifications?.map(q => ({
-                                name: q.name,
-                                org: q.org,
-                                url: q.url,
-                                date: q.date,
-                                note: q.note,
-                            }))
-                    }
+                    outputs: {create: basicModel.outputs},
+                    likes: {create: basicModel.likes?.map((l) => ({name: l.name as string}))},
+                    qualifications: {create: basicModel.qualifications}
                 },
             })
         ])
 
         return this.findByUserId(userId)
+    }
+
+    async findByUserId(userId: number): Promise<BasicModel> {
+        return this.client.basic.findUnique({
+            where: {userId: userId},
+            include: {likes: true, outputs: true, qualifications: true},
+        })
     }
 
     // FIXME:

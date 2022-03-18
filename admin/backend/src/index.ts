@@ -4,8 +4,7 @@ import {PrismaClient} from '@prisma/client'
 import {UserService} from "./service/user";
 import {BasicService} from './service/basic'
 import {NoteService} from './service/note'
-import {Note} from "./types/note"
-import {BasicModel} from "./types/basic";
+import {BasicModel} from "./types";
 
 const app = express()
 app.use(express.json())
@@ -24,11 +23,11 @@ const noteService = new NoteService(prisma)
 app.post('/user', async (req, res) => {
     try {
         const {codeName} = req.body
-        const user = await userService.create(codeName)
-        if (user === null) {
+        const created = await userService.create(codeName)
+        if (created === null) {
             return res.status(400).json({})
         }
-        return res.status(201).json(user)
+        return res.status(201).json(created)
     } catch (e) {
         return res.status(500).json({error: e})
     }
@@ -57,12 +56,12 @@ app.post('/user/:codeName/basic', async (req, res) => {
     try {
         const {codeName}: { codeName: string } = req.params
         const user = await userService.findByCodeName(codeName)
-        if (!user) {
+        if (user === null) {
             return res.status(400).json({})
         }
 
         const {nickname, birthday, job, belongTo, outputs, likes, qualifications} = req.body
-        const basic = await basicService.create(user.id, {
+        const param = {
             nickname: nickname,
             birthday: birthday,
             job: job,
@@ -70,7 +69,8 @@ app.post('/user/:codeName/basic', async (req, res) => {
             outputs: outputs,
             likes: likes,
             qualifications: qualifications
-        } as BasicModel)
+        } as BasicModel
+        const basic = await basicService.create(user.id, param)
         if (!basic) {
             return res.status(400).json({})
         }
@@ -127,7 +127,7 @@ app.get('/user/:codeName/basic', async (req, res) => {
 // Note
 // ------------------------------------------------------------------
 
-app.get('/note/:id', async (req, res) => {
+/*app.get('/note/:id', async (req, res) => {
     try {
         const {id}: { id?: string } = req.params
         const note: Note | null = await noteService.findById(id)
@@ -138,7 +138,7 @@ app.get('/note/:id', async (req, res) => {
     } catch (e) {
         return res.status(500).json({error: e})
     }
-})
+})*/
 
 // ------------------------------------------------------------------
 // Skill

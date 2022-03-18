@@ -1,5 +1,5 @@
 import {PrismaClient} from '@prisma/client'
-import {Note} from '../types/note'
+import {NoteModel} from "../types";
 
 export class NoteService {
     client: PrismaClient
@@ -8,7 +8,7 @@ export class NoteService {
         this.client = client
     }
 
-    async findById(id: string): Promise<Note | null> {
+    async findById(id: string): Promise<NoteModel> {
         const noteModel = await this.client.note.findUnique({
             where: {id: Number(id)},
             include: {items: true}
@@ -17,6 +17,6 @@ export class NoteService {
             return null
         }
 
-        return {} as Note
+        return {} as NoteModel
     }
 }
