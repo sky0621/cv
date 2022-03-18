@@ -1,84 +1,59 @@
 {
-  "id": 6,
-  "nickname": "sky0621b",
+  "nickname": "sky0621",
   "birthday": "1978-06-01",
   "job": "ソフトウェア開発者",
   "belongTo": "フリー（個人事業主）",
   "userId": 1,
-  "likes": [
-    {
-      "id": 41,
-      "name": "Gob",
-      "basicId": 6
-    },
-    {
-      "id": 42,
-      "name": "Vue.js/Nuxt.js",
-      "basicId": 6
-    },
-    {
-      "id": 43,
-      "name": "GraphQL",
-      "basicId": 6
-    },
-    {
-      "id": 44,
-      "name": "GCP",
-      "basicId": 6
-    },
-    {
-      "id": 45,
-      "name": "Scrum",
-      "basicId": 6
-    },
-    {
-      "id": 46,
-      "name": "Linux",
-      "basicId": 6
-    },
-    {
-      "id": 47,
-      "name": "EdTech",
-      "basicId": 6
-    },
-    {
-      "id": 48,
-      "name": "JetBrains",
-      "basicId": 6
-    }
-  ],
   "outputs": [
     {
-      "id": 19,
-      "name": "Qiitab",
+      "name": "Qiita",
       "url": "https://qiita.com/sky0621",
-      "icon": "pi pi-globe",
-      "basicId": 6
+      "icon": "pi pi-globe"
     },
     {
-      "id": 20,
       "name": "GitHub",
       "url": "https://github.com/sky0621/",
-      "icon": "pi pi-github",
-      "basicId": 6
+      "icon": "pi pi-github"
     },
     {
-      "id": 21,
       "name": "当サイト構築ソース",
       "url": "https://github.com/sky0621/cv",
-      "icon": "pi pi-globe",
-      "basicId": 6
+      "icon": "pi pi-globe"
+    }
+  ],
+  "likes": [
+    {
+      "name": "Go"
+    },
+    {
+      "name": "Vue.js/Nuxt.js"
+    },
+    {
+      "name": "GraphQL"
+    },
+    {
+      "name": "GCP"
+    },
+    {
+      "name": "Scrum"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "EdTech"
+    },
+    {
+      "name": "JetBrains"
     }
   ],
   "qualifications": [
     {
-      "id": 7,
-      "name": "Associate Cloud Engineerb",
+      "name": "Associate Cloud Engineer",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
       "date": "2018",
-      "note": "有効期限切れ・・・。",
-      "basicId": 6
+      "note": "有効期限切れ・・・。"
     }
   ]
 }
