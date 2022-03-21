@@ -1,5 +1,6 @@
 import {PrismaClient} from '@prisma/client'
 import {NoteModel} from "../types";
+import fs from "fs";
 
 export class NoteService {
     client: PrismaClient
@@ -8,15 +9,39 @@ export class NoteService {
         this.client = client
     }
 
-    async findById(id: string): Promise<NoteModel> {
-        const noteModel = await this.client.note.findUnique({
-            where: {id: Number(id)},
-            include: {items: true}
-        })
-        if (!noteModel) {
+    async create(noteModel: NoteModel): Promise<NoteModel> {
+        if (!noteModel) return null
+
+        const already = await this.findByUserId(noteModel.userId)
+        if (already.filter((n) => n && n.label === noteModel.label).length > 0) {
             return null
         }
 
-        return {} as NoteModel
+        await this.client.$transaction([
+            this.client.note.create({
+                data: {
+                    label: noteModel.label,
+                    showNow: noteModel.showNow,
+                    isMultipleLine: noteModel.isMultipleLine,
+                    memo: noteModel.memo,
+                    order: noteModel.order,
+                    userId: noteModel.userId,
+                    items: {create: noteModel.items},
+                },
+            })
+        ])
+
+        const note = await this.findByUserId(noteModel.userId)
+        fs.writeFileSync('../../app/public/data/note.json', JSON.stringify(note, null, 2))
+
+        return noteModel
     }
+
+    async findByUserId(userId: number): Promise<NoteModel[]> {
+        return this.client.note.findMany({
+            where: {userId: userId},
+            include: {items: true},
+        })
+    }
+
 }

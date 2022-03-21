@@ -11,7 +11,7 @@ model User {
   id       Int    @id @default(autoincrement())
   codeName String @unique
   basic    Basic?
-  note     Note?
+  note     Note[]
 }
 
 model Basic {
@@ -60,7 +60,8 @@ model Note {
   showNow        Boolean    @default(false)
   isMultipleLine Boolean    @default(false)
   memo           String?
-  userId         Int        @unique
+  order          Int        @unique
+  userId         Int
   user           User       @relation(fields: [userId], references: [id])
   items          NoteItem[]
 }
@@ -68,6 +69,7 @@ model Note {
 model NoteItem {
   id     Int    @id @default(autoincrement())
   text   String
+  order  Int
   noteId Int
   note   Note   @relation(fields: [noteId], references: [id])
 }
