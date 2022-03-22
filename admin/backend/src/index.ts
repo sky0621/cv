@@ -154,6 +154,28 @@ app.get('/user/:codeName/note', async (req, res) => {
     }
 })
 
+app.put('/user/:codeName/note/:id', async (req, res) => {
+    try {
+        const {codeName}: { codeName: string } = req.params
+        const user = await userService.findByCodeName(codeName)
+        if (user === null) {
+            return res.status(400).json({})
+        }
+
+        const {id}: { id: string } = req.params
+        const {label, showNow, isMultipleLine, memo, order, items} = req.body
+        const param = {id: Number(id), label, showNow, isMultipleLine, memo, order, userId: user.id, items} as NoteModel
+        const note = await noteService.update(param)
+        if (!note) {
+            return res.status(400).json({})
+        }
+        return res.status(200).json(note)
+    } catch (e) {
+        console.log(e)
+        return res.status(500).json({error: e})
+    }
+})
+
 // ------------------------------------------------------------------
 // Skill
 // ------------------------------------------------------------------
