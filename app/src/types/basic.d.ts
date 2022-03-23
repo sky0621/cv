@@ -1,4 +1,4 @@
-export interface Basic {
+export type Basic = {
   id: number
   nickname: string
   birthday: string
@@ -9,7 +9,7 @@ export interface Basic {
   qualifications: Qualification[]
 }
 
-export interface Output {
+export type Output = {
   id: number
   name: string
   url: string
@@ -21,7 +21,7 @@ export type Like = {
   name: string
 }
 
-export interface Qualification {
+export type Qualification = {
   id: number
   name: string
   org: string

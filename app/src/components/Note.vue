@@ -1,98 +1,57 @@
 <template>
   <div class="p-text-left">
-    <div class="p-mb-4">
-      <div class="p-text-bold p-mb-2">■サマリ</div>
-      <div class="p-d-flex p-flex-column">
-        <Textarea
-          v-model="summary"
-          class="p-flex"
-          :auto-resize="true"
-          disabled
-        />
-      </div>
-    </div>
-
-    <div class="p-mb-5">
-      <div class="p-text-bold p-mb-3">■就労状況 ({{ now() }} 現在)</div>
-      <div class="p-d-flex p-flex-column p-ml-4">
-        {{ note_?.status }}
-      </div>
-    </div>
-
-    <div class="p-mb-4">
-      <div class="p-text-bold">■就労条件</div>
-      <div class="p-d-flex p-flex-column">
-        <ul>
-          <template v-for="(c, cIdx) in note_?.conditions" :key="cIdx">
-            <li>{{ c }}</li>
+    <template v-for="n in notes_" :key="n.id">
+      <div class="p-mb-5">
+        <div class="p-text-bold p-mb-2">
+          ■{{ n.label }}<span v-if="n.showNow">（{{ now() }} 現在）</span>
+        </div>
+        <div class="p-d-flex p-flex-column">
+          <div v-if="n.memo !== ''" class="p-ml-4">{{ n.memo }}</div>
+          <template v-if="n.isMultipleLine">
+            <template v-for="i in n.items" :key="i.id">
+              <Textarea
+                :value="i.text"
+                class="p-flex"
+                :auto-resize="true"
+                disabled
+              />
+            </template>
           </template>
-        </ul>
-      </div>
-    </div>
-
-    <div class="p-mb-4">
-      <div class="p-text-bold">■理想とする現場</div>
-      <div class="p-d-flex p-flex-column">
-        <ul>
-          <template v-for="(w, wIdx) in note_?.wishes" :key="wIdx">
-            <li>{{ w }}</li>
+          <template v-else>
+            <ul>
+              <template v-for="i in n.items" :key="i.id">
+                <li>{{ i.text }}</li>
+              </template>
+            </ul>
           </template>
-        </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="p-mb-4">
-      <div class="p-text-bold p-mb-3">■家庭学習の状況 ({{ now() }} 現在)</div>
-      <div class="p-d-flex p-flex-column">
-        <div class="p-ml-4">{{ note_?.studying?.summary }}</div>
-        <ul>
-          <template v-for="(s, sIdx) in note_?.studying?.items" :key="sIdx">
-            <li class="p-mb-1">{{ s }}</li>
-          </template>
-        </ul>
-      </div>
-    </div>
-
-    <div class="p-mb-4">
-      <div class="p-text-bold">■未経験だが興味があるもの</div>
-      <div class="p-d-flex p-flex-column">
-        <ul>
-          <template v-for="(i, iIdx) in note_?.interest" :key="iIdx">
-            <li>{{ i }}</li>
-          </template>
-        </ul>
-      </div>
-    </div>
+    </template>
   </div>
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
+  import { computed, defineComponent, PropType } from 'vue'
   import { Note } from '@/types/note'
   import { CalculationService } from '@/service/CalculationService'
 
   export default defineComponent({
     name: 'NoteComponent',
     props: {
-      note: {
-        type: Object as PropType<Note>,
+      notes: {
+        type: Object as PropType<Note[]>,
         default: undefined,
       },
     },
     setup(props) {
-      const note_ = computed(() => {
-        if (!props || !props.note) return undefined
-        return props.note
-      })
-
-      const summary = computed(() => {
-        if (!props || !props.note) return undefined
-        return props.note.summary
+      const notes_ = computed(() => {
+        if (!props || !props.notes) return undefined
+        return props.notes
       })
 
       const now = new CalculationService().now
 
-      return { note_, summary, now }
+      return { notes_, now }
     },
   })
 </script>

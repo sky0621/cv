@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 13,
     "label": "サマリ",
     "showNow": false,
     "isMultipleLine": true,
@@ -9,15 +9,15 @@
     "userId": 1,
     "items": [
       {
-        "id": 16,
+        "id": 32,
         "text": "2002年より、主にJavaで構築するWebシステム（BtoBが多め）開発に従事。\n\n2016年より、Golang及びクラウド(AWSないしGCP)を使ったシステム開発に従事。2018年以降は左記に加えフロントエンドにVue.js/Nuxt.jsを使うWebシステム開発が中心。\n\n2019年以降の開発ではGraphQLを使用。\n\nシステムのジャンルは、さまざま。\n\n（人材紹介系、決済代行、検索ポータル、貿易保険、営業支援、不動産ポータル、会員管理、ネットワーク管理、ネット広告、等々）\n\n工程としては、要件定義からリリース、保守・運用まで経験済み。\n\n過去、Androidアプリ（v2.3及びv4の頃）開発、PHP（v5）でのWebアプリ開発に2年ほど関わる。\n\nまた、Javaで「教育」系Webシステム開発時に１年ほどScrumを経験。",
         "order": 1,
-        "noteId": 1
+        "noteId": 13
       }
     ]
   },
   {
-    "id": 2,
+    "id": 14,
     "label": "就労状況",
     "showNow": true,
     "isMultipleLine": false,
@@ -26,15 +26,15 @@
     "userId": 1,
     "items": [
       {
-        "id": 2,
+        "id": 33,
         "text": "就労中。 フリーとして参画できる案件であれば内容次第で話を聞きたい。",
         "order": 1,
-        "noteId": 2
+        "noteId": 14
       }
     ]
   },
   {
-    "id": 3,
+    "id": 15,
     "label": "就労条件",
     "showNow": false,
     "isMultipleLine": false,
@@ -43,57 +43,57 @@
     "userId": 1,
     "items": [
       {
-        "id": 3,
+        "id": 34,
         "text": "【必須】新規開発、ないし、ローンチから半年以内の案件",
         "order": 1,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 4,
+        "id": 35,
         "text": "【必須】フロントエンド、バックエンド、インフラ各要素万遍なく関われる案件",
         "order": 2,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 5,
+        "id": 36,
         "text": "【必須】フロントエンドは（未経験可で）React、または（経験あり前提で）Vue.js",
         "order": 3,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 6,
+        "id": 37,
         "text": "【必須】バックエンドは Golang か Java、Kotlin、Scala等のJVM系言語、または（未経験可で）Rust",
         "order": 4,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 7,
+        "id": 38,
         "text": "【必須】インフラは AWS または GCP",
         "order": 5,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 8,
+        "id": 39,
         "text": "【尚可】GraphQLを使っている",
         "order": 6,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 9,
+        "id": 40,
         "text": "【尚可】Scrum開発を行っている",
         "order": 7,
-        "noteId": 3
+        "noteId": 15
       },
       {
-        "id": 10,
+        "id": 41,
         "text": "【尚可】リモートワーク可の案件",
         "order": 8,
-        "noteId": 3
+        "noteId": 15
       }
     ]
   },
   {
-    "id": 4,
+    "id": 16,
     "label": "理想とする現場",
     "showNow": false,
     "isMultipleLine": false,
@@ -102,27 +102,27 @@
     "userId": 1,
     "items": [
       {
-        "id": 11,
+        "id": 42,
         "text": "プロダクトを磨き込む意識がある。",
         "order": 1,
-        "noteId": 4
+        "noteId": 16
       },
       {
-        "id": 12,
+        "id": 43,
         "text": "新しい技術にチャレンジする。",
         "order": 2,
-        "noteId": 4
+        "noteId": 16
       },
       {
-        "id": 13,
+        "id": 44,
         "text": "負債と向き合い、改善を求める。",
         "order": 3,
-        "noteId": 4
+        "noteId": 16
       }
     ]
   },
   {
-    "id": 5,
+    "id": 17,
     "label": "家庭学習の状況",
     "showNow": true,
     "isMultipleLine": false,
@@ -131,27 +131,27 @@
     "userId": 1,
     "items": [
       {
-        "id": 14,
+        "id": 45,
         "text": "React",
         "order": 1,
-        "noteId": 5
+        "noteId": 17
       }
     ]
   },
   {
-    "id": 6,
+    "id": 18,
     "label": "未経験だが興味があるもの",
-    "showNow": true,
+    "showNow": false,
     "isMultipleLine": false,
     "memo": "",
     "order": 6,
     "userId": 1,
     "items": [
       {
-        "id": 15,
+        "id": 47,
         "text": "IoT",
         "order": 1,
-        "noteId": 6
+        "noteId": 18
       }
     ]
   }

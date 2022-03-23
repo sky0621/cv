@@ -1,5 +1,5 @@
 <template>
-  <NoteComponent :note="note" />
+  <NoteComponent :notes="notes" />
 </template>
 
 <script lang="ts">
@@ -13,17 +13,17 @@
       NoteComponent,
     },
     setup() {
-      const note = ref()
+      const notes = ref()
 
       onMounted(async () => {
         try {
-          note.value = await new NoteService().getNote()
+          notes.value = await new NoteService().getNotes()
         } catch (e) {
           console.error(e)
         }
       })
 
-      return { note }
+      return { notes }
     },
   })
 </script>

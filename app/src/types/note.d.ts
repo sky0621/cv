@@ -1,13 +1,17 @@
-export interface Note {
-  summary: string
-  status: string
-  conditions: string[]
-  wishes: string[]
-  studying: Studying
-  interest: string[]
+export type Note = {
+  id: number
+  label: string
+  showNow: boolean
+  isMultipleLine: boolean
+  memo: string | null
+  order: number
+  userId: number
+  items: NoteItem[]
 }
 
-export interface Studying {
-  summary: string
-  items: string[]
+export type NoteItem = {
+  id: number
+  text: string
+  order: number
+  noteId: number
 }

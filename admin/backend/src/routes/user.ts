@@ -9,6 +9,7 @@ export const setupUserRoutes = (app: Express, userService: UserService) => {
             if (created === null) {
                 return res.status(400).json({})
             }
+
             return res.status(201).json(created)
         } catch (e) {
             return res.status(500).json({error: e})
@@ -22,6 +23,7 @@ export const setupUserRoutes = (app: Express, userService: UserService) => {
             if (user === null) {
                 return res.status(404).json({})
             }
+
             return res.status(200).json(user)
         } catch (e) {
             return res.status(500).json({error: e})

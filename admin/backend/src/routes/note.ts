@@ -14,10 +14,12 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
 
             const {label, showNow, isMultipleLine, memo, order, items} = req.body
             const param = {label, showNow, isMultipleLine, memo, order, userId: user.id, items} as NoteModel
+
             const note = await noteService.create(param)
             if (!note) {
                 return res.status(400).json({})
             }
+
             return res.status(200).json(note)
         } catch (e) {
             console.log(e)
@@ -37,6 +39,7 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
             if (!notes) {
                 return res.status(404).json({})
             }
+
             return res.status(200).json(notes)
         } catch (e) {
             console.log(e)
@@ -64,10 +67,12 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
                 userId: user.id,
                 items
             } as NoteModel
+
             const note = await noteService.update(param)
             if (!note) {
                 return res.status(400).json({})
             }
+
             return res.status(200).json(note)
         } catch (e) {
             console.log(e)

@@ -23,10 +23,12 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
                 likes,
                 qualifications
             } as BasicModel
+
             const basic = await basicService.create(param)
             if (!basic) {
                 return res.status(400).json({})
             }
+
             return res.status(200).json(basic)
         } catch (e) {
             console.log(e)
@@ -46,6 +48,7 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
             if (!basic) {
                 return res.status(404).json({})
             }
+
             return res.status(200).json(basic)
         } catch (e) {
             console.log(e)
@@ -72,10 +75,12 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
                 likes,
                 qualifications
             } as BasicModel
+
             const basic = await basicService.update(param)
             if (!basic) {
                 return res.status(400).json({})
             }
+
             return res.status(200).json(basic)
         } catch (e) {
             console.log(e)

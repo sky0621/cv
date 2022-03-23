@@ -1,59 +1,84 @@
 {
+  "id": 9,
   "nickname": "sky0621",
   "birthday": "1978-06-01",
   "job": "ソフトウェア開発者",
   "belongTo": "フリー（個人事業主）",
   "userId": 1,
-  "outputs": [
-    {
-      "name": "Qiita",
-      "url": "https://qiita.com/sky0621",
-      "icon": "pi pi-globe"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/sky0621/",
-      "icon": "pi pi-github"
-    },
-    {
-      "name": "当サイト構築ソース",
-      "url": "https://github.com/sky0621/cv",
-      "icon": "pi pi-globe"
-    }
-  ],
   "likes": [
     {
-      "name": "Go"
+      "id": 81,
+      "name": "Go",
+      "basicId": 9
     },
     {
-      "name": "Vue.js/Nuxt.js"
+      "id": 82,
+      "name": "Vue.js/Nuxt.js",
+      "basicId": 9
     },
     {
-      "name": "GraphQL"
+      "id": 83,
+      "name": "GraphQL",
+      "basicId": 9
     },
     {
-      "name": "GCP"
+      "id": 84,
+      "name": "GCP",
+      "basicId": 9
     },
     {
-      "name": "Scrum"
+      "id": 85,
+      "name": "Scrum",
+      "basicId": 9
     },
     {
-      "name": "Linux"
+      "id": 86,
+      "name": "Linux",
+      "basicId": 9
     },
     {
-      "name": "EdTech"
+      "id": 87,
+      "name": "EdTech",
+      "basicId": 9
     },
     {
-      "name": "JetBrains"
+      "id": 88,
+      "name": "JetBrains",
+      "basicId": 9
+    }
+  ],
+  "outputs": [
+    {
+      "id": 34,
+      "name": "Qiita",
+      "url": "https://qiita.com/sky0621",
+      "icon": "pi pi-globe",
+      "basicId": 9
+    },
+    {
+      "id": 35,
+      "name": "GitHub",
+      "url": "https://github.com/sky0621/",
+      "icon": "pi pi-github",
+      "basicId": 9
+    },
+    {
+      "id": 36,
+      "name": "当サイト構築ソース",
+      "url": "https://github.com/sky0621/cv",
+      "icon": "pi pi-globe",
+      "basicId": 9
     }
   ],
   "qualifications": [
     {
+      "id": 12,
       "name": "Associate Cloud Engineer",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
       "date": "2018",
-      "note": "有効期限切れ・・・。"
+      "note": "有効期限切れ・・・。",
+      "basicId": 9
     }
   ]
 }

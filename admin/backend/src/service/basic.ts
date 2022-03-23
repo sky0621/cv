@@ -32,9 +32,10 @@ export class BasicService {
             })
         ])
 
-        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basicModel, null, 2))
+        const basic = await this.findByUserId(basicModel.userId)
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basic, null, 2))
 
-        return this.findByUserId(basicModel.userId)
+        return basicModel
     }
 
     async findByUserId(userId: number): Promise<BasicModel> {
@@ -72,8 +73,9 @@ export class BasicService {
             }),
         ])
 
-        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basicModel, null, 2))
+        const basic = await this.findByUserId(basicModel.userId)
+        fs.writeFileSync('../../app/public/data/basic.json', JSON.stringify(basic, null, 2))
 
-        return this.findByUserId(basicModel.userId)
+        return basicModel
     }
 }
