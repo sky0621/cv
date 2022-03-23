@@ -52,6 +52,7 @@ CREATE TABLE "Note" (
     "showNow" BOOLEAN NOT NULL DEFAULT false,
     "isMultipleLine" BOOLEAN NOT NULL DEFAULT false,
     "memo" TEXT,
+    "order" INTEGER NOT NULL,
     "userId" INTEGER NOT NULL,
     CONSTRAINT "Note_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -60,6 +61,7 @@ CREATE TABLE "Note" (
 CREATE TABLE "NoteItem" (
     "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "text" TEXT NOT NULL,
+    "order" INTEGER NOT NULL,
     "noteId" INTEGER NOT NULL,
     CONSTRAINT "NoteItem_noteId_fkey" FOREIGN KEY ("noteId") REFERENCES "Note" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -71,4 +73,4 @@ CREATE UNIQUE INDEX "User_codeName_key" ON "User"("codeName");
 CREATE UNIQUE INDEX "Basic_userId_key" ON "Basic"("userId");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Note_userId_key" ON "Note"("userId");
+CREATE UNIQUE INDEX "Note_order_key" ON "Note"("order");
