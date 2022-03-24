@@ -88,4 +88,20 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
         }
     })
 
+    app.put('/user/:codeName/apply/basic', async (req, res) => {
+        try {
+            const {codeName}: { codeName: string } = req.params
+            const user = await userService.findByCodeName(codeName)
+            if (!user) {
+                return res.status(500).json({error: 'unknown'})
+            }
+
+            await basicService.apply(user.id)
+
+            return res.status(200).json({})
+        } catch (e) {
+            console.log(e)
+            return res.status(500).json({error: e})
+        }
+    })
 }

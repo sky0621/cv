@@ -79,4 +79,22 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
             return res.status(500).json({error: e})
         }
     })
+
+    app.put('/user/:codeName/apply/note', async (req, res) => {
+        try {
+            const {codeName}: { codeName: string } = req.params
+            const user = await userService.findByCodeName(codeName)
+            if (user === null) {
+                return res.status(500).json({})
+            }
+
+            await noteService.apply(user.id)
+
+            return res.status(200).json({})
+        } catch (e) {
+            console.log(e)
+            return res.status(500).json({error: e})
+        }
+    })
+
 }

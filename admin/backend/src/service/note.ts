@@ -31,9 +31,6 @@ export class NoteService {
             })
         ])
 
-        const note = await this.findByUserId(noteModel.userId)
-        fs.writeFileSync('../../app/public/data/note.json', JSON.stringify(note, null, 2))
-
         return noteModel
     }
 
@@ -69,10 +66,11 @@ export class NoteService {
             })
         ])
 
-        const note = await this.findByUserId(noteModel.userId)
-        fs.writeFileSync('../../app/public/data/note.json', JSON.stringify(note, null, 2))
-
         return noteModel
     }
 
+    async apply(userId: number): Promise<void> {
+        const note = await this.findByUserId(userId)
+        fs.writeFileSync('../../app/public/data/note.json', JSON.stringify(note, null, 2))
+    }
 }

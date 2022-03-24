@@ -7,63 +7,63 @@
   "userId": 1,
   "likes": [
     {
-      "id": 1,
+      "id": 25,
       "name": "Go",
       "basicId": 1
     },
     {
-      "id": 2,
+      "id": 26,
       "name": "Vue.js/Nuxt.js",
       "basicId": 1
     },
     {
-      "id": 3,
+      "id": 27,
       "name": "GraphQL",
       "basicId": 1
     },
     {
-      "id": 4,
+      "id": 28,
       "name": "GCP",
       "basicId": 1
     },
     {
-      "id": 5,
+      "id": 29,
       "name": "Scrum",
       "basicId": 1
     },
     {
-      "id": 6,
+      "id": 30,
       "name": "Linux",
       "basicId": 1
     },
     {
-      "id": 7,
+      "id": 31,
       "name": "EdTech",
       "basicId": 1
     },
     {
-      "id": 8,
+      "id": 32,
       "name": "JetBrains",
       "basicId": 1
     }
   ],
   "outputs": [
     {
-      "id": 1,
+      "id": 10,
       "name": "Qiita",
       "url": "https://qiita.com/sky0621",
       "icon": "pi pi-globe",
       "basicId": 1
     },
     {
-      "id": 2,
+      "id": 11,
       "name": "GitHub",
       "url": "https://github.com/sky0621/",
       "icon": "pi pi-github",
       "basicId": 1
     },
     {
-      "id": 3,
+      "id": 12,
       "name": "当サイト構築ソース",
       "url": "https://github.com/sky0621/cv",
       "icon": "pi pi-globe",
@@ -72,7 +72,7 @@
   ],
   "qualifications": [
     {
-      "id": 1,
+      "id": 4,
       "name": "Associate Cloud Engineer",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
