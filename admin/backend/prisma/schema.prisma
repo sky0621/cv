@@ -8,10 +8,11 @@ datasource db {
 }
 
 model User {
-  id       Int    @id @default(autoincrement())
-  codeName String @unique
-  basic    Basic?
-  note     Note[]
+  id          Int           @id @default(autoincrement())
+  codeName    String        @unique
+  basic       Basic?
+  CareerGroup CareerGroup[]
+  note        Note[]
 }
 
 model Basic {
@@ -72,4 +73,87 @@ model NoteItem {
   order  Int
   noteId Int
   note   Note   @relation(fields: [noteId], references: [id])
+}
+
+model Career {
+  id                         Int                          @id @default(autoincrement())
+  title                      String
+  explanation                String?
+  fromYYYYMM                 Int
+  toYYYYMM                   Int?
+  task                       String?
+  careerGroupId              Int
+  CareerGroup                CareerGroup                  @relation(fields: [careerGroupId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  CareerSkillVersionRelation CareerSkillVersionRelation[]
+}
+
+model CareerGroup {
+  id     Int      @id @default(autoincrement())
+  label  String?
+  userId Int
+  User   User     @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  Career Career[]
+}
+
+model CareerSkillVersionRelation {
+  careerId       Int
+  skillVersionId Int
+  Career         Career       @relation(fields: [careerId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  SkillVersion   SkillVersion @relation(fields: [skillVersionId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([careerId, skillVersionId])
+}
+
+model Skill {
+  id                 Int                  @id @default(autoincrement())
+  name               String               @unique(map: "Skill_name_uindex")
+  SkillDescription   SkillDescription?
+  SkillGroupRelation SkillGroupRelation[]
+  SkillKindRelation  SkillKindRelation[]
+  SkillVersion       SkillVersion[]
+}
+
+model SkillDescription {
+  id          Int     @id @default(autoincrement())
+  skillId     Int     @unique(map: "SkillDescription_skillId_uindex")
+  description String?
+  Skill       Skill   @relation(fields: [skillId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model SkillGroup {
+  id                 Int                  @id @default(autoincrement())
+  label              String               @unique(map: "SkillGroup_label_uindex")
+  SkillGroupRelation SkillGroupRelation[]
+}
+
+model SkillGroupRelation {
+  skillId      Int
+  skillGroupId Int
+  SkillGroup   SkillGroup @relation(fields: [skillGroupId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  Skill        Skill      @relation(fields: [skillId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([skillId, skillGroupId])
+}
+
+model SkillKind {
+  id                Int                 @id @default(autoincrement())
+  name              String              @unique(map: "SkillKind_name_uindex")
+  SkillKindRelation SkillKindRelation[]
+}
+
+model SkillKindRelation {
+  skillId     Int
+  skillKindId Int
+  Skill       Skill     @relation(fields: [skillId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  SkillKind   SkillKind @relation(fields: [skillKindId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([skillId, skillKindId])
+}
+
+model SkillVersion {
+  id                         Int                          @id @default(autoincrement())
+  version                    String
+  skillId                    Int?
+  Skill                      Skill?                       @relation(fields: [skillId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  CareerSkillVersionRelation CareerSkillVersionRelation[]
 }
