@@ -9,18 +9,18 @@
 			"name": "user",
 			"item": [
 				{
-					"name": "user/sky0621",
+					"name": "users/sky0621",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3002/user/sky0621",
+							"raw": "localhost:3002/users/sky0621",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621"
 							]
 						}
@@ -28,7 +28,7 @@
 					"response": []
 				},
 				{
-					"name": "user",
+					"name": "users",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -42,13 +42,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user",
+							"raw": "localhost:3002/users",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user"
+								"users"
 							]
 						}
 					},
@@ -60,18 +60,18 @@
 			"name": "basic",
 			"item": [
 				{
-					"name": "user/sky0621/basic",
+					"name": "users/sky0621/basic",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3002/user/sky0621/basic",
+							"raw": "localhost:3002/users/sky0621/basic",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
 								"basic"
 							]
@@ -80,7 +80,7 @@
 					"response": []
 				},
 				{
-					"name": "user/sky0621/basic",
+					"name": "users/sky0621/basic",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -94,13 +94,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/basic",
+							"raw": "localhost:3002/users/sky0621/basic",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
 								"basic"
 							]
@@ -109,7 +109,7 @@
 					"response": []
 				},
 				{
-					"name": "user/sky0621/basic",
+					"name": "users/sky0621/basic",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -123,13 +123,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/basic",
+							"raw": "localhost:3002/users/sky0621/basic",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
 								"basic"
 							]
@@ -138,7 +138,7 @@
 					"response": []
 				},
 				{
-					"name": "user/sky0621/apply/basic",
+					"name": "users/sky0621/apply/basic",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -152,13 +152,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/apply/basic",
+							"raw": "localhost:3002/users/sky0621/apply/basic",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
 								"apply",
 								"basic"
@@ -173,27 +173,27 @@
 			"name": "note",
 			"item": [
 				{
-					"name": "user/sky0621/note",
+					"name": "users/sky0621/notes",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/サマリ",
+					"name": "users/sky0621/notes:サマリ",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -207,22 +207,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/就労状況",
+					"name": "users/sky0621/notes:就労状況",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -236,22 +236,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/就労条件",
+					"name": "users/sky0621/notes:就労条件",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -265,22 +265,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/理想とする現場",
+					"name": "users/sky0621/notes:理想とする現場",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -294,22 +294,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/家庭学習の状況",
+					"name": "users/sky0621/notes:家庭学習の状況",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -323,22 +323,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/未経験だが興味があるもの",
+					"name": "users/sky0621/notes:未経験だが興味があるもの",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -352,52 +352,22 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note",
+							"raw": "localhost:3002/users/sky0621/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note"
+								"notes"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "user/sky0621/apply/note",
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:3002/user/sky0621/apply/note",
-							"host": [
-								"localhost"
-							],
-							"port": "3002",
-							"path": [
-								"user",
-								"sky0621",
-								"apply",
-								"note"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "user/sky0621/note/サマリupdate",
+					"name": "users/sky0621/notes:サマリupdate",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -411,15 +381,15 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note/1",
+							"raw": "localhost:3002/users/sky0621/notes/1",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note",
+								"notes",
 								"1"
 							]
 						}
@@ -427,13 +397,13 @@
 					"response": []
 				},
 				{
-					"name": "user/sky0621/note/未経験だが興味があるものupdate",
+					"name": "users/sky0621/apply/notes",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"label\": \"未経験だが興味があるもの\",\n    \"showNow\": false,\n    \"isMultipleLine\": false,\n    \"memo\": \"\",\n    \"order\": 6,\n    \"items\": [\n        {\n            \"text\": \"IoT\",\n            \"order\": 1\n        }\n    ]\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -441,16 +411,66 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3002/user/sky0621/note/6",
+							"raw": "localhost:3002/users/sky0621/apply/notes",
 							"host": [
 								"localhost"
 							],
 							"port": "3002",
 							"path": [
-								"user",
+								"users",
 								"sky0621",
-								"note",
-								"6"
+								"apply",
+								"notes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "skill",
+			"item": [
+				{
+					"name": "skills",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/skills",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"skills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "skills:Golang",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Golang\",\n    \"versions\": [\n        {\"version\":\"v1.7\"},\n        {\"version\":\"v1.9\"},\n        {\"version\":\"v1.11\"},\n        {\"version\":\"v1.13\"},\n        {\"version\":\"v1.14\"},\n        {\"version\":\"v1.15\"},\n        {\"version\":\"v1.16\"},\n        {\"version\":\"v1.17\"}\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/skills",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"skills"
 							]
 						}
 					},

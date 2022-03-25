@@ -4,15 +4,17 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:../db/admin.db"
+  url      = "file:../../db/admin.db"
 }
 
 model User {
-  id          Int           @id @default(autoincrement())
-  codeName    String        @unique
-  basic       Basic?
-  CareerGroup CareerGroup[]
-  note        Note[]
+  id                     Int                      @id @default(autoincrement())
+  codeName               String                   @unique
+  basic                  Basic?
+  CareerGroup            CareerGroup[]
+  note                   Note[]
+  UserSkillGroupRelation UserSkillGroupRelation[]
+  UserSkillKindRelation  UserSkillKindRelation[]
 }
 
 model Basic {
@@ -121,9 +123,10 @@ model SkillDescription {
 }
 
 model SkillGroup {
-  id                 Int                  @id @default(autoincrement())
-  label              String               @unique(map: "SkillGroup_label_uindex")
-  SkillGroupRelation SkillGroupRelation[]
+  id                     Int                      @id @default(autoincrement())
+  label                  String                   @unique(map: "SkillGroup_label_uindex")
+  SkillGroupRelation     SkillGroupRelation[]
+  UserSkillGroupRelation UserSkillGroupRelation[]
 }
 
 model SkillGroupRelation {
@@ -136,9 +139,10 @@ model SkillGroupRelation {
 }
 
 model SkillKind {
-  id                Int                 @id @default(autoincrement())
-  name              String              @unique(map: "SkillKind_name_uindex")
-  SkillKindRelation SkillKindRelation[]
+  id                    Int                     @id @default(autoincrement())
+  name                  String                  @unique(map: "SkillKind_name_uindex")
+  SkillKindRelation     SkillKindRelation[]
+  UserSkillKindRelation UserSkillKindRelation[]
 }
 
 model SkillKindRelation {
@@ -156,4 +160,24 @@ model SkillVersion {
   skillId                    Int?
   Skill                      Skill?                       @relation(fields: [skillId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   CareerSkillVersionRelation CareerSkillVersionRelation[]
+}
+
+model UserSkillGroupRelation {
+  userId       Int
+  skillGroupId Int
+  order        Int        @unique(map: "UserSkillGroupRelation_order_uindex")
+  SkillGroup   SkillGroup @relation(fields: [skillGroupId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  User         User       @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([userId, skillGroupId])
+}
+
+model UserSkillKindRelation {
+  userId      Int
+  skillKindId Int
+  order       Int       @unique(map: "UserSkillKindRelation_order_uindex")
+  SkillKind   SkillKind @relation(fields: [skillKindId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  User        User      @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([userId, skillKindId])
 }

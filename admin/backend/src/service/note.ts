@@ -9,12 +9,12 @@ export class NoteService {
         this.client = client
     }
 
-    async create(noteModel: NoteModel): Promise<NoteModel> {
-        if (!noteModel) return null
+    async create(noteModel: NoteModel): Promise<void> {
+        if (!noteModel) return
 
         const already = await this.findByUserId(noteModel.userId)
         if (already.filter((n) => n && n.label === noteModel.label).length > 0) {
-            return null
+            return
         }
 
         await this.client.$transaction([
@@ -30,8 +30,6 @@ export class NoteService {
                 },
             })
         ])
-
-        return noteModel
     }
 
     async findByUserId(userId: number): Promise<NoteModel[]> {
@@ -41,12 +39,12 @@ export class NoteService {
         })
     }
 
-    async update(noteModel: NoteModel): Promise<NoteModel> {
-        if (!noteModel) return null
+    async update(noteModel: NoteModel): Promise<void> {
+        if (!noteModel) return
 
         const before = await this.findByUserId(noteModel.userId)
         if (before.length === 0) {
-            return null
+            return
         }
 
         await this.client.$transaction([
@@ -65,8 +63,6 @@ export class NoteService {
                 },
             })
         ])
-
-        return noteModel
     }
 
     async apply(userId: number): Promise<void> {

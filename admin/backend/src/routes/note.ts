@@ -4,7 +4,7 @@ import {UserService} from "../service/user";
 import {NoteService} from "../service/note";
 
 export const setupNoteRoutes = (app: Express, userService: UserService, noteService: NoteService) => {
-    app.post('/user/:codeName/note', async (req, res) => {
+    app.post('/users/:codeName/notes', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -15,19 +15,16 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
             const {label, showNow, isMultipleLine, memo, order, items} = req.body
             const param = {label, showNow, isMultipleLine, memo, order, userId: user.id, items} as NoteModel
 
-            const note = await noteService.create(param)
-            if (!note) {
-                return res.status(400).json({})
-            }
+            await noteService.create(param)
 
-            return res.status(200).json(note)
+            return res.status(201).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})
         }
     })
 
-    app.get('/user/:codeName/note', async (req, res) => {
+    app.get('/users/:codeName/notes', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -47,7 +44,7 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
         }
     })
 
-    app.put('/user/:codeName/note/:id', async (req, res) => {
+    app.put('/users/:codeName/notes/:id', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -68,19 +65,16 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
                 items
             } as NoteModel
 
-            const note = await noteService.update(param)
-            if (!note) {
-                return res.status(400).json({})
-            }
+            await noteService.update(param)
 
-            return res.status(200).json(note)
+            return res.status(200).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})
         }
     })
 
-    app.put('/user/:codeName/apply/note', async (req, res) => {
+    app.put('/users/:codeName/apply/notes', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -90,7 +84,7 @@ export const setupNoteRoutes = (app: Express, userService: UserService, noteServ
 
             await noteService.apply(user.id)
 
-            return res.status(200).json({})
+            return res.status(200).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})

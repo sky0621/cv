@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ..
+cd ../src
 npx prisma introspect
 npx prisma generate

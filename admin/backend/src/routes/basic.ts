@@ -4,7 +4,7 @@ import {UserService} from "../service/user";
 import {BasicService} from "../service/basic";
 
 export const setupBasicRoutes = (app: Express, userService: UserService, basicService: BasicService) => {
-    app.post('/user/:codeName/basic', async (req, res) => {
+    app.post('/users/:codeName/basic', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -24,19 +24,16 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
                 qualifications
             } as BasicModel
 
-            const basic = await basicService.create(param)
-            if (!basic) {
-                return res.status(400).json({})
-            }
+            await basicService.create(param)
 
-            return res.status(200).json(basic)
+            return res.status(201).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})
         }
     })
 
-    app.get('/user/:codeName/basic', async (req, res) => {
+    app.get('/users/:codeName/basic', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -56,7 +53,7 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
         }
     })
 
-    app.put('/user/:codeName/basic', async (req, res) => {
+    app.put('/users/:codeName/basic', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -76,19 +73,16 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
                 qualifications
             } as BasicModel
 
-            const basic = await basicService.update(param)
-            if (!basic) {
-                return res.status(400).json({})
-            }
+            await basicService.update(param)
 
-            return res.status(200).json(basic)
+            return res.status(200).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})
         }
     })
 
-    app.put('/user/:codeName/apply/basic', async (req, res) => {
+    app.put('/users/:codeName/apply/basic', async (req, res) => {
         try {
             const {codeName}: { codeName: string } = req.params
             const user = await userService.findByCodeName(codeName)
@@ -98,7 +92,7 @@ export const setupBasicRoutes = (app: Express, userService: UserService, basicSe
 
             await basicService.apply(user.id)
 
-            return res.status(200).json({})
+            return res.status(200).json()
         } catch (e) {
             console.log(e)
             return res.status(500).json({error: e})

@@ -9,12 +9,12 @@ export class BasicService {
         this.client = client
     }
 
-    async create(basicModel: BasicModel): Promise<BasicModel> {
-        if (!basicModel) return null
+    async create(basicModel: BasicModel): Promise<void> {
+        if (!basicModel) return
 
         const already = await this.findByUserId(basicModel.userId)
         if (already !== null) {
-            return null
+            return
         }
 
         await this.client.$transaction([
@@ -31,8 +31,6 @@ export class BasicService {
                 },
             })
         ])
-
-        return basicModel
     }
 
     async findByUserId(userId: number): Promise<BasicModel> {
@@ -42,12 +40,12 @@ export class BasicService {
         })
     }
 
-    async update(basicModel: BasicModel): Promise<BasicModel | null> {
-        if (!basicModel) return null
+    async update(basicModel: BasicModel): Promise<void> {
+        if (!basicModel) return
 
         const before = await this.findByUserId(basicModel.userId)
         if (before === null) {
-            return null
+            return
         }
 
         await this.client.$transaction([
@@ -69,8 +67,6 @@ export class BasicService {
                 },
             }),
         ])
-
-        return basicModel
     }
 
     async apply(userId: number): Promise<void> {

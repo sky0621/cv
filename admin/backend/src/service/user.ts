@@ -8,12 +8,12 @@ export class UserService {
         this.client = client
     }
 
-    async create(codeName: string): Promise<UserModel> {
+    async create(codeName: string): Promise<void> {
         const already = await this.findByCodeName(codeName)
         if (already !== null) {
-            return null
+            return
         }
-        return this.client.user.create({data: {codeName: codeName}})
+        await this.client.user.create({data: {codeName: codeName}})
     }
 
     async findByCodeName(codeName: string): Promise<UserModel> {
