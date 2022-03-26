@@ -1,6 +1,8 @@
 import { VFC } from 'react';
+import { Header, Item } from 'semantic-ui-react';
 
 export type Like = {
+  id: number;
   name: string;
 };
 
@@ -12,11 +14,18 @@ const Likes: VFC<Props> = (props) => {
   const { likes } = props;
 
   return (
-    <ul>
-      {likes.map((like) => (
-        <li>{like.name}</li>
-      ))}
-    </ul>
+    <>
+      <Header as="h2">お気に入り</Header>
+      <Item.Group>
+        {likes.map((like) => (
+          <Item key={like.id}>
+            <Item.Content>
+              <Item.Header>{like.name}</Item.Header>
+            </Item.Content>
+          </Item>
+        ))}
+      </Item.Group>
+    </>
   );
 };
 
