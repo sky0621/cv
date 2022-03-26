@@ -4,7 +4,6 @@
 
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
-  import NoteComponent from '@/components/Note.vue'
   import { NoteService } from '@/service/NoteService'
 
   export default defineComponent({

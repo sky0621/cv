@@ -10,14 +10,14 @@ datasource db {
 model User {
   id                     Int                      @id @default(autoincrement())
   codeName               String                   @unique
-  basic                  Basic?
+  basic                  BasicComponent?
   CareerGroup            CareerGroup[]
-  note                   Note[]
+  note                   NotesComponent[]
   UserSkillGroupRelation UserSkillGroupRelation[]
   UserSkillKindRelation  UserSkillKindRelation[]
 }
 
-model Basic {
+model BasicComponent {
   id             Int             @id @default(autoincrement())
   nickname       String
   birthday       String
@@ -34,7 +34,7 @@ model Like {
   id      Int    @id @default(autoincrement())
   name    String
   basicId Int
-  basic   Basic  @relation(fields: [basicId], references: [id])
+  basic   BasicComponent  @relation(fields: [basicId], references: [id])
 }
 
 model Output {
@@ -43,7 +43,7 @@ model Output {
   url     String?
   icon    String?
   basicId Int
-  basic   Basic   @relation(fields: [basicId], references: [id])
+  basic   BasicComponent   @relation(fields: [basicId], references: [id])
 }
 
 model Qualification {
@@ -54,10 +54,10 @@ model Qualification {
   date    String?
   note    String?
   basicId Int
-  basic   Basic   @relation(fields: [basicId], references: [id])
+  basic   BasicComponent   @relation(fields: [basicId], references: [id])
 }
 
-model Note {
+model NotesComponent {
   id             Int        @id @default(autoincrement())
   label          String
   showNow        Boolean    @default(false)
@@ -74,7 +74,7 @@ model NoteItem {
   text   String
   order  Int
   noteId Int
-  note   Note   @relation(fields: [noteId], references: [id])
+  note   NotesComponent   @relation(fields: [noteId], references: [id])
 }
 
 model Career {

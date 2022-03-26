@@ -10,18 +10,17 @@ type Props = {
   likes: Like[];
 };
 
-const Likes: VFC<Props> = (props) => {
+const LikesComponent: VFC<Props> = (props) => {
+  console.log('LikesComponent');
   const { likes } = props;
 
   return (
     <>
-      <Header as="h2">お気に入り</Header>
+      <Header>お気に入り</Header>
       <Item.Group>
         {likes.map((like) => (
           <Item key={like.id}>
-            <Item.Content>
-              <Item.Header>{like.name}</Item.Header>
-            </Item.Content>
+            <Item.Content>{like.name}</Item.Content>
           </Item>
         ))}
       </Item.Group>
@@ -29,4 +28,4 @@ const Likes: VFC<Props> = (props) => {
   );
 };
 
-export default Likes;
+export default LikesComponent;

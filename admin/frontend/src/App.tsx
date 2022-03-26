@@ -1,20 +1,17 @@
 import { VFC } from 'react';
 import './App.css';
-import Likes, { Like } from './Likes';
+import BasicComponent from './BasicComponent';
+import NotesComponent from './NotesComponent';
 
 const App: VFC = () => {
-  const likes: Like[] = [
-    { id: 1, name: 'Go' },
-    { id: 2, name: 'Vue.js/Nuxt.js' },
-    { id: 3, name: 'GraphQL' },
-    { id: 4, name: 'GCP' },
-    { id: 5, name: 'Scrum' },
-    { id: 6, name: 'Linux' },
-    { id: 7, name: 'EdTech' },
-    { id: 8, name: 'JetBrains' },
-  ];
+  console.log('App Component');
 
-  return <Likes likes={likes} />;
+  return (
+    <>
+      <BasicComponent />
+      <NotesComponent />
+    </>
+  );
 };
 
 export default App;
