@@ -12,7 +12,7 @@ type Props = {
 };
 
 const NoteItemsComponent: VFC<Props> = (props) => {
-  console.log('NoteItemsComponent');
+  console.log('    NoteItemsComponent');
   const { items } = props;
 
   return (

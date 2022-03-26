@@ -11,7 +11,7 @@ type Props = {
 };
 
 const LikesComponent: VFC<Props> = (props) => {
-  console.log('LikesComponent');
+  console.log('    LikesComponent');
   const { likes } = props;
 
   return (
