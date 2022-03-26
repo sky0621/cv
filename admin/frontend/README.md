@@ -103,6 +103,14 @@ $ yarn add -D stylelint stylelint-config-standard stylelint-order stylelint-conf
 $ yarn 
 ```
 
+### Semantic UI React
+
+https://react.semantic-ui.com/
+
+```
+$ yarn add semantic-ui-react semantic-ui-css
+```
+
 ## convenience
 
 ### 全パッケージを対話式で最新安定版にアップデート
@@ -126,3 +134,7 @@ const town = user?.address?.town ?? '(Somewhere)';
 ```
 
 ### 型エイリアス > インタフェース
+
+### React+TypeScript Cheatsheets
+
+https://react-typescript-cheatsheet.netlify.app/
