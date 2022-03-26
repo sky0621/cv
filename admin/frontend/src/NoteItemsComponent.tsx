@@ -1,5 +1,5 @@
 import { VFC } from 'react';
-import { Item } from 'semantic-ui-react';
+import { Header, Item } from 'semantic-ui-react';
 
 export type NoteItem = {
   id: number;
@@ -16,16 +16,18 @@ const NoteItemsComponent: VFC<Props> = (props) => {
   const { items } = props;
 
   return (
-    <Item.Group>
-      {items.map((item) => (
-        <Item key={item.id}>
-          <Item.Content>
-            <Item.Header>{item.text}</Item.Header>
-            <Item.Extra>order: {item.order}</Item.Extra>
-          </Item.Content>
-        </Item>
-      ))}
-    </Item.Group>
+    <>
+      <Header as="h4">- Items -</Header>
+      <Item.Group>
+        {items.map((item) => (
+          <Item key={item.id}>
+            <Item.Content>
+              <Item.Meta>{item.text}</Item.Meta>
+            </Item.Content>
+          </Item>
+        ))}
+      </Item.Group>
+    </>
   );
 };
 

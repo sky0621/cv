@@ -1,6 +1,6 @@
 import { VFC } from 'react';
 import { Header, Item } from 'semantic-ui-react';
-import { NoteItem } from './NoteItemsComponent';
+import NoteItemsComponent, { NoteItem } from './NoteItemsComponent';
 
 export type Note = {
   id: number;
@@ -52,7 +52,7 @@ const NotesComponent: VFC = () => {
       order: 1,
     },
     {
-      id: 3,
+      id: 4,
       text: '【必須】フロントエンド、バックエンド、インフラ各要素万遍なく関われる案件',
       order: 2,
     },
@@ -95,6 +95,10 @@ const NotesComponent: VFC = () => {
           <Item key={note.id}>
             <Item.Content>
               <Item.Header>{note.label}</Item.Header>
+              <Item.Meta>order: {note.order}</Item.Meta>
+              <Item.Extra>
+                <NoteItemsComponent items={note.items} />
+              </Item.Extra>
             </Item.Content>
           </Item>
         ))}
