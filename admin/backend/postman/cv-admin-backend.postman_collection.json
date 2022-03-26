@@ -475,6 +475,87 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "skills:Java",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Java\",\n    \"versions\": [\n        {\"version\":\"v1.4\"},\n        {\"version\":\"v1.5\"},\n        {\"version\":\"v1.6\"},\n        {\"version\":\"v1.7\"},\n        {\"version\":\"v1.8\"}\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/skills",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"skills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "skills:JavaScript",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"JavaScript\",\n    \"versions\": [\n        {\"version\":\"ES2015未満\"},\n        {\"version\":\"ES2015以降\"}\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/skills",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"skills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "skills:TypeScript",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"TypeScript\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/skills",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"skills"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
