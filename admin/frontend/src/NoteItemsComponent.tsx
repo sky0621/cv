@@ -5,6 +5,7 @@ export type NoteItem = {
   id: number;
   text: string;
   order: number;
+  noteId: number;
 };
 
 type Props = {
