@@ -1,6 +1,6 @@
 import { useEffect, useState, VFC } from 'react';
 import { Header, Item } from 'semantic-ui-react';
-import axios from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import NoteItemsComponent, { NoteItem } from './NoteItemsComponent';
 
 const url = 'http://localhost:3002/users/sky0621/notes';
@@ -25,8 +25,7 @@ const NotesComponent: VFC = () => {
     console.log('   !useEffect@notes!');
     axios
       .get(url)
-      .then((res) => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+      .then((res: AxiosResponse<Note[]>) => {
         setNotes(res.data);
       })
       .catch((err) => {
