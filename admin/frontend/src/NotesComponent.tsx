@@ -1,9 +1,6 @@
-import { useEffect, useState, VFC } from 'react';
+import { VFC } from 'react';
 import { Header, Item } from 'semantic-ui-react';
-import axios, { AxiosResponse } from 'axios';
 import NoteItemsComponent, { NoteItem } from './NoteItemsComponent';
-
-const url = 'http://localhost:3002/users/sky0621/notes';
 
 export type Note = {
   id: number;
@@ -16,22 +13,13 @@ export type Note = {
   items: NoteItem[];
 };
 
-const NotesComponent: VFC = () => {
+type Props = {
+  notes: Note[];
+};
+
+const NotesComponent: VFC<Props> = (props) => {
   console.log('  NotesComponent');
-
-  const [notes, setNotes] = useState<Note[]>();
-
-  useEffect(() => {
-    console.log('   !useEffect@notes!');
-    axios
-      .get(url)
-      .then((res: AxiosResponse<Note[]>) => {
-        setNotes(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+  const { notes } = props;
 
   return (
     <>

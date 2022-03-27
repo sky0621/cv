@@ -1,7 +1,7 @@
 import { VFC } from 'react';
 import './App.css';
 import BasicComponent from './BasicComponent';
-import NotesComponent from './NotesComponent';
+import NotesContainer from './NotesContainer';
 
 const App: VFC = () => {
   console.log('App Component');
@@ -9,7 +9,7 @@ const App: VFC = () => {
   return (
     <>
       <BasicComponent />
-      <NotesComponent />
+      <NotesContainer />
     </>
   );
 };
