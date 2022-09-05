@@ -15,9 +15,75 @@
           "to": "",
           "summary": "-",
           "tasks": [
-            "バックエンドの開発・保守全般を担当"
+            "フロントエンドの開発、及び、バックエンドの保守を担当"
           ],
           "skillGroups": [
+            {
+              "title": "Frontend(SPA)",
+              "skills": [
+                {
+                  "id": 1,
+                  "name": "TypeScript",
+                  "versions": [
+                    "v4.6"
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "React",
+                  "versions": [
+                    "v17",
+                    "v18"
+                  ]
+                },
+                {
+                  "id": 3,
+                  "name": "React Router",
+                  "versions": [
+                    "v6"
+                  ]
+                },
+                {
+                  "id": 4,
+                  "name": "React Hooks"
+                },
+                {
+                  "id": 5,
+                  "name": "Redux"
+                },
+                {
+                  "id": 6,
+                  "name": "Redux Toolkit"
+                },
+                {
+                  "id": 7,
+                  "name": "React Hook Form",
+                  "versions": [
+                    "v7"
+                  ]
+                },
+                {
+                  "id": 8,
+                  "name": "CSS Modules"
+                },
+                {
+                  "id": 9,
+                  "name": "Prettier"
+                },
+                {
+                  "id": 10,
+                  "name": "Jest"
+                },
+                {
+                  "id": 11,
+                  "name": "scaffdog"
+                },
+                {
+                  "id": 12,
+                  "name": "Yarn"
+                }
+              ]
+            },
             {
               "title": "Backend",
               "skills": [
@@ -25,7 +91,8 @@
                   "id": 1,
                   "name": "Golang",
                   "versions": [
-                    "v1.17"
+                    "v1.17",
+                    "v1.18"
                   ]
                 },
                 {
@@ -42,11 +109,19 @@
                 },
                 {
                   "id": 5,
-                  "name": "gorm"
+                  "name": "go-swagger"
                 },
                 {
                   "id": 6,
-                  "name": "go-swagger"
+                  "name": "goverter"
+                },
+                {
+                  "id": 7,
+                  "name": "sqldef"
+                },
+                {
+                  "id": 8,
+                  "name": "excelize"
                 }
               ]
             },
@@ -72,6 +147,14 @@
                 {
                   "id": 5,
                   "name": "RDS(MySQL/Aurora)"
+                },
+                {
+                  "id": 6,
+                  "name": "CloudFront"
+                },
+                {
+                  "id": 7,
+                  "name": "Code Build"
                 }
               ]
             },
@@ -101,6 +184,22 @@
                 {
                   "id": 6,
                   "name": "Clean Architecture"
+                },
+                {
+                  "id": 7,
+                  "name": "Jenkins"
+                },
+                {
+                  "id": 8,
+                  "name": "Wrike"
+                },
+                {
+                  "id": 9,
+                  "name": "Confluence"
+                },
+                {
+                  "id": 10,
+                  "name": "GitHub"
                 }
               ]
             }

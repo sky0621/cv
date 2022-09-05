@@ -7,105 +7,40 @@
         {
           "id": 1,
           "name": "Golang",
-          "versions": ["v1.7", "v1.9", "v1.11", "v1.13", "v1.14", "v1.15"],
+          "versions": [
+            "v1.7〜v1.19"
+          ],
           "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "5年以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              },
-              {
-                "from": "2018-11",
-                "to": "2019-05"
-              },
-              {
-                "from": "2016-11",
-                "to": "2018-06"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "5年以上"
           }
         },
         {
           "id": 2,
           "name": "Java",
-          "versions": ["v1.4", "v1.5", "v1.6", "v1.7", "v1.8"],
+          "versions": [
+            "v1.4〜v1.8"
+          ],
           "experience": {
-            "total": "15年3ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              },
-              {
-                "from": "2018-10",
-                "to": "2018-11"
-              },
-              {
-                "from": "2018-08",
-                "to": "2018-09"
-              },
-              {
-                "from": "2014-11",
-                "to": "2016-09"
-              },
-              {
-                "from": "2014-11",
-                "to": "2016-03"
-              },
-              {
-                "from": "2014-04",
-                "to": "2014-09"
-              },
-              {
-                "from": "2013-07",
-                "to": "2014-09"
-              },
-              {
-                "from": "2002-04",
-                "to": "2011-09"
-              }
-            ]
+            "total": "15年以上"
           }
         },
         {
           "id": 3,
           "name": "Android(Java)",
-          "versions": ["v2.3", "v4"],
+          "versions": [
+            "v2.3",
+            "v4"
+          ],
           "experience": {
-            "total": "2年2ヶ月",
-            "periods": [
-              {
-                "from": "2014-04",
-                "to": "2014-09"
-              },
-              {
-                "from": "2013-07",
-                "to": "2014-09"
-              },
-              {
-                "from": "2011-10",
-                "to": "2012-02"
-              }
-            ]
+            "total": "2年以上"
           }
         },
         {
           "id": 4,
           "name": "JavaScript",
           "experience": {
-            "total": "7ヶ月",
-            "periods": [
-              {
-                "from": "2018-11",
-                "to": "2019-05"
-              }
-            ]
+            "total": "1年以上"
           }
         },
         {
@@ -113,64 +48,43 @@
           "name": "TypeScript",
           "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "2年",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              },
-              {
-                "from": "2018-08",
-                "to": "2018-09"
-              }
-            ]
+            "total": "2年以上"
           }
         },
         {
           "id": 4,
           "name": "PHP",
-          "versions": ["v5"],
+          "versions": [
+            "v5"
+          ],
           "experience": {
-            "total": "1年4ヶ月",
-            "periods": [
-              {
-                "from": "2012-03",
-                "to": "2013-06"
-              }
-            ]
+            "total": "1年4ヶ月"
           }
         },
         {
           "id": 5,
           "name": "Scala",
-          "versions": ["v2.11"],
+          "versions": [
+            "v2.11"
+          ],
           "experience": {
-            "total": "4ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              }
-            ]
+            "total": "4ヶ月"
           }
         },
         {
           "id": 6,
           "name": "Kotlin",
           "experience": {
-            "total": "4ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              }
-            ]
+            "total": "4ヶ月"
           }
         },
         {
           "id": 7,
           "name": "Python",
-          "versions": ["v2系", "v3系"]
+          "versions": [
+            "v2系",
+            "v3系"
+          ]
         }
       ]
     },
@@ -182,94 +96,42 @@
           "id": 1,
           "name": "chi (Golang)",
           "experience": {
-            "total": "1年10ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              }
-            ]
+            "total": "1年10ヶ月以上"
           }
         },
         {
           "id": 2,
           "name": "Echo (Golang)",
           "experience": {
-            "total": "1年9ヶ月",
-            "periods": [
-              {
-                "from": "2017-12",
-                "to": "2018-06"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "1年9ヶ月"
           }
         },
         {
           "id": 3,
           "name": "Spring (Java)",
           "experience": {
-            "total": "4ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              }
-            ]
+            "total": "4ヶ月"
           }
         },
         {
           "id": 4,
           "name": "play (Scala)",
           "experience": {
-            "total": "4ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              }
-            ]
+            "total": "4ヶ月"
           }
         },
         {
           "id": 5,
           "name": "Seasar2 (Java)",
           "experience": {
-            "total": "3年8ヶ月",
-            "periods": [
-              {
-                "from": "2016-04",
-                "to": "2016-09"
-              },
-              {
-                "from": "2014-11",
-                "to": "2016-03"
-              },
-              {
-                "from": "2014-04",
-                  "to": "2014-09"
-              },
-              {
-                "from": "2013-07",
-                "to": "2014-09"
-              }
-            ]
+            "total": "3年8ヶ月"
           }
         },
         {
           "id": 6,
           "name": "Kohana (PHP)",
           "experience": {
-            "total": "1年4ヶ月",
-            "periods": [
-              {
-                "from": "2012-03",
-                "to": "2013-06"
-              }
-            ]
+            "total": "1年4ヶ月"
           }
         }
       ]
@@ -280,33 +142,24 @@
       "skills": [
         {
           "id": 1,
-          "name": "Vue.js/Nuxt.js",
+          "name": "React",
           "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "2年5ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              },
-              {
-                "from": "2018-11",
-                "to": "2019-05"
-              }
-            ]
+            "total": "6ヶ月以上"
           }
         },
         {
           "id": 2,
+          "name": "Vue.js/Nuxt.js",
+          "experience": {
+            "total": "2年5ヶ月以上"
+          }
+        },
+        {
+          "id": 3,
           "name": "Angular",
           "experience": {
-            "total": "2ヶ月",
-            "periods": [
-              {
-                "from": "2018-08",
-                "to": "2018-09"
-              }
-            ]
+            "total": "2ヶ月"
           }
         }
       ]
@@ -318,49 +171,23 @@
         {
           "id": 1,
           "name": "REST (Java/Golang)",
+          "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "9ヶ月",
-            "periods": [
-              {
-                "from": "2018-11",
-                "to": "2019-05"
-              },
-              {
-                "from": "2018-08",
-                "to": "2018-09"
-              }
-            ]
+            "total": "1年以上"
           }
         },
         {
           "id": 2,
           "name": "gRPC (Golang)",
           "experience": {
-            "total": "1年9ヶ月",
-            "periods": [
-              {
-                "from": "2017-12",
-                "to": "2018-06"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "1年9ヶ月"
           }
         },
         {
           "id": 3,
           "name": "GraphQL (Golang/TypeScript)",
-          "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "1年10ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              }
-            ]
+            "total": "1年10ヶ月以上"
           }
         }
       ]
@@ -372,48 +199,16 @@
         {
           "id": 1,
           "name": "AWS",
+          "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "1年6ヶ月",
-            "periods": [
-              {
-                "from": "2019-06",
-                "to": "2019-09"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "2年以上"
           }
         },
         {
           "id": 2,
           "name": "GCP",
-          "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "3年3ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              },
-              {
-                "from": "2018-11",
-                "to": "2019-05"
-              },
-              {
-                "from": "2018-10",
-                "to": "2018-11"
-              },
-              {
-                "from": "2018-08",
-                "to": "2018-09"
-              },
-              {
-                "from": "2017-12",
-                "to": "2018-06"
-              }
-            ]
+            "total": "3年3ヶ月以上"
           }
         }
       ]
@@ -426,47 +221,21 @@
           "id": 1,
           "name": "Oracle",
           "experience": {
-            "total": "1年11ヶ月以上",
-            "periods": [
-              {
-                "from": "2016-04",
-                "to": "2016-09"
-              },
-              {
-                "from": "2014-11",
-                "to": "2016-03"
-              }
-            ]
+            "total": "1年11ヶ月以上"
           }
         },
         {
           "id": 2,
           "name": "PostgreSQL",
           "experience": {
-            "total": "1年10ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              }
-            ]
+            "total": "1年10ヶ月以上"
           }
         },
         {
           "id": 3,
           "name": "MySQL",
           "experience": {
-            "total": "1年10ヶ月",
-            "periods": [
-              {
-                "from": "2014-04",
-                "to": "2014-09"
-              },
-              {
-                "from": "2012-03",
-                "to": "2013-06"
-              }
-            ]
+            "total": "2年以上"
           }
         },
         {
@@ -491,7 +260,7 @@
         {
           "id": 2,
           "name": "Mac",
-          "summary": "過去、数年ほど開発端末として使用。"
+          "summary": "ここ数年開発端末として使用。"
         },
         {
           "id": 3,
@@ -513,13 +282,7 @@
           "name": "Scrum",
           "summary": "チームビルディングから参加した経験あり",
           "experience": {
-            "total": "11ヶ月",
-            "periods": [
-              {
-                "from": "2014-11",
-                "to": "2016-03"
-              }
-            ]
+            "total": "11ヶ月"
           }
         },
         {
@@ -530,52 +293,21 @@
           "id": 3,
           "name": "Docker",
           "experience": {
-            "total": "3年7ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              },
-              {
-                "from": "2017-12",
-                "to": "2018-06"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "4年以上"
           }
         },
         {
           "id": 4,
           "name": "MicroService",
           "experience": {
-            "total": "1年9ヶ月",
-            "periods": [
-              {
-                "from": "2017-12",
-                "to": "2018-06"
-              },
-              {
-                "from": "2016-11",
-                "to": "2017-12"
-              }
-            ]
+            "total": "1年9ヶ月"
           }
         },
         {
           "id": 5,
           "name": "Auth0",
-          "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "1年10ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              }
-            ]
+            "total": "1年10ヶ月以上"
           }
         },
         {
@@ -583,13 +315,7 @@
           "name": "SendGrid",
           "summary": "現在参画中の案件にて使用中",
           "experience": {
-            "total": "1年10ヶ月以上",
-            "periods": [
-              {
-                "from": "2019-10",
-                "to": ""
-              }
-            ]
+            "total": "2年以上"
           }
         }
       ]
