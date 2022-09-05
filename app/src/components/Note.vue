@@ -10,10 +10,11 @@
           <template v-if="n.isMultipleLine">
             <template v-for="i in n.items" :key="i.id">
               <Textarea
+                :auto-resize="true"
                 :value="i.text"
                 class="p-flex"
-                :auto-resize="true"
                 disabled
+                style="opacity: 1"
               />
             </template>
           </template>
@@ -56,4 +57,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

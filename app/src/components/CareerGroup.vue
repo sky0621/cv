@@ -6,12 +6,12 @@
       class="customized-timeline"
     >
       <template #opposite="slot">
-        <div class="p-text-secondary">
+        <div class="p-text-secondary" style="min-width: 140px">
           {{ slot.item.period.from }} ~ {{ slot.item.period.to }}
         </div>
       </template>
       <template #content="slot">
-        <Panel :toggleable="true" :collapsed="true" class="p-mb-4">
+        <Panel :collapsed="true" :toggleable="true" class="p-mb-4">
           <template #header>
             {{ slot.item.title }}
           </template>
@@ -48,7 +48,7 @@
   })
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
   @media screen and (max-width: 960px) {
     ::v-deep(.customized-timeline) {
       .p-timeline-event:nth-child(even) {

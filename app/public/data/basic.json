@@ -7,42 +7,47 @@
   "userId": 2,
   "likes": [
     {
-      "id": 25,
+      "id": 1,
       "name": "Go",
       "basicId": 2
     },
     {
-      "id": 26,
+      "id": 2,
+      "name": "React",
+      "basicId": 2
+    },
+    {
+      "id": 3,
       "name": "Vue.js/Nuxt.js",
       "basicId": 2
     },
     {
-      "id": 27,
+      "id": 4,
       "name": "GraphQL",
       "basicId": 2
     },
     {
-      "id": 28,
+      "id": 5,
       "name": "GCP",
       "basicId": 2
     },
     {
-      "id": 29,
+      "id": 6,
+      "name": "AWS",
+      "basicId": 2
+    },
+    {
+      "id": 7,
       "name": "Scrum",
       "basicId": 2
     },
     {
-      "id": 30,
+      "id": 8,
       "name": "Linux",
       "basicId": 2
     },
     {
-      "id": 31,
-      "name": "EdTech",
-      "basicId": 2
-    },
-    {
-      "id": 32,
+      "id": 9,
       "name": "JetBrains",
       "basicId": 2
     }

@@ -43,7 +43,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
+  import { computed, defineComponent, PropType } from 'vue'
   import { Career } from '@/types/career'
 
   export default defineComponent({
@@ -64,4 +64,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

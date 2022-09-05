@@ -18,19 +18,6 @@
             </template>
             <template v-if="s.experience">
               <div class="p-mb-2">経験：{{ s.experience?.total }}</div>
-              <Inplace :closable="true">
-                <template #display> breakdown </template>
-                <template #content>
-                  <template
-                    v-for="(p, pIdx) in s.experience?.periods"
-                    :key="pIdx"
-                  >
-                    <div class="p-text-secondary p-mb-1">
-                      {{ p.from }} ~ {{ p.to }}
-                    </div>
-                  </template>
-                </template>
-              </Inplace>
             </template>
           </template>
         </Card>
@@ -40,7 +27,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, computed } from 'vue'
+  import { computed, defineComponent, PropType } from 'vue'
   import { Skill } from '@/types/skill'
 
   export default defineComponent({
@@ -61,4 +48,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
