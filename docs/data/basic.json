@@ -1,84 +1,84 @@
 {
-  "id": 9,
+  "id": 2,
   "nickname": "sky0621",
   "birthday": "1978-06-01",
   "job": "ソフトウェア開発者",
   "belongTo": "フリー（個人事業主）",
-  "userId": 1,
+  "userId": 2,
   "likes": [
     {
-      "id": 81,
+      "id": 25,
       "name": "Go",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 82,
+      "id": 26,
       "name": "Vue.js/Nuxt.js",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 83,
+      "id": 27,
       "name": "GraphQL",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 84,
+      "id": 28,
       "name": "GCP",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 85,
+      "id": 29,
       "name": "Scrum",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 86,
+      "id": 30,
       "name": "Linux",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 87,
+      "id": 31,
       "name": "EdTech",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 88,
+      "id": 32,
       "name": "JetBrains",
-      "basicId": 9
+      "basicId": 2
     }
   ],
   "outputs": [
     {
-      "id": 34,
+      "id": 10,
       "name": "Qiita",
       "url": "https://qiita.com/sky0621",
       "icon": "pi pi-globe",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 35,
+      "id": 11,
       "name": "GitHub",
       "url": "https://github.com/sky0621/",
       "icon": "pi pi-github",
-      "basicId": 9
+      "basicId": 2
     },
     {
-      "id": 36,
+      "id": 12,
       "name": "当サイト構築ソース",
       "url": "https://github.com/sky0621/cv",
       "icon": "pi pi-globe",
-      "basicId": 9
+      "basicId": 2
     }
   ],
   "qualifications": [
     {
-      "id": 12,
+      "id": 4,
       "name": "Associate Cloud Engineer",
       "org": "Google",
       "url": "https://cloud.google.com/certification/cloud-engineer?hl=ja",
       "date": "2018",
       "note": "有効期限切れ・・・。",
-      "basicId": 9
+      "basicId": 2
     }
   ]
 }

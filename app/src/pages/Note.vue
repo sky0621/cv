@@ -4,6 +4,7 @@
 
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
+  import NoteComponent from '@/components/Note.vue'
   import { NoteService } from '@/service/NoteService'
 
   export default defineComponent({
@@ -27,4 +28,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
