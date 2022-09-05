@@ -2,11 +2,11 @@
   <div class="p-text-left">
     <template v-for="n in notes_" :key="n.id">
       <div class="p-mb-5">
-        <div class="p-text-bold p-mb-2">
-          ■{{ n.label }}<span v-if="n.showNow">（{{ now() }} 現在）</span>
+        <div class="p-text-bold p-mb-2" style="font-size: larger">
+          {{ n.label }}<span v-if="n.showNow">（{{ now() }} 現在）</span>
         </div>
         <div class="p-d-flex p-flex-column">
-          <div v-if="n.memo !== ''" class="p-ml-4">{{ n.memo }}</div>
+          <div v-if="n.memo !== ''" class="p-ml-1">{{ n.memo }}</div>
           <template v-if="n.isMultipleLine">
             <template v-for="i in n.items" :key="i.id">
               <Textarea
@@ -19,7 +19,7 @@
             </template>
           </template>
           <template v-else>
-            <ul>
+            <ul style="padding-inline-start: 20px; margin-top: 0">
               <template v-for="i in n.items" :key="i.id">
                 <li>{{ i.text }}</li>
               </template>
