@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base",
+    "npm:unpublishSafe"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": [
+    "every weekday",
+    "every weekend"
+  ]
+}
