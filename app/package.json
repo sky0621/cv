@@ -22,7 +22,7 @@
     "axios": "0.27.2",
     "date-fns": "2.29.3",
     "primeflex": "3.2.1",
-    "primeicons": "4.1.0",
+    "primeicons": "6.0.1",
     "primevue": "3.17.0",
     "vue": "3.1.4",
     "vue-router": "4.1.5"
