@@ -11,7 +11,7 @@
         </div>
       </template>
       <template #content="slot">
-        <Panel :collapsed="true" :toggleable="true" class="p-mb-4">
+        <Panel :collapsed="true" :toggleable="true" class="mb-4">
           <template #header>
             {{ slot.item.title }}
           </template>

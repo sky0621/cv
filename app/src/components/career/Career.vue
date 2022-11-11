@@ -1,8 +1,8 @@
 <template>
   <template v-for="c in careers_" :key="c.id">
-    <Card class="p-text-left p-mb-2">
+    <Card class="text-left mb-2">
       <template #header>
-        <div class="p-pl-3 p-pt-3">{{ c.from }} - {{ c.to }}</div>
+        <div class="pl-3 pt-3">{{ c.from }} - {{ c.to }}</div>
       </template>
       <template #title>
         <div>{{ c.title }}</div>
@@ -12,16 +12,16 @@
         <Divider />
       </template>
       <template #content>
-        <div class="p-mb-4">
-          <div class="p-text-bold">担当タスク</div>
+        <div class="mb-4">
+          <div class="text-bold">担当タスク</div>
           <template v-for="(t, tIdx) in c.tasks" :key="tIdx">
             <div>{{ t }}</div>
           </template>
         </div>
-        <div class="p-text-bold">使用技術</div>
+        <div class="text-bold">使用技術</div>
         <template v-for="(g, gIdx) in c.skillGroups" :key="gIdx">
           <div v-if="g.title !== ''">【{{ g.title }}】</div>
-          <div class="p-mb-4">
+          <div class="mb-4">
             <template v-for="(s, sIdx) in g.skills" :key="sIdx">
               <div>
                 - {{ s.name }}

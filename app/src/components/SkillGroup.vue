@@ -1,7 +1,7 @@
 <template>
   <template v-for="g in skillGroups_" :key="g.id">
     <Divider />
-    <div class="p-my-3 p-text-bold">{{ g.name }}</div>
+    <div class="my-3 text-bold">{{ g.name }}</div>
     <Divider />
     <SkillComponent :skills="g.skills" />
   </template>
@@ -33,4 +33,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

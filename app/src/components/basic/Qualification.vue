@@ -2,19 +2,19 @@
   <template v-for="q in qualifications_" :key="q.id">
     <Card>
       <template #header>
-        <div class="p-ml-2 p-mt-2">{{ q.org }}</div>
+        <div class="ml-2 mt-2">{{ q.org }}</div>
       </template>
       <template #title>
-        <a :href="q.url" target="_blank" class="p-ml-1">{{ q.name }}</a>
+        <a :href="q.url" class="ml-1" target="_blank">{{ q.name }}</a>
       </template>
-      <template #content> {{ q.date }} 取得（{{ q.note }}） </template>
+      <template #content> {{ q.gotDate }} 取得（{{ q.memo }}） </template>
     </Card>
   </template>
 </template>
 
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
-  import { Qualification } from '@/types/basic'
+  import { Qualification } from '@/types/qualification'
 
   export default defineComponent({
     name: 'BasicQualificationComponent',
@@ -35,4 +35,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

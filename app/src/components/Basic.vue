@@ -13,11 +13,11 @@
         <BasicAgeComponent v-if="slot.data" :day="slot.data.attribute.birthday.day" :month="slot.data.attribute.birthday.month" :year="slot.data.attribute.birthday.year" />
       </template>
     </Column>
-    <Column field="job" header="職業"></Column>
-    <Column field="belongTo" header="所属"></Column>
+    <Column field="attribute.job" header="職業"></Column>
+    <Column field="attribute.belongTo" header="所属"></Column>
     <Column field="activities" header="アウトプット">
       <template #body="slot">
-        <BasicOutputComponent v-if="slot.data" :outputs="slot.data.activities" />
+        <BasicOutputComponent v-if="slot.data" :activities="slot.data.activities" />
       </template>
     </Column>
     <Column field="qualifications" header="資格">
@@ -28,6 +28,7 @@
         />
       </template>
     </Column>
+    <Column field="attribute.pr" header="PR"></Column>
   </DataTable>
 </template>
 
@@ -36,7 +37,7 @@
   import { Basic } from '@/types/basic'
   import BasicNicknameComponent from '@/components/basic/Nickname.vue'
   import BasicAgeComponent from '@/components/basic/Age.vue'
-  import BasicOutputComponent from '@/components/basic/Output.vue'
+  import BasicOutputComponent from '@/components/basic/Activity.vue'
   import BasicQualificationComponent from '@/components/basic/Qualification.vue'
 
   export default defineComponent({

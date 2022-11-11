@@ -1,8 +1,8 @@
 <template>
-  <div class="p-grid">
+  <div class="grid">
     <template v-for="s in skills_" :key="s.id">
-      <div class="p-col">
-        <Card class="p-col p-text-left p-mb-2">
+      <div class="col">
+        <Card class="col text-left mb-2">
           <template #title>
             <div>{{ s.name }}</div>
           </template>
@@ -14,10 +14,10 @@
           </template>
           <template v-if="s.summary || s.experience" #content>
             <template v-if="s.summary">
-              <div class="p-mb-2">{{ s.summary }}</div>
+              <div class="mb-2">{{ s.summary }}</div>
             </template>
             <template v-if="s.experience">
-              <div class="p-mb-2">経験：{{ s.experience?.total }}</div>
+              <div class="mb-2">経験：{{ s.experience?.total }}</div>
             </template>
           </template>
         </Card>
