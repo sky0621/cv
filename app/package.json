@@ -2,7 +2,7 @@
   "name": "cv-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --mode=development",
+    "dev": "vite --mode=development --port 3000",
     "build": "vue-tsc --noEmit && vite build --mode=production",
     "serve": "vite preview",
     "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",

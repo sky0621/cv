@@ -7,16 +7,24 @@
   export default defineComponent({
     name: 'BasicAgeComponent',
     props: {
-      birthday: {
-        type: String,
-        default: '',
+      year: {
+        type: Number,
+        default: 0,
+      },
+      month: {
+        type: Number,
+        default: 0,
+      },
+      day: {
+        type: Number,
+        default: 0,
       },
     },
     setup(props) {
       const cs = new CalculationService()
 
       const ageFromBirthday = computed(() => {
-        return cs.ageFromBirthday(props.birthday)
+        return cs.ageFromBirthday(props.year, props.month, props.day)
       })
 
       const now = cs.now
@@ -26,4 +34,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

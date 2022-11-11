@@ -5,8 +5,10 @@
 <script lang="ts">
   import { defineComponent, onMounted, ref } from 'vue'
   import BasicComponent from '@/components/Basic.vue'
-  import { BasicService } from '@/service/BasicService'
   import { AttributeService } from '@/service/AttributeService'
+  import { ActivityService } from '@/service/ActivityService'
+  import { QualificationService } from '@/service/QualificationService'
+  import { Basic } from "@/types/basic";
 
   export default defineComponent({
     name: 'BasicPage',
@@ -18,9 +20,12 @@
 
       onMounted(async () => {
         try {
-          basic.value = await new BasicService().getBasicInfo()
-          const att = await new AttributeService().getAttributeInfo()
-          console.log(att)
+          const b: Basic = {
+            attribute: await new AttributeService().getAttributeInfo(),
+            activities: await new ActivityService().getActivitiesInfo(),
+            qualifications: await new QualificationService().getQualificationsInfo(),
+          }
+          basic.value = b;
         } catch (e) {
           console.error(e)
         }

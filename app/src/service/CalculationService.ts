@@ -2,15 +2,10 @@ import differenceInCalendarYears from 'date-fns/differenceInCalendarYears'
 import format from 'date-fns/format'
 
 export class CalculationService {
-  ageFromBirthday(b: string | undefined): string {
-    if (!b) return '?'
-    const ymd = b.split('-')
-    if (ymd.length !== 3) return '?'
+  ageFromBirthday(year: number, month: number, day: number): string {
+    if (year === 0 || month === 0 || day === 0) return '?'
     try {
-      const y = parseInt(ymd[0], 10)
-      const m = parseInt(ymd[1], 10)
-      const d = parseInt(ymd[2], 10)
-      const bDay = new Date(y, m - 1, d)
+      const bDay = new Date(year, month - 1, day)
       const now = new Date()
       const diff = differenceInCalendarYears(now, bDay)
       return diff.toString(10)

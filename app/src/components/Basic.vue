@@ -4,25 +4,20 @@
       <template #body="slot">
         <BasicNicknameComponent
           v-if="slot.data"
-          :nickname="slot.data.nickname"
+          :nickname="slot.data.attribute.nickname"
         />
       </template>
     </Column>
     <Column field="birthday" header="年齢">
       <template #body="slot">
-        <BasicAgeComponent v-if="slot.data" :birthday="slot.data.birthday" />
+        <BasicAgeComponent v-if="slot.data" :day="slot.data.attribute.birthday.day" :month="slot.data.attribute.birthday.month" :year="slot.data.attribute.birthday.year" />
       </template>
     </Column>
     <Column field="job" header="職業"></Column>
     <Column field="belongTo" header="所属"></Column>
-    <Column field="outputs" header="アウトプット">
+    <Column field="activities" header="アウトプット">
       <template #body="slot">
-        <BasicOutputComponent v-if="slot.data" :outputs="slot.data.outputs" />
-      </template>
-    </Column>
-    <Column field="likes" header="お気に入り">
-      <template #body="slot">
-        <BasicLikeComponent v-if="slot.data" :likes="slot.data.likes" />
+        <BasicOutputComponent v-if="slot.data" :outputs="slot.data.activities" />
       </template>
     </Column>
     <Column field="qualifications" header="資格">
@@ -42,7 +37,6 @@
   import BasicNicknameComponent from '@/components/basic/Nickname.vue'
   import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Output.vue'
-  import BasicLikeComponent from '@/components/basic/Like.vue'
   import BasicQualificationComponent from '@/components/basic/Qualification.vue'
 
   export default defineComponent({
@@ -51,7 +45,6 @@
       BasicNicknameComponent,
       BasicAgeComponent,
       BasicOutputComponent,
-      BasicLikeComponent,
       BasicQualificationComponent,
     },
     props: {
@@ -70,4 +63,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
