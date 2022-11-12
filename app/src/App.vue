@@ -1,8 +1,5 @@
 <template>
   <header class="grid">
-    <div class="col-fixed" style="width: 100px">
-      <Avatar image="./avatar.png" size="xlarge"></Avatar>
-    </div>
     <div class="col">
       <TabMenu :model="items" />
     </div>
