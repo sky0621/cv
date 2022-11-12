@@ -2,7 +2,7 @@
   <template v-for="q in qualifications_" :key="q.id">
     <Card>
       <template #header>
-        <div class="ml-2 mt-2">{{ q.org }}</div>
+        <div class="ml-2 mt-2">{{ q.organization }}</div>
       </template>
       <template #title>
         <a :href="q.url" class="ml-1" target="_blank">{{ q.name }}</a>

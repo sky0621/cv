@@ -23,9 +23,9 @@
           to: '/',
         },
         {
-          label: 'Note',
-          icon: 'pi pi-fw pi-exclamation-circle',
-          to: '/note',
+          label: 'Career',
+          icon: 'pi pi-fw pi-book',
+          to: '/career',
         },
         {
           label: 'Skill',
@@ -33,9 +33,9 @@
           to: '/skill',
         },
         {
-          label: 'Career',
-          icon: 'pi pi-fw pi-book',
-          to: '/career',
+          label: 'Note',
+          icon: 'pi pi-fw pi-exclamation-circle',
+          to: '/note',
         },
       ])
       return { items }

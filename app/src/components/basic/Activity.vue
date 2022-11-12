@@ -1,7 +1,7 @@
 <template>
   <DataView :value="activities_" layout="grid">
     <template #grid="slot">
-      <div class="mr-3 mb-2">
+      <div class="mr-5">
         <i :class="slot.data.icon"></i
         ><a :href="slot.data.url" class="ml-1" target="_blank">{{
           slot.data.name

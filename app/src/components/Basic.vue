@@ -1,35 +1,50 @@
 <template>
-  <DataTable :value="basics" responsive-layout="stack" show-gridlines>
-    <Column field="nickname" header="ニックネーム">
-      <template #body="slot">
-        <BasicNicknameComponent
-          v-if="slot.data"
-          :nickname="slot.data.attribute.nickname"
-        />
-      </template>
-    </Column>
-    <Column field="birthday" header="年齢">
-      <template #body="slot">
-        <BasicAgeComponent v-if="slot.data" :day="slot.data.attribute.birthday.day" :month="slot.data.attribute.birthday.month" :year="slot.data.attribute.birthday.year" />
-      </template>
-    </Column>
-    <Column field="attribute.job" header="職業"></Column>
-    <Column field="attribute.belongTo" header="所属"></Column>
-    <Column field="activities" header="アウトプット">
-      <template #body="slot">
-        <BasicOutputComponent v-if="slot.data" :activities="slot.data.activities" />
-      </template>
-    </Column>
-    <Column field="qualifications" header="資格">
-      <template #body="slot">
-        <BasicQualificationComponent
-          v-if="slot.data"
-          :qualifications="slot.data.qualifications"
-        />
-      </template>
-    </Column>
-    <Column field="attribute.pr" header="PR"></Column>
-  </DataTable>
+  <div class="surface-section">
+    <template v-if="basic_">
+      <ul class="list-none p-0 m-0">
+        <li class="flex align-items-start py-3 px-2 border-top-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Nickname</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            <div>{{ basic_?.attribute?.nickname }}</div>
+          </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Age</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            <BasicAgeComponent :day="basic_?.attribute?.birthday.day" :month="basic_?.attribute?.birthday.month" :year="basic_?.attribute?.birthday.year" />
+          </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Job</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            {{ basic_?.attribute?.job }}
+          </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Belong to</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            {{ basic_?.attribute?.belongTo }}
+          </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Activities</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            <BasicActivityComponent :activities="basic_.activities" />
+          </div>
+        </li>
+        <li class="flex align-items-center py-3 px-2 border-top-1 border-bottom-1 surface-border flex-wrap">
+          <div class="text-500 w-6 md:w-2 font-medium">Qualifications</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            <BasicQualificationComponent :qualifications="basic_.qualifications" />
+          </div>
+        </li>
+      </ul>
+      <BasicPrComponent :pr="basic_?.attribute?.pr" />
+    </template>
+    <template v-if="!basic_">
+      Loading...
+    </template>
+  </div>
 </template>
 
 <script lang="ts">
@@ -39,10 +54,14 @@
   import BasicAgeComponent from '@/components/basic/Age.vue'
   import BasicOutputComponent from '@/components/basic/Activity.vue'
   import BasicQualificationComponent from '@/components/basic/Qualification.vue'
+  import BasicPrComponent from "@/components/basic/Pr.vue";
+  import BasicActivityComponent from "@/components/basic/Activity.vue";
 
   export default defineComponent({
     name: 'BasicComponent',
     components: {
+      BasicActivityComponent,
+      BasicPrComponent,
       BasicNicknameComponent,
       BasicAgeComponent,
       BasicOutputComponent,
@@ -55,11 +74,11 @@
       },
     },
     setup(props) {
-      const basics = computed(() => {
-        if (!props || !props.basic) return []
-        return [props.basic]
+      const basic_ = computed(() => {
+        if (!props || !props.basic) return undefined
+        return props.basic
       })
-      return { basics }
+      return { basic_ }
     },
   })
 </script>

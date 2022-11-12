@@ -1,4 +1,13 @@
-<template>{{ pr_ }}</template>
+<template>
+  <div class="text-500 py-3 w-6 md:w-2 font-medium">PR</div>
+  <Textarea
+    :auto-resize="true"
+    :value="pr_"
+    class="flex px-5 py-5"
+    disabled
+    style="opacity: 1; width: 100%"
+  />
+</template>
 
 <script lang="ts">
   import { defineComponent, computed } from 'vue'
