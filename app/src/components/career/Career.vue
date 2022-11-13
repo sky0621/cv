@@ -12,30 +12,11 @@
       </template>
       <template #content>
         <div class="mb-4">
-          <div class="text-bold">担当タスク</div>
-          <template v-for="(t, tIdx) in career_?.tasks" :key="tIdx">
-            <div>{{ t }}</div>
-          </template>
+          <CareerTasksComponent :tasks="career_?.tasks" />
         </div>
-        <div class="text-bold">使用技術</div>
-        <template v-for="(g, gIdx) in career_?.skillGroups" :key="gIdx">
-          <div v-if="g.title !== ''">【{{ g.title }}】</div>
-          <div class="mb-4">
-            <template v-for="(s, sIdx) in g.skills" :key="sIdx">
-              <div>
-                - {{ s.name }}
-                <template v-if="s.versions">
-                  (
-                  <template v-for="(v, vIdx) in s.versions" :key="vIdx">
-                    <template v-if="vIdx > 0">/</template>
-                    {{ v }}
-                  </template>
-                  )
-                </template>
-              </div>
-            </template>
-          </div>
-        </template>
+        <div>
+          <CareerSkillGroupsComponent :skillGroups="career_?.skillGroups" />
+        </div>
       </template>
     </Card>
 </template>
@@ -46,6 +27,8 @@
   import CareerNameComponent from '@/components/career/Name.vue'
   import CareerPeriodComponent from '@/components/career/Period.vue'
   import CareerDescriptionComponent from '@/components/career/Description.vue'
+  import CareerTasksComponent from '@/components/career/Tasks.vue'
+  import CareerSkillGroupsComponent from '@/components/career/Skills.vue'
 
   export default defineComponent({
     name: 'CareerComponent',
@@ -53,6 +36,8 @@
       CareerNameComponent,
       CareerPeriodComponent,
       CareerDescriptionComponent,
+      CareerTasksComponent,
+      CareerSkillGroupsComponent,
     },
     props: {
       career: {

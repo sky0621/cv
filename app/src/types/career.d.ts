@@ -11,11 +11,11 @@ export interface Career {
   description: string[]
   from: DateYM
   to: DateYM
-  tasks: SkillTask[]
+  tasks: CareerTask[]
   skillGroups: SkillGroup[]
 }
 
-export interface SkillTask {
+export interface CareerTask {
   name: string
   description: string[]
 }
