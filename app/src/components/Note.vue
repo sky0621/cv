@@ -26,7 +26,7 @@
     name: 'NoteComponent',
     props: {
       notes: {
-        type: Object as PropType<Note[]>,
+        type: Array as PropType<Note[]>,
         default: undefined,
       },
     },

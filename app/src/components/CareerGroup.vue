@@ -7,15 +7,15 @@
     >
       <template #opposite="slot">
         <div class="p-text-secondary" style="min-width: 140px">
-          {{ slot.item.period.from }} ~ {{ slot.item.period.to }}
+          FIXME: トータル期間
         </div>
       </template>
       <template #content="slot">
         <Panel :collapsed="true" :toggleable="true" class="mb-4">
           <template #header>
-            {{ slot.item.title }}
+            {{ slot.item.label }}
           </template>
-          <CareerComponent :careers="slot.item.careers" />
+          <CareersComponent :careers="slot.item.careers" />
         </Panel>
       </template>
     </Timeline>
@@ -25,12 +25,12 @@
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { CareerGroup } from '@/types/career'
-  import CareerComponent from '@/components/career/Career.vue'
+  import CareersComponent from '@/components/career/Careers.vue'
 
   export default defineComponent({
     name: 'CareerGroupComponent',
     components: {
-      CareerComponent,
+      CareersComponent,
     },
     props: {
       careerGroups: {

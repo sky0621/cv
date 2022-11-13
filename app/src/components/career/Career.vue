@@ -1,25 +1,24 @@
 <template>
-  <template v-for="c in careers_" :key="c.id">
     <Card class="text-left mb-2">
       <template #header>
-        <div class="pl-3 pt-3">{{ c.from }} - {{ c.to }}</div>
+        <CareerPeriodComponent :from="career_?.from" :to="career_?.to" />
       </template>
       <template #title>
-        <div>{{ c.title }}</div>
+        <CareerNameComponent :name="career_?.name" />
       </template>
       <template #subtitle>
-        <div>{{ c.summary }}</div>
+        <CareerDescriptionComponent :description="career_?.description" />
         <Divider />
       </template>
       <template #content>
         <div class="mb-4">
           <div class="text-bold">担当タスク</div>
-          <template v-for="(t, tIdx) in c.tasks" :key="tIdx">
+          <template v-for="(t, tIdx) in career_?.tasks" :key="tIdx">
             <div>{{ t }}</div>
           </template>
         </div>
         <div class="text-bold">使用技術</div>
-        <template v-for="(g, gIdx) in c.skillGroups" :key="gIdx">
+        <template v-for="(g, gIdx) in career_?.skillGroups" :key="gIdx">
           <div v-if="g.title !== ''">【{{ g.title }}】</div>
           <div class="mb-4">
             <template v-for="(s, sIdx) in g.skills" :key="sIdx">
@@ -39,27 +38,34 @@
         </template>
       </template>
     </Card>
-  </template>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { Career } from '@/types/career'
+  import CareerNameComponent from '@/components/career/Name.vue'
+  import CareerPeriodComponent from '@/components/career/Period.vue'
+  import CareerDescriptionComponent from '@/components/career/Description.vue'
 
   export default defineComponent({
     name: 'CareerComponent',
+    components: {
+      CareerNameComponent,
+      CareerPeriodComponent,
+      CareerDescriptionComponent,
+    },
     props: {
-      careers: {
-        type: Array as PropType<Career[]>,
+      career: {
+        type: Object as PropType<Career>,
         default: undefined,
       },
     },
     setup(props) {
-      const careers_ = computed(() => {
-        if (!props || !props.careers) return []
-        return props.careers
+      const career_ = computed(() => {
+        if (!props || !props.career) return undefined
+        return props.career
       })
-      return { careers_ }
+      return { career_ }
     },
   })
 </script>

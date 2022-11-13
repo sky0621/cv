@@ -15,6 +15,11 @@ export class CalculationService {
     return '?'
   }
 
+  toStrYearMonth(year: number, month: number): string {
+    if (year === 0 || month === 0) return '?'
+    return `${year} / ${month}`
+  }
+
   now(): string {
     return format(new Date(), 'yyyy-MM-dd')
   }

@@ -1,4 +1,4 @@
-export interface Period {
-  from: string
-  to: string
+export interface DateYM {
+  year: number
+  month: number
 }
