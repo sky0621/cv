@@ -1,30 +1,24 @@
 <template>{{ ageFromBirthday }} 歳（{{ now() }} 現在）</template>
 
 <script lang="ts">
-  import { defineComponent, computed } from 'vue'
+  import { defineComponent, PropType, computed } from 'vue'
   import { CalculationService } from '@/service/CalculationService'
+  import { Birthday } from '/@/types/attribute'
 
   export default defineComponent({
     name: 'BasicAgeComponent',
     props: {
-      year: {
-        type: Number,
-        default: 0,
-      },
-      month: {
-        type: Number,
-        default: 0,
-      },
-      day: {
-        type: Number,
-        default: 0,
+      birthday: {
+        type: Object as PropType<Birthday>,
+        default: () => { return { year: 1900, month: 0, day: 0 } },
       },
     },
     setup(props) {
       const cs = new CalculationService()
 
       const ageFromBirthday = computed(() => {
-        return cs.ageFromBirthday(props.year, props.month, props.day)
+        if (!props.birthday) return undefined
+        return cs.ageFromBirthday(props.birthday.year, props.birthday.month, props.birthday.day)
       })
 
       const now = cs.now

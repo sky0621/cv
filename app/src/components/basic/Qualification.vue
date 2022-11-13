@@ -5,7 +5,7 @@
         <div class="ml-2 mt-2">{{ q.organization }}</div>
       </template>
       <template #title>
-        <a :href="q.url" class="ml-1" target="_blank">{{ q.name }}</a>
+        <a :href="q.url" class="ml-1 text-lg" target="_blank">{{ q.name }}</a>
       </template>
       <template #content> {{ q.gotDate }} 取得（{{ q.memo }}） </template>
     </Card>

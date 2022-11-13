@@ -1,5 +1,4 @@
 <template>
-  <div class="text-500 py-3 w-6 md:w-2 font-medium">PR</div>
   <Textarea
     :auto-resize="true"
     :value="pr_"

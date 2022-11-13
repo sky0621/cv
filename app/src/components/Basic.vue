@@ -1,75 +1,50 @@
 <template>
   <template v-if="basic_">
   <div class="surface-card p-4 shadow-2 border-round w-full lg:w-10">
-    <div class="text-center mb-5">
+    <div class="text-center mx-6 mb-6 mt-2">
       <Avatar :image="basic_?.attribute?.avatarUrl" class="mb-3" size="xlarge"></Avatar>
       <div class="text-900 text-3xl font-medium mb-3">{{ basic_?.attribute?.nickname }}</div>
       <span class="text-600 font-medium line-height-3">
-        <BasicAgeComponent :day="basic_?.attribute?.birthday.day" :month="basic_?.attribute?.birthday.month" :year="basic_?.attribute?.birthday.year" />
+        <BasicAgeComponent :birthday="basic_?.attribute?.birthday" />
       </span>
     </div>
     <div>
-      <label class="block text-900 font-medium mb-2" for="email1">Email</label>
-
-      <label class="block text-900 font-medium mb-2" for="password1">Password</label>
-
-    </div>
-  </div>
-    <div class="flex flex-column md:flex-row card-container gap-4">
-      <div class="flex align-items-start justify-content-start font-bold m-2">
-        <div class="text-500 font-medium">Job</div>
-        <div class="text-900 flex justify-content-start">
+      <div class="font-bold m-6">
+        <div class="text-500 font-medium mb-2">Job</div>
+        <div class="text-900">
           {{ basic_?.attribute?.job }}
         </div>
       </div>
-      <div class="flex align-items-start justify-content-start font-bold m-2">
-        <div class="text-500 font-medium">Belong to</div>
-        <div class="text-900 flex justify-content-start">
+      <div class="font-bold m-6">
+        <div class="text-500 font-medium mb-2">Belong to</div>
+        <div class="text-900">
           {{ basic_?.attribute?.belongTo }}
         </div>
       </div>
+      <div class="font-bold m-6">
+        <div class="text-500 font-medium mb-2">Activities</div>
+        <div class="text-900 flex justify-content-center">
+          <BasicActivityComponent :activities="basic_.activities" />
+        </div>
+      </div>
+      <div class="font-bold m-6">
+        <div class="text-500 font-medium mb-2">Qualifications</div>
+        <div class="text-900 flex justify-content-center">
+          <BasicQualificationComponent :qualifications="basic_.qualifications" />
+        </div>
+      </div>
+      <div class="font-bold mx-6 mt-6 mb-2">
+        <div class="text-500 font-medium mb-2">PR</div>
+        <div class="text-900 flex justify-content-center">
+          <BasicPrComponent :pr="basic_?.attribute?.pr" />
+        </div>
+      </div>
     </div>
-  </template>
-  <div class="surface-section">
-    <template v-if="basic_">
-      <ul class="flex flex-column list-none p-0 m-0">
-        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
-          <div class="text-500 w-6 md:w-2 font-medium">Age</div>
-          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
-            <BasicAgeComponent :day="basic_?.attribute?.birthday.day" :month="basic_?.attribute?.birthday.month" :year="basic_?.attribute?.birthday.year" />
-          </div>
-        </li>
-        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
-          <div class="text-500 w-6 md:w-2 font-medium">Job</div>
-          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
-            {{ basic_?.attribute?.job }}
-          </div>
-        </li>
-        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
-          <div class="text-500 w-6 md:w-2 font-medium">Belong to</div>
-          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
-            {{ basic_?.attribute?.belongTo }}
-          </div>
-        </li>
-        <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
-          <div class="text-500 w-6 md:w-2 font-medium">Activities</div>
-          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
-            <BasicActivityComponent :activities="basic_.activities" />
-          </div>
-        </li>
-        <li class="flex align-items-center py-3 px-2 border-top-1 border-bottom-1 surface-border flex-wrap">
-          <div class="text-500 w-6 md:w-2 font-medium">Qualifications</div>
-          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
-            <BasicQualificationComponent :qualifications="basic_.qualifications" />
-          </div>
-        </li>
-      </ul>
-      <BasicPrComponent :pr="basic_?.attribute?.pr" />
-    </template>
-    <template v-if="!basic_">
-      Loading...
-    </template>
   </div>
+  </template>
+  <template v-if="!basic_">
+    Loading...
+  </template>
 </template>
 
 <script lang="ts">
