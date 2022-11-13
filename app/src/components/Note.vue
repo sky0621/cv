@@ -1,30 +1,17 @@
 <template>
-  <div class="text-left">
+  <div class="text-left m-4">
     <template v-for="n in notes_" :key="n.id">
       <div class="mb-5">
-        <div class="text-bold mb-2" style="font-size: larger">
-          {{ n.label }}<span v-if="n.showNow">（{{ now() }} 現在）</span>
+        <div class="font-bold mb-2" style="font-size: larger">
+          {{ n.label }}
         </div>
         <div class="d-flex flex-column">
           <div v-if="n.memo !== ''" class="ml-1">{{ n.memo }}</div>
-          <template v-if="n.isMultipleLine">
+          <ul style="padding-inline-start: 20px; margin-top: 0">
             <template v-for="i in n.items" :key="i.id">
-              <Textarea
-                :auto-resize="true"
-                :value="i.text"
-                class="flex"
-                disabled
-                style="opacity: 1"
-              />
+              <li>{{ i.text }}</li>
             </template>
-          </template>
-          <template v-else>
-            <ul style="padding-inline-start: 20px; margin-top: 0">
-              <template v-for="i in n.items" :key="i.id">
-                <li>{{ i.text }}</li>
-              </template>
-            </ul>
-          </template>
+          </ul>
         </div>
       </div>
     </template>
@@ -34,7 +21,6 @@
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { Note } from '@/types/note'
-  import { CalculationService } from '@/service/CalculationService'
 
   export default defineComponent({
     name: 'NoteComponent',
@@ -50,9 +36,7 @@
         return props.notes
       })
 
-      const now = new CalculationService().now
-
-      return { notes_, now }
+      return { notes_ }
     },
   })
 </script>
