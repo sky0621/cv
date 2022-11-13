@@ -7,7 +7,7 @@
     >
       <template #opposite="slot">
         <div class="p-text-secondary" style="min-width: 140px">
-          FIXME: トータル期間
+          <CareerGroupPeriodComponent :careers="slot.item.careers" />
         </div>
       </template>
       <template #content="slot">
@@ -25,11 +25,13 @@
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { CareerGroup } from '@/types/career'
+  import CareerGroupPeriodComponent from '@/components/career/GroupPeriod.vue'
   import CareersComponent from '@/components/career/Careers.vue'
 
   export default defineComponent({
     name: 'CareerGroupComponent',
     components: {
+      CareerGroupPeriodComponent,
       CareersComponent,
     },
     props: {
