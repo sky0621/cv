@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-3 pt-3">{{ from }} - {{ to }}</div>
+  <div class="pl-3 pt-3">{{ from_ }} - {{ to_ }} ( {{ df }} )</div>
 </template>
 
 <script lang="ts">
@@ -24,18 +24,28 @@
 
       const cs = new CalculationService()
 
-      const from = computed(() => {
+      /*
+       * TODO: このあたり、適当にやりすぎ。直す。
+       */
+      const from_ = computed(() => {
         const firstCareer = props?.careers?.find((_, idx) => idx === len-1)
         if (!firstCareer) return { from: '?', to: '?' }
         return cs.toStrYearMonth(firstCareer.from.year, firstCareer.from.month)
       })
-      const to = computed(() => {
+      const to_ = computed(() => {
         const latestCareer = props?.careers?.find((_, idx) => idx === 0)
         if (!latestCareer) return { from: '?', to: '?' }
         return cs.toStrYearMonth(latestCareer.to.year, latestCareer.to.month)
       })
+      const df = computed(() => {
+        const firstCareer = props?.careers?.find((_, idx) => idx === len-1)
+        if (!firstCareer) return '?'
+        const latestCareer = props?.careers?.find((_, idx) => idx === 0)
+        if (!latestCareer) return '?'
+        return cs.differenceStrInMonths(new Date(`${latestCareer.to?.year}-${latestCareer.to?.month}-1`), new Date(`${firstCareer.from?.year}-${firstCareer.from?.month}-1`))
+      })
 
-      return { from, to }
+      return { from_, to_, df }
     },
   })
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-3 pt-3">{{ from }} - {{ to }}</div>
+  <div class="pl-3 pt-3">{{ from_ }} - {{ to_ }} ( {{ df }} )</div>
 </template>
 
 <script lang="ts">
@@ -23,20 +23,23 @@
       },
     },
     setup(props) {
-      if (!props) return { from: '?', to: '?' }
+      if (!props) return { from_: '?', to_: '?', df: '?' }
 
       const cs = new CalculationService()
 
-      const from = computed(() => {
+      const from_ = computed(() => {
         if (!props.from) return '?'
         return cs.toStrYearMonth(props.from.year, props.from.month)
       })
-      const to = computed(() => {
+      const to_ = computed(() => {
         if (!props.to) return '?'
         return cs.toStrYearMonth(props.to.year, props.to.month)
       })
+      const df = computed(() => {
+        return cs.differenceStrInMonths(new Date(`${props.to?.year}-${props.to?.month}-1`), new Date(`${props.from?.year}-${props.from?.month}-1`))
+      })
 
-      return { from, to }
+      return { from_, to_, df }
     },
   })
 </script>
