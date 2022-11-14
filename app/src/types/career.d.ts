@@ -1,24 +1,38 @@
-import { Period } from '@/types/common'
-import { Skill } from '@/types/skill'
+import { DateYM } from '@/types/common'
 
 export interface CareerGroup {
-  id: number
-  title: string
-  period: Period
+  label: string
   careers: Career[]
 }
 
 export interface Career {
-  id: number
-  title: string
-  from: string
-  to: string
-  summary: string
-  tasks: string[]
-  skillGroups: SkillGroup[]
+  name: string
+  description: string[]
+  from: DateYM
+  to: DateYM
+  tasks: CareerTask[]
+  skillGroups: CareerSkillGroup[]
 }
 
-export interface SkillGroup {
-  title: string
-  skills: Skill[]
+export interface CareerTask {
+  name: string
+  description: string[]
+}
+
+export interface CareerSkillGroup {
+  label: string
+  skills: CareerSkillSet[]
+}
+
+export interface CareerSkillSet {
+  skill: CareerSkill
+  version: string
+}
+
+export interface CareerSkill {
+  id: number
+  key: string
+  name: string
+  tagKey: string
+  url: string
 }

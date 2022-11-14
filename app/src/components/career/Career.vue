@@ -1,65 +1,56 @@
 <template>
-  <template v-for="c in careers_" :key="c.id">
-    <Card class="p-text-left p-mb-2">
+    <Card class="text-left mb-2">
       <template #header>
-        <div class="p-pl-3 p-pt-3">{{ c.from }} - {{ c.to }}</div>
+        <CareerPeriodComponent :from="career_?.from" :to="career_?.to" />
       </template>
       <template #title>
-        <div>{{ c.title }}</div>
+        <CareerNameComponent :name="career_?.name" />
       </template>
       <template #subtitle>
-        <div>{{ c.summary }}</div>
+        <CareerDescriptionComponent :description="career_?.description" />
         <Divider />
       </template>
       <template #content>
-        <div class="p-mb-4">
-          <div class="p-text-bold">担当タスク</div>
-          <template v-for="(t, tIdx) in c.tasks" :key="tIdx">
-            <div>{{ t }}</div>
-          </template>
+        <div class="mb-4">
+          <CareerTasksComponent :tasks="career_?.tasks" />
         </div>
-        <div class="p-text-bold">使用技術</div>
-        <template v-for="(g, gIdx) in c.skillGroups" :key="gIdx">
-          <div v-if="g.title !== ''">【{{ g.title }}】</div>
-          <div class="p-mb-4">
-            <template v-for="(s, sIdx) in g.skills" :key="sIdx">
-              <div>
-                - {{ s.name }}
-                <template v-if="s.versions">
-                  (
-                  <template v-for="(v, vIdx) in s.versions" :key="vIdx">
-                    <template v-if="vIdx > 0">/</template>
-                    {{ v }}
-                  </template>
-                  )
-                </template>
-              </div>
-            </template>
-          </div>
-        </template>
+        <div>
+          <CareerSkillGroupsComponent :skillGroups="career_?.skillGroups" />
+        </div>
       </template>
     </Card>
-  </template>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { Career } from '@/types/career'
+  import CareerNameComponent from '@/components/career/Name.vue'
+  import CareerPeriodComponent from '@/components/career/Period.vue'
+  import CareerDescriptionComponent from '@/components/career/Description.vue'
+  import CareerTasksComponent from '@/components/career/Tasks.vue'
+  import CareerSkillGroupsComponent from '@/components/career/Skills.vue'
 
   export default defineComponent({
     name: 'CareerComponent',
+    components: {
+      CareerNameComponent,
+      CareerPeriodComponent,
+      CareerDescriptionComponent,
+      CareerTasksComponent,
+      CareerSkillGroupsComponent,
+    },
     props: {
-      careers: {
-        type: Array as PropType<Career[]>,
+      career: {
+        type: Object as PropType<Career>,
         default: undefined,
       },
     },
     setup(props) {
-      const careers_ = computed(() => {
-        if (!props || !props.careers) return []
-        return props.careers
+      const career_ = computed(() => {
+        if (!props || !props.career) return undefined
+        return props.career
       })
-      return { careers_ }
+      return { career_ }
     },
   })
 </script>

@@ -2,24 +2,32 @@
 
 ## description
 
-[GitHub Pages にて公開している Curriculum-Vitae](https://sky0621.github.io/cv/) のソース。
+GitHub Pages にて公開している [Curriculum-Vitae](https://sky0621.github.io/cv/) のソース。
+
+## relation
+
+データソースは「[cv-admin](https://github.com/sky0621/cv-admin)」リポジトリで生成。
 
 ## screen shots
 
 ### Basic
 ![Basic](pics/basic.png)
-
-### Note
-![Note](pics/note.png)
-
-### Skill
-![Skill](pics/skill.png)
+![Basic](pics/basic2.png)
 
 ### Career
 ![Career](pics/career.png)
 
 #### open
-![Career2](pics/career2.png)
+![Career](pics/career2.png)
+
+### Skill
+![Skill](pics/skill.png)
+
+#### open
+![Skill](pics/skill2.png)
+
+### Note
+![Note](pics/note.png)
 
 ## directory structure
 
@@ -27,22 +35,8 @@
 
 GitHub Pages にて表示する経歴書のソース。
 
-画面に表示する情報は Axios を介して取得する実装にしているがデータソースは admin 側で生成した JSON を読む形にしている。
-
-### admin/backend
-
-app が利用する JSON の生成、及び、JSON 生成の元となる経歴書の情報を管理（永続先は SQLite ファイル）する。
-
-各種情報のCRUD機能をAPIとして提供する。
-
-今のところフロントエンドは作ってないので Postman で叩く。
+画面に表示する情報は Axios を介して取得する実装にしているがデータソースは [cv-admin](https://github.com/sky0621/cv-admin) 側で生成した JSON を読む形にしている。
 
 ### docs
 
 app の `yarn run build` によって、この配下に GitHub Pages でホストするSPAリソースが生成される。
-
-## todo
-
-- データソースをRDB管理
-- RDB -> ソースJSON生成
-- リファクタ（主にコンポーネント分割）

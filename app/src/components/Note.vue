@@ -1,46 +1,37 @@
 <template>
-  <div class="p-text-left">
-    <template v-for="n in notes_" :key="n.id">
-      <div class="p-mb-5">
-        <div class="p-text-bold p-mb-2" style="font-size: larger">
-          {{ n.label }}<span v-if="n.showNow">（{{ now() }} 現在）</span>
-        </div>
-        <div class="p-d-flex p-flex-column">
-          <div v-if="n.memo !== ''" class="p-ml-1">{{ n.memo }}</div>
-          <template v-if="n.isMultipleLine">
-            <template v-for="i in n.items" :key="i.id">
-              <Textarea
-                :auto-resize="true"
-                :value="i.text"
-                class="p-flex"
-                disabled
-                style="opacity: 1"
-              />
-            </template>
-          </template>
-          <template v-else>
+  <template v-if="notes_">
+    <div class="text-left m-4">
+      <template v-for="n in notes_" :key="n.id">
+        <div class="mb-5">
+          <div class="font-bold mb-2" style="font-size: larger">
+            {{ n.label }}
+          </div>
+          <div class="d-flex flex-column">
+            <div v-if="n.memo !== ''" class="ml-1">{{ n.memo }}</div>
             <ul style="padding-inline-start: 20px; margin-top: 0">
               <template v-for="i in n.items" :key="i.id">
                 <li>{{ i.text }}</li>
               </template>
             </ul>
-          </template>
+          </div>
         </div>
-      </div>
-    </template>
-  </div>
+      </template>
+    </div>
+  </template>
+  <template v-if="!notes_">
+    Loading...
+  </template>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { Note } from '@/types/note'
-  import { CalculationService } from '@/service/CalculationService'
 
   export default defineComponent({
     name: 'NoteComponent',
     props: {
       notes: {
-        type: Object as PropType<Note[]>,
+        type: Array as PropType<Note[]>,
         default: undefined,
       },
     },
@@ -50,9 +41,7 @@
         return props.notes
       })
 
-      const now = new CalculationService().now
-
-      return { notes_, now }
+      return { notes_ }
     },
   })
 </script>

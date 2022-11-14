@@ -1,36 +1,43 @@
 <template>
-  <div class="card">
-    <Timeline
-      :value="careerGroups_"
-      align="alternate"
-      class="customized-timeline"
-    >
-      <template #opposite="slot">
-        <div class="p-text-secondary" style="min-width: 140px">
-          {{ slot.item.period.from }} ~ {{ slot.item.period.to }}
-        </div>
-      </template>
-      <template #content="slot">
-        <Panel :collapsed="true" :toggleable="true" class="p-mb-4">
-          <template #header>
-            {{ slot.item.title }}
-          </template>
-          <CareerComponent :careers="slot.item.careers" />
-        </Panel>
-      </template>
-    </Timeline>
-  </div>
+  <template v-if="careerGroups_">
+    <div class="card">
+      <Timeline
+        :value="careerGroups_"
+        align="alternate"
+        class="customized-timeline"
+      >
+        <template #opposite="slot">
+          <div class="p-text-secondary" style="min-width: 140px">
+            <CareerGroupPeriodComponent :careers="slot.item.careers" />
+          </div>
+        </template>
+        <template #content="slot">
+          <Panel :collapsed="true" :toggleable="true" class="mb-4">
+            <template #header>
+              {{ slot.item.label }}
+            </template>
+            <CareersComponent :careers="slot.item.careers" />
+          </Panel>
+        </template>
+      </Timeline>
+    </div>
+  </template>
+  <template v-if="!careerGroups_">
+    Loading...
+  </template>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { CareerGroup } from '@/types/career'
-  import CareerComponent from '@/components/career/Career.vue'
+  import CareerGroupPeriodComponent from '@/components/career/GroupPeriod.vue'
+  import CareersComponent from '@/components/career/Careers.vue'
 
   export default defineComponent({
     name: 'CareerGroupComponent',
     components: {
-      CareerComponent,
+      CareerGroupPeriodComponent,
+      CareersComponent,
     },
     props: {
       careerGroups: {

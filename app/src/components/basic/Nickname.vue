@@ -13,7 +13,7 @@
     },
     setup(props) {
       const nickname_ = computed(() => {
-        if (!props || !props.nickname) return []
+        if (!props || !props.nickname) return undefined
         return props.nickname
       })
 
@@ -22,4 +22,4 @@
   })
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

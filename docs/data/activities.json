@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "pi pi-globe",
+    "name": "Qiita",
+    "url": "https://qiita.com/sky0621"
+  },
+  {
+    "icon": "pi pi-github",
+    "name": "GitHub",
+    "url": "https://github.com/sky0621/"
+  },
+  {
+    "icon": "pi pi-globe",
+    "name": "当サイト構築ソース",
+    "url": "https://github.com/sky0621/cv"
+  }
+]

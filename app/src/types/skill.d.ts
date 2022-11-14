@@ -1,20 +1,19 @@
-import { Period } from '@/types/common'
+import { DateYM } from "@/types/common";
 
 export interface SkillGroup {
-  id: number
-  name: string
+  tagKey: string
+  tagName: string
   skills: Skill[]
 }
 
 export interface Skill {
-  id: number
+  key: string
   name: string
-  versions?: string[]
-  summary?: string
-  experience?: Experience
+  versions: Version[]
 }
 
-export interface Experience {
-  total: string
-  periods: Period[]
+export interface Version {
+  version: string
+  from: DateYM
+  to: DateYM
 }

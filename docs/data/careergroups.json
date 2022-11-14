@@ -1,0 +1,2238 @@
+[
+  {
+    "careers": [
+      {
+        "description": [
+          "学習塾生向けテキストプログラミング教育システムの新規リリース及び保守・運用。"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2022
+        },
+        "name": "プログラミング教育システム開発・保守",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 614,
+                  "key": "typescript",
+                  "name": "TypeScript",
+                  "tagKey": "language",
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v4.8"
+              },
+              {
+                "skill": {
+                  "id": 592,
+                  "key": "react",
+                  "name": "React",
+                  "tagKey": "frontendframework",
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 595,
+                  "key": "reactrouter",
+                  "name": "React Router",
+                  "tagKey": "library",
+                  "url": "https://reactrouter.com/en/main"
+                },
+                "version": "v6.4"
+              },
+              {
+                "skill": {
+                  "id": 593,
+                  "key": "reacthooks",
+                  "name": "React Hooks",
+                  "tagKey": "library",
+                  "url": "https://ja.reactjs.org/docs/hooks-intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 597,
+                  "key": "redux",
+                  "name": "Redux",
+                  "tagKey": "library",
+                  "url": "https://redux.js.org/"
+                },
+                "version": "v8"
+              },
+              {
+                "skill": {
+                  "id": 598,
+                  "key": "reduxtoolkit",
+                  "name": "Redux Toolkit",
+                  "tagKey": "library",
+                  "url": "https://redux-toolkit.js.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 594,
+                  "key": "reacthookform",
+                  "name": "React Hook Form",
+                  "tagKey": "library",
+                  "url": "https://react-hook-form.com/"
+                },
+                "version": "v7"
+              },
+              {
+                "skill": {
+                  "id": 550,
+                  "key": "cssmodules",
+                  "name": "CSS Modules",
+                  "tagKey": "library",
+                  "url": "https://github.com/css-modules/css-modules"
+                }
+              },
+              {
+                "skill": {
+                  "id": 588,
+                  "key": "prettier",
+                  "name": "Prettier",
+                  "tagKey": "library",
+                  "url": "https://prettier.io/"
+                },
+                "version": "v2.7"
+              },
+              {
+                "skill": {
+                  "id": 577,
+                  "key": "jest",
+                  "name": "Jest",
+                  "tagKey": "library",
+                  "url": "https://jestjs.io/ja/"
+                },
+                "version": "v27.5"
+              },
+              {
+                "skill": {
+                  "id": 600,
+                  "key": "scaffdog",
+                  "name": "scaffdog",
+                  "tagKey": "library",
+                  "url": "https://scaff.dog/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 623,
+                  "key": "yarn",
+                  "name": "Yarn",
+                  "tagKey": "others",
+                  "url": "https://yarnpkg.com/"
+                },
+                "version": "v1.22"
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 567,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.18"
+              },
+              {
+                "skill": {
+                  "id": 530,
+                  "key": "chi",
+                  "name": "chi",
+                  "tagKey": "webframework",
+                  "url": "https://go-chi.io/#/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 620,
+                  "key": "wire",
+                  "name": "wire",
+                  "tagKey": "library",
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 560,
+                  "key": "entgo",
+                  "name": "ent.",
+                  "tagKey": "library",
+                  "url": "https://entgo.io/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 570,
+                  "key": "goswagger",
+                  "name": "go-swagger",
+                  "tagKey": "library",
+                  "url": "https://goswagger.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 569,
+                  "key": "goverter",
+                  "name": "goverter",
+                  "tagKey": "library",
+                  "url": "https://github.com/jmattheis/goverter"
+                }
+              },
+              {
+                "skill": {
+                  "id": 609,
+                  "key": "sqldef",
+                  "name": "sqldef",
+                  "tagKey": "golang",
+                  "url": "https://sqldef.github.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 558,
+                  "key": "ec2",
+                  "name": "EC2",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 557,
+                  "key": "ecs",
+                  "name": "ECS",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 561,
+                  "key": "fargate",
+                  "name": "Fargate",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 612,
+                  "key": "s3",
+                  "name": "S3",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 590,
+                  "key": "rdsaurora",
+                  "name": "RDS(Aurora)",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 591,
+                  "key": "rdsmysql",
+                  "name": "RDS(MySQL)",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 536,
+                  "key": "cloudfront",
+                  "name": "CloudFront",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 547,
+                  "key": "codebuild",
+                  "name": "CodeBuild",
+                  "tagKey": "cloudaws"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 599,
+                  "key": "rest",
+                  "name": "REST",
+                  "tagKey": "communication",
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 552,
+                  "key": "docker",
+                  "name": "docker",
+                  "tagKey": "others",
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 553,
+                  "key": "dockercompose",
+                  "name": "docker-compose",
+                  "tagKey": "others",
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 521,
+                  "key": "apiary",
+                  "name": "Apiary",
+                  "tagKey": "service",
+                  "url": "https://apiary.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 604,
+                  "key": "sendgrid",
+                  "name": "SendGrid",
+                  "tagKey": "service",
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 605,
+                  "key": "sentry",
+                  "name": "Sentry",
+                  "tagKey": "service",
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 531,
+                  "key": "cleanarchitecture",
+                  "name": "Clean Architecture",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 576,
+                  "key": "jenkins",
+                  "name": "Jenkins",
+                  "tagKey": "others",
+                  "url": "https://www.jenkins.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 621,
+                  "key": "wrike",
+                  "name": "Wrike",
+                  "tagKey": "service",
+                  "url": "https://www.wrike.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 548,
+                  "key": "confluence",
+                  "name": "Confluence",
+                  "tagKey": "service",
+                  "url": "https://www.atlassian.com/ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "保守を担当"
+            ],
+            "name": "バックエンド"
+          },
+          {
+            "description": [
+              "開発を担当"
+            ],
+            "name": "フロントエンド"
+          }
+        ],
+        "to": {
+          "month": 11,
+          "year": 2022
+        }
+      }
+    ],
+    "label": "EdTech系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "動画広告専用の出稿管理システムの新規リリース及び保守・運用。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2019
+        },
+        "name": "Web広告出稿管理システム新規開発",
+        "skillGroups": [
+          {
+            "label": "Frontend(SSR/SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 614,
+                  "key": "typescript",
+                  "name": "TypeScript",
+                  "tagKey": "language",
+                  "url": "https://www.typescriptlang.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 617,
+                  "key": "vuejs",
+                  "name": "Vue.js",
+                  "tagKey": "frontendframework",
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 583,
+                  "key": "nuxtjs",
+                  "name": "NuxtJS",
+                  "tagKey": "frontendframework",
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 616,
+                  "key": "vuetify",
+                  "name": "Vuetify",
+                  "tagKey": "library",
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 523,
+                  "key": "apollo",
+                  "name": "Apollo",
+                  "tagKey": "library",
+                  "url": "https://www.apollographql.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 527,
+                  "key": "axios",
+                  "name": "Axios",
+                  "tagKey": "library",
+                  "url": "https://axios-http.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 588,
+                  "key": "prettier",
+                  "name": "Prettier",
+                  "tagKey": "library",
+                  "url": "https://prettier.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 577,
+                  "key": "jest",
+                  "name": "Jest",
+                  "tagKey": "library",
+                  "url": "https://jestjs.io/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 623,
+                  "key": "yarn",
+                  "name": "Yarn",
+                  "tagKey": "others",
+                  "url": "https://yarnpkg.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 567,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.16"
+              },
+              {
+                "skill": {
+                  "id": 530,
+                  "key": "chi",
+                  "name": "chi",
+                  "tagKey": "webframework",
+                  "url": "https://go-chi.io/#/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 620,
+                  "key": "wire",
+                  "name": "wire",
+                  "tagKey": "library",
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 571,
+                  "key": "gqlgen",
+                  "name": "gqlgen",
+                  "tagKey": "library",
+                  "url": "https://gqlgen.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 608,
+                  "key": "sqlboiler",
+                  "name": "SQLBoiler",
+                  "tagKey": "library",
+                  "url": "https://github.com/volatiletech/sqlboiler"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 566,
+                  "key": "gke",
+                  "name": "GKE",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 544,
+                  "key": "cloudsqlpostgres",
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 545,
+                  "key": "cloudstorage",
+                  "name": "Cloud Storage",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 540,
+                  "key": "cloudpubsub",
+                  "name": "Cloud Pub/Sub",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 537,
+                  "key": "cloudfunctions",
+                  "name": "Cloud Functions",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 541,
+                  "key": "cloudrun",
+                  "name": "Cloud Run",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 563,
+                  "key": "firestorenativemode",
+                  "name": "Firestore(Native mode)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 546,
+                  "key": "cloudtasks",
+                  "name": "Cloud Tasks",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 542,
+                  "key": "cloudscheduler",
+                  "name": "Cloud Scheduler",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 580,
+                  "key": "memorystore",
+                  "name": "Memorystore",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 522,
+                  "key": "apigateway",
+                  "name": "API Gateway",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 532,
+                  "key": "cloudbuild",
+                  "name": "Cloud Build",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 534,
+                  "key": "clouddeploy",
+                  "name": "Cloud Deploy",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 549,
+                  "key": "containerregistry",
+                  "name": "Container Registry",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 552,
+                  "key": "docker",
+                  "name": "docker",
+                  "tagKey": "others",
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 553,
+                  "key": "dockercompose",
+                  "name": "docker-compose",
+                  "tagKey": "others",
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 572,
+                  "key": "graphql",
+                  "name": "GraphQL",
+                  "tagKey": "communication",
+                  "url": "https://graphql.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 599,
+                  "key": "rest",
+                  "name": "REST",
+                  "tagKey": "communication",
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 573,
+                  "key": "grpc",
+                  "name": "gRPC",
+                  "tagKey": "communication",
+                  "url": "https://grpc.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 574,
+                  "key": "grpcgateway",
+                  "name": "gRPC-Gateway",
+                  "tagKey": "library",
+                  "url": "https://grpc-ecosystem.github.io/grpc-gateway/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 526,
+                  "key": "auth0",
+                  "name": "Auth0",
+                  "tagKey": "service",
+                  "url": "https://auth0.com/jp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 613,
+                  "key": "terraform",
+                  "name": "Terraform",
+                  "tagKey": "others",
+                  "url": "https://www.terraform.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 604,
+                  "key": "sendgrid",
+                  "name": "SendGrid",
+                  "tagKey": "service",
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 605,
+                  "key": "sentry",
+                  "name": "Sentry",
+                  "tagKey": "service",
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2021
+        }
+      }
+    ],
+    "label": "AdTech系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "サービス毎に異なるプログラミング言語・アーキテクチャを持つ医療系ポータルサイト"
+        ],
+        "from": {
+          "month": 6,
+          "year": 2019
+        },
+        "name": "医療系ポータルサイトWebシステム保守・運用",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 617,
+                  "key": "vuejs",
+                  "name": "Vue.js",
+                  "tagKey": "frontendframework",
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              },
+              {
+                "skill": {
+                  "id": 607,
+                  "key": "spring",
+                  "name": "Spring",
+                  "tagKey": "webframework",
+                  "url": "https://spring.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 601,
+                  "key": "scala",
+                  "name": "Scala",
+                  "tagKey": "language",
+                  "url": "https://www.scala-lang.org/"
+                },
+                "version": "v2.11"
+              },
+              {
+                "skill": {
+                  "id": 586,
+                  "key": "play",
+                  "name": "play",
+                  "tagKey": "webframework",
+                  "url": "https://www.playframework.com/"
+                },
+                "version": "v2.4"
+              },
+              {
+                "skill": {
+                  "id": 579,
+                  "key": "kotlin",
+                  "name": "Kotlin",
+                  "tagKey": "language",
+                  "url": "https://kotlinlang.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 557,
+                  "key": "ecs",
+                  "name": "ECS",
+                  "tagKey": "cloudaws"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 599,
+                  "key": "rest",
+                  "name": "REST",
+                  "tagKey": "communication",
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 613,
+                  "key": "terraform",
+                  "name": "Terraform",
+                  "tagKey": "others",
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v0.11"
+              },
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "Java8/Springで構築されたサービスのエンハンス開発",
+              "Scala2.11/play2.4で構築されたサービスのエンハンス開発",
+              "Kotlin/SpringBoot/Vue.jsで構築されたサービスのエンハンス開発etc..."
+            ],
+            "name": "バックエンド/フロントエンド"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2019
+        }
+      }
+    ],
+    "label": "MedTech系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "防災用のIoT機器に対してWeb上からAPI経由で指示を出したり状態を管理するサービス"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2018
+        },
+        "name": "防災用IoT機器管理Webシステム新規開発",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 617,
+                  "key": "vuejs",
+                  "name": "Vue.js",
+                  "tagKey": "frontendframework",
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 583,
+                  "key": "nuxtjs",
+                  "name": "NuxtJS",
+                  "tagKey": "frontendframework",
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 618,
+                  "key": "vuex",
+                  "name": "Vuex",
+                  "tagKey": "library",
+                  "url": "https://vuex.vuejs.org/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 616,
+                  "key": "vuetify",
+                  "name": "Vuetify",
+                  "tagKey": "library",
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 527,
+                  "key": "axios",
+                  "name": "Axios",
+                  "tagKey": "library",
+                  "url": "https://axios-http.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 567,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.11"
+              },
+              {
+                "skill": {
+                  "id": 555,
+                  "key": "echo",
+                  "name": "Echo",
+                  "tagKey": "webframework",
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 568,
+                  "key": "gorm",
+                  "name": "GORM",
+                  "tagKey": "library",
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 524,
+                  "key": "appenginegolangstandard",
+                  "name": "App Engine(Golang Standard)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 544,
+                  "key": "cloudsqlpostgres",
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 533,
+                  "key": "clouddatastore",
+                  "name": "Cloud Datastore",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 529,
+                  "key": "bigtable",
+                  "name": "Bigtable",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 539,
+                  "key": "cloudfunctionsnodejs",
+                  "name": "Cloud Functions(Node.js/TypeScript)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 562,
+                  "key": "firebaseauth",
+                  "name": "FirebaseAuth",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 599,
+                  "key": "rest",
+                  "name": "REST",
+                  "tagKey": "communication",
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "プロトタイプ作成。"
+            ],
+            "name": "Backend(Go)側"
+          },
+          {
+            "description": [
+              "各機能(認証認可, お知らせ機能, 各種バッチ関連)の実装。"
+            ],
+            "name": "Frontend(Vue/Nuxt.js)側"
+          }
+        ],
+        "to": {
+          "month": 5,
+          "year": 2019
+        }
+      },
+      {
+        "description": [
+          "顧客の購買状況・行動を分析するサービス"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2018
+        },
+        "name": "購買分析基盤新規開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 525,
+                  "key": "appenginejavastandard",
+                  "name": "App Engine(Java Standard)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 533,
+                  "key": "clouddatastore",
+                  "name": "Cloud Datastore",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 528,
+                  "key": "bigquery",
+                  "name": "BigQuery",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "分析APIのベース部分の実装。（期間限定のサポート要員として参画）"
+            ],
+            "name": "Backend"
+          }
+        ],
+        "to": {
+          "month": 11,
+          "year": 2018
+        }
+      },
+      {
+        "description": [
+          "手書きの帳票を、あらかじめ登録しておいたテンプレートと突き合わせて（WebAPIを使って）識字分析するサービス"
+        ],
+        "from": {
+          "month": 8,
+          "year": 2018
+        },
+        "name": "手書き帳票の識字Webシステム新規開発",
+        "skillGroups": [
+          {
+            "label": "Frontend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 520,
+                  "key": "angular",
+                  "name": "Angular",
+                  "tagKey": "frontendframework",
+                  "url": "https://angular.jp/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 614,
+                  "key": "typescript",
+                  "name": "TypeScript",
+                  "tagKey": "language",
+                  "url": "https://www.typescriptlang.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 525,
+                  "key": "appenginejavastandard",
+                  "name": "App Engine(Java Standard)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 533,
+                  "key": "clouddatastore",
+                  "name": "Cloud Datastore",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 528,
+                  "key": "bigquery",
+                  "name": "BigQuery",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 535,
+                  "key": "cloudendpoints",
+                  "name": "Cloud Endpoints",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 562,
+                  "key": "firebaseauth",
+                  "name": "FirebaseAuth",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能改修全般。及びテストコードの充実化。"
+            ],
+            "name": "Backend"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2018
+        }
+      }
+    ],
+    "label": "Google Cloud Platformパートナー会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "企業のFacebookボットとエンドユーザとのメッセージのやり取りをフックし、あらかじめ管理画面で設定したシナリオに応じたコンテンツを返却するサービス"
+        ],
+        "from": {
+          "month": 12,
+          "year": 2017
+        },
+        "name": "Facebookメッセンジャーチャットボット開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 567,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.9"
+              },
+              {
+                "skill": {
+                  "id": 555,
+                  "key": "echo",
+                  "name": "Echo",
+                  "tagKey": "webframework",
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 568,
+                  "key": "gorm",
+                  "name": "GORM",
+                  "tagKey": "library",
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 573,
+                  "key": "grpc",
+                  "name": "gRPC",
+                  "tagKey": "communication",
+                  "url": "https://grpc.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 566,
+                  "key": "gke",
+                  "name": "GKE",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 543,
+                  "key": "cloudsqlmysql",
+                  "name": "Cloud SQL(MySQL)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 533,
+                  "key": "clouddatastore",
+                  "name": "Cloud Datastore",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 540,
+                  "key": "cloudpubsub",
+                  "name": "Cloud Pub/Sub",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 538,
+                  "key": "cloudfunctionsgolang",
+                  "name": "Cloud Functions(Golang)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 549,
+                  "key": "containerregistry",
+                  "name": "Container Registry",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 552,
+                  "key": "docker",
+                  "name": "docker",
+                  "tagKey": "others",
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 581,
+                  "key": "microservice",
+                  "name": "MicroService",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 565,
+                  "key": "gitlab",
+                  "name": "GitLab",
+                  "tagKey": "service",
+                  "url": "https://about.gitlab.com/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "FacebookメッセンジャーAPIを使用したチャットボット機能の設計・開発・テスト等。",
+              "- Facebookから送信されるメッセージを受信してキューに積む機能",
+              "- エンドユーザのメッセンジャー端末に表示対象コンテンツを送信する機能",
+              "- エンドユーザのメッセンジャー端末に送信すべき内容を（AI機能を持つ他サービスから取得し）加工する機能"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2018
+        }
+      },
+      {
+        "description": [
+          "企業のLINEページにてエンドユーザとのやり取り（FAQやアンケート回答等）をWebhookのメッセージとして受信し、あらかじめ管理画面にて設定した特定キーワードに対する応答コンテンツなどを返す。",
+          "また、蓄積したエンドユーザとのメッセージのやり取りやアンケート回答結果からセグメンテーションを行い、セグメントを絞ったLINEメッセージを一斉配信する。"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2016
+        },
+        "name": "LINEチャットボット開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 567,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.7"
+              },
+              {
+                "skill": {
+                  "id": 555,
+                  "key": "echo",
+                  "name": "Echo",
+                  "tagKey": "webframework",
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 568,
+                  "key": "gorm",
+                  "name": "GORM",
+                  "tagKey": "library",
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 573,
+                  "key": "grpc",
+                  "name": "gRPC",
+                  "tagKey": "communication",
+                  "url": "https://grpc.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 558,
+                  "key": "ec2",
+                  "name": "EC2",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 612,
+                  "key": "s3",
+                  "name": "S3",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 536,
+                  "key": "cloudfront",
+                  "name": "CloudFront",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 610,
+                  "key": "sqs",
+                  "name": "SQS",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 591,
+                  "key": "rdsmysql",
+                  "name": "RDS(MySQL)",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 554,
+                  "key": "dynamodb",
+                  "name": "DynamoDB",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 596,
+                  "key": "redshift",
+                  "name": "RedShift",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 559,
+                  "key": "elasticache",
+                  "name": "ElastiCache",
+                  "tagKey": "cloudaws"
+                }
+              },
+              {
+                "skill": {
+                  "id": 556,
+                  "key": "ecr",
+                  "name": "ECR",
+                  "tagKey": "cloudaws"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 552,
+                  "key": "docker",
+                  "name": "docker",
+                  "tagKey": "others",
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 581,
+                  "key": "microservice",
+                  "name": "MicroService",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 565,
+                  "key": "gitlab",
+                  "name": "GitLab",
+                  "tagKey": "service",
+                  "url": "https://about.gitlab.com/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "LINE-APIを使用したチャットボット機能の設計・開発・テスト・リリース作業等。",
+              "LINEから送信されるメッセージを受信、対応するコンテンツを返却するバックエンド側のメイン動線を担当。"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2017
+        }
+      }
+    ],
+    "label": "AdTech系システム会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ネット予約No.1サービス"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2016
+        },
+        "name": "飲食店予約サービスエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 584,
+                  "key": "oracle",
+                  "name": "Oracle",
+                  "tagKey": "database",
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 603,
+                  "key": "seasar2",
+                  "name": "Seasar2",
+                  "tagKey": "webframework",
+                  "url": "https://www.seasar.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能拡張、不具合修正の案件に要件を詰める段階からリリースまで担当。"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2016
+        }
+      },
+      {
+        "description": [
+          "オンラインでの授業動画視聴とドリル実施機能を提供し、実施結果を集約・分析することで、保護者への学習状況伝達や子供への次にトライすべき授業の促しなどを行う。"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2014
+        },
+        "name": "小学生・中学生向け教育Webアプリエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 584,
+                  "key": "oracle",
+                  "name": "Oracle",
+                  "tagKey": "database",
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 603,
+                  "key": "seasar2",
+                  "name": "Seasar2",
+                  "tagKey": "webframework",
+                  "url": "https://www.seasar.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 602,
+                  "key": "scrum",
+                  "name": "Scrum",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 564,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "2015/03まではサービスの商用化（決済機能付加）に向けた開発要員として参加。",
+              "メインとなる決済機能の方式設計から共通機能の実装部分を主に担当。",
+              "2015/04の商用化後の開発では追加機能（アンケート機能付加等）案件のアーキテクトとして参加。"
+            ],
+            "name": "ウォーターフォール開発（2014/11～2015/04）"
+          },
+          {
+            "description": [
+              "チームビルディングから参加。",
+              "クロスファンクショナルに全機能、全工程を横断的に実施。",
+              "主な着手案件は、「決済機能の追加」、「学習実績に応じたミッション提示機能の追加」、「保護者への（子供の）学習状況提示機能の追加」など。"
+            ],
+            "name": "Scrum開発（2015/05～2016/03）"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2016
+        }
+      }
+    ],
+    "label": "某グループ企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iOS/AndroidアプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2014
+        },
+        "name": "某大手損保会社が所有するアプリを集約するポータルサイト構築",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 582,
+                  "key": "mysql",
+                  "name": "MySQL",
+                  "tagKey": "database",
+                  "url": "https://www.mysql.com/jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 603,
+                  "key": "seasar2",
+                  "name": "Seasar2",
+                  "tagKey": "webframework",
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 519,
+                  "key": "android",
+                  "name": "Android(Java)",
+                  "tagKey": "language"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ／Batch 担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】",
+              "(6)リリース後運用方式検討担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      },
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iPad/Androidタブレット用アプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2013
+        },
+        "name": "某大手損保会社の保険料試算システムの保守・運用　※上のプロジェクトと期間重複",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 603,
+                  "key": "seasar2",
+                  "name": "Seasar2",
+                  "tagKey": "webframework",
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 519,
+                  "key": "android",
+                  "name": "Android(Java)",
+                  "tagKey": "language"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "定期的に発生する保険料試算条件・項目見直しに伴うアプリ改修やエンドユーザ企業の２社統合に伴うシステムリプレースに着手。",
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      }
+    ],
+    "label": "某サービス企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "静的サイトリニューアルや動画配信サイト構築等"
+        ],
+        "from": {
+          "month": 3,
+          "year": 2012
+        },
+        "name": "各種Webサイト構築",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 585,
+                  "key": "php",
+                  "name": "PHP",
+                  "tagKey": "language",
+                  "url": "https://www.php.net/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 582,
+                  "key": "mysql",
+                  "name": "MySQL",
+                  "tagKey": "database",
+                  "url": "https://www.mysql.com/jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 578,
+                  "key": "kohana",
+                  "name": "Kohana",
+                  "tagKey": "webframework"
+                }
+              },
+              {
+                "skill": {
+                  "id": 589,
+                  "key": "python",
+                  "name": "Python",
+                  "tagKey": "language",
+                  "url": "https://www.python.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "別担当者が概要をまとめた要件に基づいて、設計からリリース、保守・運用まで全機能一人で担当。",
+              "以下、案件群を開発",
+              "- 某ゴルフ雑誌　静的サイトリニューアル",
+              "- 某娯楽メーカー動画配信サイト構築",
+              "- 某メーカーの子ども向け動画配信サイト構築",
+              "- 某メーカーのアニメ配信サイト構築",
+              "- 某ファッション口コミ情報共有サイト構築"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2013
+        }
+      },
+      {
+        "description": [
+          "Androidアプリの設計・実装・テスト全般。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2011
+        },
+        "name": "某大手ゴルフメーカー向け販促用Androidアプリ開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 519,
+                  "key": "android",
+                  "name": "Android(Java)",
+                  "tagKey": "language"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "画面デザイン会社担当者との打ち合わせ、仕様の詰め、及び、機能の実現可否の調査・検討、画面（遷移）・DB・SD保存情報・プリファレンス保持情報等、各種設計・実装。",
+              "対象機種ごとのテスト・不具合改修まで、デザイン・要件決定以後の全タスクを担当。",
+              "また、アプリリリース後、製品カタログの更新や機能追加も担当。"
+            ],
+            "name": "詳細"
+          },
+          {
+            "description": [
+              "主担当としてアサインされる。サポート役として別要員１名。"
+            ],
+            "name": "要員"
+          },
+          {
+            "description": [
+              "- スイングチェック（自分のスイングを録画。Webから落としたプロプレイヤーのスイング動画と同時比較再生。再生動画に線や○を表示しスイング軌道や重心の確認。）",
+              "- 製品カタログ表示(WebView)",
+              "- CM再生(BrightcovePlayer)",
+              "- クラブ、ボール選択チャート(WebView)",
+              "- 壁紙ダウンロード、壁紙設定"
+            ],
+            "name": "実装機能群"
+          }
+        ],
+        "to": {
+          "month": 2,
+          "year": 2012
+        }
+      }
+    ],
+    "label": "某動画配信サービスシステム会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "新卒から各種プロジェクトに参画"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2002
+        },
+        "name": "各種Webサイト構築",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 575,
+                  "key": "java",
+                  "name": "Java",
+                  "tagKey": "language",
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 584,
+                  "key": "oracle",
+                  "name": "Oracle",
+                  "tagKey": "database",
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 587,
+                  "key": "postgresql",
+                  "name": "PostgreSQL",
+                  "tagKey": "database",
+                  "url": "https://www.postgresql.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 551,
+                  "key": "db2",
+                  "name": "DB2",
+                  "tagKey": "database",
+                  "url": "https://www.ibm.com/jp-ja/products/db2"
+                }
+              },
+              {
+                "skill": {
+                  "id": 582,
+                  "key": "mysql",
+                  "name": "MySQL",
+                  "tagKey": "database",
+                  "url": "https://www.mysql.com/jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 611,
+                  "key": "struts",
+                  "name": "Struts",
+                  "tagKey": "webframework",
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 615,
+                  "key": "uml",
+                  "name": "UML",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 622,
+                  "key": "xmlxslt",
+                  "name": "XML/XSLT",
+                  "tagKey": "others"
+                }
+              },
+              {
+                "skill": {
+                  "id": 606,
+                  "key": "soap",
+                  "name": "SOAP",
+                  "tagKey": "communication"
+                }
+              },
+              {
+                "skill": {
+                  "id": 619,
+                  "key": "websam",
+                  "name": "WebSAM",
+                  "tagKey": "service",
+                  "url": "https://jpn.nec.com/websam/index.html"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "以下、案件群",
+              "・某企業社内人材紹介・人材派遣情報管理システム構築",
+              "・モバイルEdyシステム構築",
+              "・i アプリ実行プラットフォームソフトバージョンアップ",
+              "・某大手クレジットカード会社次世代基幹システム構築",
+              "・デジタルアーカイブ検索システムカスタマイズ",
+              "・某検索ポータルサイトリニューアル",
+              "・貿易保険引受業務システム構築",
+              "・某大手電機メーカー営業支援システム運用・保守",
+              "・某大手銀行グループファイナンスサービス会社の決済代行システム構築",
+              "・次世代ネットワーク回収代行システム構築",
+              "・SaaS基盤管理UIリプレース",
+              "・某大手不動産ポータルサイトリニューアル",
+              "・某大手通信会社コンテンツ会員管理システム",
+              "・某大手システム会社向けネットワーク管理システム"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2011
+        }
+      }
+    ],
+    "label": "約９年半のサマリ"
+  }
+]
