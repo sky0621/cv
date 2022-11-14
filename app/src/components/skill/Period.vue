@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-3 pt-3">{{ from_ }} - {{ to_ }} ( {{ df }} )</div>
+  <div class="pl-2 pt-1 pb-2">{{ from_ }} - {{ to_ }} ( {{ df }} )</div>
 </template>
 
 <script lang="ts">

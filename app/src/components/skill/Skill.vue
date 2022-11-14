@@ -8,10 +8,21 @@
         <div>経験：{{ df }}</div>
       </template>
       <template v-if="skill_?.versions" #content>
-        <div v-for="(v, vIdx) in skill_?.versions" :key="vIdx">
-          <template v-if="v.version">{{ v.version }} <SkillPeriodComponent :from="v.from" :to="v.to" /></template>
-          <template v-else><SkillPeriodComponent :from="v.from" :to="v.to" /></template>
-        </div>
+        <Inplace :closable="true">
+          <template #display><span class="active:text-color">breakdown</span></template>
+          <template #content>
+            <div v-for="(v, vIdx) in skill_?.versions" :key="vIdx" style="min-width: 260px;">
+              <template v-if="v.version">
+                <div>{{ v.version }}</div>
+                <SkillPeriodComponent :from="v.from" :to="v.to" />
+              </template>
+              <template v-else>
+                <div>-</div>
+                <SkillPeriodComponent :from="v.from" :to="v.to" />
+              </template>
+            </div>
+          </template>
+        </Inplace>
       </template>
     </Card>
   </div>
