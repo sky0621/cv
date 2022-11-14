@@ -19,13 +19,13 @@
 
 <script lang="ts">
 import { defineComponent, computed, PropType } from 'vue'
-import { SkillGroup } from "@/types/career";
+import { CareerSkillGroup } from "@/types/career";
 
   export default defineComponent({
     skillGroups: 'CareerSkillGroupsComponent',
     props: {
       skillGroups: {
-        type: Array as PropType<SkillGroup[]>,
+        type: Array as PropType<CareerSkillGroup[]>,
         default: [],
       },
     },

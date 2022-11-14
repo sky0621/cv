@@ -1,15 +1,15 @@
-export interface SkillGroup {
-  id: number
-  name: string
-  skills: Skill[]
+export interface xSkillGroup {
+  tagKey: string
+  tagName: string
+  skills: xSkill[]
 }
 
-export interface SkillSet {
-  skill: Skill
+export interface xSkillSet {
+  skill: xSkill
   version: string
 }
 
-export interface Skill {
+export interface xSkill {
   id: number
   key: string
   name: string

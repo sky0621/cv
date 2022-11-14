@@ -1,5 +1,4 @@
 import { DateYM } from '@/types/common'
-import { SkillSet } from '@/types/skill'
 
 export interface CareerGroup {
   label: string
@@ -12,7 +11,7 @@ export interface Career {
   from: DateYM
   to: DateYM
   tasks: CareerTask[]
-  skillGroups: SkillGroup[]
+  skillGroups: CareerSkillGroup[]
 }
 
 export interface CareerTask {
@@ -20,7 +19,20 @@ export interface CareerTask {
   description: string[]
 }
 
-export interface SkillGroup {
+export interface CareerSkillGroup {
   label: string
-  skills: SkillSet[]
+  skills: CareerSkillSet[]
+}
+
+export interface CareerSkillSet {
+  skill: CareerSkill
+  version: string
+}
+
+export interface CareerSkill {
+  id: number
+  key: string
+  name: string
+  tagKey: string
+  url: string
 }
