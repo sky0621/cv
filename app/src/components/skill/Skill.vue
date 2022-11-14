@@ -1,49 +1,39 @@
 <template>
-  <div class="grid">
-    <template v-for="s in skills_" :key="s.id">
       <div class="col">
         <Card class="col text-left mb-2">
           <template #title>
-            <div>{{ s.name }}</div>
+            <div>{{ skill_.name }}</div>
           </template>
-          <template v-if="s.versions" #subtitle>
-            <template v-for="(v, vIdx) in s.versions" :key="vIdx">
-              <template v-if="vIdx > 0">/</template>
-              {{ v }}
-            </template>
-          </template>
-          <template v-if="s.summary || s.experience" #content>
-            <template v-if="s.summary">
-              <div class="mb-2">{{ s.summary }}</div>
-            </template>
-            <template v-if="s.experience">
-              <div class="mb-2">経験：{{ s.experience?.total }}</div>
-            </template>
+          <template v-if="skill_.versions" #content>
+            <div v-for="(v, vIdx) in skill_.versions" :key="vIdx">
+              <template v-if="v.version">{{ v.version }} <SkillPeriodComponent :from="v.from" :to="v.to" /></template>
+              <template v-else><SkillPeriodComponent :from="v.from" :to="v.to" /></template>
+            </div>
           </template>
         </Card>
       </div>
-    </template>
-  </div>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent, PropType } from 'vue'
   import { Skill } from '@/types/skill'
+  import SkillPeriodComponent from "@/components/skill/Period.vue";
 
   export default defineComponent({
     name: 'SkillComponent',
+    components: {SkillPeriodComponent},
     props: {
-      skills: {
-        type: Array as PropType<Skill[]>,
+      skill: {
+        type: Object as PropType<Skill>,
         default: undefined,
       },
     },
     setup(props) {
-      const skills_ = computed(() => {
-        if (!props || !props.skills) return []
-        return props.skills
+      const skill_ = computed(() => {
+        if (!props || !props.skill) return undefined
+        return props.skill
       })
-      return { skills_ }
+      return { skill_ }
     },
   })
 </script>

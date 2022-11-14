@@ -1,21 +1,21 @@
 <template>
   <template v-for="g in skillGroups_" :key="g.id">
     <Divider />
-    <div class="my-3 text-bold">{{ g.name }}</div>
+    <div class="my-3 text-bold">{{ g.tagName }}</div>
     <Divider />
-    <SkillComponent :skills="g.skills" />
+    <SkillsComponent :skills="g.skills" />
   </template>
 </template>
 
 <script lang="ts">
   import { defineComponent, PropType, computed } from 'vue'
   import { SkillGroup } from '@/types/skill'
-  import SkillComponent from '@/components/skill/Skill.vue'
+  import SkillsComponent from '@/components/skill/Skills.vue'
 
   export default defineComponent({
     name: 'SkillGroupComponent',
     components: {
-      SkillComponent,
+      SkillsComponent,
     },
     props: {
       skillGroups: {

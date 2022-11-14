@@ -1,18 +1,19 @@
-export interface xSkillGroup {
+import { DateYM } from "@/types/common";
+
+export interface SkillGroup {
   tagKey: string
   tagName: string
-  skills: xSkill[]
+  skills: Skill[]
 }
 
-export interface xSkillSet {
-  skill: xSkill
-  version: string
-}
-
-export interface xSkill {
-  id: number
+export interface Skill {
   key: string
   name: string
-  tagKey: string
-  url: string
+  versions: Version[]
+}
+
+export interface Version {
+  version: string
+  from: DateYM
+  to: DateYM
 }
