@@ -30,6 +30,7 @@ export class CalculationService {
     if (df >= 12) {
       const year = Math.floor(df / 12)
       const month = df - year * 12
+      if (month == 0) return `${year}年`
       return `${year}年${month}ヶ月`
     }
     return `${df}ヶ月`
