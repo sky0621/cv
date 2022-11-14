@@ -4,5 +4,5 @@ export type Qualification = {
   organization: string
   url: string
   gotDate: string
-  note: string
+  memo: string
 }

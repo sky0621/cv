@@ -1,25 +1,30 @@
 <template>
-  <div class="card">
-    <Timeline
-      :value="careerGroups_"
-      align="alternate"
-      class="customized-timeline"
-    >
-      <template #opposite="slot">
-        <div class="p-text-secondary" style="min-width: 140px">
-          <CareerGroupPeriodComponent :careers="slot.item.careers" />
-        </div>
-      </template>
-      <template #content="slot">
-        <Panel :collapsed="true" :toggleable="true" class="mb-4">
-          <template #header>
-            {{ slot.item.label }}
-          </template>
-          <CareersComponent :careers="slot.item.careers" />
-        </Panel>
-      </template>
-    </Timeline>
-  </div>
+  <template v-if="careerGroups_">
+    <div class="card">
+      <Timeline
+        :value="careerGroups_"
+        align="alternate"
+        class="customized-timeline"
+      >
+        <template #opposite="slot">
+          <div class="p-text-secondary" style="min-width: 140px">
+            <CareerGroupPeriodComponent :careers="slot.item.careers" />
+          </div>
+        </template>
+        <template #content="slot">
+          <Panel :collapsed="true" :toggleable="true" class="mb-4">
+            <template #header>
+              {{ slot.item.label }}
+            </template>
+            <CareersComponent :careers="slot.item.careers" />
+          </Panel>
+        </template>
+      </Timeline>
+    </div>
+  </template>
+  <template v-if="!careerGroups_">
+    Loading...
+  </template>
 </template>
 
 <script lang="ts">
