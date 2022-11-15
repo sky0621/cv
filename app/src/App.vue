@@ -6,14 +6,16 @@
   </header>
   <RouterView v-slot="{ Component }">
     <template v-if="Component">
-      <Suspense>
-        <!-- main content -->
-        <component :is="Component"></component>
-        <!-- loading state -->
-        <template #fallback>
-          LOADING...
-        </template>
-      </Suspense>
+      <KeepAlive>
+        <Suspense>
+          <!-- main content -->
+          <component :is="Component"></component>
+          <!-- loading state -->
+          <template #fallback>
+            Loading.....
+          </template>
+        </Suspense>
+      </KeepAlive>
     </template>
   </RouterView>
 </template>
