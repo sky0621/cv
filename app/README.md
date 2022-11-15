@@ -4,23 +4,19 @@
 
 ```
 $ cat /etc/os-release
+PRETTY_NAME="Ubuntu 22.04.1 LTS"
 NAME="Ubuntu"
-VERSION="20.04.2 LTS (Focal Fossa)"
-$
-$ nvm version
-v16.0.0
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
 $
 $ node -v
-v16.0.0
+v16.18.1
 $
 $ npm -v
-7.10.0
-$
-$ vue --version
-@vue/cli 4.5.12
+8.19.2
 $
 $ yarn -v
-1.22.10
+1.22.19
 ```
 
 ## create project
