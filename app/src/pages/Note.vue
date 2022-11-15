@@ -1,31 +1,31 @@
 <template>
-  <NoteComponent :notes="notes" />
+  <NoteComponent :notes="notes"/>
 </template>
 
 <script lang="ts">
-  import { defineComponent, onMounted, ref } from 'vue'
-  import NoteComponent from '@/components/Note.vue'
-  import { NoteService } from '@/service/NoteService'
+import {defineComponent, onMounted, ref} from 'vue'
+import NoteComponent from '@/components/Note.vue'
+import {NoteService} from '@/service/NoteService'
 
-  export default defineComponent({
-    name: 'NotePage',
-    components: {
-      NoteComponent,
-    },
-    setup() {
-      const notes = ref()
+export default defineComponent({
+  name: 'NotePage',
+  components: {
+    NoteComponent,
+  },
+  setup() {
+    const notes = ref()
 
-      onMounted(async () => {
-        try {
-          notes.value = await new NoteService().getNotes()
-        } catch (e) {
-          console.error(e)
-        }
-      })
+    onMounted(async () => {
+      try {
+        notes.value = await new NoteService().getNotes()
+      } catch (e) {
+        console.error(e)
+      }
+    })
 
-      return { notes }
-    },
-  })
+    return {notes}
+  },
+})
 </script>
 
 <style lang="scss" scoped></style>

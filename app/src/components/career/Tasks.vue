@@ -11,26 +11,26 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, PropType } from 'vue'
-import { CareerTask } from "@/types/career";
+import {computed, defineComponent, PropType} from 'vue'
+import {CareerTask} from '@/types/career'
 
-  export default defineComponent({
-    tasks: 'CareerTasksComponent',
-    props: {
-      tasks: {
-        type: Array as PropType<CareerTask[]>,
-        default: [],
-      },
+export default defineComponent({
+  tasks: 'CareerTasksComponent',
+  props: {
+    tasks: {
+      type: Array as PropType<CareerTask[]>,
+      default: [],
     },
-    setup(props) {
-      const tasks_ = computed(() => {
-        if (!props || !props.tasks) return []
-        return props.tasks
-      })
+  },
+  setup(props) {
+    const tasks_ = computed(() => {
+      if (!props || !props.tasks) return []
+      return props.tasks
+    })
 
-      return { tasks_ }
-    },
-  })
+    return {tasks_}
+  },
+})
 </script>
 
 <style lang="scss" scoped></style>

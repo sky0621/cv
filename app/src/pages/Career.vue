@@ -1,31 +1,31 @@
 <template>
-  <CareerGroupComponent :career-groups="careerGroups" />
+  <CareerGroupComponent :career-groups="careerGroups"/>
 </template>
 
 <script lang="ts">
-  import { defineComponent, onMounted, ref } from 'vue'
-  import CareerGroupComponent from '@/components/CareerGroup.vue'
-  import { CareerService } from '@/service/CareerService'
+import {defineComponent, onMounted, ref} from 'vue'
+import CareerGroupComponent from '@/components/CareerGroup.vue'
+import {CareerService} from '@/service/CareerService'
 
-  export default defineComponent({
-    name: 'CareerPage',
-    components: {
-      CareerGroupComponent,
-    },
-    setup() {
-      const careerGroups = ref()
+export default defineComponent({
+  name: 'CareerPage',
+  components: {
+    CareerGroupComponent,
+  },
+  setup() {
+    const careerGroups = ref()
 
-      onMounted(async () => {
-        try {
-          careerGroups.value = await new CareerService().getCareerGroups()
-        } catch (e) {
-          console.error(e)
-        }
-      })
+    onMounted(async () => {
+      try {
+        careerGroups.value = await new CareerService().getCareerGroups()
+      } catch (e) {
+        console.error(e)
+      }
+    })
 
-      return { careerGroups }
-    },
-  })
+    return {careerGroups}
+  },
+})
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>

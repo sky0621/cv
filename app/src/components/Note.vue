@@ -18,32 +18,30 @@
       </template>
     </div>
   </template>
-  <template v-if="!notes_">
-    Loading...
-  </template>
+  <template v-if="!notes_"> Loading...</template>
 </template>
 
 <script lang="ts">
-  import { computed, defineComponent, PropType } from 'vue'
-  import { Note } from '@/types/note'
+import {computed, defineComponent, PropType} from 'vue'
+import {Note} from '@/types/note'
 
-  export default defineComponent({
-    name: 'NoteComponent',
-    props: {
-      notes: {
-        type: Array as PropType<Note[]>,
-        default: undefined,
-      },
+export default defineComponent({
+  name: 'NoteComponent',
+  props: {
+    notes: {
+      type: Array as PropType<Note[]>,
+      default: undefined,
     },
-    setup(props) {
-      const notes_ = computed(() => {
-        if (!props || !props.notes) return undefined
-        return props.notes
-      })
+  },
+  setup(props) {
+    const notes_ = computed(() => {
+      if (!props || !props.notes) return undefined
+      return props.notes
+    })
 
-      return { notes_ }
-    },
-  })
+    return {notes_}
+  },
+})
 </script>
 
 <style lang="scss" scoped></style>

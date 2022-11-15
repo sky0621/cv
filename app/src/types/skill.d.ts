@@ -1,4 +1,4 @@
-import { DateYM } from "@/types/common";
+import { DateYM } from '@/types/common'
 
 export interface SkillGroup {
   tagKey: string
