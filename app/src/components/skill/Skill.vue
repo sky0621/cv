@@ -5,7 +5,7 @@
         <div>{{ skill_?.name }}</div>
       </template>
       <template #subtitle>
-        <div>経験：{{ df }}</div>
+        <div>経験：{{ df ? df : '-' }}</div>
       </template>
       <template v-if="skill_?.versions" #content>
         <Inplace :closable="true">
@@ -36,9 +36,10 @@
 
 <script lang="ts">
 import {computed, defineComponent, PropType} from 'vue'
-import {Skill} from '@/types/skill'
+import {Skill, Version} from '@/types/skill'
 import SkillPeriodComponent from '@/components/skill/Period.vue'
 import {CalculationService} from '@/service/CalculationService'
+import {differenceInMonths} from 'date-fns'
 
 export default defineComponent({
   name: 'SkillComponent',
@@ -58,18 +59,21 @@ export default defineComponent({
       if (!props || !props.skill) return undefined
       return props.skill
     })
-    const len = props.skill.versions.length
+
+    if (!skill_ || !skill_.value || !skill_.value?.versions) {
+      return {skill_, df: undefined}
+    }
+
     const df = computed(() => {
-      const firstCareer = props?.skill?.versions.find(
-          (_, idx) => idx === len - 1
-      )
-      if (!firstCareer) return '?'
-      const latestCareer = props?.skill?.versions?.find((_, idx) => idx === 0)
-      if (!latestCareer) return '?'
-      return cs.differenceStrInMonths(
-          new Date(`${latestCareer.to?.year}-${latestCareer.to?.month}-1`),
-          new Date(`${firstCareer.from?.year}-${firstCareer.from?.month}-1`)
-      )
+      let sum = 0;
+      // reduce ?
+      skill_.value?.versions.forEach((v: Version) => {
+        sum += differenceInMonths(
+            new Date(`${v.to.year}-${v.to.month}-1`),
+            new Date(`${v.from.year}-${v.from.month}-1`),
+        ) + 1
+      })
+      return cs.diffFormat(sum)
     })
     return {skill_, df}
   },

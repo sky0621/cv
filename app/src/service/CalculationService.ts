@@ -25,8 +25,7 @@ export class CalculationService {
     return format(new Date(), 'yyyy-MM-dd')
   }
 
-  differenceStrInMonths(f: Date, t: Date): string {
-    const df = differenceInMonths(f, t) + 1
+  diffFormat(df: number): string {
     if (df >= 12) {
       const year = Math.floor(df / 12)
       const month = df - year * 12
@@ -34,5 +33,10 @@ export class CalculationService {
       return `${year}年${month}ヶ月`
     }
     return `${df}ヶ月`
+  }
+
+  differenceStrInMonths(f: Date, t: Date): string {
+    const df = differenceInMonths(f, t) + 1
+    return this.diffFormat(df)
   }
 }
