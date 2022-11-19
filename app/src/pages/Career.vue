@@ -1,14 +1,5 @@
-<script lang="ts">
-import {defineComponent} from 'vue'
-import CareerGroupComponent from '@/components/CareerGroup.vue'
-
-export default defineComponent({
-  name: 'CareerPage',
-  components: {
-    CareerGroupComponent,
-  },
-})
-</script>
+<script lang="ts" setup>
+import CareerGroupComponent from '@/components/CareerGroup.vue'</script>
 
 <template>
   <CareerGroupComponent/>

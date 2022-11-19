@@ -1,14 +1,5 @@
-<script lang="ts">
-import {defineComponent} from 'vue'
-import BasicComponent from '@/components/Basic.vue'
-
-export default defineComponent({
-  name: 'BasicPage',
-  components: {
-    BasicComponent,
-  },
-})
-</script>
+<script lang="ts" setup>
+import BasicComponent from '@/components/Basic.vue'</script>
 
 <template>
   <BasicComponent/>
