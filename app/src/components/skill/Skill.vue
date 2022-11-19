@@ -1,39 +1,3 @@
-<template>
-  <div class="col">
-    <Card class="col text-left mb-2">
-      <template #title>
-        <div>{{ skill_?.name }}</div>
-      </template>
-      <template #subtitle>
-        <div>経験：{{ df ? df : '-' }}</div>
-      </template>
-      <template v-if="skill_?.versions" #content>
-        <Inplace :closable="true">
-          <template #display
-          ><span class="active:text-color">breakdown</span></template
-          >
-          <template #content>
-            <div
-                v-for="(v, vIdx) in skill_?.versions"
-                :key="vIdx"
-                style="min-width: 260px"
-            >
-              <template v-if="v.version">
-                <div>{{ v.version }}</div>
-                <SkillPeriodComponent :from="v.from" :to="v.to"/>
-              </template>
-              <template v-else>
-                <div>-</div>
-                <SkillPeriodComponent :from="v.from" :to="v.to"/>
-              </template>
-            </div>
-          </template>
-        </Inplace>
-      </template>
-    </Card>
-  </div>
-</template>
-
 <script lang="ts">
 import {computed, defineComponent, PropType} from 'vue'
 import {Skill, Version} from '@/types/skill'
@@ -80,4 +44,38 @@ export default defineComponent({
 })
 </script>
 
-<style lang="scss" scoped></style>
+<template>
+  <div class="col">
+    <Card class="col text-left mb-2">
+      <template #title>
+        <div>{{ skill_?.name }}</div>
+      </template>
+      <template #subtitle>
+        <div>経験：{{ df ? df : '-' }}</div>
+      </template>
+      <template v-if="skill_?.versions" #content>
+        <Inplace :closable="true">
+          <template #display
+          ><span class="active:text-color">breakdown</span></template
+          >
+          <template #content>
+            <div
+                v-for="(v, vIdx) in skill_?.versions"
+                :key="vIdx"
+                style="min-width: 260px"
+            >
+              <template v-if="v.version">
+                <div>{{ v.version }}</div>
+                <SkillPeriodComponent :from="v.from" :to="v.to"/>
+              </template>
+              <template v-else>
+                <div>-</div>
+                <SkillPeriodComponent :from="v.from" :to="v.to"/>
+              </template>
+            </div>
+          </template>
+        </Inplace>
+      </template>
+    </Card>
+  </div>
+</template>
