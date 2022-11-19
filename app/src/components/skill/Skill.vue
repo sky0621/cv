@@ -1,46 +1,31 @@
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
 import {Skill, Version} from '@/types/skill'
 import SkillPeriodComponent from '@/components/skill/Period.vue'
 import {CalculationService} from '@/service/CalculationService'
 import {differenceInMonths} from 'date-fns'
 
-export default defineComponent({
-  name: 'SkillComponent',
-  components: {SkillPeriodComponent},
-  props: {
-    skill: {
-      type: Object as PropType<Skill>,
-      default: undefined,
-    },
-  },
-  setup(props) {
-    if (!props || !props.skill) return {key: '', name: '', versions: []}
+const props = defineProps({
+  skill: Object as PropType<Skill>,
+})
 
-    const cs = new CalculationService()
+const cs = new CalculationService()
 
-    const skill_ = computed(() => {
-      if (!props || !props.skill) return undefined
-      return props.skill
-    })
+const skill_ = computed(() => {
+  if (!props || !props.skill) return undefined
+  return props.skill
+})
 
-    if (!skill_ || !skill_.value || !skill_.value?.versions) {
-      return {skill_, df: undefined}
-    }
-
-    const df = computed(() => {
-      let sum = 0;
-      // reduce ?
-      skill_.value?.versions.forEach((v: Version) => {
-        sum += differenceInMonths(
-            new Date(`${v.to.year}-${v.to.month}-1`),
-            new Date(`${v.from.year}-${v.from.month}-1`),
-        ) + 1
-      })
-      return cs.diffFormat(sum)
-    })
-    return {skill_, df}
-  },
+const df = computed(() => {
+  let sum = 0;
+  // reduce ?
+  skill_?.value?.versions?.forEach((v: Version) => {
+    sum += differenceInMonths(
+        new Date(`${v.to.year}-${v.to.month}-1`),
+        new Date(`${v.from.year}-${v.from.month}-1`),
+    ) + 1
+  })
+  return cs.diffFormat(sum)
 })
 </script>
 

@@ -26,6 +26,7 @@ export class CalculationService {
   }
 
   diffFormat(df: number): string {
+    if (df === 0) return ''
     if (df >= 12) {
       const year = Math.floor(df / 12)
       const month = df - year * 12
