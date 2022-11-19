@@ -1,6 +1,10 @@
 <script lang="ts" setup>
-import SkillGroupComponent from '@/components/SkillGroup.vue'</script>
+import {SkillGroup} from '@/types/skill'
+import SkillGroupComponent from '@/components/SkillGroup.vue'
+
+const skillGroups: SkillGroup[] = await fetch('data/skills.json').then((r) => r.json());
+</script>
 
 <template>
-  <SkillGroupComponent/>
+  <SkillGroupComponent :skill-groups="skillGroups"/>
 </template>

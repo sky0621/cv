@@ -6,10 +6,13 @@ import BasicPrComponent from '@/components/basic/Pr.vue'
 import {Attribute} from "@/types/attribute";
 import {Activity} from "@/types/activity";
 import {Qualification} from "@/types/qualification";
+import {PropType} from "vue";
 
-const attribute: Attribute = await fetch('data/attribute.json').then((r) => r.json());
-const activities: Activity[] = await fetch('data/activities.json').then((r) => r.json());
-const qualifications: Qualification[] = await fetch('data/qualifications.json').then((r) => r.json());
+defineProps({
+  attribute: Object as PropType<Attribute>,
+  activities: Array as PropType<Activity[]>,
+  qualifications: Array as PropType<Qualification[]>,
+})
 </script>
 
 <template>

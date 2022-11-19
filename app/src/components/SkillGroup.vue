@@ -1,8 +1,11 @@
 <script lang="ts" setup>
 import {SkillGroup} from '@/types/skill'
 import SkillsComponent from '@/components/skill/Skills.vue'
+import {PropType} from "vue";
 
-const skillGroups: SkillGroup[] = await fetch('data/skills.json').then((r) => r.json());
+defineProps({
+  skillGroups: Array as PropType<SkillGroup[]>,
+})
 </script>
 
 <template>

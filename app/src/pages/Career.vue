@@ -1,6 +1,10 @@
 <script lang="ts" setup>
-import CareerGroupComponent from '@/components/CareerGroup.vue'</script>
+import {CareerGroup} from "@/types/career";
+import CareerGroupComponent from '@/components/CareerGroup.vue'
+
+const careerGroups: CareerGroup[] = await fetch('data/careergroups.json').then((r) => r.json())
+</script>
 
 <template>
-  <CareerGroupComponent/>
+  <CareerGroupComponent :career-groups="careerGroups"/>
 </template>

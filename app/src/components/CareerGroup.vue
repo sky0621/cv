@@ -2,8 +2,11 @@
 import CareerGroupPeriodComponent from '@/components/career/GroupPeriod.vue'
 import CareersComponent from '@/components/career/Careers.vue'
 import {CareerGroup} from "@/types/career";
+import {PropType} from "vue";
 
-const careerGroups: CareerGroup[] = await fetch('data/careergroups.json').then((r) => r.json())
+defineProps({
+  careerGroups: Array as PropType<CareerGroup[]>,
+})
 </script>
 
 <template>
