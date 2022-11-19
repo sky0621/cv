@@ -9,6 +9,7 @@ export interface SkillGroup {
 export interface Skill {
   key: string
   name: string
+  url: string
   versions: Version[]
 }
 

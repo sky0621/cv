@@ -40,6 +40,7 @@
       {
         "key": "cobol",
         "name": "COBOL",
+        "url": "https://www.cobol.co.jp/cobol-nyuumon/kiso/k001/",
         "versions": [
           {
             "from": {
@@ -56,6 +57,7 @@
       {
         "key": "golang",
         "name": "Golang",
+        "url": "https://go.dev/",
         "versions": [
           {
             "from": {
@@ -117,6 +119,7 @@
       {
         "key": "java",
         "name": "Java",
+        "url": "https://www.java.com/ja/",
         "versions": [
           {
             "from": {
@@ -340,6 +343,7 @@
       {
         "key": "javascript",
         "name": "JavaScript",
+        "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
         "versions": [
           {
             "from": {
@@ -426,6 +430,7 @@
       {
         "key": "kotlin",
         "name": "Kotlin",
+        "url": "https://kotlinlang.org/",
         "versions": [
           {
             "from": {
@@ -442,6 +447,7 @@
       {
         "key": "php",
         "name": "PHP",
+        "url": "https://www.php.net/",
         "versions": [
           {
             "from": {
@@ -459,6 +465,7 @@
       {
         "key": "python",
         "name": "Python",
+        "url": "https://www.python.jp/",
         "versions": [
           {
             "from": {
@@ -496,6 +503,7 @@
       {
         "key": "scala",
         "name": "Scala",
+        "url": "https://www.scala-lang.org/",
         "versions": [
           {
             "from": {
@@ -619,6 +627,7 @@
       {
         "key": "typescript",
         "name": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
         "versions": [
           {
             "from": {
@@ -662,6 +671,7 @@
       {
         "key": "chi",
         "name": "chi",
+        "url": "https://go-chi.io/#/",
         "versions": [
           {
             "from": {
@@ -689,6 +699,7 @@
       {
         "key": "echo",
         "name": "Echo",
+        "url": "https://echo.labstack.com/",
         "versions": [
           {
             "from": {
@@ -741,6 +752,7 @@
       {
         "key": "play",
         "name": "play",
+        "url": "https://www.playframework.com/",
         "versions": [
           {
             "from": {
@@ -758,6 +770,7 @@
       {
         "key": "sastruts",
         "name": "SAStruts",
+        "url": "https://sastruts.seasar.org/",
         "versions": [
           {
             "from": {
@@ -774,6 +787,7 @@
       {
         "key": "seasar2",
         "name": "Seasar2",
+        "url": "https://www.seasar.org/",
         "versions": [
           {
             "from": {
@@ -840,6 +854,7 @@
       {
         "key": "spring",
         "name": "Spring",
+        "url": "https://spring.io/",
         "versions": [
           {
             "from": {
@@ -866,6 +881,7 @@
       {
         "key": "struts",
         "name": "Struts",
+        "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html",
         "versions": [
           {
             "from": {
@@ -932,6 +948,7 @@
       {
         "key": "terasoluna",
         "name": "TERASOLUNA",
+        "url": "https://www.terasoluna.jp/",
         "versions": [
           {
             "from": {
@@ -954,6 +971,7 @@
       {
         "key": "angular",
         "name": "Angular",
+        "url": "https://angular.jp/",
         "versions": [
           {
             "from": {
@@ -971,6 +989,7 @@
       {
         "key": "nuxtjs",
         "name": "NuxtJS",
+        "url": "https://nuxtjs.org/ja/",
         "versions": [
           {
             "from": {
@@ -999,6 +1018,7 @@
       {
         "key": "react",
         "name": "React",
+        "url": "https://ja.reactjs.org/",
         "versions": [
           {
             "from": {
@@ -1016,6 +1036,7 @@
       {
         "key": "vuejs",
         "name": "Vue.js",
+        "url": "https://jp.vuejs.org/index.html",
         "versions": [
           {
             "from": {
@@ -1061,6 +1082,7 @@
       {
         "key": "graphql",
         "name": "GraphQL",
+        "url": "https://graphql.org/",
         "versions": [
           {
             "from": {
@@ -1077,6 +1099,7 @@
       {
         "key": "grpc",
         "name": "gRPC",
+        "url": "https://grpc.io/",
         "versions": [
           {
             "from": {
@@ -1113,6 +1136,7 @@
       {
         "key": "rest",
         "name": "REST",
+        "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
         "versions": [
           {
             "from": {
@@ -1945,6 +1969,7 @@
       {
         "key": "ansible",
         "name": "Ansible",
+        "url": "https://www.ansible.com/",
         "versions": [
           {
             "from": {
@@ -1961,6 +1986,7 @@
       {
         "key": "terraform",
         "name": "Terraform",
+        "url": "https://www.terraform.io/",
         "versions": [
           {
             "from": {
@@ -1988,6 +2014,7 @@
       {
         "key": "vagrant",
         "name": "Vagrant",
+        "url": "https://www.vagrantup.com/",
         "versions": [
           {
             "from": {
@@ -2010,6 +2037,7 @@
       {
         "key": "aix",
         "name": "AIX",
+        "url": "https://www.ibm.com/jp-ja/products/aix",
         "versions": [
           {
             "from": {
@@ -2026,6 +2054,7 @@
       {
         "key": "linuxcentos",
         "name": "Linux(CentOS)",
+        "url": "https://www.centos.org/",
         "versions": [
           {
             "from": {
@@ -2072,6 +2101,7 @@
       {
         "key": "linuxredhat",
         "name": "Linux(Red Hat)",
+        "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux",
         "versions": [
           {
             "from": {
@@ -2138,6 +2168,7 @@
       {
         "key": "linuxubuntu",
         "name": "Linux(Ubuntu)",
+        "url": "https://www.ubuntulinux.jp/",
         "versions": [
           {
             "from": {
@@ -2174,6 +2205,7 @@
       {
         "key": "macos",
         "name": "MacOS",
+        "url": "https://www.apple.com/jp/macos/",
         "versions": [
           {
             "from": {
@@ -2230,6 +2262,7 @@
       {
         "key": "solaris",
         "name": "Solaris",
+        "url": "https://www.oracle.com/jp/solaris/solaris11/",
         "versions": [
           {
             "from": {
@@ -2296,6 +2329,7 @@
       {
         "key": "windows",
         "name": "Windows",
+        "url": "https://www.microsoft.com/ja-jp/windows",
         "versions": [
           {
             "from": {
@@ -2512,6 +2546,7 @@
       {
         "key": "zos",
         "name": "z/OS",
+        "url": "https://www.ibm.com/products/zos",
         "versions": [
           {
             "from": {
@@ -2550,6 +2585,7 @@
       {
         "key": "db2",
         "name": "DB2",
+        "url": "https://www.ibm.com/jp-ja/products/db2",
         "versions": [
           {
             "from": {
@@ -2576,6 +2612,7 @@
       {
         "key": "mysql",
         "name": "MySQL",
+        "url": "https://www.mysql.com/jp/",
         "versions": [
           {
             "from": {
@@ -2612,6 +2649,7 @@
       {
         "key": "oracle",
         "name": "Oracle",
+        "url": "https://www.oracle.com/jp/database/technologies/",
         "versions": [
           {
             "from": {
@@ -2718,6 +2756,7 @@
       {
         "key": "postgresql",
         "name": "PostgreSQL",
+        "url": "https://www.postgresql.jp/",
         "versions": [
           {
             "from": {
@@ -2754,6 +2793,7 @@
       {
         "key": "sqlite",
         "name": "SQLite",
+        "url": "https://www.sqlite.org/index.html",
         "versions": [
           {
             "from": {
@@ -2776,6 +2816,7 @@
       {
         "key": "apollo",
         "name": "Apollo",
+        "url": "https://www.apollographql.com/",
         "versions": [
           {
             "from": {
@@ -2792,6 +2833,7 @@
       {
         "key": "axios",
         "name": "Axios",
+        "url": "https://axios-http.com/",
         "versions": [
           {
             "from": {
@@ -2818,6 +2860,7 @@
       {
         "key": "axis2",
         "name": "Axis2",
+        "url": "https://axis.apache.org/axis2/java/core/",
         "versions": [
           {
             "from": {
@@ -2834,6 +2877,7 @@
       {
         "key": "cssmodules",
         "name": "CSS Modules",
+        "url": "https://github.com/css-modules/css-modules",
         "versions": [
           {
             "from": {
@@ -2850,6 +2894,7 @@
       {
         "key": "entgo",
         "name": "ent.",
+        "url": "https://entgo.io/ja/",
         "versions": [
           {
             "from": {
@@ -2866,6 +2911,7 @@
       {
         "key": "ejb",
         "name": "EJB",
+        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html",
         "versions": [
           {
             "from": {
@@ -2892,6 +2938,7 @@
       {
         "key": "gorm",
         "name": "GORM",
+        "url": "https://gorm.io/ja_JP/",
         "versions": [
           {
             "from": {
@@ -2928,6 +2975,7 @@
       {
         "key": "goverter",
         "name": "goverter",
+        "url": "https://github.com/jmattheis/goverter",
         "versions": [
           {
             "from": {
@@ -2944,6 +2992,7 @@
       {
         "key": "goswagger",
         "name": "go-swagger",
+        "url": "https://goswagger.io/",
         "versions": [
           {
             "from": {
@@ -2960,6 +3009,7 @@
       {
         "key": "gqlgen",
         "name": "gqlgen",
+        "url": "https://gqlgen.com/",
         "versions": [
           {
             "from": {
@@ -2976,6 +3026,7 @@
       {
         "key": "grpcgateway",
         "name": "gRPC-Gateway",
+        "url": "https://grpc-ecosystem.github.io/grpc-gateway/",
         "versions": [
           {
             "from": {
@@ -2992,6 +3043,7 @@
       {
         "key": "ibatis",
         "name": "iBatis",
+        "url": "https://ibatis.apache.org/",
         "versions": [
           {
             "from": {
@@ -3114,6 +3166,7 @@
       {
         "key": "jest",
         "name": "Jest",
+        "url": "https://jestjs.io/ja/",
         "versions": [
           {
             "from": {
@@ -3141,6 +3194,7 @@
       {
         "key": "jsp",
         "name": "JSP",
+        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html",
         "versions": [
           {
             "from": {
@@ -3247,6 +3301,7 @@
       {
         "key": "prettier",
         "name": "Prettier",
+        "url": "https://prettier.io/",
         "versions": [
           {
             "from": {
@@ -3274,6 +3329,7 @@
       {
         "key": "reacthooks",
         "name": "React Hooks",
+        "url": "https://ja.reactjs.org/docs/hooks-intro.html",
         "versions": [
           {
             "from": {
@@ -3290,6 +3346,7 @@
       {
         "key": "reacthookform",
         "name": "React Hook Form",
+        "url": "https://react-hook-form.com/",
         "versions": [
           {
             "from": {
@@ -3307,6 +3364,7 @@
       {
         "key": "reactrouter",
         "name": "React Router",
+        "url": "https://reactrouter.com/en/main",
         "versions": [
           {
             "from": {
@@ -3324,6 +3382,7 @@
       {
         "key": "redux",
         "name": "Redux",
+        "url": "https://redux.js.org/",
         "versions": [
           {
             "from": {
@@ -3341,6 +3400,7 @@
       {
         "key": "reduxtoolkit",
         "name": "Redux Toolkit",
+        "url": "https://redux-toolkit.js.org/",
         "versions": [
           {
             "from": {
@@ -3357,6 +3417,7 @@
       {
         "key": "scaffdog",
         "name": "scaffdog",
+        "url": "https://scaff.dog/",
         "versions": [
           {
             "from": {
@@ -3374,6 +3435,7 @@
       {
         "key": "sqlboiler",
         "name": "SQLBoiler",
+        "url": "https://github.com/volatiletech/sqlboiler",
         "versions": [
           {
             "from": {
@@ -3390,6 +3452,7 @@
       {
         "key": "s2dao",
         "name": "S2Dao",
+        "url": "http://s2dao.seasar.org/ja/",
         "versions": [
           {
             "from": {
@@ -3406,6 +3469,7 @@
       {
         "key": "s2jdbc",
         "name": "S2JDBC",
+        "url": "https://s2container.seasar.org/2.4/ja/s2jdbc.html",
         "versions": [
           {
             "from": {
@@ -3422,6 +3486,7 @@
       {
         "key": "vuetify",
         "name": "Vuetify",
+        "url": "https://vuetifyjs.com/ja/",
         "versions": [
           {
             "from": {
@@ -3448,6 +3513,7 @@
       {
         "key": "vuex",
         "name": "Vuex",
+        "url": "https://vuex.vuejs.org/ja/",
         "versions": [
           {
             "from": {
@@ -3464,6 +3530,7 @@
       {
         "key": "wire",
         "name": "wire",
+        "url": "https://github.com/google/wire",
         "versions": [
           {
             "from": {
@@ -3490,6 +3557,7 @@
       {
         "key": "workshopnetui",
         "name": "Workshop NetUI",
+        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html",
         "versions": [
           {
             "from": {
@@ -3512,6 +3580,7 @@
       {
         "key": "apache",
         "name": "Apache",
+        "url": "https://httpd.apache.org/",
         "versions": [
           {
             "from": {
@@ -3558,6 +3627,7 @@
       {
         "key": "tomcat",
         "name": "Tomcat",
+        "url": "https://tomcat.apache.org/",
         "versions": [
           {
             "from": {
@@ -3610,6 +3680,7 @@
       {
         "key": "apiary",
         "name": "Apiary",
+        "url": "https://apiary.io/",
         "versions": [
           {
             "from": {
@@ -3626,6 +3697,7 @@
       {
         "key": "auth0",
         "name": "Auth0",
+        "url": "https://auth0.com/jp",
         "versions": [
           {
             "from": {
@@ -3642,6 +3714,7 @@
       {
         "key": "confluence",
         "name": "Confluence",
+        "url": "https://www.atlassian.com/ja",
         "versions": [
           {
             "from": {
@@ -3658,6 +3731,7 @@
       {
         "key": "github",
         "name": "GitHub",
+        "url": "https://github.co.jp/",
         "versions": [
           {
             "from": {
@@ -3763,11 +3837,13 @@
       },
       {
         "key": "gitlab",
-        "name": "GitLab"
+        "name": "GitLab",
+        "url": "https://about.gitlab.com/"
       },
       {
         "key": "jp1",
         "name": "JP1",
+        "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html",
         "versions": [
           {
             "from": {
@@ -3784,6 +3860,7 @@
       {
         "key": "sendgrid",
         "name": "SendGrid",
+        "url": "https://www.twilio.com/ja/sendgrid/email-api",
         "versions": [
           {
             "from": {
@@ -3810,6 +3887,7 @@
       {
         "key": "sentry",
         "name": "Sentry",
+        "url": "https://sentry.io/welcome/",
         "versions": [
           {
             "from": {
@@ -3836,6 +3914,7 @@
       {
         "key": "webnms",
         "name": "WebNMS",
+        "url": "https://www.webnms.jp/",
         "versions": [
           {
             "from": {
@@ -3852,6 +3931,7 @@
       {
         "key": "websam",
         "name": "WebSAM",
+        "url": "https://jpn.nec.com/websam/index.html",
         "versions": [
           {
             "from": {
@@ -3868,6 +3948,7 @@
       {
         "key": "wrike",
         "name": "Wrike",
+        "url": "https://www.wrike.com/ja/",
         "versions": [
           {
             "from": {
@@ -3884,6 +3965,7 @@
       {
         "key": "cybozu",
         "name": "サイボウズ",
+        "url": "https://cybozu.co.jp/",
         "versions": [
           {
             "from": {
@@ -3916,6 +3998,7 @@
       {
         "key": "ajax",
         "name": "Ajax",
+        "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX",
         "versions": [
           {
             "from": {
@@ -3984,6 +4067,7 @@
       {
         "key": "delphi",
         "name": "Delphi",
+        "url": "https://www.embarcadero.com/jp/products/delphi",
         "versions": [
           {
             "from": {
@@ -4000,6 +4084,7 @@
       {
         "key": "docker",
         "name": "docker",
+        "url": "https://www.docker.com/",
         "versions": [
           {
             "from": {
@@ -4046,6 +4131,7 @@
       {
         "key": "dockercompose",
         "name": "docker-compose",
+        "url": "https://docs.docker.jp/compose/toc.html",
         "versions": [
           {
             "from": {
@@ -4072,6 +4158,7 @@
       {
         "key": "html",
         "name": "HTML",
+        "url": "https://www.w3.org/",
         "versions": [
           {
             "from": {
@@ -4198,6 +4285,7 @@
       {
         "key": "jenkins",
         "name": "Jenkins",
+        "url": "https://www.jenkins.io/",
         "versions": [
           {
             "from": {
@@ -4308,6 +4396,7 @@
       {
         "key": "xml",
         "name": "XML",
+        "url": "https://www.w3.org/",
         "versions": [
           {
             "from": {
@@ -4424,6 +4513,7 @@
       {
         "key": "xslt",
         "name": "XSLT",
+        "url": "https://developer.mozilla.org/ja/docs/Web/XSLT",
         "versions": [
           {
             "from": {
@@ -4440,6 +4530,7 @@
       {
         "key": "yarn",
         "name": "Yarn",
+        "url": "https://yarnpkg.com/",
         "versions": [
           {
             "from": {

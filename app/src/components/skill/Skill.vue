@@ -33,7 +33,12 @@ const df = computed(() => {
   <div class="col">
     <Card class="col text-left mb-2">
       <template #title>
-        <div>{{ skill_?.name }}</div>
+        <template v-if="skill_?.url !== ''">
+          <div><a :href="skill_?.url" target="_blank">{{ skill_?.name }}</a></div>
+        </template>
+        <template v-else>
+          <div>{{ skill_?.name }}</div>
+        </template>
       </template>
       <template #subtitle>
         <div>経験：{{ df ? df : '-' }}</div>
