@@ -1,39 +1,23 @@
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
+<script lang="ts" setup>
+import {ref} from 'vue'
 import {SkillGroup} from '@/types/skill'
+import {SkillService} from '@/service/SkillService'
 import SkillsComponent from '@/components/skill/Skills.vue'
 
-export default defineComponent({
-  name: 'SkillGroupComponent',
-  components: {
-    SkillsComponent,
-  },
-  props: {
-    skillGroups: {
-      type: Array as PropType<SkillGroup[]>,
-      default: undefined,
-    },
-  },
-  setup(props) {
-    const skillGroups_ = computed(() => {
-      if (!props || !props.skillGroups) return []
-      return props.skillGroups
-    })
-    return {skillGroups_}
-  },
-})
+const skillGroups = ref()
+
+const sg: SkillGroup[] = await new SkillService().getSkillGroups()
+
+skillGroups.value = sg
 </script>
 
 <template>
-  <template v-if="skillGroups_">
-    <template v-for="g in skillGroups_" :key="g.id">
-      <Divider/>
-      <div class="my-3 text-bold">{{ g.tagName }}</div>
-      <Divider/>
-      <SkillsComponent :skills="g.skills"/>
-    </template>
+  <template v-for="g in skillGroups" :key="g.id">
+    <Divider/>
+    <div class="my-3 text-bold">{{ g.tagName }}</div>
+    <Divider/>
+    <SkillsComponent :skills="g.skills"/>
   </template>
-  <template v-if="!skillGroups_"> Loading...</template>
 </template>
 
 <style lang="scss" scoped></style>
