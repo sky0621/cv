@@ -48,7 +48,9 @@ const items = ref([
 </template>
 
 <style lang="scss">
-html {
+html, body {
+  background-color: #fcfcfc;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
