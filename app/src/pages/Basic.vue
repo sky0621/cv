@@ -1,7 +1,3 @@
-<template>
-  <BasicComponent/>
-</template>
-
 <script lang="ts">
 import {defineComponent} from 'vue'
 import BasicComponent from '@/components/Basic.vue'
@@ -13,5 +9,9 @@ export default defineComponent({
   },
 })
 </script>
+
+<template>
+  <BasicComponent/>
+</template>
 
 <style lang="scss" scoped></style>
