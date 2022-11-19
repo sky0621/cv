@@ -1,3 +1,30 @@
+<script lang="ts" setup>
+import {ref} from 'vue'
+
+const items = ref([
+  {
+    label: 'Basic',
+    icon: 'pi pi-fw pi-id-card',
+    to: '/',
+  },
+  {
+    label: 'Career',
+    icon: 'pi pi-fw pi-book',
+    to: '/career',
+  },
+  {
+    label: 'Skill',
+    icon: 'pi pi-fw pi-desktop',
+    to: '/skill',
+  },
+  {
+    label: 'Note',
+    icon: 'pi pi-fw pi-exclamation-circle',
+    to: '/note',
+  },
+])
+</script>
+
 <template>
   <header class="grid">
     <div class="col">
@@ -12,46 +39,13 @@
           <component :is="Component"></component>
           <!-- loading state -->
           <template #fallback>
-            Loading.....
+            <ProgressSpinner aria-label="ProgressSpinner"/>
           </template>
         </Suspense>
       </KeepAlive>
     </template>
   </RouterView>
 </template>
-
-<script lang="ts">
-import {defineComponent, ref} from 'vue'
-
-export default defineComponent({
-  name: 'App',
-  setup() {
-    const items = ref([
-      {
-        label: 'Basic',
-        icon: 'pi pi-fw pi-id-card',
-        to: '/',
-      },
-      {
-        label: 'Career',
-        icon: 'pi pi-fw pi-book',
-        to: '/career',
-      },
-      {
-        label: 'Skill',
-        icon: 'pi pi-fw pi-desktop',
-        to: '/skill',
-      },
-      {
-        label: 'Note',
-        icon: 'pi pi-fw pi-exclamation-circle',
-        to: '/note',
-      },
-    ])
-    return {items}
-  },
-})
-</script>
 
 <style lang="scss">
 html {

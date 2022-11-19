@@ -1,15 +1,3 @@
-<template>
-  <template v-if="skillGroups_">
-    <template v-for="g in skillGroups_" :key="g.id">
-      <Divider/>
-      <div class="my-3 text-bold">{{ g.tagName }}</div>
-      <Divider/>
-      <SkillsComponent :skills="g.skills"/>
-    </template>
-  </template>
-  <template v-if="!skillGroups_"> Loading...</template>
-</template>
-
 <script lang="ts">
 import {computed, defineComponent, PropType} from 'vue'
 import {SkillGroup} from '@/types/skill'
@@ -35,5 +23,17 @@ export default defineComponent({
   },
 })
 </script>
+
+<template>
+  <template v-if="skillGroups_">
+    <template v-for="g in skillGroups_" :key="g.id">
+      <Divider/>
+      <div class="my-3 text-bold">{{ g.tagName }}</div>
+      <Divider/>
+      <SkillsComponent :skills="g.skills"/>
+    </template>
+  </template>
+  <template v-if="!skillGroups_"> Loading...</template>
+</template>
 
 <style lang="scss" scoped></style>

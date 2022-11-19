@@ -1,57 +1,40 @@
-<template>
-  <template v-if="careerGroups_">
-    <div class="card">
-      <Timeline
-          :value="careerGroups_"
-          align="alternate"
-          class="customized-timeline"
-      >
-        <template #opposite="slot">
-          <div class="p-text-secondary" style="min-width: 140px">
-            <CareerGroupPeriodComponent :careers="slot.item.careers"/>
-          </div>
-        </template>
-        <template #content="slot">
-          <Panel :collapsed="true" :toggleable="true" class="mb-4">
-            <template #header>
-              {{ slot.item.label }}
-            </template>
-            <CareersComponent :careers="slot.item.careers"/>
-          </Panel>
-        </template>
-      </Timeline>
-    </div>
-  </template>
-  <template v-if="!careerGroups_"> Loading...</template>
-</template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
+<script lang="ts" setup>
+import {ref} from 'vue'
 import {CareerGroup} from '@/types/career'
 import CareerGroupPeriodComponent from '@/components/career/GroupPeriod.vue'
 import CareersComponent from '@/components/career/Careers.vue'
+import {CareerService} from '@/service/CareerService'
 
-export default defineComponent({
-  name: 'CareerGroupComponent',
-  components: {
-    CareerGroupPeriodComponent,
-    CareersComponent,
-  },
-  props: {
-    careerGroups: {
-      type: Array as PropType<CareerGroup[]>,
-      default: undefined,
-    },
-  },
-  setup(props) {
-    const careerGroups_ = computed(() => {
-      if (!props || !props.careerGroups) return []
-      return props.careerGroups
-    })
-    return {careerGroups_}
-  },
-})
+const careerGroups = ref()
+
+const cg: CareerGroup[] = await new CareerService().getCareerGroups()
+
+careerGroups.value = cg
 </script>
+
+<template>
+  <div class="card">
+    <Timeline
+        :value="careerGroups"
+        align="alternate"
+        class="customized-timeline"
+    >
+      <template #opposite="slot">
+        <div class="p-text-secondary" style="min-width: 140px">
+          <CareerGroupPeriodComponent :careers="slot.item.careers"/>
+        </div>
+      </template>
+      <template #content="slot">
+        <Panel :collapsed="true" :toggleable="true" class="mb-4">
+          <template #header>
+            {{ slot.item.label }}
+          </template>
+          <CareersComponent :careers="slot.item.careers"/>
+        </Panel>
+      </template>
+    </Timeline>
+  </div>
+</template>
 
 <style lang="scss" scoped>
 @media screen and (max-width: 960px) {
