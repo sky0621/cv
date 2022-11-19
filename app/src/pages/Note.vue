@@ -1,14 +1,5 @@
-<script lang="ts">
-import {defineComponent} from 'vue'
-import NoteComponent from '@/components/Note.vue'
-
-export default defineComponent({
-  name: 'NotePage',
-  components: {
-    NoteComponent,
-  },
-})
-</script>
+<script lang="ts" setup>
+import NoteComponent from '@/components/Note.vue'</script>
 
 <template>
   <NoteComponent/>
