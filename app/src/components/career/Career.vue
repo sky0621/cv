@@ -1,3 +1,22 @@
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
+import {Career} from '@/types/career'
+import CareerNameComponent from '@/components/career/Name.vue'
+import CareerPeriodComponent from '@/components/career/Period.vue'
+import CareerDescriptionComponent from '@/components/career/Description.vue'
+import CareerTasksComponent from '@/components/career/Tasks.vue'
+import CareerSkillGroupsComponent from '@/components/career/Skills.vue'
+
+const props = defineProps({
+  career: Object as PropType<Career>,
+})
+
+const career_ = computed(() => {
+  if (!props || !props.career) return undefined
+  return props.career
+})
+</script>
+
 <template>
   <Card class="text-left mb-2">
     <template #header>
@@ -20,39 +39,3 @@
     </template>
   </Card>
 </template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
-import {Career} from '@/types/career'
-import CareerNameComponent from '@/components/career/Name.vue'
-import CareerPeriodComponent from '@/components/career/Period.vue'
-import CareerDescriptionComponent from '@/components/career/Description.vue'
-import CareerTasksComponent from '@/components/career/Tasks.vue'
-import CareerSkillGroupsComponent from '@/components/career/Skills.vue'
-
-export default defineComponent({
-  name: 'CareerComponent',
-  components: {
-    CareerNameComponent,
-    CareerPeriodComponent,
-    CareerDescriptionComponent,
-    CareerTasksComponent,
-    CareerSkillGroupsComponent,
-  },
-  props: {
-    career: {
-      type: Object as PropType<Career>,
-      default: undefined,
-    },
-  },
-  setup(props) {
-    const career_ = computed(() => {
-      if (!props || !props.career) return undefined
-      return props.career
-    })
-    return {career_}
-  },
-})
-</script>
-
-<style lang="scss" scoped></style>

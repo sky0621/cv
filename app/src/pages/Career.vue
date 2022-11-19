@@ -13,5 +13,3 @@ export default defineComponent({
 <template>
   <CareerGroupComponent/>
 </template>
-
-<style lang="scss" scoped></style>

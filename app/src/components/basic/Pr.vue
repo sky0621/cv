@@ -4,7 +4,7 @@ import {computed} from 'vue'
 const props = defineProps({pr: String})
 
 const pr_ = computed(() => {
-  if (!props || !props.pr) return undefined
+  if (!props || !props.pr) return ''
   return props.pr
 })
 </script>

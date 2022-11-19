@@ -72,5 +72,3 @@ basic.value = b;
     </div>
   </template>
 </template>
-
-<style lang="scss" scoped></style>

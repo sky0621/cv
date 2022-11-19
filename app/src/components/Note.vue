@@ -29,5 +29,3 @@ notes.value = n
     </template>
   </div>
 </template>
-
-<style lang="scss" scoped></style>

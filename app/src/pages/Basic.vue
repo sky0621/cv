@@ -13,5 +13,3 @@ export default defineComponent({
 <template>
   <BasicComponent/>
 </template>
-
-<style lang="scss" scoped></style>

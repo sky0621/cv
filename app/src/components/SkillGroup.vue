@@ -19,5 +19,3 @@ skillGroups.value = sg
     <SkillsComponent :skills="g.skills"/>
   </template>
 </template>
-
-<style lang="scss" scoped></style>

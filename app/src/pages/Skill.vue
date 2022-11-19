@@ -13,5 +13,3 @@ export default defineComponent({
 <template>
   <SkillGroupComponent/>
 </template>
-
-<style lang="scss" scoped></style>

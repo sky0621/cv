@@ -13,5 +13,3 @@ export default defineComponent({
 <template>
   <NoteComponent/>
 </template>
-
-<style lang="scss" scoped></style>

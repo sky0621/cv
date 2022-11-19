@@ -1,29 +1,16 @@
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
+
+const props = defineProps({description: Array as PropType<String[]>})
+
+const descriptions_ = computed(() => {
+  if (!props || !props.description) return ''
+  return props.description
+})
+</script>
+
 <template>
   <template v-for="(description, tIdx) in descriptions_" :key="tIdx">
     {{ description }}<br/>
   </template>
 </template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
-
-export default defineComponent({
-  description: 'CareerDescriptionComponent',
-  props: {
-    description: {
-      type: Array as PropType<String[]>,
-      default: '',
-    },
-  },
-  setup(props) {
-    const descriptions_ = computed(() => {
-      if (!props || !props.description) return undefined
-      return props.description
-    })
-
-    return {descriptions_}
-  },
-})
-</script>
-
-<style lang="scss" scoped></style>

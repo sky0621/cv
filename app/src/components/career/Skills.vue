@@ -1,3 +1,17 @@
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
+import {CareerSkillGroup} from '@/types/career'
+
+const props = defineProps({
+  skillGroups: Array as PropType<CareerSkillGroup[]>,
+})
+
+const skillGroups_ = computed(() => {
+  if (!props || !props.skillGroups) return []
+  return props.skillGroups
+})
+</script>
+
 <template>
   <div class="font-bold">使用技術</div>
   <template v-for="(sg, sgIdx) in skillGroups_" :key="sgIdx">
@@ -18,28 +32,3 @@
     </div>
   </template>
 </template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
-import {CareerSkillGroup} from '@/types/career'
-
-export default defineComponent({
-  skillGroups: 'CareerSkillGroupsComponent',
-  props: {
-    skillGroups: {
-      type: Array as PropType<CareerSkillGroup[]>,
-      default: [],
-    },
-  },
-  setup(props) {
-    const skillGroups_ = computed(() => {
-      if (!props || !props.skillGroups) return []
-      return props.skillGroups
-    })
-
-    return {skillGroups_}
-  },
-})
-</script>
-
-<style lang="scss" scoped></style>
