@@ -3,12 +3,13 @@ import BasicAgeComponent from '@/components/basic/Age.vue'
 import BasicActivityComponent from '@/components/basic/Activity.vue'
 import BasicQualificationComponent from '@/components/basic/Qualification.vue'
 import BasicPrComponent from '@/components/basic/Pr.vue'
-import {QualificationService} from "@/service/QualificationService";
-import {ActivityService} from "@/service/ActivityService";
+import {Attribute} from "@/types/attribute";
+import {Activity} from "@/types/activity";
+import {Qualification} from "@/types/qualification";
 
-const attribute = await fetch('data/attribute.json').then((r) => r.json());
-const activities = await new ActivityService().getActivitiesInfo();
-const qualifications = await new QualificationService().getQualificationsInfo();
+const attribute: Attribute = await fetch('data/attribute.json').then((r) => r.json());
+const activities: Activity[] = await fetch('data/activities.json').then((r) => r.json());
+const qualifications: Qualification[] = await fetch('data/qualifications.json').then((r) => r.json());
 </script>
 
 <template>

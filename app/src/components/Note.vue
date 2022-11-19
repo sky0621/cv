@@ -1,13 +1,7 @@
 <script lang="ts" setup>
-import {ref} from 'vue'
 import {Note} from '@/types/note'
-import {NoteService} from '@/service/NoteService'
 
-const notes = ref()
-
-const n: Note[] = await new NoteService().getNotes()
-
-notes.value = n
+const notes: Note[] = await fetch('data/notes.json').then((r) => r.json());
 </script>
 
 <template>

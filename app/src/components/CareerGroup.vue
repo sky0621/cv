@@ -1,15 +1,9 @@
 <script lang="ts" setup>
-import {ref} from 'vue'
-import {CareerGroup} from '@/types/career'
 import CareerGroupPeriodComponent from '@/components/career/GroupPeriod.vue'
 import CareersComponent from '@/components/career/Careers.vue'
-import {CareerService} from '@/service/CareerService'
+import {CareerGroup} from "@/types/career";
 
-const careerGroups = ref()
-
-const cg: CareerGroup[] = await new CareerService().getCareerGroups()
-
-careerGroups.value = cg
+const careerGroups: CareerGroup[] = await fetch('data/careergroups.json').then((r) => r.json())
 </script>
 
 <template>
