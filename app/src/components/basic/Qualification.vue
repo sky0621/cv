@@ -1,3 +1,17 @@
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
+import {Qualification} from '@/types/qualification'
+
+const props = defineProps({
+  qualifications: Array as PropType<Qualification[]>,
+})
+
+const qualifications_ = computed(() => {
+  if (!props || !props.qualifications) return []
+  return props.qualifications
+})
+</script>
+
 <template>
   <template v-for="q in qualifications_" :key="q.id">
     <Card>
@@ -11,28 +25,3 @@
     </Card>
   </template>
 </template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
-import {Qualification} from '@/types/qualification'
-
-export default defineComponent({
-  name: 'BasicQualificationComponent',
-  props: {
-    qualifications: {
-      type: Array as PropType<Qualification[]>,
-      default: () => [],
-    },
-  },
-  setup(props) {
-    const qualifications_ = computed(() => {
-      if (!props || !props.qualifications) return []
-      return props.qualifications
-    })
-
-    return {qualifications_}
-  },
-})
-</script>
-
-<style lang="scss" scoped></style>

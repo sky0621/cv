@@ -1,3 +1,17 @@
+<script lang="ts" setup>
+import {computed, PropType} from 'vue'
+import {Activity} from '@/types/activity'
+
+const props = defineProps({
+  activities: Array as PropType<Activity[]>
+})
+
+const activities_ = computed(() => {
+  if (!props || !props.activities) return []
+  return props.activities
+})
+</script>
+
 <template>
   <template v-for="(a, index) in activities_" :key="index">
     <div class="flex flex-column justify-content-center mr-5">
@@ -6,28 +20,3 @@
     </div>
   </template>
 </template>
-
-<script lang="ts">
-import {computed, defineComponent, PropType} from 'vue'
-import {Activity} from '@/types/activity'
-
-export default defineComponent({
-  name: 'BasicActivityComponent',
-  props: {
-    activities: {
-      type: Array as PropType<Activity[]>,
-      default: () => [],
-    },
-  },
-  setup(props) {
-    const activities_ = computed(() => {
-      if (!props || !props.activities) return []
-      return props.activities
-    })
-
-    return {activities_}
-  },
-})
-</script>
-
-<style lang="scss" scoped></style>
