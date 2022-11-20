@@ -17,7 +17,7 @@ defineProps({
 
 <template>
   <template v-if="attribute && activities && qualifications">
-    <div class="surface-card p-4 shadow-2 border-round w-full lg:w-10">
+    <div class="surface-card shadow-2 border-round w-full">
       <div class="text-center mx-6 mb-6 mt-2">
         <Avatar
             :image="attribute.avatarUrl"

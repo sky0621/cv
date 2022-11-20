@@ -52,6 +52,11 @@ html, body {
   background-color: #fcfcfc;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   font-size: 16px;
+  @media only screen and (min-width: 400px) {
+    margin-left: -6px;
+    padding-left: 10px;
+  }
+  width: 100%;
 }
 
 #app {
