@@ -46,7 +46,7 @@ const df = computed(() => {
       <template v-if="skill_?.versions" #content>
         <Inplace :closable="true">
           <template #display
-          ><span class="active:text-color">breakdown</span></template
+          ><span class="active:text-color; arrow_s">breakdown</span></template
           >
           <template #content>
             <div
@@ -69,3 +69,26 @@ const df = computed(() => {
     </Card>
   </div>
 </template>
+
+<style lang="scss">
+.arrow_s {
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+  color: #333;
+  text-decoration: none;
+}
+
+.arrow_s:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #333;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -6px;
+}
+</style>
