@@ -18,7 +18,7 @@ defineProps({
 <template>
   <template v-if="attribute && activities && qualifications">
     <div class="surface-card shadow-2 border-round w-full">
-      <div class="text-center mx-6 mb-6 mt-2">
+      <div class="text-center mx-6 mb-6 pt-4">
         <Avatar
             :image="attribute.avatarUrl"
             class="mb-3"
@@ -58,7 +58,7 @@ defineProps({
             />
           </div>
         </div>
-        <div class="font-bold mx-6 mt-6 mb-2">
+        <div class="font-bold sm:mx-1 md:mx-4 lg:mx-6 xl:mx-8 mt-6 mb-2">
           <div class="text-500 font-medium mb-2">PR</div>
           <div class="text-900 flex justify-content-center">
             <BasicPrComponent :pr="attribute.pr"/>

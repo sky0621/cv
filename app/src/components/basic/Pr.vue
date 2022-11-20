@@ -13,7 +13,7 @@ const pr_ = computed(() => {
   <Textarea
       :auto-resize="true"
       :value="pr_"
-      class="flex px-5 py-5"
+      class="flex sm:px-2 md:px-4 lg:px-6 xl:px-6 sm:py-2 md:py-4 lg:py-6 xl:py-6"
       disabled
       style="opacity: 1; width: 100%"
   />
