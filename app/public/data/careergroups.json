@@ -416,13 +416,13 @@
     "careers": [
       {
         "description": [
-          "動画広告専用の出稿管理システムの新規リリース及び保守・運用。"
+          "動画広告専用の出稿管理システムの新規リリース。"
         ],
         "from": {
-          "month": 10,
-          "year": 2019
+          "month": 8,
+          "year": 2021
         },
-        "name": "Web広告出稿管理システム新規開発",
+        "name": "Web広告出稿管理システム新規開発（番組表に対応した配信）",
         "skillGroups": [
           {
             "label": "Frontend(SSR/SPA)",
@@ -463,15 +463,6 @@
                   "name": "Vuetify",
                   "tagKey": "library",
                   "url": "https://vuetifyjs.com/ja/"
-                }
-              },
-              {
-                "skill": {
-                  "id": 632,
-                  "key": "apollo",
-                  "name": "Apollo",
-                  "tagKey": "library",
-                  "url": "https://www.apollographql.com/"
                 }
               },
               {
@@ -545,15 +536,6 @@
               },
               {
                 "skill": {
-                  "id": 685,
-                  "key": "gqlgen",
-                  "name": "gqlgen",
-                  "tagKey": "library",
-                  "url": "https://gqlgen.com/"
-                }
-              },
-              {
-                "skill": {
                   "id": 736,
                   "key": "sqlboiler",
                   "name": "SQLBoiler",
@@ -568,9 +550,9 @@
             "skills": [
               {
                 "skill": {
-                  "id": 680,
-                  "key": "gke",
-                  "name": "GKE",
+                  "id": 651,
+                  "key": "cloudrun",
+                  "name": "Cloud Run",
                   "tagKey": "cloudgcp"
                 }
               },
@@ -603,22 +585,6 @@
                   "id": 647,
                   "key": "cloudfunctions",
                   "name": "Cloud Functions",
-                  "tagKey": "cloudgcp"
-                }
-              },
-              {
-                "skill": {
-                  "id": 651,
-                  "key": "cloudrun",
-                  "name": "Cloud Run",
-                  "tagKey": "cloudgcp"
-                }
-              },
-              {
-                "skill": {
-                  "id": 677,
-                  "key": "firestorenativemode",
-                  "name": "Firestore(Native mode)",
                   "tagKey": "cloudgcp"
                 }
               },
@@ -744,15 +710,6 @@
               },
               {
                 "skill": {
-                  "id": 686,
-                  "key": "graphql",
-                  "name": "GraphQL",
-                  "tagKey": "communication",
-                  "url": "https://graphql.org/"
-                }
-              },
-              {
-                "skill": {
                   "id": 723,
                   "key": "rest",
                   "name": "REST",
@@ -809,6 +766,334 @@
         ],
         "to": {
           "month": 12,
+          "year": 2021
+        }
+      },
+      {
+        "description": [
+          "動画広告専用の出稿管理システムの新規リリース及び保守・運用。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2019
+        },
+        "name": "Web広告出稿管理システム新規開発（RTB/PMP）",
+        "skillGroups": [
+          {
+            "label": "Frontend(SSR/SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 747,
+                  "key": "typescript",
+                  "name": "TypeScript",
+                  "tagKey": "language",
+                  "url": "https://www.typescriptlang.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 751,
+                  "key": "vuejs",
+                  "name": "Vue.js",
+                  "tagKey": "frontendframework",
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 707,
+                  "key": "nuxtjs",
+                  "name": "NuxtJS",
+                  "tagKey": "frontendframework",
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 750,
+                  "key": "vuetify",
+                  "name": "Vuetify",
+                  "tagKey": "library",
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 632,
+                  "key": "apollo",
+                  "name": "Apollo",
+                  "tagKey": "library",
+                  "url": "https://www.apollographql.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 712,
+                  "key": "prettier",
+                  "name": "Prettier",
+                  "tagKey": "library",
+                  "url": "https://prettier.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 761,
+                  "key": "yarn",
+                  "name": "Yarn",
+                  "tagKey": "others",
+                  "url": "https://yarnpkg.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 681,
+                  "key": "golang",
+                  "name": "Golang",
+                  "tagKey": "language",
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.16"
+              },
+              {
+                "skill": {
+                  "id": 640,
+                  "key": "chi",
+                  "name": "chi",
+                  "tagKey": "webframework",
+                  "url": "https://go-chi.io/#/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 756,
+                  "key": "wire",
+                  "name": "wire",
+                  "tagKey": "library",
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 685,
+                  "key": "gqlgen",
+                  "name": "gqlgen",
+                  "tagKey": "library",
+                  "url": "https://gqlgen.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 736,
+                  "key": "sqlboiler",
+                  "name": "SQLBoiler",
+                  "tagKey": "library",
+                  "url": "https://github.com/volatiletech/sqlboiler"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 680,
+                  "key": "gke",
+                  "name": "GKE",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 651,
+                  "key": "cloudrun",
+                  "name": "Cloud Run",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 654,
+                  "key": "cloudsqlpostgres",
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 655,
+                  "key": "cloudstorage",
+                  "name": "Cloud Storage",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 650,
+                  "key": "cloudpubsub",
+                  "name": "Cloud Pub/Sub",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 647,
+                  "key": "cloudfunctions",
+                  "name": "Cloud Functions",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 677,
+                  "key": "firestorenativemode",
+                  "name": "Firestore(Native mode)",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 656,
+                  "key": "cloudtasks",
+                  "name": "Cloud Tasks",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 652,
+                  "key": "cloudscheduler",
+                  "name": "Cloud Scheduler",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 642,
+                  "key": "cloudbuild",
+                  "name": "Cloud Build",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 644,
+                  "key": "clouddeploy",
+                  "name": "Cloud Deploy",
+                  "tagKey": "cloudgcp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 659,
+                  "key": "containerregistry",
+                  "name": "Container Registry",
+                  "tagKey": "cloudgcp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 635,
+                  "key": "auth0",
+                  "name": "Auth0",
+                  "tagKey": "service",
+                  "url": "https://auth0.com/jp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 729,
+                  "key": "sendgrid",
+                  "name": "SendGrid",
+                  "tagKey": "service",
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 730,
+                  "key": "sentry",
+                  "name": "Sentry",
+                  "tagKey": "service",
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 678,
+                  "key": "github",
+                  "name": "GitHub",
+                  "tagKey": "service",
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 665,
+                  "key": "docker",
+                  "name": "docker",
+                  "tagKey": "others",
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 666,
+                  "key": "dockercompose",
+                  "name": "docker-compose",
+                  "tagKey": "others",
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 686,
+                  "key": "graphql",
+                  "name": "GraphQL",
+                  "tagKey": "communication",
+                  "url": "https://graphql.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 702,
+                  "key": "linuxubuntu",
+                  "name": "Linux(Ubuntu)",
+                  "tagKey": "os",
+                  "url": "https://www.ubuntulinux.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 7,
           "year": 2021
         }
       }
