@@ -8,7 +8,7 @@ export class CalculationService {
     try {
       const bDay = new Date(year, month - 1, day)
       const now = new Date()
-      const diff = differenceInCalendarYears(now, bDay)
+      const diff = differenceInCalendarYears(now, bDay) - 1
       return diff.toString(10)
     } catch (e) {
       console.error(e)
