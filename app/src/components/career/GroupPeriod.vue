@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { computed, PropType } from 'vue'
   import { CalculationService } from '@/service/CalculationService'
-  import { Career } from '/@/types/career'
+  import { Career } from '@/types/career'
 
   const props = defineProps({ careers: Array as PropType<Career[]> })
 

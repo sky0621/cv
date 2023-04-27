@@ -1,29 +1,29 @@
 <script lang="ts" setup>
-import {computed, PropType} from 'vue'
-import {DateYM} from '@/types/common'
-import {CalculationService} from '@/service/CalculationService'
+  import { computed, PropType } from 'vue'
+  import { DateYM } from '@/types/common'
+  import { CalculationService } from '@/service/CalculationService'
 
-const props = defineProps({
-  from: Object as PropType<DateYM>,
-  to: Object as PropType<DateYM>,
-})
+  const props = defineProps({
+    from: Object as PropType<DateYM>,
+    to: Object as PropType<DateYM>,
+  })
 
-const cs = new CalculationService()
+  const cs = new CalculationService()
 
-const from_ = computed(() => {
-  if (!props.from) return '?'
-  return cs.toStrYearMonth(props.from.year, props.from.month)
-})
-const to_ = computed(() => {
-  if (!props.to) return '?'
-  return cs.toStrYearMonth(props.to.year, props.to.month)
-})
-const df = computed(() => {
-  return cs.differenceStrInMonths(
-      new Date(`${props.to?.year}-${props.to?.month}-1`),
-      new Date(`${props.from?.year}-${props.from?.month}-1`)
-  )
-})
+  const from_ = computed(() => {
+    if (!props.from) return '?'
+    return cs.toStrYearMonth(props.from.year, props.from.month)
+  })
+  const to_ = computed(() => {
+    if (!props.to) return '?'
+    return cs.toStrYearMonth(props.to.year, props.to.month)
+  })
+  const df = computed(() => {
+    return cs.differenceStrInMonths(
+      new Date(`${props.to?.year}-${props.to?.month}-1`.replace(/-/g, '/')),
+      new Date(`${props.from?.year}-${props.from?.month}-1`.replace(/-/g, '/'))
+    )
+  })
 </script>
 
 <template>
