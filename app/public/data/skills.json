@@ -4299,26 +4299,6 @@
           },
           {
             "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
               "month": 11,
               "year": 2018
             },
@@ -4402,7 +4382,29 @@
       {
         "key": "gitlab",
         "name": "GitLab",
-        "url": "https://about.gitlab.com/"
+        "url": "https://about.gitlab.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
         "key": "jira",

@@ -2178,11 +2178,11 @@
             "skills": [
               {
                 "skill": {
-                  "id": 61,
-                  "key": "github",
-                  "name": "GitHub",
+                  "id": 62,
+                  "key": "gitlab",
+                  "name": "GitLab",
                   "tagKey": "service",
-                  "url": "https://github.co.jp/"
+                  "url": "https://about.gitlab.com/"
                 }
               }
             ]
@@ -2380,11 +2380,11 @@
             "skills": [
               {
                 "skill": {
-                  "id": 61,
-                  "key": "github",
-                  "name": "GitHub",
+                  "id": 62,
+                  "key": "gitlab",
+                  "name": "GitLab",
                   "tagKey": "service",
-                  "url": "https://github.co.jp/"
+                  "url": "https://about.gitlab.com/"
                 }
               }
             ]
