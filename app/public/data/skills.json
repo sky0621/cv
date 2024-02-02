@@ -2,7 +2,7 @@
   {
     "skills": [
       {
-        "key": "android",
+        "code": "android",
         "name": "Android(Java)",
         "versions": [
           {
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "key": "cobol",
+        "code": "cobol",
         "name": "COBOL",
         "url": "https://www.cobol.co.jp/cobol-nyuumon/kiso/k001/",
         "versions": [
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "key": "golang",
+        "code": "golang",
         "name": "Golang",
         "url": "https://go.dev/",
         "versions": [
@@ -139,7 +139,7 @@
         ]
       },
       {
-        "key": "java",
+        "code": "java",
         "name": "Java",
         "url": "https://www.java.com/ja/",
         "versions": [
@@ -363,7 +363,7 @@
         ]
       },
       {
-        "key": "javascript",
+        "code": "javascript",
         "name": "JavaScript",
         "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
         "versions": [
@@ -450,7 +450,7 @@
         ]
       },
       {
-        "key": "kotlin",
+        "code": "kotlin",
         "name": "Kotlin",
         "url": "https://kotlinlang.org/",
         "versions": [
@@ -467,7 +467,7 @@
         ]
       },
       {
-        "key": "php",
+        "code": "php",
         "name": "PHP",
         "url": "https://www.php.net/",
         "versions": [
@@ -485,7 +485,7 @@
         ]
       },
       {
-        "key": "python",
+        "code": "python",
         "name": "Python",
         "url": "https://www.python.jp/",
         "versions": [
@@ -523,7 +523,7 @@
         ]
       },
       {
-        "key": "scala",
+        "code": "scala",
         "name": "Scala",
         "url": "https://www.scala-lang.org/",
         "versions": [
@@ -541,7 +541,7 @@
         ]
       },
       {
-        "key": "sql",
+        "code": "sql",
         "name": "SQL",
         "versions": [
           {
@@ -647,7 +647,7 @@
         ]
       },
       {
-        "key": "typescript",
+        "code": "typescript",
         "name": "TypeScript",
         "url": "https://www.typescriptlang.org/",
         "versions": [
@@ -705,13 +705,13 @@
         ]
       }
     ],
-    "tagKey": "language",
+    "tagCode": "language",
     "tagName": "プログラミング言語"
   },
   {
     "skills": [
       {
-        "key": "chi",
+        "code": "chi",
         "name": "chi",
         "url": "https://go-chi.io/#/",
         "versions": [
@@ -749,7 +749,7 @@
         ]
       },
       {
-        "key": "echo",
+        "code": "echo",
         "name": "Echo",
         "url": "https://echo.labstack.com/",
         "versions": [
@@ -786,7 +786,7 @@
         ]
       },
       {
-        "key": "gin",
+        "code": "gin",
         "name": "Gin",
         "url": "https://gin-gonic.com/ja/",
         "versions": [
@@ -804,7 +804,7 @@
         ]
       },
       {
-        "key": "kohana",
+        "code": "kohana",
         "name": "Kohana",
         "versions": [
           {
@@ -820,7 +820,7 @@
         ]
       },
       {
-        "key": "play",
+        "code": "play",
         "name": "play",
         "url": "https://www.playframework.com/",
         "versions": [
@@ -838,7 +838,7 @@
         ]
       },
       {
-        "key": "sastruts",
+        "code": "sastruts",
         "name": "SAStruts",
         "url": "https://sastruts.seasar.org/",
         "versions": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "key": "seasar2",
+        "code": "seasar2",
         "name": "Seasar2",
         "url": "https://www.seasar.org/",
         "versions": [
@@ -922,7 +922,7 @@
         ]
       },
       {
-        "key": "spring",
+        "code": "spring",
         "name": "Spring",
         "url": "https://spring.io/",
         "versions": [
@@ -949,7 +949,7 @@
         ]
       },
       {
-        "key": "struts",
+        "code": "struts",
         "name": "Struts",
         "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html",
         "versions": [
@@ -1016,7 +1016,7 @@
         ]
       },
       {
-        "key": "terasoluna",
+        "code": "terasoluna",
         "name": "TERASOLUNA",
         "url": "https://www.terasoluna.jp/",
         "versions": [
@@ -1033,13 +1033,13 @@
         ]
       }
     ],
-    "tagKey": "webframework",
+    "tagCode": "webframework",
     "tagName": "Webアプリケーションフレームワーク"
   },
   {
     "skills": [
       {
-        "key": "angular",
+        "code": "angular",
         "name": "Angular",
         "url": "https://angular.jp/",
         "versions": [
@@ -1057,7 +1057,7 @@
         ]
       },
       {
-        "key": "nuxtjs",
+        "code": "nuxtjs",
         "name": "NuxtJS",
         "url": "https://nuxtjs.org/ja/",
         "versions": [
@@ -1108,7 +1108,7 @@
         ]
       },
       {
-        "key": "react",
+        "code": "react",
         "name": "React",
         "url": "https://ja.reactjs.org/",
         "versions": [
@@ -1126,7 +1126,7 @@
         ]
       },
       {
-        "key": "vuejs",
+        "code": "vuejs",
         "name": "Vue.js",
         "url": "https://jp.vuejs.org/index.html",
         "versions": [
@@ -1188,13 +1188,13 @@
         ]
       }
     ],
-    "tagKey": "frontendframework",
+    "tagCode": "frontendframework",
     "tagName": "フロントエンドフレームワーク"
   },
   {
     "skills": [
       {
-        "key": "graphql",
+        "code": "graphql",
         "name": "GraphQL",
         "url": "https://graphql.org/",
         "versions": [
@@ -1211,7 +1211,7 @@
         ]
       },
       {
-        "key": "grpc",
+        "code": "grpc",
         "name": "gRPC",
         "url": "https://grpc.io/",
         "versions": [
@@ -1248,7 +1248,7 @@
         ]
       },
       {
-        "key": "rest",
+        "code": "rest",
         "name": "REST",
         "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
         "versions": [
@@ -1305,7 +1305,7 @@
         ]
       },
       {
-        "key": "soap",
+        "code": "soap",
         "name": "SOAP",
         "versions": [
           {
@@ -1331,13 +1331,13 @@
         ]
       }
     ],
-    "tagKey": "communication",
+    "tagCode": "communication",
     "tagName": "通信方式"
   },
   {
     "skills": [
       {
-        "key": "apigateway",
+        "code": "apigateway",
         "name": "API Gateway",
         "versions": [
           {
@@ -1353,7 +1353,7 @@
         ]
       },
       {
-        "key": "appenginegolangstandard",
+        "code": "appenginegolangstandard",
         "name": "App Engine(Golang Standard)",
         "versions": [
           {
@@ -1369,7 +1369,7 @@
         ]
       },
       {
-        "key": "appenginejavastandard",
+        "code": "appenginejavastandard",
         "name": "App Engine(Java Standard)",
         "versions": [
           {
@@ -1395,7 +1395,7 @@
         ]
       },
       {
-        "key": "bigquery",
+        "code": "bigquery",
         "name": "BigQuery",
         "versions": [
           {
@@ -1421,7 +1421,7 @@
         ]
       },
       {
-        "key": "bigtable",
+        "code": "bigtable",
         "name": "Bigtable",
         "versions": [
           {
@@ -1437,7 +1437,7 @@
         ]
       },
       {
-        "key": "cloudbuild",
+        "code": "cloudbuild",
         "name": "Cloud Build",
         "versions": [
           {
@@ -1463,7 +1463,7 @@
         ]
       },
       {
-        "key": "clouddatastore",
+        "code": "clouddatastore",
         "name": "Cloud Datastore",
         "versions": [
           {
@@ -1509,7 +1509,7 @@
         ]
       },
       {
-        "key": "clouddeploy",
+        "code": "clouddeploy",
         "name": "Cloud Deploy",
         "versions": [
           {
@@ -1535,7 +1535,7 @@
         ]
       },
       {
-        "key": "cloudendpoints",
+        "code": "cloudendpoints",
         "name": "Cloud Endpoints",
         "versions": [
           {
@@ -1551,7 +1551,7 @@
         ]
       },
       {
-        "key": "cloudfunctions",
+        "code": "cloudfunctions",
         "name": "Cloud Functions",
         "versions": [
           {
@@ -1577,7 +1577,7 @@
         ]
       },
       {
-        "key": "cloudfunctionsgolang",
+        "code": "cloudfunctionsgolang",
         "name": "Cloud Functions(Golang)",
         "versions": [
           {
@@ -1593,7 +1593,7 @@
         ]
       },
       {
-        "key": "cloudfunctionsnodejs",
+        "code": "cloudfunctionsnodejs",
         "name": "Cloud Functions(Node.js/TypeScript)",
         "versions": [
           {
@@ -1609,7 +1609,7 @@
         ]
       },
       {
-        "key": "cloudpubsub",
+        "code": "cloudpubsub",
         "name": "Cloud Pub/Sub",
         "versions": [
           {
@@ -1645,7 +1645,7 @@
         ]
       },
       {
-        "key": "cloudrun",
+        "code": "cloudrun",
         "name": "Cloud Run",
         "versions": [
           {
@@ -1671,7 +1671,7 @@
         ]
       },
       {
-        "key": "cloudscheduler",
+        "code": "cloudscheduler",
         "name": "Cloud Scheduler",
         "versions": [
           {
@@ -1697,7 +1697,7 @@
         ]
       },
       {
-        "key": "cloudsqlmysql",
+        "code": "cloudsqlmysql",
         "name": "Cloud SQL(MySQL)",
         "versions": [
           {
@@ -1713,7 +1713,7 @@
         ]
       },
       {
-        "key": "cloudsqlpostgres",
+        "code": "cloudsqlpostgres",
         "name": "Cloud SQL(PostgreSQL)",
         "versions": [
           {
@@ -1749,7 +1749,7 @@
         ]
       },
       {
-        "key": "cloudstorage",
+        "code": "cloudstorage",
         "name": "Cloud Storage",
         "versions": [
           {
@@ -1775,7 +1775,7 @@
         ]
       },
       {
-        "key": "cloudtasks",
+        "code": "cloudtasks",
         "name": "Cloud Tasks",
         "versions": [
           {
@@ -1801,7 +1801,7 @@
         ]
       },
       {
-        "key": "containerregistry",
+        "code": "containerregistry",
         "name": "Container Registry",
         "versions": [
           {
@@ -1837,7 +1837,7 @@
         ]
       },
       {
-        "key": "firebaseauth",
+        "code": "firebaseauth",
         "name": "FirebaseAuth",
         "versions": [
           {
@@ -1863,7 +1863,7 @@
         ]
       },
       {
-        "key": "firestorenativemode",
+        "code": "firestorenativemode",
         "name": "Firestore(Native mode)",
         "versions": [
           {
@@ -1879,7 +1879,7 @@
         ]
       },
       {
-        "key": "gke",
+        "code": "gke",
         "name": "GKE",
         "versions": [
           {
@@ -1905,7 +1905,7 @@
         ]
       },
       {
-        "key": "memorystore",
+        "code": "memorystore",
         "name": "Memorystore",
         "versions": [
           {
@@ -1921,13 +1921,13 @@
         ]
       }
     ],
-    "tagKey": "cloudgcp",
+    "tagCode": "cloudgcp",
     "tagName": "クラウド(GCP)"
   },
   {
     "skills": [
       {
-        "key": "chime",
+        "code": "chime",
         "name": "Chime",
         "url": "https://aws.amazon.com/jp/chime/",
         "versions": [
@@ -1944,7 +1944,7 @@
         ]
       },
       {
-        "key": "cloudfront",
+        "code": "cloudfront",
         "name": "CloudFront",
         "versions": [
           {
@@ -1980,7 +1980,7 @@
         ]
       },
       {
-        "key": "codebuild",
+        "code": "codebuild",
         "name": "CodeBuild",
         "versions": [
           {
@@ -1996,7 +1996,7 @@
         ]
       },
       {
-        "key": "documentdb",
+        "code": "documentdb",
         "name": "DocumentDB (MongoDB 互換)",
         "url": "https://aws.amazon.com/jp/documentdb/",
         "versions": [
@@ -2013,7 +2013,7 @@
         ]
       },
       {
-        "key": "dynamodb",
+        "code": "dynamodb",
         "name": "DynamoDB",
         "versions": [
           {
@@ -2029,7 +2029,7 @@
         ]
       },
       {
-        "key": "ecr",
+        "code": "ecr",
         "name": "ECR",
         "versions": [
           {
@@ -2045,7 +2045,7 @@
         ]
       },
       {
-        "key": "ecs",
+        "code": "ecs",
         "name": "ECS",
         "versions": [
           {
@@ -2071,7 +2071,7 @@
         ]
       },
       {
-        "key": "ec2",
+        "code": "ec2",
         "name": "EC2",
         "versions": [
           {
@@ -2097,7 +2097,7 @@
         ]
       },
       {
-        "key": "eks",
+        "code": "eks",
         "name": "EKS",
         "versions": [
           {
@@ -2113,7 +2113,7 @@
         ]
       },
       {
-        "key": "elasticache",
+        "code": "elasticache",
         "name": "ElastiCache",
         "versions": [
           {
@@ -2129,7 +2129,7 @@
         ]
       },
       {
-        "key": "fargate",
+        "code": "fargate",
         "name": "Fargate",
         "versions": [
           {
@@ -2145,7 +2145,7 @@
         ]
       },
       {
-        "key": "msk",
+        "code": "msk",
         "name": "MSK",
         "url": "https://aws.amazon.com/jp/msk/",
         "versions": [
@@ -2162,7 +2162,7 @@
         ]
       },
       {
-        "key": "rdsaurora",
+        "code": "rdsaurora",
         "name": "RDS(Aurora)",
         "versions": [
           {
@@ -2188,7 +2188,7 @@
         ]
       },
       {
-        "key": "rdsmysql",
+        "code": "rdsmysql",
         "name": "RDS(MySQL)",
         "versions": [
           {
@@ -2214,7 +2214,7 @@
         ]
       },
       {
-        "key": "redshift",
+        "code": "redshift",
         "name": "RedShift",
         "versions": [
           {
@@ -2230,7 +2230,7 @@
         ]
       },
       {
-        "key": "sqs",
+        "code": "sqs",
         "name": "SQS",
         "versions": [
           {
@@ -2246,7 +2246,7 @@
         ]
       },
       {
-        "key": "s3",
+        "code": "s3",
         "name": "S3",
         "versions": [
           {
@@ -2282,13 +2282,13 @@
         ]
       }
     ],
-    "tagKey": "cloudaws",
+    "tagCode": "cloudaws",
     "tagName": "クラウド(AWS)"
   },
   {
     "skills": [
       {
-        "key": "ansible",
+        "code": "ansible",
         "name": "Ansible",
         "url": "https://www.ansible.com/",
         "versions": [
@@ -2305,7 +2305,7 @@
         ]
       },
       {
-        "key": "terraform",
+        "code": "terraform",
         "name": "Terraform",
         "url": "https://www.terraform.io/",
         "versions": [
@@ -2333,7 +2333,7 @@
         ]
       },
       {
-        "key": "vagrant",
+        "code": "vagrant",
         "name": "Vagrant",
         "url": "https://www.vagrantup.com/",
         "versions": [
@@ -2350,13 +2350,13 @@
         ]
       }
     ],
-    "tagKey": "infra",
+    "tagCode": "infra",
     "tagName": "インフラ関連"
   },
   {
     "skills": [
       {
-        "key": "aix",
+        "code": "aix",
         "name": "AIX",
         "url": "https://www.ibm.com/jp-ja/products/aix",
         "versions": [
@@ -2373,7 +2373,7 @@
         ]
       },
       {
-        "key": "linuxcentos",
+        "code": "linuxcentos",
         "name": "Linux(CentOS)",
         "url": "https://www.centos.org/",
         "versions": [
@@ -2420,7 +2420,7 @@
         ]
       },
       {
-        "key": "linuxredhat",
+        "code": "linuxredhat",
         "name": "Linux(Red Hat)",
         "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux",
         "versions": [
@@ -2487,7 +2487,7 @@
         ]
       },
       {
-        "key": "linuxubuntu",
+        "code": "linuxubuntu",
         "name": "Linux(Ubuntu)",
         "url": "https://www.ubuntulinux.jp/",
         "versions": [
@@ -2534,7 +2534,7 @@
         ]
       },
       {
-        "key": "macos",
+        "code": "macos",
         "name": "MacOS",
         "url": "https://www.apple.com/jp/macos/",
         "versions": [
@@ -2601,7 +2601,7 @@
         ]
       },
       {
-        "key": "solaris",
+        "code": "solaris",
         "name": "Solaris",
         "url": "https://www.oracle.com/jp/solaris/solaris11/",
         "versions": [
@@ -2668,7 +2668,7 @@
         ]
       },
       {
-        "key": "windows",
+        "code": "windows",
         "name": "Windows",
         "url": "https://www.microsoft.com/ja-jp/windows",
         "versions": [
@@ -2885,7 +2885,7 @@
         ]
       },
       {
-        "key": "zos",
+        "code": "zos",
         "name": "z/OS",
         "url": "https://www.ibm.com/products/zos",
         "versions": [
@@ -2902,7 +2902,7 @@
         ]
       },
       {
-        "key": "embeddedos",
+        "code": "embeddedos",
         "name": "組み込みOS",
         "versions": [
           {
@@ -2918,13 +2918,13 @@
         ]
       }
     ],
-    "tagKey": "os",
+    "tagCode": "os",
     "tagName": "OS"
   },
   {
     "skills": [
       {
-        "key": "db2",
+        "code": "db2",
         "name": "DB2",
         "url": "https://www.ibm.com/jp-ja/products/db2",
         "versions": [
@@ -2951,7 +2951,7 @@
         ]
       },
       {
-        "key": "mysql",
+        "code": "mysql",
         "name": "MySQL",
         "url": "https://www.mysql.com/jp/",
         "versions": [
@@ -2988,7 +2988,7 @@
         ]
       },
       {
-        "key": "oracle",
+        "code": "oracle",
         "name": "Oracle",
         "url": "https://www.oracle.com/jp/database/technologies/",
         "versions": [
@@ -3095,7 +3095,7 @@
         ]
       },
       {
-        "key": "postgresql",
+        "code": "postgresql",
         "name": "PostgreSQL",
         "url": "https://www.postgresql.jp/",
         "versions": [
@@ -3132,7 +3132,7 @@
         ]
       },
       {
-        "key": "sqlite",
+        "code": "sqlite",
         "name": "SQLite",
         "url": "https://www.sqlite.org/index.html",
         "versions": [
@@ -3149,13 +3149,13 @@
         ]
       }
     ],
-    "tagKey": "database",
+    "tagCode": "database",
     "tagName": "データベース"
   },
   {
     "skills": [
       {
-        "key": "apollo",
+        "code": "apollo",
         "name": "Apollo",
         "url": "https://www.apollographql.com/",
         "versions": [
@@ -3172,7 +3172,7 @@
         ]
       },
       {
-        "key": "awssdkgo",
+        "code": "awssdkgo",
         "name": "AWS SDK for Go",
         "url": "https://aws.amazon.com/jp/sdk-for-go/",
         "versions": [
@@ -3189,7 +3189,7 @@
         ]
       },
       {
-        "key": "axios",
+        "code": "axios",
         "name": "Axios",
         "url": "https://axios-http.com/",
         "versions": [
@@ -3216,7 +3216,7 @@
         ]
       },
       {
-        "key": "axis2",
+        "code": "axis2",
         "name": "Axis2",
         "url": "https://axis.apache.org/axis2/java/core/",
         "versions": [
@@ -3233,7 +3233,7 @@
         ]
       },
       {
-        "key": "bootstrapvue",
+        "code": "bootstrapvue",
         "name": "BootstrapVue",
         "versions": [
           {
@@ -3250,7 +3250,7 @@
         ]
       },
       {
-        "key": "cssmodules",
+        "code": "cssmodules",
         "name": "CSS Modules",
         "url": "https://github.com/css-modules/css-modules",
         "versions": [
@@ -3267,7 +3267,7 @@
         ]
       },
       {
-        "key": "entgo",
+        "code": "entgo",
         "name": "ent.",
         "url": "https://entgo.io/ja/",
         "versions": [
@@ -3284,7 +3284,7 @@
         ]
       },
       {
-        "key": "ejb",
+        "code": "ejb",
         "name": "EJB",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html",
         "versions": [
@@ -3311,7 +3311,7 @@
         ]
       },
       {
-        "key": "gorm",
+        "code": "gorm",
         "name": "GORM",
         "url": "https://gorm.io/ja_JP/",
         "versions": [
@@ -3358,7 +3358,7 @@
         ]
       },
       {
-        "key": "goverter",
+        "code": "goverter",
         "name": "goverter",
         "url": "https://github.com/jmattheis/goverter",
         "versions": [
@@ -3375,7 +3375,7 @@
         ]
       },
       {
-        "key": "goswagger",
+        "code": "goswagger",
         "name": "go-swagger",
         "url": "https://goswagger.io/",
         "versions": [
@@ -3392,7 +3392,7 @@
         ]
       },
       {
-        "key": "gqlgen",
+        "code": "gqlgen",
         "name": "gqlgen",
         "url": "https://gqlgen.com/",
         "versions": [
@@ -3409,7 +3409,7 @@
         ]
       },
       {
-        "key": "grpcgateway",
+        "code": "grpcgateway",
         "name": "gRPC-Gateway",
         "url": "https://grpc-ecosystem.github.io/grpc-gateway/",
         "versions": [
@@ -3426,7 +3426,7 @@
         ]
       },
       {
-        "key": "ibatis",
+        "code": "ibatis",
         "name": "iBatis",
         "url": "https://ibatis.apache.org/",
         "versions": [
@@ -3443,7 +3443,7 @@
         ]
       },
       {
-        "key": "javaservlet",
+        "code": "javaservlet",
         "name": "JavaServlet",
         "versions": [
           {
@@ -3549,7 +3549,7 @@
         ]
       },
       {
-        "key": "jest",
+        "code": "jest",
         "name": "Jest",
         "url": "https://jestjs.io/ja/",
         "versions": [
@@ -3588,7 +3588,7 @@
         ]
       },
       {
-        "key": "jsp",
+        "code": "jsp",
         "name": "JSP",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html",
         "versions": [
@@ -3695,7 +3695,7 @@
         ]
       },
       {
-        "key": "kafka",
+        "code": "kafka",
         "name": "Kafka",
         "url": "https://kafka.apache.org/",
         "versions": [
@@ -3712,7 +3712,7 @@
         ]
       },
       {
-        "key": "nuxtcompositionapi",
+        "code": "nuxtcompositionapi",
         "name": "Nuxt Composition API",
         "url": "https://composition-api.nuxtjs.org/",
         "versions": [
@@ -3729,7 +3729,7 @@
         ]
       },
       {
-        "key": "prettier",
+        "code": "prettier",
         "name": "Prettier",
         "url": "https://prettier.io/",
         "versions": [
@@ -3767,7 +3767,7 @@
         ]
       },
       {
-        "key": "reacthooks",
+        "code": "reacthooks",
         "name": "React Hooks",
         "url": "https://ja.reactjs.org/docs/hooks-intro.html",
         "versions": [
@@ -3784,7 +3784,7 @@
         ]
       },
       {
-        "key": "reacthookform",
+        "code": "reacthookform",
         "name": "React Hook Form",
         "url": "https://react-hook-form.com/",
         "versions": [
@@ -3802,7 +3802,7 @@
         ]
       },
       {
-        "key": "reactrouter",
+        "code": "reactrouter",
         "name": "React Router",
         "url": "https://reactrouter.com/en/main",
         "versions": [
@@ -3820,7 +3820,7 @@
         ]
       },
       {
-        "key": "redux",
+        "code": "redux",
         "name": "Redux",
         "url": "https://redux.js.org/",
         "versions": [
@@ -3838,7 +3838,7 @@
         ]
       },
       {
-        "key": "reduxtoolkit",
+        "code": "reduxtoolkit",
         "name": "Redux Toolkit",
         "url": "https://redux-toolkit.js.org/",
         "versions": [
@@ -3855,7 +3855,7 @@
         ]
       },
       {
-        "key": "scaffdog",
+        "code": "scaffdog",
         "name": "scaffdog",
         "url": "https://scaff.dog/",
         "versions": [
@@ -3873,7 +3873,7 @@
         ]
       },
       {
-        "key": "sqlboiler",
+        "code": "sqlboiler",
         "name": "SQLBoiler",
         "url": "https://github.com/volatiletech/sqlboiler",
         "versions": [
@@ -3900,7 +3900,24 @@
         ]
       },
       {
-        "key": "storybook",
+        "code": "sqldef",
+        "name": "sqldef",
+        "url": "https://sqldef.github.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
+      },
+      {
+        "code": "storybook",
         "name": "Storybook",
         "url": "https://storybook.js.org/",
         "versions": [
@@ -3917,7 +3934,7 @@
         ]
       },
       {
-        "key": "s2dao",
+        "code": "s2dao",
         "name": "S2Dao",
         "url": "http://s2dao.seasar.org/ja/",
         "versions": [
@@ -3934,7 +3951,7 @@
         ]
       },
       {
-        "key": "s2jdbc",
+        "code": "s2jdbc",
         "name": "S2JDBC",
         "url": "https://s2container.seasar.org/2.4/ja/s2jdbc.html",
         "versions": [
@@ -3951,7 +3968,7 @@
         ]
       },
       {
-        "key": "vuetify",
+        "code": "vuetify",
         "name": "Vuetify",
         "url": "https://vuetifyjs.com/ja/",
         "versions": [
@@ -3988,7 +4005,7 @@
         ]
       },
       {
-        "key": "vuex",
+        "code": "vuex",
         "name": "Vuex",
         "url": "https://vuex.vuejs.org/ja/",
         "versions": [
@@ -4015,7 +4032,7 @@
         ]
       },
       {
-        "key": "wire",
+        "code": "wire",
         "name": "wire",
         "url": "https://github.com/google/wire",
         "versions": [
@@ -4062,7 +4079,7 @@
         ]
       },
       {
-        "key": "workshopnetui",
+        "code": "workshopnetui",
         "name": "Workshop NetUI",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html",
         "versions": [
@@ -4079,7 +4096,7 @@
         ]
       },
       {
-        "key": "zerolog",
+        "code": "zerolog",
         "name": "zerolog",
         "url": "https://github.com/rs/zerolog",
         "versions": [
@@ -4096,13 +4113,13 @@
         ]
       }
     ],
-    "tagKey": "library",
+    "tagCode": "library",
     "tagName": "ライブラリ"
   },
   {
     "skills": [
       {
-        "key": "apache",
+        "code": "apache",
         "name": "Apache",
         "url": "https://httpd.apache.org/",
         "versions": [
@@ -4149,7 +4166,7 @@
         ]
       },
       {
-        "key": "tomcat",
+        "code": "tomcat",
         "name": "Tomcat",
         "url": "https://tomcat.apache.org/",
         "versions": [
@@ -4196,13 +4213,13 @@
         ]
       }
     ],
-    "tagKey": "middleware",
+    "tagCode": "middleware",
     "tagName": "ミドルウェア"
   },
   {
     "skills": [
       {
-        "key": "apiary",
+        "code": "apiary",
         "name": "Apiary",
         "url": "https://apiary.io/",
         "versions": [
@@ -4219,7 +4236,7 @@
         ]
       },
       {
-        "key": "auth0",
+        "code": "auth0",
         "name": "Auth0",
         "url": "https://auth0.com/jp",
         "versions": [
@@ -4246,7 +4263,7 @@
         ]
       },
       {
-        "key": "confluence",
+        "code": "confluence",
         "name": "Confluence",
         "url": "https://www.atlassian.com/ja",
         "versions": [
@@ -4273,7 +4290,7 @@
         ]
       },
       {
-        "key": "github",
+        "code": "github",
         "name": "GitHub",
         "url": "https://github.co.jp/",
         "versions": [
@@ -4380,7 +4397,7 @@
         ]
       },
       {
-        "key": "gitlab",
+        "code": "gitlab",
         "name": "GitLab",
         "url": "https://about.gitlab.com/",
         "versions": [
@@ -4407,7 +4424,7 @@
         ]
       },
       {
-        "key": "jira",
+        "code": "jira",
         "name": "Jira",
         "url": "https://www.atlassian.com/ja/software/jira",
         "versions": [
@@ -4424,7 +4441,7 @@
         ]
       },
       {
-        "key": "jp1",
+        "code": "jp1",
         "name": "JP1",
         "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html",
         "versions": [
@@ -4441,7 +4458,7 @@
         ]
       },
       {
-        "key": "sendgrid",
+        "code": "sendgrid",
         "name": "SendGrid",
         "url": "https://www.twilio.com/ja/sendgrid/email-api",
         "versions": [
@@ -4478,7 +4495,7 @@
         ]
       },
       {
-        "key": "sentry",
+        "code": "sentry",
         "name": "Sentry",
         "url": "https://sentry.io/welcome/",
         "versions": [
@@ -4525,7 +4542,7 @@
         ]
       },
       {
-        "key": "webnms",
+        "code": "webnms",
         "name": "WebNMS",
         "url": "https://www.webnms.jp/",
         "versions": [
@@ -4542,7 +4559,7 @@
         ]
       },
       {
-        "key": "websam",
+        "code": "websam",
         "name": "WebSAM",
         "url": "https://jpn.nec.com/websam/index.html",
         "versions": [
@@ -4559,7 +4576,7 @@
         ]
       },
       {
-        "key": "wrike",
+        "code": "wrike",
         "name": "Wrike",
         "url": "https://www.wrike.com/ja/",
         "versions": [
@@ -4576,7 +4593,7 @@
         ]
       },
       {
-        "key": "cybozu",
+        "code": "cybozu",
         "name": "サイボウズ",
         "url": "https://cybozu.co.jp/",
         "versions": [
@@ -4603,13 +4620,13 @@
         ]
       }
     ],
-    "tagKey": "service",
+    "tagCode": "service",
     "tagName": "外部サービス"
   },
   {
     "skills": [
       {
-        "key": "ajax",
+        "code": "ajax",
         "name": "Ajax",
         "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX",
         "versions": [
@@ -4636,7 +4653,7 @@
         ]
       },
       {
-        "key": "cleanarchitecture",
+        "code": "cleanarchitecture",
         "name": "Clean Architecture",
         "versions": [
           {
@@ -4662,7 +4679,7 @@
         ]
       },
       {
-        "key": "css",
+        "code": "css",
         "name": "CSS",
         "versions": [
           {
@@ -4688,7 +4705,7 @@
         ]
       },
       {
-        "key": "delphi",
+        "code": "delphi",
         "name": "Delphi",
         "url": "https://www.embarcadero.com/jp/products/delphi",
         "versions": [
@@ -4705,7 +4722,7 @@
         ]
       },
       {
-        "key": "docker",
+        "code": "docker",
         "name": "docker",
         "url": "https://www.docker.com/",
         "versions": [
@@ -4772,7 +4789,7 @@
         ]
       },
       {
-        "key": "dockercompose",
+        "code": "dockercompose",
         "name": "docker-compose",
         "url": "https://docs.docker.jp/compose/toc.html",
         "versions": [
@@ -4819,7 +4836,7 @@
         ]
       },
       {
-        "key": "html",
+        "code": "html",
         "name": "HTML",
         "url": "https://www.w3.org/",
         "versions": [
@@ -4946,7 +4963,7 @@
         ]
       },
       {
-        "key": "jenkins",
+        "code": "jenkins",
         "name": "Jenkins",
         "url": "https://www.jenkins.io/",
         "versions": [
@@ -4963,7 +4980,7 @@
         ]
       },
       {
-        "key": "microservice",
+        "code": "microservice",
         "name": "MicroService",
         "versions": [
           {
@@ -4989,7 +5006,7 @@
         ]
       },
       {
-        "key": "openapi",
+        "code": "openapi",
         "name": "OpenAPI",
         "url": "https://www.openapis.org/",
         "versions": [
@@ -5018,7 +5035,7 @@
         ]
       },
       {
-        "key": "scrum",
+        "code": "scrum",
         "name": "Scrum",
         "versions": [
           {
@@ -5034,7 +5051,7 @@
         ]
       },
       {
-        "key": "snmp",
+        "code": "snmp",
         "name": "SNMP",
         "versions": [
           {
@@ -5050,7 +5067,7 @@
         ]
       },
       {
-        "key": "uml",
+        "code": "uml",
         "name": "UML",
         "versions": [
           {
@@ -5086,7 +5103,7 @@
         ]
       },
       {
-        "key": "xml",
+        "code": "xml",
         "name": "XML",
         "url": "https://www.w3.org/",
         "versions": [
@@ -5203,7 +5220,7 @@
         ]
       },
       {
-        "key": "xslt",
+        "code": "xslt",
         "name": "XSLT",
         "url": "https://developer.mozilla.org/ja/docs/Web/XSLT",
         "versions": [
@@ -5220,7 +5237,7 @@
         ]
       },
       {
-        "key": "yarn",
+        "code": "yarn",
         "name": "Yarn",
         "url": "https://yarnpkg.com/",
         "versions": [
@@ -5269,7 +5286,7 @@
         ]
       }
     ],
-    "tagKey": "others",
+    "tagCode": "others",
     "tagName": "その他"
   }
 ]

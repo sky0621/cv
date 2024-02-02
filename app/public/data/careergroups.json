@@ -16,85 +16,76 @@
             "skills": [
               {
                 "skill": {
+                  "code": "typescript",
                   "id": 136,
-                  "key": "typescript",
                   "name": "TypeScript",
-                  "tagKey": "language",
                   "url": "https://www.typescriptlang.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "vuejs",
                   "id": 140,
-                  "key": "vuejs",
                   "name": "Vue.js",
-                  "tagKey": "frontendframework",
                   "url": "https://jp.vuejs.org/index.html"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "nuxtjs",
                   "id": 93,
-                  "key": "nuxtjs",
                   "name": "NuxtJS",
-                  "tagKey": "frontendframework",
                   "url": "https://nuxtjs.org/ja/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "nuxtcompositionapi",
                   "id": 94,
-                  "key": "nuxtcompositionapi",
                   "name": "Nuxt Composition API",
-                  "tagKey": "library",
                   "url": "https://composition-api.nuxtjs.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "vuex",
                   "id": 141,
-                  "key": "vuex",
                   "name": "Vuex",
-                  "tagKey": "library",
                   "url": "https://vuex.vuejs.org/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "bootstrapvue",
                   "id": 18,
-                  "key": "bootstrapvue",
-                  "name": "BootstrapVue",
-                  "tagKey": "library"
+                  "name": "BootstrapVue"
                 },
                 "version": "v2.21"
               },
               {
                 "skill": {
+                  "code": "jest",
                   "id": 78,
-                  "key": "jest",
                   "name": "Jest",
-                  "tagKey": "library",
                   "url": "https://jestjs.io/ja/"
                 },
                 "version": "v27.5"
               },
               {
                 "skill": {
+                  "code": "storybook",
                   "id": 128,
-                  "key": "storybook",
                   "name": "Storybook",
-                  "tagKey": "library",
                   "url": "https://storybook.js.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "yarn",
                   "id": 150,
-                  "key": "yarn",
                   "name": "Yarn",
-                  "tagKey": "others",
                   "url": "https://yarnpkg.com/"
                 },
                 "version": "v1.22"
@@ -106,57 +97,51 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.19"
               },
               {
                 "skill": {
+                  "code": "gin",
                   "id": 60,
-                  "key": "gin",
                   "name": "Gin",
-                  "tagKey": "webframework",
                   "url": "https://gin-gonic.com/ja/"
                 },
                 "version": "v1.7"
               },
               {
                 "skill": {
+                  "code": "wire",
                   "id": 145,
-                  "key": "wire",
                   "name": "wire",
-                  "tagKey": "library",
                   "url": "https://github.com/google/wire"
                 }
               },
               {
                 "skill": {
+                  "code": "gorm",
                   "id": 65,
-                  "key": "gorm",
                   "name": "GORM",
-                  "tagKey": "library",
                   "url": "https://gorm.io/ja_JP/"
                 }
               },
               {
                 "skill": {
+                  "code": "awssdkgo",
                   "id": 13,
-                  "key": "awssdkgo",
                   "name": "AWS SDK for Go",
-                  "tagKey": "library",
                   "url": "https://aws.amazon.com/jp/sdk-for-go/"
                 }
               },
               {
                 "skill": {
+                  "code": "zerolog",
                   "id": 151,
-                  "key": "zerolog",
                   "name": "zerolog",
-                  "tagKey": "library",
                   "url": "https://github.com/rs/zerolog"
                 }
               }
@@ -167,61 +152,54 @@
             "skills": [
               {
                 "skill": {
+                  "code": "eks",
                   "id": 53,
-                  "key": "eks",
-                  "name": "EKS",
-                  "tagKey": "cloudaws"
+                  "name": "EKS"
                 }
               },
               {
                 "skill": {
+                  "code": "documentdb",
                   "id": 47,
-                  "key": "documentdb",
                   "name": "DocumentDB (MongoDB 互換)",
-                  "tagKey": "cloudaws",
                   "url": "https://aws.amazon.com/jp/documentdb/"
                 }
               },
               {
                 "skill": {
+                  "code": "msk",
                   "id": 91,
-                  "key": "msk",
                   "name": "MSK",
-                  "tagKey": "cloudaws",
                   "url": "https://aws.amazon.com/jp/msk/"
                 }
               },
               {
                 "skill": {
+                  "code": "chime",
                   "id": 20,
-                  "key": "chime",
                   "name": "Chime",
-                  "tagKey": "cloudaws",
                   "url": "https://aws.amazon.com/jp/chime/"
                 }
               },
               {
                 "skill": {
+                  "code": "s3",
                   "id": 132,
-                  "key": "s3",
-                  "name": "S3",
-                  "tagKey": "cloudaws"
+                  "name": "S3"
                 }
               },
               {
                 "skill": {
+                  "code": "rdsaurora",
                   "id": 102,
-                  "key": "rdsaurora",
-                  "name": "RDS(Aurora)",
-                  "tagKey": "cloudaws"
+                  "name": "RDS(Aurora)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfront",
                   "id": 26,
-                  "key": "cloudfront",
-                  "name": "CloudFront",
-                  "tagKey": "cloudaws"
+                  "name": "CloudFront"
                 }
               }
             ]
@@ -231,37 +209,33 @@
             "skills": [
               {
                 "skill": {
+                  "code": "sentry",
                   "id": 118,
-                  "key": "sentry",
                   "name": "Sentry",
-                  "tagKey": "service",
                   "url": "https://sentry.io/welcome/"
                 }
               },
               {
                 "skill": {
+                  "code": "jira",
                   "id": 79,
-                  "key": "jira",
                   "name": "Jira",
-                  "tagKey": "service",
                   "url": "https://www.atlassian.com/ja/software/jira"
                 }
               },
               {
                 "skill": {
+                  "code": "confluence",
                   "id": 38,
-                  "key": "confluence",
                   "name": "Confluence",
-                  "tagKey": "service",
                   "url": "https://www.atlassian.com/ja"
                 }
               },
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -272,64 +246,57 @@
             "skills": [
               {
                 "skill": {
+                  "code": "rest",
                   "id": 111,
-                  "key": "rest",
                   "name": "REST",
-                  "tagKey": "communication",
                   "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
                 }
               },
               {
                 "skill": {
+                  "code": "openapi",
                   "id": 95,
-                  "key": "openapi",
                   "name": "OpenAPI",
-                  "tagKey": "others",
                   "url": "https://www.openapis.org/"
                 },
                 "version": "v3"
               },
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "dockercompose",
                   "id": 46,
-                  "key": "dockercompose",
                   "name": "docker-compose",
-                  "tagKey": "others",
                   "url": "https://docs.docker.jp/compose/toc.html"
                 }
               },
               {
                 "skill": {
+                  "code": "cleanarchitecture",
                   "id": 21,
-                  "key": "cleanarchitecture",
-                  "name": "Clean Architecture",
-                  "tagKey": "others"
+                  "name": "Clean Architecture"
                 }
               },
               {
                 "skill": {
+                  "code": "kafka",
                   "id": 82,
-                  "key": "kafka",
                   "name": "Kafka",
-                  "tagKey": "library",
                   "url": "https://kafka.apache.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -369,117 +336,105 @@
             "skills": [
               {
                 "skill": {
+                  "code": "typescript",
                   "id": 136,
-                  "key": "typescript",
                   "name": "TypeScript",
-                  "tagKey": "language",
                   "url": "https://www.typescriptlang.org/"
                 },
                 "version": "v4.8"
               },
               {
                 "skill": {
+                  "code": "react",
                   "id": 104,
-                  "key": "react",
                   "name": "React",
-                  "tagKey": "frontendframework",
                   "url": "https://ja.reactjs.org/"
                 },
                 "version": "v18.2"
               },
               {
                 "skill": {
+                  "code": "reactrouter",
                   "id": 107,
-                  "key": "reactrouter",
                   "name": "React Router",
-                  "tagKey": "library",
                   "url": "https://reactrouter.com/en/main"
                 },
                 "version": "v6.4"
               },
               {
                 "skill": {
+                  "code": "reacthooks",
                   "id": 105,
-                  "key": "reacthooks",
                   "name": "React Hooks",
-                  "tagKey": "library",
                   "url": "https://ja.reactjs.org/docs/hooks-intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "redux",
                   "id": 109,
-                  "key": "redux",
                   "name": "Redux",
-                  "tagKey": "library",
                   "url": "https://redux.js.org/"
                 },
                 "version": "v8"
               },
               {
                 "skill": {
+                  "code": "reduxtoolkit",
                   "id": 110,
-                  "key": "reduxtoolkit",
                   "name": "Redux Toolkit",
-                  "tagKey": "library",
                   "url": "https://redux-toolkit.js.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "reacthookform",
                   "id": 106,
-                  "key": "reacthookform",
                   "name": "React Hook Form",
-                  "tagKey": "library",
                   "url": "https://react-hook-form.com/"
                 },
                 "version": "v7"
               },
               {
                 "skill": {
+                  "code": "cssmodules",
                   "id": 41,
-                  "key": "cssmodules",
                   "name": "CSS Modules",
-                  "tagKey": "library",
                   "url": "https://github.com/css-modules/css-modules"
                 }
               },
               {
                 "skill": {
+                  "code": "prettier",
                   "id": 100,
-                  "key": "prettier",
                   "name": "Prettier",
-                  "tagKey": "library",
                   "url": "https://prettier.io/"
                 },
                 "version": "v2.7"
               },
               {
                 "skill": {
+                  "code": "jest",
                   "id": 78,
-                  "key": "jest",
                   "name": "Jest",
-                  "tagKey": "library",
                   "url": "https://jestjs.io/ja/"
                 },
                 "version": "v27.5"
               },
               {
                 "skill": {
+                  "code": "scaffdog",
                   "id": 113,
-                  "key": "scaffdog",
                   "name": "scaffdog",
-                  "tagKey": "library",
                   "url": "https://scaff.dog/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "yarn",
                   "id": 150,
-                  "key": "yarn",
                   "name": "Yarn",
-                  "tagKey": "others",
                   "url": "https://yarnpkg.com/"
                 },
                 "version": "v1.22"
@@ -491,66 +446,59 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.18"
               },
               {
                 "skill": {
+                  "code": "chi",
                   "id": 19,
-                  "key": "chi",
                   "name": "chi",
-                  "tagKey": "webframework",
                   "url": "https://go-chi.io/#/"
                 },
                 "version": "v5"
               },
               {
                 "skill": {
+                  "code": "wire",
                   "id": 145,
-                  "key": "wire",
                   "name": "wire",
-                  "tagKey": "library",
                   "url": "https://github.com/google/wire"
                 }
               },
               {
                 "skill": {
+                  "code": "entgo",
                   "id": 55,
-                  "key": "entgo",
                   "name": "ent.",
-                  "tagKey": "library",
                   "url": "https://entgo.io/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "goswagger",
                   "id": 67,
-                  "key": "goswagger",
                   "name": "go-swagger",
-                  "tagKey": "library",
                   "url": "https://goswagger.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "goverter",
                   "id": 66,
-                  "key": "goverter",
                   "name": "goverter",
-                  "tagKey": "library",
                   "url": "https://github.com/jmattheis/goverter"
                 }
               },
               {
                 "skill": {
+                  "code": "sqldef",
                   "id": 125,
-                  "key": "sqldef",
                   "name": "sqldef",
-                  "tagKey": "golang",
                   "url": "https://sqldef.github.io/"
                 }
               }
@@ -561,66 +509,58 @@
             "skills": [
               {
                 "skill": {
+                  "code": "ec2",
                   "id": 52,
-                  "key": "ec2",
-                  "name": "EC2",
-                  "tagKey": "cloudaws"
+                  "name": "EC2"
                 }
               },
               {
                 "skill": {
+                  "code": "ecs",
                   "id": 51,
-                  "key": "ecs",
-                  "name": "ECS",
-                  "tagKey": "cloudaws"
+                  "name": "ECS"
                 }
               },
               {
                 "skill": {
+                  "code": "fargate",
                   "id": 57,
-                  "key": "fargate",
-                  "name": "Fargate",
-                  "tagKey": "cloudaws"
+                  "name": "Fargate"
                 }
               },
               {
                 "skill": {
+                  "code": "s3",
                   "id": 132,
-                  "key": "s3",
-                  "name": "S3",
-                  "tagKey": "cloudaws"
+                  "name": "S3"
                 }
               },
               {
                 "skill": {
+                  "code": "rdsaurora",
                   "id": 102,
-                  "key": "rdsaurora",
-                  "name": "RDS(Aurora)",
-                  "tagKey": "cloudaws"
+                  "name": "RDS(Aurora)"
                 }
               },
               {
                 "skill": {
+                  "code": "rdsmysql",
                   "id": 103,
-                  "key": "rdsmysql",
-                  "name": "RDS(MySQL)",
-                  "tagKey": "cloudaws"
+                  "name": "RDS(MySQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfront",
                   "id": 26,
-                  "key": "cloudfront",
-                  "name": "CloudFront",
-                  "tagKey": "cloudaws"
+                  "name": "CloudFront"
                 }
               },
               {
                 "skill": {
+                  "code": "codebuild",
                   "id": 42,
-                  "key": "codebuild",
-                  "name": "CodeBuild",
-                  "tagKey": "cloudaws"
+                  "name": "CodeBuild"
                 }
               }
             ]
@@ -630,55 +570,49 @@
             "skills": [
               {
                 "skill": {
+                  "code": "apiary",
                   "id": 7,
-                  "key": "apiary",
                   "name": "Apiary",
-                  "tagKey": "service",
                   "url": "https://apiary.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "sendgrid",
                   "id": 117,
-                  "key": "sendgrid",
                   "name": "SendGrid",
-                  "tagKey": "service",
                   "url": "https://www.twilio.com/ja/sendgrid/email-api"
                 }
               },
               {
                 "skill": {
+                  "code": "sentry",
                   "id": 118,
-                  "key": "sentry",
                   "name": "Sentry",
-                  "tagKey": "service",
                   "url": "https://sentry.io/welcome/"
                 }
               },
               {
                 "skill": {
+                  "code": "wrike",
                   "id": 147,
-                  "key": "wrike",
                   "name": "Wrike",
-                  "tagKey": "service",
                   "url": "https://www.wrike.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "confluence",
                   "id": 38,
-                  "key": "confluence",
                   "name": "Confluence",
-                  "tagKey": "service",
                   "url": "https://www.atlassian.com/ja"
                 }
               },
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -689,64 +623,57 @@
             "skills": [
               {
                 "skill": {
+                  "code": "rest",
                   "id": 111,
-                  "key": "rest",
                   "name": "REST",
-                  "tagKey": "communication",
                   "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
                 }
               },
               {
                 "skill": {
+                  "code": "openapi",
                   "id": 95,
-                  "key": "openapi",
                   "name": "OpenAPI",
-                  "tagKey": "others",
                   "url": "https://www.openapis.org/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "dockercompose",
                   "id": 46,
-                  "key": "dockercompose",
                   "name": "docker-compose",
-                  "tagKey": "others",
                   "url": "https://docs.docker.jp/compose/toc.html"
                 }
               },
               {
                 "skill": {
+                  "code": "cleanarchitecture",
                   "id": 21,
-                  "key": "cleanarchitecture",
-                  "name": "Clean Architecture",
-                  "tagKey": "others"
+                  "name": "Clean Architecture"
                 }
               },
               {
                 "skill": {
+                  "code": "jenkins",
                   "id": 77,
-                  "key": "jenkins",
                   "name": "Jenkins",
-                  "tagKey": "others",
                   "url": "https://www.jenkins.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -794,75 +721,67 @@
             "skills": [
               {
                 "skill": {
+                  "code": "typescript",
                   "id": 136,
-                  "key": "typescript",
                   "name": "TypeScript",
-                  "tagKey": "language",
                   "url": "https://www.typescriptlang.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "vuejs",
                   "id": 140,
-                  "key": "vuejs",
                   "name": "Vue.js",
-                  "tagKey": "frontendframework",
                   "url": "https://jp.vuejs.org/index.html"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "nuxtjs",
                   "id": 93,
-                  "key": "nuxtjs",
                   "name": "NuxtJS",
-                  "tagKey": "frontendframework",
                   "url": "https://nuxtjs.org/ja/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "vuetify",
                   "id": 139,
-                  "key": "vuetify",
                   "name": "Vuetify",
-                  "tagKey": "library",
                   "url": "https://vuetifyjs.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "axios",
                   "id": 14,
-                  "key": "axios",
                   "name": "Axios",
-                  "tagKey": "library",
                   "url": "https://axios-http.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "prettier",
                   "id": 100,
-                  "key": "prettier",
                   "name": "Prettier",
-                  "tagKey": "library",
                   "url": "https://prettier.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "jest",
                   "id": 78,
-                  "key": "jest",
                   "name": "Jest",
-                  "tagKey": "library",
                   "url": "https://jestjs.io/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "yarn",
                   "id": 150,
-                  "key": "yarn",
                   "name": "Yarn",
-                  "tagKey": "others",
                   "url": "https://yarnpkg.com/"
                 }
               }
@@ -873,38 +792,34 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.16"
               },
               {
                 "skill": {
+                  "code": "chi",
                   "id": 19,
-                  "key": "chi",
                   "name": "chi",
-                  "tagKey": "webframework",
                   "url": "https://go-chi.io/#/"
                 }
               },
               {
                 "skill": {
+                  "code": "wire",
                   "id": 145,
-                  "key": "wire",
                   "name": "wire",
-                  "tagKey": "library",
                   "url": "https://github.com/google/wire"
                 }
               },
               {
                 "skill": {
+                  "code": "sqlboiler",
                   "id": 124,
-                  "key": "sqlboiler",
                   "name": "SQLBoiler",
-                  "tagKey": "library",
                   "url": "https://github.com/volatiletech/sqlboiler"
                 }
               }
@@ -915,98 +830,86 @@
             "skills": [
               {
                 "skill": {
+                  "code": "cloudrun",
                   "id": 31,
-                  "key": "cloudrun",
-                  "name": "Cloud Run",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Run"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudsqlpostgres",
                   "id": 34,
-                  "key": "cloudsqlpostgres",
-                  "name": "Cloud SQL(PostgreSQL)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud SQL(PostgreSQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudstorage",
                   "id": 35,
-                  "key": "cloudstorage",
-                  "name": "Cloud Storage",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Storage"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudpubsub",
                   "id": 30,
-                  "key": "cloudpubsub",
-                  "name": "Cloud Pub/Sub",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Pub/Sub"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfunctions",
                   "id": 27,
-                  "key": "cloudfunctions",
-                  "name": "Cloud Functions",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Functions"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudtasks",
                   "id": 36,
-                  "key": "cloudtasks",
-                  "name": "Cloud Tasks",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Tasks"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudscheduler",
                   "id": 32,
-                  "key": "cloudscheduler",
-                  "name": "Cloud Scheduler",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Scheduler"
                 }
               },
               {
                 "skill": {
+                  "code": "memorystore",
                   "id": 89,
-                  "key": "memorystore",
-                  "name": "Memorystore",
-                  "tagKey": "cloudgcp"
+                  "name": "Memorystore"
                 }
               },
               {
                 "skill": {
+                  "code": "apigateway",
                   "id": 8,
-                  "key": "apigateway",
-                  "name": "API Gateway",
-                  "tagKey": "cloudgcp"
+                  "name": "API Gateway"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudbuild",
                   "id": 22,
-                  "key": "cloudbuild",
-                  "name": "Cloud Build",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Build"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddeploy",
                   "id": 24,
-                  "key": "clouddeploy",
-                  "name": "Cloud Deploy",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Deploy"
                 }
               },
               {
                 "skill": {
+                  "code": "containerregistry",
                   "id": 39,
-                  "key": "containerregistry",
-                  "name": "Container Registry",
-                  "tagKey": "cloudgcp"
+                  "name": "Container Registry"
                 }
               }
             ]
@@ -1016,37 +919,33 @@
             "skills": [
               {
                 "skill": {
+                  "code": "auth0",
                   "id": 12,
-                  "key": "auth0",
                   "name": "Auth0",
-                  "tagKey": "service",
                   "url": "https://auth0.com/jp"
                 }
               },
               {
                 "skill": {
+                  "code": "sendgrid",
                   "id": 117,
-                  "key": "sendgrid",
                   "name": "SendGrid",
-                  "tagKey": "service",
                   "url": "https://www.twilio.com/ja/sendgrid/email-api"
                 }
               },
               {
                 "skill": {
+                  "code": "sentry",
                   "id": 118,
-                  "key": "sentry",
                   "name": "Sentry",
-                  "tagKey": "service",
                   "url": "https://sentry.io/welcome/"
                 }
               },
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -1057,64 +956,57 @@
             "skills": [
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "dockercompose",
                   "id": 46,
-                  "key": "dockercompose",
                   "name": "docker-compose",
-                  "tagKey": "others",
                   "url": "https://docs.docker.jp/compose/toc.html"
                 }
               },
               {
                 "skill": {
+                  "code": "rest",
                   "id": 111,
-                  "key": "rest",
                   "name": "REST",
-                  "tagKey": "communication",
                   "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
                 }
               },
               {
                 "skill": {
+                  "code": "grpc",
                   "id": 70,
-                  "key": "grpc",
                   "name": "gRPC",
-                  "tagKey": "communication",
                   "url": "https://grpc.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "grpcgateway",
                   "id": 71,
-                  "key": "grpcgateway",
                   "name": "gRPC-Gateway",
-                  "tagKey": "library",
                   "url": "https://grpc-ecosystem.github.io/grpc-gateway/"
                 }
               },
               {
                 "skill": {
+                  "code": "terraform",
                   "id": 134,
-                  "key": "terraform",
                   "name": "Terraform",
-                  "tagKey": "infra",
                   "url": "https://www.terraform.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxubuntu",
                   "id": 87,
-                  "key": "linuxubuntu",
                   "name": "Linux(Ubuntu)",
-                  "tagKey": "os",
                   "url": "https://www.ubuntulinux.jp/"
                 }
               }
@@ -1149,66 +1041,59 @@
             "skills": [
               {
                 "skill": {
+                  "code": "typescript",
                   "id": 136,
-                  "key": "typescript",
                   "name": "TypeScript",
-                  "tagKey": "language",
                   "url": "https://www.typescriptlang.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "vuejs",
                   "id": 140,
-                  "key": "vuejs",
                   "name": "Vue.js",
-                  "tagKey": "frontendframework",
                   "url": "https://jp.vuejs.org/index.html"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "nuxtjs",
                   "id": 93,
-                  "key": "nuxtjs",
                   "name": "NuxtJS",
-                  "tagKey": "frontendframework",
                   "url": "https://nuxtjs.org/ja/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "vuetify",
                   "id": 139,
-                  "key": "vuetify",
                   "name": "Vuetify",
-                  "tagKey": "library",
                   "url": "https://vuetifyjs.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "apollo",
                   "id": 9,
-                  "key": "apollo",
                   "name": "Apollo",
-                  "tagKey": "library",
                   "url": "https://www.apollographql.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "prettier",
                   "id": 100,
-                  "key": "prettier",
                   "name": "Prettier",
-                  "tagKey": "library",
                   "url": "https://prettier.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "yarn",
                   "id": 150,
-                  "key": "yarn",
                   "name": "Yarn",
-                  "tagKey": "others",
                   "url": "https://yarnpkg.com/"
                 }
               }
@@ -1219,47 +1104,42 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.16"
               },
               {
                 "skill": {
+                  "code": "chi",
                   "id": 19,
-                  "key": "chi",
                   "name": "chi",
-                  "tagKey": "webframework",
                   "url": "https://go-chi.io/#/"
                 }
               },
               {
                 "skill": {
+                  "code": "wire",
                   "id": 145,
-                  "key": "wire",
                   "name": "wire",
-                  "tagKey": "library",
                   "url": "https://github.com/google/wire"
                 }
               },
               {
                 "skill": {
+                  "code": "gqlgen",
                   "id": 68,
-                  "key": "gqlgen",
                   "name": "gqlgen",
-                  "tagKey": "library",
                   "url": "https://gqlgen.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "sqlboiler",
                   "id": 124,
-                  "key": "sqlboiler",
                   "name": "SQLBoiler",
-                  "tagKey": "library",
                   "url": "https://github.com/volatiletech/sqlboiler"
                 }
               }
@@ -1270,98 +1150,86 @@
             "skills": [
               {
                 "skill": {
+                  "code": "gke",
                   "id": 63,
-                  "key": "gke",
-                  "name": "GKE",
-                  "tagKey": "cloudgcp"
+                  "name": "GKE"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudrun",
                   "id": 31,
-                  "key": "cloudrun",
-                  "name": "Cloud Run",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Run"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudsqlpostgres",
                   "id": 34,
-                  "key": "cloudsqlpostgres",
-                  "name": "Cloud SQL(PostgreSQL)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud SQL(PostgreSQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudstorage",
                   "id": 35,
-                  "key": "cloudstorage",
-                  "name": "Cloud Storage",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Storage"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudpubsub",
                   "id": 30,
-                  "key": "cloudpubsub",
-                  "name": "Cloud Pub/Sub",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Pub/Sub"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfunctions",
                   "id": 27,
-                  "key": "cloudfunctions",
-                  "name": "Cloud Functions",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Functions"
                 }
               },
               {
                 "skill": {
+                  "code": "firestorenativemode",
                   "id": 59,
-                  "key": "firestorenativemode",
-                  "name": "Firestore(Native mode)",
-                  "tagKey": "cloudgcp"
+                  "name": "Firestore(Native mode)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudtasks",
                   "id": 36,
-                  "key": "cloudtasks",
-                  "name": "Cloud Tasks",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Tasks"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudscheduler",
                   "id": 32,
-                  "key": "cloudscheduler",
-                  "name": "Cloud Scheduler",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Scheduler"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudbuild",
                   "id": 22,
-                  "key": "cloudbuild",
-                  "name": "Cloud Build",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Build"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddeploy",
                   "id": 24,
-                  "key": "clouddeploy",
-                  "name": "Cloud Deploy",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Deploy"
                 }
               },
               {
                 "skill": {
+                  "code": "containerregistry",
                   "id": 39,
-                  "key": "containerregistry",
-                  "name": "Container Registry",
-                  "tagKey": "cloudgcp"
+                  "name": "Container Registry"
                 }
               }
             ]
@@ -1371,37 +1239,33 @@
             "skills": [
               {
                 "skill": {
+                  "code": "auth0",
                   "id": 12,
-                  "key": "auth0",
                   "name": "Auth0",
-                  "tagKey": "service",
                   "url": "https://auth0.com/jp"
                 }
               },
               {
                 "skill": {
+                  "code": "sendgrid",
                   "id": 117,
-                  "key": "sendgrid",
                   "name": "SendGrid",
-                  "tagKey": "service",
                   "url": "https://www.twilio.com/ja/sendgrid/email-api"
                 }
               },
               {
                 "skill": {
+                  "code": "sentry",
                   "id": 118,
-                  "key": "sentry",
                   "name": "Sentry",
-                  "tagKey": "service",
                   "url": "https://sentry.io/welcome/"
                 }
               },
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -1412,37 +1276,33 @@
             "skills": [
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "dockercompose",
                   "id": 46,
-                  "key": "dockercompose",
                   "name": "docker-compose",
-                  "tagKey": "others",
                   "url": "https://docs.docker.jp/compose/toc.html"
                 }
               },
               {
                 "skill": {
+                  "code": "graphql",
                   "id": 69,
-                  "key": "graphql",
                   "name": "GraphQL",
-                  "tagKey": "communication",
                   "url": "https://graphql.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxubuntu",
                   "id": 87,
-                  "key": "linuxubuntu",
                   "name": "Linux(Ubuntu)",
-                  "tagKey": "os",
                   "url": "https://www.ubuntulinux.jp/"
                 }
               }
@@ -1482,10 +1342,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "vuejs",
                   "id": 140,
-                  "key": "vuejs",
                   "name": "Vue.js",
-                  "tagKey": "frontendframework",
                   "url": "https://jp.vuejs.org/index.html"
                 },
                 "version": "v2"
@@ -1497,49 +1356,44 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v1.8"
               },
               {
                 "skill": {
+                  "code": "spring",
                   "id": 122,
-                  "key": "spring",
                   "name": "Spring",
-                  "tagKey": "webframework",
                   "url": "https://spring.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "scala",
                   "id": 114,
-                  "key": "scala",
                   "name": "Scala",
-                  "tagKey": "language",
                   "url": "https://www.scala-lang.org/"
                 },
                 "version": "v2.11"
               },
               {
                 "skill": {
+                  "code": "play",
                   "id": 98,
-                  "key": "play",
                   "name": "play",
-                  "tagKey": "webframework",
                   "url": "https://www.playframework.com/"
                 },
                 "version": "v2.4"
               },
               {
                 "skill": {
+                  "code": "kotlin",
                   "id": 84,
-                  "key": "kotlin",
                   "name": "Kotlin",
-                  "tagKey": "language",
                   "url": "https://kotlinlang.org/"
                 }
               }
@@ -1550,10 +1404,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "ecs",
                   "id": 51,
-                  "key": "ecs",
-                  "name": "ECS",
-                  "tagKey": "cloudaws"
+                  "name": "ECS"
                 }
               }
             ]
@@ -1563,10 +1416,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -1577,29 +1429,26 @@
             "skills": [
               {
                 "skill": {
+                  "code": "rest",
                   "id": 111,
-                  "key": "rest",
                   "name": "REST",
-                  "tagKey": "communication",
                   "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
                 }
               },
               {
                 "skill": {
+                  "code": "terraform",
                   "id": 134,
-                  "key": "terraform",
                   "name": "Terraform",
-                  "tagKey": "infra",
                   "url": "https://www.terraform.io/"
                 },
                 "version": "v0.11"
               },
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -1641,48 +1490,43 @@
             "skills": [
               {
                 "skill": {
+                  "code": "vuejs",
                   "id": 140,
-                  "key": "vuejs",
                   "name": "Vue.js",
-                  "tagKey": "frontendframework",
                   "url": "https://jp.vuejs.org/index.html"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "nuxtjs",
                   "id": 93,
-                  "key": "nuxtjs",
                   "name": "NuxtJS",
-                  "tagKey": "frontendframework",
                   "url": "https://nuxtjs.org/ja/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "vuex",
                   "id": 141,
-                  "key": "vuex",
                   "name": "Vuex",
-                  "tagKey": "library",
                   "url": "https://vuex.vuejs.org/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "vuetify",
                   "id": 139,
-                  "key": "vuetify",
                   "name": "Vuetify",
-                  "tagKey": "library",
                   "url": "https://vuetifyjs.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "axios",
                   "id": 14,
-                  "key": "axios",
                   "name": "Axios",
-                  "tagKey": "library",
                   "url": "https://axios-http.com/"
                 }
               }
@@ -1693,29 +1537,26 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.11"
               },
               {
                 "skill": {
+                  "code": "echo",
                   "id": 49,
-                  "key": "echo",
                   "name": "Echo",
-                  "tagKey": "webframework",
                   "url": "https://echo.labstack.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "gorm",
                   "id": 65,
-                  "key": "gorm",
                   "name": "GORM",
-                  "tagKey": "library",
                   "url": "https://gorm.io/ja_JP/"
                 }
               }
@@ -1726,50 +1567,44 @@
             "skills": [
               {
                 "skill": {
+                  "code": "appenginegolangstandard",
                   "id": 10,
-                  "key": "appenginegolangstandard",
-                  "name": "App Engine(Golang Standard)",
-                  "tagKey": "cloudgcp"
+                  "name": "App Engine(Golang Standard)"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudsqlpostgres",
                   "id": 34,
-                  "key": "cloudsqlpostgres",
-                  "name": "Cloud SQL(PostgreSQL)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud SQL(PostgreSQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddatastore",
                   "id": 23,
-                  "key": "clouddatastore",
-                  "name": "Cloud Datastore",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Datastore"
                 }
               },
               {
                 "skill": {
+                  "code": "bigtable",
                   "id": 17,
-                  "key": "bigtable",
-                  "name": "Bigtable",
-                  "tagKey": "cloudgcp"
+                  "name": "Bigtable"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfunctionsnodejs",
                   "id": 29,
-                  "key": "cloudfunctionsnodejs",
-                  "name": "Cloud Functions(Node.js/TypeScript)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Functions(Node.js/TypeScript)"
                 }
               },
               {
                 "skill": {
+                  "code": "firebaseauth",
                   "id": 58,
-                  "key": "firebaseauth",
-                  "name": "FirebaseAuth",
-                  "tagKey": "cloudgcp"
+                  "name": "FirebaseAuth"
                 }
               }
             ]
@@ -1779,10 +1614,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -1793,19 +1627,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "rest",
                   "id": 111,
-                  "key": "rest",
                   "name": "REST",
-                  "tagKey": "communication",
                   "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
                 }
               },
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -1846,10 +1678,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v1.8"
@@ -1861,26 +1692,23 @@
             "skills": [
               {
                 "skill": {
+                  "code": "appenginejavastandard",
                   "id": 11,
-                  "key": "appenginejavastandard",
-                  "name": "App Engine(Java Standard)",
-                  "tagKey": "cloudgcp"
+                  "name": "App Engine(Java Standard)"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddatastore",
                   "id": 23,
-                  "key": "clouddatastore",
-                  "name": "Cloud Datastore",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Datastore"
                 }
               },
               {
                 "skill": {
+                  "code": "bigquery",
                   "id": 16,
-                  "key": "bigquery",
-                  "name": "BigQuery",
-                  "tagKey": "cloudgcp"
+                  "name": "BigQuery"
                 }
               }
             ]
@@ -1890,10 +1718,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -1904,10 +1731,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -1942,20 +1768,18 @@
             "skills": [
               {
                 "skill": {
+                  "code": "angular",
                   "id": 4,
-                  "key": "angular",
                   "name": "Angular",
-                  "tagKey": "frontendframework",
                   "url": "https://angular.jp/"
                 },
                 "version": "v6"
               },
               {
                 "skill": {
+                  "code": "typescript",
                   "id": 136,
-                  "key": "typescript",
                   "name": "TypeScript",
-                  "tagKey": "language",
                   "url": "https://www.typescriptlang.org/"
                 }
               }
@@ -1966,10 +1790,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v1.8"
@@ -1981,42 +1804,37 @@
             "skills": [
               {
                 "skill": {
+                  "code": "appenginejavastandard",
                   "id": 11,
-                  "key": "appenginejavastandard",
-                  "name": "App Engine(Java Standard)",
-                  "tagKey": "cloudgcp"
+                  "name": "App Engine(Java Standard)"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddatastore",
                   "id": 23,
-                  "key": "clouddatastore",
-                  "name": "Cloud Datastore",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Datastore"
                 }
               },
               {
                 "skill": {
+                  "code": "bigquery",
                   "id": 16,
-                  "key": "bigquery",
-                  "name": "BigQuery",
-                  "tagKey": "cloudgcp"
+                  "name": "BigQuery"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudendpoints",
                   "id": 25,
-                  "key": "cloudendpoints",
-                  "name": "Cloud Endpoints",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Endpoints"
                 }
               },
               {
                 "skill": {
+                  "code": "firebaseauth",
                   "id": 58,
-                  "key": "firebaseauth",
-                  "name": "FirebaseAuth",
-                  "tagKey": "cloudgcp"
+                  "name": "FirebaseAuth"
                 }
               }
             ]
@@ -2026,10 +1844,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -2040,10 +1857,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "macos",
                   "id": 88,
-                  "key": "macos",
                   "name": "MacOS",
-                  "tagKey": "os",
                   "url": "https://www.apple.com/jp/macos/"
                 }
               }
@@ -2083,38 +1899,34 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.9"
               },
               {
                 "skill": {
+                  "code": "echo",
                   "id": 49,
-                  "key": "echo",
                   "name": "Echo",
-                  "tagKey": "webframework",
                   "url": "https://echo.labstack.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "gorm",
                   "id": 65,
-                  "key": "gorm",
                   "name": "GORM",
-                  "tagKey": "library",
                   "url": "https://gorm.io/ja_JP/"
                 }
               },
               {
                 "skill": {
+                  "code": "grpc",
                   "id": 70,
-                  "key": "grpc",
                   "name": "gRPC",
-                  "tagKey": "communication",
                   "url": "https://grpc.io/"
                 }
               }
@@ -2125,50 +1937,44 @@
             "skills": [
               {
                 "skill": {
+                  "code": "gke",
                   "id": 63,
-                  "key": "gke",
-                  "name": "GKE",
-                  "tagKey": "cloudgcp"
+                  "name": "GKE"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudsqlmysql",
                   "id": 33,
-                  "key": "cloudsqlmysql",
-                  "name": "Cloud SQL(MySQL)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud SQL(MySQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "clouddatastore",
                   "id": 23,
-                  "key": "clouddatastore",
-                  "name": "Cloud Datastore",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Datastore"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudpubsub",
                   "id": 30,
-                  "key": "cloudpubsub",
-                  "name": "Cloud Pub/Sub",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Pub/Sub"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfunctionsgolang",
                   "id": 28,
-                  "key": "cloudfunctionsgolang",
-                  "name": "Cloud Functions(Golang)",
-                  "tagKey": "cloudgcp"
+                  "name": "Cloud Functions(Golang)"
                 }
               },
               {
                 "skill": {
+                  "code": "containerregistry",
                   "id": 39,
-                  "key": "containerregistry",
-                  "name": "Container Registry",
-                  "tagKey": "cloudgcp"
+                  "name": "Container Registry"
                 }
               }
             ]
@@ -2178,10 +1984,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "gitlab",
                   "id": 62,
-                  "key": "gitlab",
                   "name": "GitLab",
-                  "tagKey": "service",
                   "url": "https://about.gitlab.com/"
                 }
               }
@@ -2192,27 +1997,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "microservice",
                   "id": 90,
-                  "key": "microservice",
-                  "name": "MicroService",
-                  "tagKey": "others"
+                  "name": "MicroService"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxubuntu",
                   "id": 87,
-                  "key": "linuxubuntu",
                   "name": "Linux(Ubuntu)",
-                  "tagKey": "os",
                   "url": "https://www.ubuntulinux.jp/"
                 }
               }
@@ -2251,48 +2053,43 @@
             "skills": [
               {
                 "skill": {
+                  "code": "golang",
                   "id": 64,
-                  "key": "golang",
                   "name": "Golang",
-                  "tagKey": "language",
                   "url": "https://go.dev/"
                 },
                 "version": "v1.7"
               },
               {
                 "skill": {
+                  "code": "python",
                   "id": 101,
-                  "key": "python",
                   "name": "Python",
-                  "tagKey": "language",
                   "url": "https://www.python.jp/"
                 },
                 "version": "v2"
               },
               {
                 "skill": {
+                  "code": "echo",
                   "id": 49,
-                  "key": "echo",
                   "name": "Echo",
-                  "tagKey": "webframework",
                   "url": "https://echo.labstack.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "gorm",
                   "id": 65,
-                  "key": "gorm",
                   "name": "GORM",
-                  "tagKey": "library",
                   "url": "https://gorm.io/ja_JP/"
                 }
               },
               {
                 "skill": {
+                  "code": "grpc",
                   "id": 70,
-                  "key": "grpc",
                   "name": "gRPC",
-                  "tagKey": "communication",
                   "url": "https://grpc.io/"
                 }
               }
@@ -2303,74 +2100,65 @@
             "skills": [
               {
                 "skill": {
+                  "code": "ec2",
                   "id": 52,
-                  "key": "ec2",
-                  "name": "EC2",
-                  "tagKey": "cloudaws"
+                  "name": "EC2"
                 }
               },
               {
                 "skill": {
+                  "code": "s3",
                   "id": 132,
-                  "key": "s3",
-                  "name": "S3",
-                  "tagKey": "cloudaws"
+                  "name": "S3"
                 }
               },
               {
                 "skill": {
+                  "code": "cloudfront",
                   "id": 26,
-                  "key": "cloudfront",
-                  "name": "CloudFront",
-                  "tagKey": "cloudaws"
+                  "name": "CloudFront"
                 }
               },
               {
                 "skill": {
+                  "code": "sqs",
                   "id": 127,
-                  "key": "sqs",
-                  "name": "SQS",
-                  "tagKey": "cloudaws"
+                  "name": "SQS"
                 }
               },
               {
                 "skill": {
+                  "code": "rdsmysql",
                   "id": 103,
-                  "key": "rdsmysql",
-                  "name": "RDS(MySQL)",
-                  "tagKey": "cloudaws"
+                  "name": "RDS(MySQL)"
                 }
               },
               {
                 "skill": {
+                  "code": "dynamodb",
                   "id": 48,
-                  "key": "dynamodb",
-                  "name": "DynamoDB",
-                  "tagKey": "cloudaws"
+                  "name": "DynamoDB"
                 }
               },
               {
                 "skill": {
+                  "code": "redshift",
                   "id": 108,
-                  "key": "redshift",
-                  "name": "RedShift",
-                  "tagKey": "cloudaws"
+                  "name": "RedShift"
                 }
               },
               {
                 "skill": {
+                  "code": "elasticache",
                   "id": 54,
-                  "key": "elasticache",
-                  "name": "ElastiCache",
-                  "tagKey": "cloudaws"
+                  "name": "ElastiCache"
                 }
               },
               {
                 "skill": {
+                  "code": "ecr",
                   "id": 50,
-                  "key": "ecr",
-                  "name": "ECR",
-                  "tagKey": "cloudaws"
+                  "name": "ECR"
                 }
               }
             ]
@@ -2380,10 +2168,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "gitlab",
                   "id": 62,
-                  "key": "gitlab",
                   "name": "GitLab",
-                  "tagKey": "service",
                   "url": "https://about.gitlab.com/"
                 }
               }
@@ -2394,53 +2181,47 @@
             "skills": [
               {
                 "skill": {
+                  "code": "docker",
                   "id": 45,
-                  "key": "docker",
                   "name": "docker",
-                  "tagKey": "others",
                   "url": "https://www.docker.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "ansible",
                   "id": 5,
-                  "key": "ansible",
                   "name": "Ansible",
-                  "tagKey": "infra",
                   "url": "https://www.ansible.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "vagrant",
                   "id": 138,
-                  "key": "vagrant",
                   "name": "Vagrant",
-                  "tagKey": "infra",
                   "url": "https://www.vagrantup.com/"
                 }
               },
               {
                 "skill": {
+                  "code": "uml",
                   "id": 137,
-                  "key": "uml",
-                  "name": "UML",
-                  "tagKey": "others"
+                  "name": "UML"
                 }
               },
               {
                 "skill": {
+                  "code": "microservice",
                   "id": 90,
-                  "key": "microservice",
-                  "name": "MicroService",
-                  "tagKey": "others"
+                  "name": "MicroService"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxubuntu",
                   "id": 87,
-                  "key": "linuxubuntu",
                   "name": "Linux(Ubuntu)",
-                  "tagKey": "os",
                   "url": "https://www.ubuntulinux.jp/"
                 }
               }
@@ -2481,28 +2262,25 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v6"
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -2513,45 +2291,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "apache",
                   "id": 6,
-                  "key": "apache",
                   "name": "Apache",
-                  "tagKey": "middleware",
                   "url": "https://httpd.apache.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "tomcat",
                   "id": 135,
-                  "key": "tomcat",
                   "name": "Tomcat",
-                  "tagKey": "middleware",
                   "url": "https://tomcat.apache.org/"
                 }
               }
@@ -2562,10 +2335,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -2576,10 +2348,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -2590,19 +2361,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "jp1",
                   "id": 80,
-                  "key": "jp1",
                   "name": "JP1",
-                  "tagKey": "service",
                   "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html"
                 }
               },
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               }
@@ -2637,37 +2406,33 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v6"
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "uml",
                   "id": 137,
-                  "key": "uml",
-                  "name": "UML",
-                  "tagKey": "others"
+                  "name": "UML"
                 }
               }
             ]
@@ -2677,45 +2442,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "apache",
                   "id": 6,
-                  "key": "apache",
                   "name": "Apache",
-                  "tagKey": "middleware",
                   "url": "https://httpd.apache.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "tomcat",
                   "id": 135,
-                  "key": "tomcat",
                   "name": "Tomcat",
-                  "tagKey": "middleware",
                   "url": "https://tomcat.apache.org/"
                 }
               }
@@ -2726,10 +2486,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -2740,19 +2499,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "linuxcentos",
                   "id": 85,
-                  "key": "linuxcentos",
                   "name": "Linux(CentOS)",
-                  "tagKey": "os",
                   "url": "https://www.centos.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -2763,27 +2520,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "github",
                   "id": 61,
-                  "key": "github",
                   "name": "GitHub",
-                  "tagKey": "service",
                   "url": "https://github.co.jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "scrum",
                   "id": 115,
-                  "key": "scrum",
-                  "name": "Scrum",
-                  "tagKey": "others"
+                  "name": "Scrum"
                 }
               },
               {
                 "skill": {
+                  "code": "ajax",
                   "id": 2,
-                  "key": "ajax",
                   "name": "Ajax",
-                  "tagKey": "others",
                   "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
                 }
               }
@@ -2833,28 +2587,25 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v6"
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -2865,45 +2616,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "apache",
                   "id": 6,
-                  "key": "apache",
                   "name": "Apache",
-                  "tagKey": "middleware",
                   "url": "https://httpd.apache.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "tomcat",
                   "id": 135,
-                  "key": "tomcat",
                   "name": "Tomcat",
-                  "tagKey": "middleware",
                   "url": "https://tomcat.apache.org/"
                 }
               }
@@ -2914,10 +2660,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "mysql",
                   "id": 92,
-                  "key": "mysql",
                   "name": "MySQL",
-                  "tagKey": "database",
                   "url": "https://www.mysql.com/jp/"
                 }
               }
@@ -2928,27 +2673,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "android",
                   "id": 3,
-                  "key": "android",
-                  "name": "Android(Java)",
-                  "tagKey": "language"
+                  "name": "Android(Java)"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxcentos",
                   "id": 85,
-                  "key": "linuxcentos",
                   "name": "Linux(CentOS)",
-                  "tagKey": "os",
                   "url": "https://www.centos.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -2959,10 +2701,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "cybozu",
                   "id": 154,
-                  "key": "cybozu",
                   "name": "サイボウズ",
-                  "tagKey": "service",
                   "url": "https://cybozu.co.jp/"
                 }
               }
@@ -3003,20 +2744,18 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 },
                 "version": "v6"
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -3027,45 +2766,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "apache",
                   "id": 6,
-                  "key": "apache",
                   "name": "Apache",
-                  "tagKey": "middleware",
                   "url": "https://httpd.apache.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "tomcat",
                   "id": 135,
-                  "key": "tomcat",
                   "name": "Tomcat",
-                  "tagKey": "middleware",
                   "url": "https://tomcat.apache.org/"
                 }
               }
@@ -3076,27 +2810,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "android",
                   "id": 3,
-                  "key": "android",
-                  "name": "Android(Java)",
-                  "tagKey": "language"
+                  "name": "Android(Java)"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxcentos",
                   "id": 85,
-                  "key": "linuxcentos",
                   "name": "Linux(CentOS)",
-                  "tagKey": "os",
                   "url": "https://www.centos.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -3107,10 +2838,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "cybozu",
                   "id": 154,
-                  "key": "cybozu",
                   "name": "サイボウズ",
-                  "tagKey": "service",
                   "url": "https://cybozu.co.jp/"
                 }
               }
@@ -3156,46 +2886,41 @@
             "skills": [
               {
                 "skill": {
+                  "code": "php",
                   "id": 97,
-                  "key": "php",
                   "name": "PHP",
-                  "tagKey": "language",
                   "url": "https://www.php.net/"
                 },
                 "version": "v5"
               },
               {
                 "skill": {
+                  "code": "python",
                   "id": 101,
-                  "key": "python",
                   "name": "Python",
-                  "tagKey": "language",
                   "url": "https://www.python.jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               }
@@ -3206,10 +2931,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "kohana",
                   "id": 83,
-                  "key": "kohana",
-                  "name": "Kohana",
-                  "tagKey": "webframework"
+                  "name": "Kohana"
                 }
               }
             ]
@@ -3219,10 +2943,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "mysql",
                   "id": 92,
-                  "key": "mysql",
                   "name": "MySQL",
-                  "tagKey": "database",
                   "url": "https://www.mysql.com/jp/"
                 }
               }
@@ -3233,19 +2956,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "linuxcentos",
                   "id": 85,
-                  "key": "linuxcentos",
                   "name": "Linux(CentOS)",
-                  "tagKey": "os",
                   "url": "https://www.centos.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -3256,18 +2977,16 @@
             "skills": [
               {
                 "skill": {
+                  "code": "css",
                   "id": 40,
-                  "key": "css",
-                  "name": "CSS",
-                  "tagKey": "others"
+                  "name": "CSS"
                 }
               },
               {
                 "skill": {
+                  "code": "ajax",
                   "id": 2,
-                  "key": "ajax",
                   "name": "Ajax",
-                  "tagKey": "others",
                   "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
                 }
               }
@@ -3308,28 +3027,25 @@
             "skills": [
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               }
             ]
@@ -3339,10 +3055,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "sqlite",
                   "id": 126,
-                  "key": "sqlite",
                   "name": "SQLite",
-                  "tagKey": "database",
                   "url": "https://www.sqlite.org/index.html"
                 }
               }
@@ -3353,18 +3068,16 @@
             "skills": [
               {
                 "skill": {
+                  "code": "android",
                   "id": 3,
-                  "key": "android",
-                  "name": "Android(Java)",
-                  "tagKey": "language"
+                  "name": "Android(Java)"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -3375,10 +3088,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "css",
                   "id": 40,
-                  "key": "css",
-                  "name": "CSS",
-                  "tagKey": "others"
+                  "name": "CSS"
                 }
               }
             ]
@@ -3435,19 +3147,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -3458,10 +3168,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -3472,19 +3181,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               }
@@ -3495,10 +3202,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "webnms",
                   "id": 142,
-                  "key": "webnms",
                   "name": "WebNMS",
-                  "tagKey": "service",
                   "url": "https://www.webnms.jp/"
                 }
               }
@@ -3509,10 +3215,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "snmp",
                   "id": 119,
-                  "key": "snmp",
-                  "name": "SNMP",
-                  "tagKey": "others"
+                  "name": "SNMP"
                 }
               }
             ]
@@ -3554,45 +3259,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -3603,63 +3303,56 @@
             "skills": [
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               },
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "sastruts",
                   "id": 112,
-                  "key": "sastruts",
                   "name": "SAStruts",
-                  "tagKey": "webframework",
                   "url": "https://sastruts.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "s2jdbc",
                   "id": 131,
-                  "key": "s2jdbc",
                   "name": "S2JDBC",
-                  "tagKey": "library",
                   "url": "https://s2container.seasar.org/2.4/ja/s2jdbc.html"
                 }
               },
               {
                 "skill": {
+                  "code": "axis2",
                   "id": 15,
-                  "key": "axis2",
                   "name": "Axis2",
-                  "tagKey": "library",
                   "url": "https://axis.apache.org/axis2/java/core/"
                 }
               }
@@ -3670,10 +3363,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "postgresql",
                   "id": 99,
-                  "key": "postgresql",
                   "name": "PostgreSQL",
-                  "tagKey": "database",
                   "url": "https://www.postgresql.jp/"
                 }
               }
@@ -3684,19 +3376,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               }
@@ -3707,10 +3397,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "soap",
                   "id": 120,
-                  "key": "soap",
-                  "name": "SOAP",
-                  "tagKey": "communication"
+                  "name": "SOAP"
                 }
               }
             ]
@@ -3762,19 +3451,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               }
             ]
@@ -3784,19 +3471,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "spring",
                   "id": 122,
-                  "key": "spring",
                   "name": "Spring",
-                  "tagKey": "webframework",
                   "url": "https://spring.io/"
                 }
               },
               {
                 "skill": {
+                  "code": "ibatis",
                   "id": 73,
-                  "key": "ibatis",
                   "name": "iBatis",
-                  "tagKey": "library",
                   "url": "https://ibatis.apache.org/"
                 }
               }
@@ -3807,10 +3492,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "postgresql",
                   "id": 99,
-                  "key": "postgresql",
                   "name": "PostgreSQL",
-                  "tagKey": "database",
                   "url": "https://www.postgresql.jp/"
                 }
               }
@@ -3821,19 +3505,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               }
@@ -3889,45 +3571,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -3938,28 +3615,25 @@
             "skills": [
               {
                 "skill": {
+                  "code": "terasoluna",
                   "id": 133,
-                  "key": "terasoluna",
                   "name": "TERASOLUNA",
-                  "tagKey": "webframework",
                   "url": "https://www.terasoluna.jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               }
             ]
@@ -3969,10 +3643,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -3983,19 +3656,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               }
@@ -4053,28 +3724,25 @@
             "skills": [
               {
                 "skill": {
+                  "code": "cobol",
                   "id": 37,
-                  "key": "cobol",
                   "name": "COBOL",
-                  "tagKey": "language",
                   "url": "https://www.cobol.co.jp/cobol-nyuumon/kiso/k001/"
                 }
               },
               {
                 "skill": {
+                  "code": "delphi",
                   "id": 44,
-                  "key": "delphi",
                   "name": "Delphi",
-                  "tagKey": "others",
                   "url": "https://www.embarcadero.com/jp/products/delphi"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4115,19 +3783,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -4138,10 +3804,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               }
@@ -4152,10 +3817,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -4166,19 +3830,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4189,10 +3851,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "soap",
                   "id": 120,
-                  "key": "soap",
-                  "name": "SOAP",
-                  "tagKey": "communication"
+                  "name": "SOAP"
                 }
               }
             ]
@@ -4242,45 +3903,40 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -4291,63 +3947,56 @@
             "skills": [
               {
                 "skill": {
+                  "code": "seasar2",
                   "id": 116,
-                  "key": "seasar2",
                   "name": "Seasar2",
-                  "tagKey": "webframework",
                   "url": "https://www.seasar.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "s2dao",
                   "id": 130,
-                  "key": "s2dao",
                   "name": "S2Dao",
-                  "tagKey": "library",
                   "url": "http://s2dao.seasar.org/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "workshopnetui",
                   "id": 146,
-                  "key": "workshopnetui",
                   "name": "Workshop NetUI",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "ejb",
                   "id": 56,
-                  "key": "ejb",
                   "name": "EJB",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html"
                 }
               }
@@ -4358,10 +4007,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -4372,19 +4020,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4448,27 +4094,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "sql",
                   "id": 123,
-                  "key": "sql",
-                  "name": "SQL",
-                  "tagKey": "language"
+                  "name": "SQL"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               }
@@ -4479,10 +4122,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               }
@@ -4493,10 +4135,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               }
@@ -4507,19 +4148,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4530,10 +4169,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "websam",
                   "id": 143,
-                  "key": "websam",
                   "name": "WebSAM",
-                  "tagKey": "service",
                   "url": "https://jpn.nec.com/websam/index.html"
                 }
               }
@@ -4586,10 +4224,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               }
@@ -4600,10 +4237,9 @@
             "skills": [
               {
                 "skill": {
+                  "code": "db2",
                   "id": 43,
-                  "key": "db2",
                   "name": "DB2",
-                  "tagKey": "database",
                   "url": "https://www.ibm.com/jp-ja/products/db2"
                 }
               }
@@ -4614,19 +4250,17 @@
             "skills": [
               {
                 "skill": {
+                  "code": "aix",
                   "id": 1,
-                  "key": "aix",
                   "name": "AIX",
-                  "tagKey": "os",
                   "url": "https://www.ibm.com/jp-ja/products/aix"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4680,55 +4314,49 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "python",
                   "id": 101,
-                  "key": "python",
                   "name": "Python",
-                  "tagKey": "language",
                   "url": "https://www.python.jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "mysql",
                   "id": 92,
-                  "key": "mysql",
                   "name": "MySQL",
-                  "tagKey": "database",
                   "url": "https://www.mysql.com/jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4763,73 +4391,65 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               },
               {
                 "skill": {
+                  "code": "postgresql",
                   "id": 99,
-                  "key": "postgresql",
                   "name": "PostgreSQL",
-                  "tagKey": "database",
                   "url": "https://www.postgresql.jp/"
                 }
               },
               {
                 "skill": {
+                  "code": "linuxredhat",
                   "id": 86,
-                  "key": "linuxredhat",
                   "name": "Linux(Red Hat)",
-                  "tagKey": "os",
                   "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
                 }
               },
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               },
               {
                 "skill": {
+                  "code": "xslt",
                   "id": 149,
-                  "key": "xslt",
                   "name": "XSLT",
-                  "tagKey": "others",
                   "url": "https://developer.mozilla.org/ja/docs/Web/XSLT"
                 }
               }
@@ -4864,99 +4484,88 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "ejb",
                   "id": 56,
-                  "key": "ejb",
                   "name": "EJB",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html"
                 }
               },
               {
                 "skill": {
+                  "code": "db2",
                   "id": 43,
-                  "key": "db2",
                   "name": "DB2",
-                  "tagKey": "database",
                   "url": "https://www.ibm.com/jp-ja/products/db2"
                 }
               },
               {
                 "skill": {
+                  "code": "zos",
                   "id": 152,
-                  "key": "zos",
                   "name": "z/OS",
-                  "tagKey": "os",
                   "url": "https://www.ibm.com/products/zos"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -4992,27 +4601,24 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "embeddedos",
                   "id": 153,
-                  "key": "embeddedos",
-                  "name": "組み込みOS",
-                  "tagKey": "os"
+                  "name": "組み込みOS"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -5047,89 +4653,79 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "uml",
                   "id": 137,
-                  "key": "uml",
-                  "name": "UML",
-                  "tagKey": "others"
+                  "name": "UML"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               },
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
@@ -5164,90 +4760,80 @@
             "skills": [
               {
                 "skill": {
+                  "code": "java",
                   "id": 74,
-                  "key": "java",
                   "name": "Java",
-                  "tagKey": "language",
                   "url": "https://www.java.com/ja/"
                 }
               },
               {
                 "skill": {
+                  "code": "html",
                   "id": 72,
-                  "key": "html",
                   "name": "HTML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "javascript",
                   "id": 75,
-                  "key": "javascript",
                   "name": "JavaScript",
-                  "tagKey": "language",
                   "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
                 }
               },
               {
                 "skill": {
+                  "code": "xml",
                   "id": 148,
-                  "key": "xml",
                   "name": "XML",
-                  "tagKey": "others",
                   "url": "https://www.w3.org/"
                 }
               },
               {
                 "skill": {
+                  "code": "struts",
                   "id": 129,
-                  "key": "struts",
                   "name": "Struts",
-                  "tagKey": "webframework",
                   "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
                 }
               },
               {
                 "skill": {
+                  "code": "jsp",
                   "id": 81,
-                  "key": "jsp",
                   "name": "JSP",
-                  "tagKey": "library",
                   "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
                 }
               },
               {
                 "skill": {
+                  "code": "javaservlet",
                   "id": 76,
-                  "key": "javaservlet",
-                  "name": "JavaServlet",
-                  "tagKey": "library"
+                  "name": "JavaServlet"
                 }
               },
               {
                 "skill": {
+                  "code": "oracle",
                   "id": 96,
-                  "key": "oracle",
                   "name": "Oracle",
-                  "tagKey": "database",
                   "url": "https://www.oracle.com/jp/database/technologies/"
                 }
               },
               {
                 "skill": {
+                  "code": "solaris",
                   "id": 121,
-                  "key": "solaris",
                   "name": "Solaris",
-                  "tagKey": "os",
                   "url": "https://www.oracle.com/jp/solaris/solaris11/"
                 }
               },
               {
                 "skill": {
+                  "code": "windows",
                   "id": 144,
-                  "key": "windows",
                   "name": "Windows",
-                  "tagKey": "os",
                   "url": "https://www.microsoft.com/ja-jp/windows"
                 }
               }
