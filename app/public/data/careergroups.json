@@ -3,6 +3,891 @@
     "careers": [
       {
         "description": [
+          "ネット予約No.1サービス"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2016
+        },
+        "name": "飲食店予約サービスエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 82,
+                  "name": "JP1",
+                  "tagId": 39,
+                  "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能拡張、不具合修正の案件に要件を詰める段階からリリースまで担当。"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2016
+        }
+      },
+      {
+        "description": [
+          "オンラインでの授業動画視聴とドリル実施機能を提供し、実施結果を集約・分析することで、保護者への学習状況伝達や子供への次にトライすべき授業の促しなどを行う。"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2014
+        },
+        "name": "小学生・中学生向け教育Webアプリエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 139,
+                  "name": "UML",
+                  "tagId": 40
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 117,
+                  "name": "Scrum",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 4,
+                  "name": "Ajax",
+                  "tagId": 40,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "2015/03まではサービスの商用化（決済機能付加）に向けた開発要員として参加。",
+              "メインとなる決済機能の方式設計から共通機能の実装部分を主に担当。",
+              "2015/04の商用化後の開発では追加機能（アンケート機能付加等）案件のアーキテクトとして参加。"
+            ],
+            "name": "ウォーターフォール開発（2014/11～2015/04）"
+          },
+          {
+            "description": [
+              "チームビルディングから参加。",
+              "クロスファンクショナルに全機能、全工程を横断的に実施。",
+              "主な着手案件は、「決済機能の追加」、「学習実績に応じたミッション提示機能の追加」、「保護者への（子供の）学習状況提示機能の追加」など。"
+            ],
+            "name": "Scrum開発（2015/05～2016/03）"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2016
+        }
+      }
+    ],
+    "label": "某グループ企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iOS/AndroidアプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2014
+        },
+        "name": "某大手損保会社が所有するアプリを集約するポータルサイト構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 94,
+                  "name": "MySQL",
+                  "tagId": 36,
+                  "url": "https://www.mysql.com/jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 156,
+                  "name": "サイボウズ",
+                  "tagId": 39,
+                  "url": "https://cybozu.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ／Batch 担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】",
+              "(6)リリース後運用方式検討担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      },
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iPad/Androidタブレット用アプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2013
+        },
+        "name": "某大手損保会社の保険料試算システムの保守・運用　※上のプロジェクトと期間重複",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 156,
+                  "name": "サイボウズ",
+                  "tagId": 39,
+                  "url": "https://cybozu.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "定期的に発生する保険料試算条件・項目見直しに伴うアプリ改修やエンドユーザ企業の２社統合に伴うシステムリプレースに着手。",
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      }
+    ],
+    "label": "某サービス企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "静的サイトリニューアルや動画配信サイト構築等"
+        ],
+        "from": {
+          "month": 3,
+          "year": 2012
+        },
+        "name": "各種Webサイト構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 99,
+                  "name": "PHP",
+                  "tagId": 28,
+                  "url": "https://www.php.net/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 103,
+                  "name": "Python",
+                  "tagId": 28,
+                  "url": "https://www.python.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 85,
+                  "name": "Kohana",
+                  "tagId": 29
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 94,
+                  "name": "MySQL",
+                  "tagId": 36,
+                  "url": "https://www.mysql.com/jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 42,
+                  "name": "CSS",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 4,
+                  "name": "Ajax",
+                  "tagId": 40,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "別担当者が概要をまとめた要件に基づいて、設計からリリース、保守・運用まで全機能一人で担当。",
+              "以下、案件群を開発",
+              "- 某ゴルフ雑誌　静的サイトリニューアル",
+              "- 某娯楽メーカー動画配信サイト構築",
+              "- 某メーカーの子ども向け動画配信サイト構築",
+              "- 某メーカーのアニメ配信サイト構築",
+              "- 某ファッション口コミ情報共有サイト構築"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2013
+        }
+      },
+      {
+        "description": [
+          "Androidアプリの設計・実装・テスト全般。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2011
+        },
+        "name": "某大手ゴルフメーカー向け販促用Androidアプリ開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 128,
+                  "name": "SQLite",
+                  "tagId": 36,
+                  "url": "https://www.sqlite.org/index.html"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 42,
+                  "name": "CSS",
+                  "tagId": 40
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "画面デザイン会社担当者との打ち合わせ、仕様の詰め、及び、機能の実現可否の調査・検討、画面（遷移）・DB・SD保存情報・プリファレンス保持情報等、各種設計・実装。",
+              "対象機種ごとのテスト・不具合改修まで、デザイン・要件決定以後の全タスクを担当。",
+              "また、アプリリリース後、製品カタログの更新や機能追加も担当。"
+            ],
+            "name": "詳細"
+          },
+          {
+            "description": [
+              "主担当としてアサインされる。サポート役として別要員１名。"
+            ],
+            "name": "要員"
+          },
+          {
+            "description": [
+              "- スイングチェック（自分のスイングを録画。Webから落としたプロプレイヤーのスイング動画と同時比較再生。再生動画に線や○を表示しスイング軌道や重心の確認。）",
+              "- 製品カタログ表示(WebView)",
+              "- CM再生(BrightcovePlayer)",
+              "- クラブ、ボール選択チャート(WebView)",
+              "- 壁紙ダウンロード、壁紙設定"
+            ],
+            "name": "実装機能群"
+          }
+        ],
+        "to": {
+          "month": 2,
+          "year": 2012
+        }
+      }
+    ],
+    "label": "某動画配信サービスシステム会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
           "-"
         ],
         "from": {
