@@ -2,19 +2,7 @@
   {
     "skills": [
       {
-        "name": "Android(Java)",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
+        "name": "Android(Java)"
       },
       {
         "name": "COBOL",
@@ -22,55 +10,169 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2017
+              "month": 5,
+              "year": 2009
             },
             "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
+              "month": 5,
+              "year": 2009
             }
           }
         ]
       },
       {
         "name": "Golang",
-        "url": "https://go.dev/",
+        "url": "https://go.dev/"
+      },
+      {
+        "name": "Java",
+        "url": "https://www.java.com/ja/",
         "versions": [
           {
             "from": {
+              "month": 4,
+              "year": 2006
+            },
+            "to": {
+              "month": 8,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
               "month": 1,
-              "year": 2022
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2004
+            },
+            "to": {
+              "month": 12,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
             },
             "to": {
               "month": 11,
-              "year": 2022
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2006
+            },
+            "to": {
+              "month": 12,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
+              "month": 8,
+              "year": 2010
             }
           }
         ]
       },
       {
-        "name": "Java",
-        "url": "https://www.java.com/ja/",
+        "name": "JavaScript",
+        "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
         "versions": [
           {
             "from": {
@@ -131,68 +233,20 @@
               "month": 5,
               "year": 2011
             }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
           }
         ]
       },
       {
         "name": "Kotlin",
-        "url": "https://kotlinlang.org/",
+        "url": "https://kotlinlang.org/"
+      },
+      {
+        "name": "PHP",
+        "url": "https://www.php.net/"
+      },
+      {
+        "name": "Python",
+        "url": "https://www.python.jp/",
         "versions": [
           {
             "from": {
@@ -203,17 +257,16 @@
               "month": 8,
               "year": 2006
             }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
+          }
+        ]
+      },
+      {
+        "name": "Scala",
+        "url": "https://www.scala-lang.org/"
+      },
+      {
+        "name": "SQL",
+        "versions": [
           {
             "from": {
               "month": 7,
@@ -226,101 +279,93 @@
           },
           {
             "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
               "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
+              "year": 2008
             },
             "to": {
-              "month": 8,
-              "year": 2010
-            }
-          }
-        ]
-      },
-      {
-        "name": "PHP",
-        "url": "https://www.php.net/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          }
-        ]
-      },
-      {
-        "name": "Python",
-        "url": "https://www.python.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
+              "month": 2,
+              "year": 2009
             }
           },
           {
             "from": {
               "month": 1,
-              "year": 2022
+              "year": 2007
             },
             "to": {
-              "month": 11,
-              "year": 2022
+              "month": 3,
+              "year": 2008
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
+              "month": 8,
+              "year": 2010
             }
           }
         ]
       },
       {
-        "name": "Scala",
-        "url": "https://www.scala-lang.org/",
+        "name": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      }
+    ],
+    "tagName": "プログラミング言語"
+  },
+  {
+    "skills": [
+      {
+        "name": "chi",
+        "url": "https://go-chi.io/#/"
+      },
+      {
+        "name": "Echo",
+        "url": "https://echo.labstack.com/"
+      },
+      {
+        "name": "Gin",
+        "url": "https://gin-gonic.com/ja/"
+      },
+      {
+        "name": "Kohana"
+      },
+      {
+        "name": "play",
+        "url": "https://www.playframework.com/"
+      },
+      {
+        "name": "SAStruts",
+        "url": "https://sastruts.seasar.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          }
+        ]
+      },
+      {
+        "name": "Seasar2",
+        "url": "https://www.seasar.org/",
         "versions": [
           {
             "from": {
@@ -341,305 +386,6 @@
               "month": 5,
               "year": 2011
             }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "SQL",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "url": "https://www.typescriptlang.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      }
-    ],
-    "tagName": "プログラミング言語"
-  },
-  {
-    "skills": [
-      {
-        "name": "chi",
-        "url": "https://go-chi.io/#/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "Echo",
-        "url": "https://echo.labstack.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "Gin",
-        "url": "https://gin-gonic.com/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "Kohana",
-        "versions": [
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "play",
-        "url": "https://www.playframework.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v2.7"
-          }
-        ]
-      },
-      {
-        "name": "SAStruts",
-        "url": "https://sastruts.seasar.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v2.11"
-          }
-        ]
-      },
-      {
-        "name": "Seasar2",
-        "url": "https://www.seasar.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
           }
         ]
       },
@@ -649,22 +395,12 @@
         "versions": [
           {
             "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
               "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
+              "year": 2010
             }
           }
         ]
@@ -673,6 +409,56 @@
         "name": "Struts",
         "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html",
         "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          },
           {
             "from": {
               "month": 8,
@@ -691,42 +477,12 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
               "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
+              "year": 2009
             },
             "to": {
               "month": 3,
-              "year": 2016
+              "year": 2010
             }
           }
         ]
@@ -738,110 +494,19 @@
     "skills": [
       {
         "name": "Angular",
-        "url": "https://angular.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
+        "url": "https://angular.jp/"
       },
       {
         "name": "NuxtJS",
-        "url": "https://nuxtjs.org/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v3"
-          }
-        ]
+        "url": "https://nuxtjs.org/ja/"
       },
       {
         "name": "React",
-        "url": "https://ja.reactjs.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v7"
-          }
-        ]
+        "url": "https://ja.reactjs.org/"
       },
       {
         "name": "Vue.js",
-        "url": "https://jp.vuejs.org/index.html",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          }
-        ]
+        "url": "https://jp.vuejs.org/index.html"
       }
     ],
     "tagName": "フロントエンドフレームワーク"
@@ -850,184 +515,37 @@
     "skills": [
       {
         "name": "GraphQL",
-        "url": "https://graphql.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://graphql.org/"
       },
       {
         "name": "gRPC",
-        "url": "https://grpc.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
+        "url": "https://grpc.io/"
       },
       {
         "name": "REST",
-        "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v2"
-          }
-        ]
+        "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
       },
       {
         "name": "SOAP",
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2010
+              "month": 3,
+              "year": 2009
             },
             "to": {
-              "month": 8,
-              "year": 2010
+              "month": 4,
+              "year": 2009
             }
           },
           {
             "from": {
-              "month": 6,
-              "year": 2019
+              "month": 8,
+              "year": 2010
             },
             "to": {
-              "month": 9,
-              "year": 2019
+              "month": 5,
+              "year": 2011
             }
           }
         ]
@@ -1038,647 +556,76 @@
   {
     "skills": [
       {
-        "name": "API Gateway",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          }
-        ]
+        "name": "API Gateway"
       },
       {
-        "name": "App Engine(Golang Standard)",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "App Engine(Golang Standard)"
       },
       {
-        "name": "App Engine(Java Standard)",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "App Engine(Java Standard)"
       },
       {
-        "name": "BigQuery",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v2.21"
-          }
-        ]
+        "name": "BigQuery"
       },
       {
-        "name": "Bigtable",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v5"
-          }
-        ]
+        "name": "Bigtable"
       },
       {
-        "name": "Cloud Build",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Build"
       },
       {
-        "name": "Cloud Datastore",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
+        "name": "Cloud Datastore"
       },
       {
-        "name": "Cloud Deploy",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "Cloud Deploy"
       },
       {
-        "name": "Cloud Endpoints",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Endpoints"
       },
       {
-        "name": "Cloud Functions",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          }
-        ]
+        "name": "Cloud Functions"
       },
       {
-        "name": "Cloud Functions(Golang)",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Functions(Golang)"
       },
       {
-        "name": "Cloud Functions(Node.js/TypeScript)",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Functions(Node.js/TypeScript)"
       },
       {
-        "name": "Cloud Pub/Sub",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Pub/Sub"
       },
       {
-        "name": "Cloud Run",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          }
-        ]
+        "name": "Cloud Run"
       },
       {
-        "name": "Cloud Scheduler",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud Scheduler"
       },
       {
-        "name": "Cloud SQL(MySQL)",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud SQL(MySQL)"
       },
       {
-        "name": "Cloud SQL(PostgreSQL)",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Cloud SQL(PostgreSQL)"
       },
       {
-        "name": "Cloud Storage",
-        "versions": [
-          {
-            "from": {
-              "month": 5,
-              "year": 2009
-            },
-            "to": {
-              "month": 5,
-              "year": 2009
-            }
-          }
-        ]
+        "name": "Cloud Storage"
       },
       {
-        "name": "Cloud Tasks",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "Cloud Tasks"
       },
       {
-        "name": "Container Registry",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "Container Registry"
       },
       {
-        "name": "FirebaseAuth",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v1.7"
-          }
-        ]
+        "name": "FirebaseAuth"
       },
       {
-        "name": "Firestore(Native mode)",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "Firestore(Native mode)"
       },
       {
-        "name": "GKE",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "GKE"
       },
       {
-        "name": "Memorystore",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "Memorystore"
       }
     ],
     "tagName": "クラウド(GCP)"
@@ -1687,407 +634,57 @@
     "skills": [
       {
         "name": "Chime",
-        "url": "https://aws.amazon.com/jp/chime/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://aws.amazon.com/jp/chime/"
       },
       {
-        "name": "CloudFront",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          }
-        ]
+        "name": "CloudFront"
       },
       {
-        "name": "CodeBuild",
-        "versions": [
-          {
-            "from": {
-              "month": 5,
-              "year": 2009
-            },
-            "to": {
-              "month": 5,
-              "year": 2009
-            }
-          }
-        ]
+        "name": "CodeBuild"
       },
       {
         "name": "DocumentDB (MongoDB 互換)",
-        "url": "https://aws.amazon.com/jp/documentdb/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          }
-        ]
+        "url": "https://aws.amazon.com/jp/documentdb/"
       },
       {
-        "name": "DynamoDB",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
+        "name": "DynamoDB"
       },
       {
-        "name": "ECR",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "ECR"
       },
       {
-        "name": "ECS",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "name": "ECS"
       },
       {
-        "name": "EC2",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
+        "name": "EC2"
       },
       {
-        "name": "EKS",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "EKS"
       },
       {
-        "name": "ElastiCache",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          }
-        ]
+        "name": "ElastiCache"
       },
       {
-        "name": "Fargate",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "Fargate"
       },
       {
         "name": "MSK",
-        "url": "https://aws.amazon.com/jp/msk/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v2"
-          }
-        ]
+        "url": "https://aws.amazon.com/jp/msk/"
       },
       {
-        "name": "RDS(Aurora)",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v18.2"
-          }
-        ]
+        "name": "RDS(Aurora)"
       },
       {
-        "name": "RDS(MySQL)",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "RDS(MySQL)"
       },
       {
-        "name": "RedShift",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "RedShift"
       },
       {
-        "name": "SQS",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          }
-        ]
+        "name": "SQS"
       },
       {
-        "name": "S3",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v0.11"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
+        "name": "S3"
       }
     ],
     "tagName": "クラウド(AWS)"
@@ -2096,137 +693,15 @@
     "skills": [
       {
         "name": "Ansible",
-        "url": "https://www.ansible.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "url": "https://www.ansible.com/"
       },
       {
         "name": "Terraform",
-        "url": "https://www.terraform.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v4.8"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "url": "https://www.terraform.io/"
       },
       {
         "name": "Vagrant",
-        "url": "https://www.vagrantup.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v2"
-          }
-        ]
+        "url": "https://www.vagrantup.com/"
       }
     ],
     "tagName": "インフラ関連"
@@ -2239,81 +714,19 @@
         "versions": [
           {
             "from": {
-              "month": 10,
-              "year": 2011
+              "month": 8,
+              "year": 2006
             },
             "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
+              "month": 12,
+              "year": 2006
             }
           }
         ]
       },
       {
         "name": "Linux(CentOS)",
-        "url": "https://www.centos.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://www.centos.org/"
       },
       {
         "name": "Linux(Red Hat)",
@@ -2321,112 +734,24 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
+              "month": 4,
+              "year": 2006
             },
             "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
               "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "Linux(Ubuntu)",
-        "url": "https://www.ubuntulinux.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
-      },
-      {
-        "name": "MacOS",
-        "url": "https://www.apple.com/jp/macos/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
+              "year": 2006
             }
           },
           {
             "from": {
               "month": 11,
-              "year": 2016
+              "year": 2005
             },
             "to": {
-              "month": 12,
-              "year": 2017
+              "month": 3,
+              "year": 2006
             }
-          }
-        ]
-      },
-      {
-        "name": "Solaris",
-        "url": "https://www.oracle.com/jp/solaris/solaris11/",
-        "versions": [
+          },
           {
             "from": {
               "month": 7,
@@ -2435,6 +760,206 @@
             "to": {
               "month": 3,
               "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
+              "month": 8,
+              "year": 2010
+            }
+          }
+        ]
+      },
+      {
+        "name": "Linux(Ubuntu)",
+        "url": "https://www.ubuntulinux.jp/"
+      },
+      {
+        "name": "MacOS",
+        "url": "https://www.apple.com/jp/macos/"
+      },
+      {
+        "name": "Solaris",
+        "url": "https://www.oracle.com/jp/solaris/solaris11/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          }
+        ]
+      },
+      {
+        "name": "Windows",
+        "url": "https://www.microsoft.com/ja-jp/windows",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2006
+            },
+            "to": {
+              "month": 8,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2004
+            },
+            "to": {
+              "month": 12,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2009
+            },
+            "to": {
+              "month": 5,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
             }
           },
           {
@@ -2460,6 +985,26 @@
           {
             "from": {
               "month": 8,
+              "year": 2006
+            },
+            "to": {
+              "month": 12,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
               "year": 2010
             },
             "to": {
@@ -2476,72 +1021,6 @@
               "month": 8,
               "year": 2010
             }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "Windows",
-        "url": "https://www.microsoft.com/ja-jp/windows",
-        "versions": [
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
           }
         ]
       },
@@ -2551,28 +1030,30 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2014
+              "month": 1,
+              "year": 2005
             },
             "to": {
               "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
+              "year": 2005
             }
           }
         ]
       },
       {
-        "name": "組み込みOS"
+        "name": "組み込みOS",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2004
+            },
+            "to": {
+              "month": 12,
+              "year": 2004
+            }
+          }
+        ]
       }
     ],
     "tagName": "OS"
@@ -2585,62 +1066,22 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2017
+              "month": 1,
+              "year": 2005
             },
             "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
+              "month": 9,
+              "year": 2005
             }
           },
           {
             "from": {
               "month": 8,
-              "year": 2021
+              "year": 2006
             },
             "to": {
               "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "year": 2006
             }
           }
         ]
@@ -2651,12 +1092,12 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2022
+              "month": 4,
+              "year": 2006
             },
             "to": {
-              "month": 6,
-              "year": 2023
+              "month": 8,
+              "year": 2006
             }
           }
         ]
@@ -2667,519 +1108,6 @@
         "versions": [
           {
             "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v2.4"
-          }
-        ]
-      },
-      {
-        "name": "PostgreSQL",
-        "url": "https://www.postgresql.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            },
-            "version": "v2"
-          }
-        ]
-      },
-      {
-        "name": "SQLite",
-        "url": "https://www.sqlite.org/index.html",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      }
-    ],
-    "tagName": "データベース"
-  },
-  {
-    "skills": [
-      {
-        "name": "Apollo",
-        "url": "https://www.apollographql.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
-      },
-      {
-        "name": "AWS SDK for Go",
-        "url": "https://aws.amazon.com/jp/sdk-for-go/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          }
-        ]
-      },
-      {
-        "name": "Axios",
-        "url": "https://axios-http.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
-      },
-      {
-        "name": "Axis2",
-        "url": "https://axis.apache.org/axis2/java/core/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          }
-        ]
-      },
-      {
-        "name": "BootstrapVue",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "CSS Modules",
-        "url": "https://github.com/css-modules/css-modules",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2006
-            },
-            "to": {
-              "month": 12,
-              "year": 2006
-            }
-          }
-        ]
-      },
-      {
-        "name": "ent.",
-        "url": "https://entgo.io/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "EJB",
-        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
-      },
-      {
-        "name": "GORM",
-        "url": "https://gorm.io/ja_JP/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "goverter",
-        "url": "https://github.com/jmattheis/goverter",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
-      },
-      {
-        "name": "go-swagger",
-        "url": "https://goswagger.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
-      },
-      {
-        "name": "gqlgen",
-        "url": "https://gqlgen.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
-      },
-      {
-        "name": "gRPC-Gateway",
-        "url": "https://grpc-ecosystem.github.io/grpc-gateway/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          }
-        ]
-      },
-      {
-        "name": "iBatis",
-        "url": "https://ibatis.apache.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          }
-        ]
-      },
-      {
-        "name": "JavaServlet",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v27.5"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v27.5"
-          }
-        ]
-      },
-      {
-        "name": "Jest",
-        "url": "https://jestjs.io/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "JSP",
-        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html",
-        "versions": [
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          }
-        ]
-      },
-      {
-        "name": "Kafka",
-        "url": "https://kafka.apache.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          }
-        ]
-      },
-      {
-        "name": "Nuxt Composition API",
-        "url": "https://composition-api.nuxtjs.org/",
-        "versions": [
-          {
-            "from": {
               "month": 11,
               "year": 2005
             },
@@ -3257,164 +1185,69 @@
               "month": 9,
               "year": 2011
             }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
+          }
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.jp/",
+        "versions": [
           {
             "from": {
               "month": 11,
-              "year": 2014
+              "year": 2005
             },
             "to": {
               "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "Prettier",
-        "url": "https://prettier.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "React Hooks",
-        "url": "https://ja.reactjs.org/docs/hooks-intro.html",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v6.4"
-          }
-        ]
-      },
-      {
-        "name": "React Hook Form",
-        "url": "https://react-hook-form.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "React Router",
-        "url": "https://reactrouter.com/en/main",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v8"
-          }
-        ]
-      },
-      {
-        "name": "Redux",
-        "url": "https://redux.js.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
+              "year": 2006
             }
           },
           {
             "from": {
               "month": 8,
-              "year": 2021
+              "year": 2010
             },
             "to": {
-              "month": 12,
-              "year": 2021
+              "month": 5,
+              "year": 2011
             }
           },
           {
             "from": {
-              "month": 1,
-              "year": 2022
+              "month": 4,
+              "year": 2010
             },
             "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 8,
+              "year": 2010
             }
           }
         ]
       },
       {
-        "name": "Redux Toolkit",
-        "url": "https://redux-toolkit.js.org/",
+        "name": "SQLite",
+        "url": "https://www.sqlite.org/index.html"
+      }
+    ],
+    "tagName": "データベース"
+  },
+  {
+    "skills": [
+      {
+        "name": "Apollo",
+        "url": "https://www.apollographql.com/"
+      },
+      {
+        "name": "AWS SDK for Go",
+        "url": "https://aws.amazon.com/jp/sdk-for-go/"
+      },
+      {
+        "name": "Axios",
+        "url": "https://axios-http.com/"
+      },
+      {
+        "name": "Axis2",
+        "url": "https://axis.apache.org/axis2/java/core/",
         "versions": [
           {
             "from": {
@@ -3429,57 +1262,30 @@
         ]
       },
       {
-        "name": "scaffdog",
-        "url": "https://scaff.dog/",
+        "name": "BootstrapVue"
+      },
+      {
+        "name": "CSS Modules",
+        "url": "https://github.com/css-modules/css-modules"
+      },
+      {
+        "name": "ent.",
+        "url": "https://entgo.io/ja/"
+      },
+      {
+        "name": "EJB",
+        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html",
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2014
+              "month": 1,
+              "year": 2005
             },
             "to": {
-              "month": 3,
-              "year": 2016
+              "month": 9,
+              "year": 2005
             }
-          }
-        ]
-      },
-      {
-        "name": "SQLBoiler",
-        "url": "https://github.com/volatiletech/sqlboiler",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          }
-        ]
-      },
-      {
-        "name": "sqldef",
-        "url": "https://sqldef.github.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "Storybook",
-        "url": "https://storybook.js.org/",
-        "versions": [
+          },
           {
             "from": {
               "month": 5,
@@ -3493,37 +1299,236 @@
         ]
       },
       {
+        "name": "GORM",
+        "url": "https://gorm.io/ja_JP/"
+      },
+      {
+        "name": "goverter",
+        "url": "https://github.com/jmattheis/goverter"
+      },
+      {
+        "name": "go-swagger",
+        "url": "https://goswagger.io/"
+      },
+      {
+        "name": "gqlgen",
+        "url": "https://gqlgen.com/"
+      },
+      {
+        "name": "gRPC-Gateway",
+        "url": "https://grpc-ecosystem.github.io/grpc-gateway/"
+      },
+      {
+        "name": "iBatis",
+        "url": "https://ibatis.apache.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
+              "month": 8,
+              "year": 2010
+            }
+          }
+        ]
+      },
+      {
+        "name": "JavaServlet",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          }
+        ]
+      },
+      {
+        "name": "Jest",
+        "url": "https://jestjs.io/ja/"
+      },
+      {
+        "name": "JSP",
+        "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kafka",
+        "url": "https://kafka.apache.org/"
+      },
+      {
+        "name": "Nuxt Composition API",
+        "url": "https://composition-api.nuxtjs.org/"
+      },
+      {
+        "name": "Prettier",
+        "url": "https://prettier.io/"
+      },
+      {
+        "name": "React Hooks",
+        "url": "https://ja.reactjs.org/docs/hooks-intro.html"
+      },
+      {
+        "name": "React Hook Form",
+        "url": "https://react-hook-form.com/"
+      },
+      {
+        "name": "React Router",
+        "url": "https://reactrouter.com/en/main"
+      },
+      {
+        "name": "Redux",
+        "url": "https://redux.js.org/"
+      },
+      {
+        "name": "Redux Toolkit",
+        "url": "https://redux-toolkit.js.org/"
+      },
+      {
+        "name": "scaffdog",
+        "url": "https://scaff.dog/"
+      },
+      {
+        "name": "SQLBoiler",
+        "url": "https://github.com/volatiletech/sqlboiler"
+      },
+      {
+        "name": "sqldef",
+        "url": "https://sqldef.github.io/"
+      },
+      {
+        "name": "Storybook",
+        "url": "https://storybook.js.org/"
+      },
+      {
         "name": "S2Dao",
         "url": "http://s2dao.seasar.org/ja/",
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
+              "month": 5,
+              "year": 2008
             },
             "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 2,
+              "year": 2009
             }
           }
         ]
@@ -3534,148 +1539,32 @@
         "versions": [
           {
             "from": {
-              "month": 7,
-              "year": 2009
+              "month": 8,
+              "year": 2010
             },
             "to": {
-              "month": 3,
-              "year": 2010
+              "month": 5,
+              "year": 2011
             }
           }
         ]
       },
       {
         "name": "Vuetify",
-        "url": "https://vuetifyjs.com/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "url": "https://vuetifyjs.com/ja/"
       },
       {
         "name": "Vuex",
-        "url": "https://vuex.vuejs.org/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          }
-        ]
+        "url": "https://vuex.vuejs.org/ja/"
       },
       {
         "name": "wire",
-        "url": "https://github.com/google/wire",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "url": "https://github.com/google/wire"
       },
       {
         "name": "Workshop NetUI",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html",
         "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
           {
             "from": {
               "month": 5,
@@ -3685,54 +1574,12 @@
               "month": 2,
               "year": 2009
             }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
           }
         ]
       },
       {
         "name": "zerolog",
-        "url": "https://github.com/rs/zerolog",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2004
-            },
-            "to": {
-              "month": 12,
-              "year": 2004
-            }
-          }
-        ]
+        "url": "https://github.com/rs/zerolog"
       }
     ],
     "tagName": "ライブラリ"
@@ -3741,55 +1588,11 @@
     "skills": [
       {
         "name": "Apache",
-        "url": "https://httpd.apache.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://httpd.apache.org/"
       },
       {
         "name": "Tomcat",
-        "url": "https://tomcat.apache.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
+        "url": "https://tomcat.apache.org/"
       }
     ],
     "tagName": "ミドルウェア"
@@ -3798,344 +1601,39 @@
     "skills": [
       {
         "name": "Apiary",
-        "url": "https://apiary.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://apiary.io/"
       },
       {
         "name": "Auth0",
-        "url": "https://auth0.com/jp",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://auth0.com/jp"
       },
       {
         "name": "Confluence",
-        "url": "https://www.atlassian.com/ja",
-        "versions": [
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          }
-        ]
+        "url": "https://www.atlassian.com/ja"
       },
       {
         "name": "GitHub",
-        "url": "https://github.co.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
+        "url": "https://github.co.jp/"
       },
       {
         "name": "GitLab",
-        "url": "https://about.gitlab.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            },
-            "version": "v1.9"
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            },
-            "version": "v1.7"
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            },
-            "version": "v1.11"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            },
-            "version": "v1.16"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            },
-            "version": "v1.16"
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v1.18"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v1.19"
-          }
-        ]
+        "url": "https://about.gitlab.com/"
       },
       {
         "name": "Jira",
-        "url": "https://www.atlassian.com/ja/software/jira",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
+        "url": "https://www.atlassian.com/ja/software/jira"
       },
       {
         "name": "JP1",
-        "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html"
       },
       {
         "name": "SendGrid",
-        "url": "https://www.twilio.com/ja/sendgrid/email-api",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          }
-        ]
+        "url": "https://www.twilio.com/ja/sendgrid/email-api"
       },
       {
         "name": "Sentry",
-        "url": "https://sentry.io/welcome/",
-        "versions": [
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          }
-        ]
+        "url": "https://sentry.io/welcome/"
       },
       {
         "name": "WebNMS",
@@ -4143,212 +1641,12 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2004
-            },
-            "to": {
-              "month": 12,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2009
-            },
-            "to": {
-              "month": 5,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2006
-            },
-            "to": {
-              "month": 12,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
               "month": 6,
               "year": 2011
             },
             "to": {
               "month": 9,
               "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
             }
           }
         ]
@@ -4359,61 +1657,19 @@
         "versions": [
           {
             "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
               "month": 1,
-              "year": 2022
+              "year": 2007
             },
             "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 3,
+              "year": 2008
             }
           }
         ]
       },
       {
         "name": "Wrike",
-        "url": "https://www.wrike.com/ja/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          }
-        ]
+        "url": "https://www.wrike.com/ja/"
       },
       {
         "name": "サイボウズ",
@@ -4426,80 +1682,13 @@
     "skills": [
       {
         "name": "Ajax",
-        "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            },
-            "version": "v6"
-          }
-        ]
+        "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
       },
       {
-        "name": "Clean Architecture",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
+        "name": "Clean Architecture"
       },
       {
-        "name": "CSS",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "CSS"
       },
       {
         "name": "Delphi",
@@ -4507,77 +1696,23 @@
         "versions": [
           {
             "from": {
-              "month": 8,
-              "year": 2021
+              "month": 5,
+              "year": 2009
             },
             "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 5,
+              "year": 2009
             }
           }
         ]
       },
       {
         "name": "docker",
-        "url": "https://www.docker.com/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "url": "https://www.docker.com/"
       },
       {
         "name": "docker-compose",
-        "url": "https://docs.docker.jp/compose/toc.html",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
+        "url": "https://docs.docker.jp/compose/toc.html"
       },
       {
         "name": "HTML",
@@ -4585,42 +1720,12 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
               "month": 1,
               "year": 2005
             },
             "to": {
               "month": 9,
               "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2004
-            },
-            "to": {
-              "month": 12,
-              "year": 2004
             }
           },
           {
@@ -4655,56 +1760,6 @@
           },
           {
             "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2006
-            },
-            "to": {
-              "month": 12,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2010
             },
@@ -4712,260 +1767,34 @@
               "month": 5,
               "year": 2011
             }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "to": {
-              "month": 11,
-              "year": 2018
-            },
-            "version": "v1.8"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            },
-            "version": "v1.8"
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v1.8"
           }
         ]
       },
       {
         "name": "Jenkins",
-        "url": "https://www.jenkins.io/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
+        "url": "https://www.jenkins.io/"
       },
       {
-        "name": "MicroService",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          }
-        ]
+        "name": "MicroService"
       },
       {
         "name": "OpenAPI",
-        "url": "https://www.openapis.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            },
-            "version": "v5"
-          }
-        ]
+        "url": "https://www.openapis.org/"
       },
       {
-        "name": "Scrum",
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "Scrum"
       },
       {
         "name": "SNMP",
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2005
+              "month": 6,
+              "year": 2011
             },
             "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
+              "month": 9,
+              "year": 2011
             }
           }
         ]
@@ -4975,32 +1804,12 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "to": {
               "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
+              "year": 2002
             },
             "to": {
-              "month": 7,
-              "year": 2021
+              "month": 4,
+              "year": 2004
             }
           }
         ]
@@ -5011,68 +1820,24 @@
         "versions": [
           {
             "from": {
+              "month": 4,
+              "year": 2006
+            },
+            "to": {
               "month": 8,
-              "year": 2021
-            },
-            "to": {
-              "month": 12,
-              "year": 2021
+              "year": 2006
             }
           },
           {
             "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
               "month": 11,
-              "year": 2022
-            },
-            "version": "v1.22"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
+              "year": 2005
             },
             "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v1.22"
-          }
-        ]
-      },
-      {
-        "name": "XSLT",
-        "url": "https://developer.mozilla.org/ja/docs/Web/XSLT",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 3,
+              "year": 2006
             }
-          }
-        ]
-      },
-      {
-        "name": "Yarn",
-        "url": "https://yarnpkg.com/",
-        "versions": [
+          },
           {
             "from": {
               "month": 1,
@@ -5082,8 +1847,108 @@
               "month": 9,
               "year": 2005
             }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
           }
         ]
+      },
+      {
+        "name": "XSLT",
+        "url": "https://developer.mozilla.org/ja/docs/Web/XSLT",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          }
+        ]
+      },
+      {
+        "name": "Yarn",
+        "url": "https://yarnpkg.com/"
       }
     ],
     "tagName": "その他"
