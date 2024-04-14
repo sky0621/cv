@@ -54,7 +54,86 @@
       },
       {
         "name": "Golang",
-        "url": "https://go.dev/"
+        "url": "https://go.dev/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            },
+            "version": "v1.9"
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            },
+            "version": "v1.7"
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            },
+            "version": "v1.11"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            },
+            "version": "v1.16"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            },
+            "version": "v1.16"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v1.18"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v1.19"
+          }
+        ]
       },
       {
         "name": "Java",
@@ -243,6 +322,39 @@
               "year": 2016
             },
             "version": "v6"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            },
+            "version": "v1.8"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            },
+            "version": "v1.8"
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v1.8"
           }
         ]
       },
@@ -334,7 +446,19 @@
       },
       {
         "name": "Kotlin",
-        "url": "https://kotlinlang.org/"
+        "url": "https://kotlinlang.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          }
+        ]
       },
       {
         "name": "PHP",
@@ -376,12 +500,36 @@
               "month": 6,
               "year": 2013
             }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            },
+            "version": "v2"
           }
         ]
       },
       {
         "name": "Scala",
-        "url": "https://www.scala-lang.org/"
+        "url": "https://www.scala-lang.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v2.11"
+          }
+        ]
       },
       {
         "name": "SQL",
@@ -490,7 +638,60 @@
       },
       {
         "name": "TypeScript",
-        "url": "https://www.typescriptlang.org/"
+        "url": "https://www.typescriptlang.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v4.8"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
     "tagName": "プログラミング言語"
@@ -499,15 +700,93 @@
     "skills": [
       {
         "name": "chi",
-        "url": "https://go-chi.io/#/"
+        "url": "https://go-chi.io/#/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v5"
+          }
+        ]
       },
       {
         "name": "Echo",
-        "url": "https://echo.labstack.com/"
+        "url": "https://echo.labstack.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          }
+        ]
       },
       {
         "name": "Gin",
-        "url": "https://gin-gonic.com/ja/"
+        "url": "https://gin-gonic.com/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v1.7"
+          }
+        ]
       },
       {
         "name": "Kohana",
@@ -526,7 +805,20 @@
       },
       {
         "name": "play",
-        "url": "https://www.playframework.com/"
+        "url": "https://www.playframework.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v2.4"
+          }
+        ]
       },
       {
         "name": "SAStruts",
@@ -623,6 +915,16 @@
               "month": 8,
               "year": 2010
             }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
           }
         ]
       },
@@ -715,19 +1017,148 @@
     "skills": [
       {
         "name": "Angular",
-        "url": "https://angular.jp/"
+        "url": "https://angular.jp/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            },
+            "version": "v6"
+          }
+        ]
       },
       {
         "name": "NuxtJS",
-        "url": "https://nuxtjs.org/ja/"
+        "url": "https://nuxtjs.org/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v2"
+          }
+        ]
       },
       {
         "name": "React",
-        "url": "https://ja.reactjs.org/"
+        "url": "https://ja.reactjs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v18.2"
+          }
+        ]
       },
       {
         "name": "Vue.js",
-        "url": "https://jp.vuejs.org/index.html"
+        "url": "https://jp.vuejs.org/index.html",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v2"
+          }
+        ]
       }
     ],
     "tagName": "フロントエンドフレームワーク"
@@ -736,15 +1167,111 @@
     "skills": [
       {
         "name": "GraphQL",
-        "url": "https://graphql.org/"
+        "url": "https://graphql.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "gRPC",
-        "url": "https://grpc.io/"
+        "url": "https://grpc.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "REST",
-        "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+        "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "SOAP",
@@ -777,76 +1304,574 @@
   {
     "skills": [
       {
-        "name": "API Gateway"
+        "name": "API Gateway",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "App Engine(Golang Standard)"
+        "name": "App Engine(Golang Standard)",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          }
+        ]
       },
       {
-        "name": "App Engine(Java Standard)"
+        "name": "App Engine(Java Standard)",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "BigQuery"
+        "name": "BigQuery",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Bigtable"
+        "name": "Bigtable",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Build"
+        "name": "Cloud Build",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Datastore"
+        "name": "Cloud Datastore",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Deploy"
+        "name": "Cloud Deploy",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Endpoints"
+        "name": "Cloud Endpoints",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Functions"
+        "name": "Cloud Functions",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Functions(Golang)"
+        "name": "Cloud Functions(Golang)",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Functions(Node.js/TypeScript)"
+        "name": "Cloud Functions(Node.js/TypeScript)",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Pub/Sub"
+        "name": "Cloud Pub/Sub",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Run"
+        "name": "Cloud Run",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Scheduler"
+        "name": "Cloud Scheduler",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud SQL(MySQL)"
+        "name": "Cloud SQL(MySQL)",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud SQL(PostgreSQL)"
+        "name": "Cloud SQL(PostgreSQL)",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Storage"
+        "name": "Cloud Storage",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Cloud Tasks"
+        "name": "Cloud Tasks",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Container Registry"
+        "name": "Container Registry",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "FirebaseAuth"
+        "name": "FirebaseAuth",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
       },
       {
-        "name": "Firestore(Native mode)"
+        "name": "Firestore(Native mode)",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "GKE"
+        "name": "GKE",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
-        "name": "Memorystore"
+        "name": "Memorystore",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       }
     ],
     "tagName": "クラウド(GCP)"
@@ -855,57 +1880,329 @@
     "skills": [
       {
         "name": "Chime",
-        "url": "https://aws.amazon.com/jp/chime/"
+        "url": "https://aws.amazon.com/jp/chime/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
-        "name": "CloudFront"
+        "name": "CloudFront",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "CodeBuild"
       },
       {
         "name": "DocumentDB (MongoDB 互換)",
-        "url": "https://aws.amazon.com/jp/documentdb/"
+        "url": "https://aws.amazon.com/jp/documentdb/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
-        "name": "DynamoDB"
+        "name": "DynamoDB",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
-        "name": "ECR"
+        "name": "ECR",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
-        "name": "ECS"
+        "name": "ECS",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
-        "name": "EC2"
+        "name": "EC2",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
-        "name": "EKS"
+        "name": "EKS",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
-        "name": "ElastiCache"
+        "name": "ElastiCache",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
-        "name": "Fargate"
+        "name": "Fargate",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "MSK",
-        "url": "https://aws.amazon.com/jp/msk/"
+        "url": "https://aws.amazon.com/jp/msk/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
-        "name": "RDS(Aurora)"
+        "name": "RDS(Aurora)",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
-        "name": "RDS(MySQL)"
+        "name": "RDS(MySQL)",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
-        "name": "RedShift"
+        "name": "RedShift",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
-        "name": "SQS"
+        "name": "SQS",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
-        "name": "S3"
+        "name": "S3",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
     "tagName": "クラウド(AWS)"
@@ -914,15 +2211,62 @@
     "skills": [
       {
         "name": "Ansible",
-        "url": "https://www.ansible.com/"
+        "url": "https://www.ansible.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
         "name": "Terraform",
-        "url": "https://www.terraform.io/"
+        "url": "https://www.terraform.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v0.11"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "Vagrant",
-        "url": "https://www.vagrantup.com/"
+        "url": "https://www.vagrantup.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       }
     ],
     "tagName": "インフラ関連"
@@ -1059,11 +2403,115 @@
       },
       {
         "name": "Linux(Ubuntu)",
-        "url": "https://www.ubuntulinux.jp/"
+        "url": "https://www.ubuntulinux.jp/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "MacOS",
-        "url": "https://www.apple.com/jp/macos/"
+        "url": "https://www.apple.com/jp/macos/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Solaris",
@@ -1610,15 +3058,61 @@
     "skills": [
       {
         "name": "Apollo",
-        "url": "https://www.apollographql.com/"
+        "url": "https://www.apollographql.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "AWS SDK for Go",
-        "url": "https://aws.amazon.com/jp/sdk-for-go/"
+        "url": "https://aws.amazon.com/jp/sdk-for-go/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Axios",
-        "url": "https://axios-http.com/"
+        "url": "https://axios-http.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "Axis2",
@@ -1637,15 +3131,52 @@
         ]
       },
       {
-        "name": "BootstrapVue"
+        "name": "BootstrapVue",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v2.21"
+          }
+        ]
       },
       {
         "name": "CSS Modules",
-        "url": "https://github.com/css-modules/css-modules"
+        "url": "https://github.com/css-modules/css-modules",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "ent.",
-        "url": "https://entgo.io/ja/"
+        "url": "https://entgo.io/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "EJB",
@@ -1675,23 +3206,113 @@
       },
       {
         "name": "GORM",
-        "url": "https://gorm.io/ja_JP/"
+        "url": "https://gorm.io/ja_JP/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "goverter",
-        "url": "https://github.com/jmattheis/goverter"
+        "url": "https://github.com/jmattheis/goverter",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "go-swagger",
-        "url": "https://goswagger.io/"
+        "url": "https://goswagger.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "gqlgen",
-        "url": "https://gqlgen.com/"
+        "url": "https://gqlgen.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "gRPC-Gateway",
-        "url": "https://grpc-ecosystem.github.io/grpc-gateway/"
+        "url": "https://grpc-ecosystem.github.io/grpc-gateway/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "iBatis",
@@ -1816,7 +3437,41 @@
       },
       {
         "name": "Jest",
-        "url": "https://jestjs.io/ja/"
+        "url": "https://jestjs.io/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v27.5"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v27.5"
+          }
+        ]
       },
       {
         "name": "JSP",
@@ -1926,51 +3581,230 @@
       },
       {
         "name": "Kafka",
-        "url": "https://kafka.apache.org/"
+        "url": "https://kafka.apache.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Nuxt Composition API",
-        "url": "https://composition-api.nuxtjs.org/"
+        "url": "https://composition-api.nuxtjs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Prettier",
-        "url": "https://prettier.io/"
+        "url": "https://prettier.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v2.7"
+          }
+        ]
       },
       {
         "name": "React Hooks",
-        "url": "https://ja.reactjs.org/docs/hooks-intro.html"
+        "url": "https://ja.reactjs.org/docs/hooks-intro.html",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "React Hook Form",
-        "url": "https://react-hook-form.com/"
+        "url": "https://react-hook-form.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v7"
+          }
+        ]
       },
       {
         "name": "React Router",
-        "url": "https://reactrouter.com/en/main"
+        "url": "https://reactrouter.com/en/main",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v6.4"
+          }
+        ]
       },
       {
         "name": "Redux",
-        "url": "https://redux.js.org/"
+        "url": "https://redux.js.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v8"
+          }
+        ]
       },
       {
         "name": "Redux Toolkit",
-        "url": "https://redux-toolkit.js.org/"
+        "url": "https://redux-toolkit.js.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "scaffdog",
-        "url": "https://scaff.dog/"
+        "url": "https://scaff.dog/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v2"
+          }
+        ]
       },
       {
         "name": "SQLBoiler",
-        "url": "https://github.com/volatiletech/sqlboiler"
+        "url": "https://github.com/volatiletech/sqlboiler",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "sqldef",
-        "url": "https://sqldef.github.io/"
+        "url": "https://sqldef.github.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "Storybook",
-        "url": "https://storybook.js.org/"
+        "url": "https://storybook.js.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "S2Dao",
@@ -2006,15 +3840,111 @@
       },
       {
         "name": "Vuetify",
-        "url": "https://vuetifyjs.com/ja/"
+        "url": "https://vuetifyjs.com/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "Vuex",
-        "url": "https://vuex.vuejs.org/ja/"
+        "url": "https://vuex.vuejs.org/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "wire",
-        "url": "https://github.com/google/wire"
+        "url": "https://github.com/google/wire",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Workshop NetUI",
@@ -2034,7 +3964,19 @@
       },
       {
         "name": "zerolog",
-        "url": "https://github.com/rs/zerolog"
+        "url": "https://github.com/rs/zerolog",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
     "tagName": "ライブラリ"
@@ -2140,15 +4082,71 @@
     "skills": [
       {
         "name": "Apiary",
-        "url": "https://apiary.io/"
+        "url": "https://apiary.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "Auth0",
-        "url": "https://auth0.com/jp"
+        "url": "https://auth0.com/jp",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          }
+        ]
       },
       {
         "name": "Confluence",
-        "url": "https://www.atlassian.com/ja"
+        "url": "https://www.atlassian.com/ja",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "GitHub",
@@ -2173,6 +4171,106 @@
               "month": 3,
               "year": 2016
             }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "to": {
+              "month": 11,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
           }
         ]
       },
@@ -2182,7 +4280,19 @@
       },
       {
         "name": "Jira",
-        "url": "https://www.atlassian.com/ja/software/jira"
+        "url": "https://www.atlassian.com/ja/software/jira",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "JP1",
@@ -2202,11 +4312,85 @@
       },
       {
         "name": "SendGrid",
-        "url": "https://www.twilio.com/ja/sendgrid/email-api"
+        "url": "https://www.twilio.com/ja/sendgrid/email-api",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "Sentry",
-        "url": "https://sentry.io/welcome/"
+        "url": "https://sentry.io/welcome/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "WebNMS",
@@ -2242,7 +4426,19 @@
       },
       {
         "name": "Wrike",
-        "url": "https://www.wrike.com/ja/"
+        "url": "https://www.wrike.com/ja/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
         "name": "サイボウズ",
@@ -2302,7 +4498,29 @@
         ]
       },
       {
-        "name": "Clean Architecture"
+        "name": "Clean Architecture",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "CSS",
@@ -2347,11 +4565,115 @@
       },
       {
         "name": "docker",
-        "url": "https://www.docker.com/"
+        "url": "https://www.docker.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "docker-compose",
-        "url": "https://docs.docker.jp/compose/toc.html"
+        "url": "https://docs.docker.jp/compose/toc.html",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "HTML",
@@ -2471,14 +4793,72 @@
       },
       {
         "name": "Jenkins",
-        "url": "https://www.jenkins.io/"
+        "url": "https://www.jenkins.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
       },
       {
-        "name": "MicroService"
+        "name": "MicroService",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
       },
       {
         "name": "OpenAPI",
-        "url": "https://www.openapis.org/"
+        "url": "https://www.openapis.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v3"
+          }
+        ]
       },
       {
         "name": "Scrum",
@@ -2531,6 +4911,16 @@
             "to": {
               "month": 3,
               "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
             }
           }
         ]
@@ -2669,7 +5059,51 @@
       },
       {
         "name": "Yarn",
-        "url": "https://yarnpkg.com/"
+        "url": "https://yarnpkg.com/",
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v1.22"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v1.22"
+          }
+        ]
       }
     ],
     "tagName": "その他"
