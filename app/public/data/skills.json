@@ -1794,31 +1794,6 @@
         ]
       },
       {
-        "name": "FirebaseAuth",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
-      },
-      {
         "name": "Firestore(Native mode)",
         "versions": [
           {
@@ -1872,6 +1847,22 @@
             }
           }
         ]
+      },
+      {
+        "name": "Artifact Registry",
+        "url": "https://cloud.google.com/artifact-registry?hl=ja"
+      },
+      {
+        "name": "Cloud Load Balancing",
+        "url": "https://cloud.google.com/load-balancing?hl=ja"
+      },
+      {
+        "name": "Cloud Armor",
+        "url": "https://cloud.google.com/security/products/armor?hl=ja"
+      },
+      {
+        "name": "Cloud Functions(Node.js)",
+        "url": "https://cloud.google.com/functions?hl=ja"
       }
     ],
     "tagName": "クラウド(GCP)"
@@ -3977,6 +3968,46 @@
             }
           }
         ]
+      },
+      {
+        "name": "Ant Design",
+        "url": "https://ant.design/"
+      },
+      {
+        "name": "Recoil",
+        "url": "https://recoiljs.org/"
+      },
+      {
+        "name": "Zod",
+        "url": "https://zod.dev/"
+      },
+      {
+        "name": "Prisma",
+        "url": "https://www.prisma.io/"
+      },
+      {
+        "name": "ethers",
+        "url": "https://docs.ethers.org/v6/"
+      },
+      {
+        "name": "firebase-js-sdk",
+        "url": "https://github.com/firebase/firebase-js-sdk"
+      },
+      {
+        "name": "firebase-admin-node",
+        "url": "https://github.com/firebase/firebase-admin-node"
+      },
+      {
+        "name": "NextAuth.js",
+        "url": "https://next-auth.js.org/"
+      },
+      {
+        "name": "TypeORM",
+        "url": "https://typeorm.io/"
+      },
+      {
+        "name": "Hasura",
+        "url": "https://hasura.io/"
       }
     ],
     "tagName": "ライブラリ"
@@ -4465,6 +4496,14 @@
             }
           }
         ]
+      },
+      {
+        "name": "GitHub Actions",
+        "url": "https://github.co.jp/features/actions"
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/ja-jp"
       }
     ],
     "tagName": "外部サービス"
@@ -5107,5 +5146,44 @@
       }
     ],
     "tagName": "その他"
+  },
+  {
+    "skills": [
+      {
+        "name": "Firebase Authentication",
+        "url": "https://firebase.google.com/docs/auth?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Firestore",
+        "url": "https://firebase.google.com/products/firestore?hl=ja"
+      },
+      {
+        "name": "Cloud Storage for Firebase",
+        "url": "https://firebase.google.com/products/storage?hl=ja"
+      }
+    ],
+    "tagName": "クラウド(Firebase)"
   }
 ]
