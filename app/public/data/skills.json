@@ -690,6 +690,28 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v4"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v5"
           }
         ]
       }
@@ -1096,6 +1118,28 @@
               "year": 2022
             },
             "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v16.13"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v18.2"
           }
         ]
       },
@@ -1159,6 +1203,34 @@
             "version": "v2"
           }
         ]
+      },
+      {
+        "name": "Next.js",
+        "url": "https://nextjs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v9.5"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v14.0"
+          }
+        ]
       }
     ],
     "tagName": "フロントエンドフレームワーク"
@@ -1177,6 +1249,16 @@
             "to": {
               "month": 7,
               "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
             }
           }
         ]
@@ -1269,6 +1351,16 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
             }
           }
         ]
@@ -1630,6 +1722,16 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
           }
         ]
       },
@@ -1850,7 +1952,19 @@
       },
       {
         "name": "Artifact Registry",
-        "url": "https://cloud.google.com/artifact-registry?hl=ja"
+        "url": "https://cloud.google.com/artifact-registry?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          }
+        ]
       },
       {
         "name": "Cloud Load Balancing",
@@ -2240,6 +2354,17 @@
               "month": 12,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v1.6"
           }
         ]
       },
@@ -2500,6 +2625,26 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
             }
           }
         ]
@@ -3636,6 +3781,17 @@
               "year": 2022
             },
             "version": "v2.7"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v3"
           }
         ]
       },
@@ -3971,15 +4127,76 @@
       },
       {
         "name": "Ant Design",
-        "url": "https://ant.design/"
+        "url": "https://ant.design/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v4"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v5"
+          }
+        ]
       },
       {
         "name": "Recoil",
-        "url": "https://recoiljs.org/"
+        "url": "https://recoiljs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v0.7"
+          }
+        ]
       },
       {
         "name": "Zod",
-        "url": "https://zod.dev/"
+        "url": "https://zod.dev/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v3"
+          }
+        ]
       },
       {
         "name": "Prisma",
@@ -3987,7 +4204,20 @@
       },
       {
         "name": "ethers",
-        "url": "https://docs.ethers.org/v6/"
+        "url": "https://docs.ethers.org/v6/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v6"
+          }
+        ]
       },
       {
         "name": "firebase-js-sdk",
@@ -3999,15 +4229,51 @@
       },
       {
         "name": "NextAuth.js",
-        "url": "https://next-auth.js.org/"
+        "url": "https://next-auth.js.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
       },
       {
         "name": "TypeORM",
-        "url": "https://typeorm.io/"
+        "url": "https://typeorm.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
       },
       {
         "name": "Hasura",
-        "url": "https://hasura.io/"
+        "url": "https://hasura.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
       }
     ],
     "tagName": "ライブラリ"
@@ -4302,6 +4568,26 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
           }
         ]
       },
@@ -4499,11 +4785,45 @@
       },
       {
         "name": "GitHub Actions",
-        "url": "https://github.co.jp/features/actions"
+        "url": "https://github.co.jp/features/actions",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          }
+        ]
       },
       {
         "name": "Notion",
-        "url": "https://www.notion.so/ja-jp"
+        "url": "https://www.notion.so/ja-jp",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          }
+        ]
       }
     ],
     "tagName": "外部サービス"
@@ -4664,6 +4984,26 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
             }
           }
         ]

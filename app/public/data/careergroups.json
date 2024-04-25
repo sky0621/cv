@@ -3,6 +3,359 @@
     "careers": [
       {
         "description": [
+          "ビットコイン関連のCoin（Bitcoin、Bitcoin Cash、eCash、Bitcoin SV、Bitcoin Gold）を送金するWebシステムに関して",
+          "顧客からの要望対応やバグ修正を行う",
+          "・画面数は約２０"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2024
+        },
+        "id": 87,
+        "name": "ビットコイン送金WebシステムのIssue対応",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v4"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v16.13"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v9.5"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v4"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 170,
+                  "name": "NextAuth.js",
+                  "tagId": 37,
+                  "url": "https://next-auth.js.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 171,
+                  "name": "TypeORM",
+                  "tagId": 37,
+                  "url": "https://typeorm.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 172,
+                  "name": "Hasura",
+                  "tagId": 37,
+                  "url": "https://hasura.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 71,
+                  "name": "GraphQL",
+                  "tagId": 31,
+                  "url": "https://graphql.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "各機能に対する顧客からの要望対応やバグ修正"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2024
+        }
+      },
+      {
+        "description": [
+          "ソウルバウンドトークン(SBT)が付与されたアドレス以外はセキュリティトークン(ST)の移転ができないよう制御したスマートコントラクトを作成することで",
+          "秘密鍵流出時のセキュリティリスク軽減が可能であるかどうかを確認する実証実験",
+          "ST発行会社がスマートコントラクトを操作するためのWebシステムを開発",
+          "・画面数は２（ログイン、スマートコントラクト操作画面）",
+          "・ERC721をカスタマイズしたSBT発行用スマートコントラクトを作成",
+          "・ERC20準拠のST発行用スマートコントラクトを作成",
+          "・Ethereumチェーンを採用"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2024
+        },
+        "id": 88,
+        "name": "ソウルバウンドトークンを用いたセキュリティトークン移転制限の実証実験",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v14.0"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 159,
+                  "name": "Zod",
+                  "tagId": 37,
+                  "url": "https://zod.dev/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 161,
+                  "name": "ethers",
+                  "tagId": 37,
+                  "url": "https://docs.ethers.org/v6/"
+                },
+                "version": "v6"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 162,
+                  "name": "Artifact Registry",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/artifact-registry?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v1.6"
+              },
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "採用アーキテクチャの検討からリリース、運用・保守まで含め、Webシステム開発全般を基本的に１人で担当",
+              "（スマートコントラクトの実装は別担当に依頼）"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2024
+        }
+      }
+    ],
+    "id": 29,
+    "label": "Web3系企業にて就労中"
+  },
+  {
+    "careers": [
+      {
+        "description": [
           "ローンチ後１年ほど経過したサービスの機能追加や障害対応。"
         ],
         "from": {
@@ -319,7 +672,7 @@
       }
     ],
     "id": 28,
-    "label": "EdTech系企業（大学・専門学校がターゲット）にて就労中"
+    "label": "EdTech系企業（大学・専門学校がターゲット）にて就労"
   },
   {
     "careers": [
