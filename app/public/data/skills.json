@@ -712,6 +712,28 @@
               "year": 2024
             },
             "version": "v5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v5"
           }
         ]
       }
@@ -1140,6 +1162,28 @@
               "year": 2024
             },
             "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v18.2"
           }
         ]
       },
@@ -1229,6 +1273,28 @@
               "year": 2024
             },
             "version": "v14.0"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v14.0"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v13.4"
           }
         ]
       }
@@ -1361,6 +1427,26 @@
             "to": {
               "month": 3,
               "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           }
         ]
@@ -1732,6 +1818,26 @@
               "month": 3,
               "year": 2024
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
@@ -1757,6 +1863,16 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
           }
         ]
       },
@@ -1771,6 +1887,16 @@
             "to": {
               "month": 6,
               "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           }
         ]
@@ -1963,20 +2089,86 @@
               "month": 3,
               "year": 2024
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
         "name": "Cloud Load Balancing",
-        "url": "https://cloud.google.com/load-balancing?hl=ja"
+        "url": "https://cloud.google.com/load-balancing?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Cloud Armor",
-        "url": "https://cloud.google.com/security/products/armor?hl=ja"
+        "url": "https://cloud.google.com/security/products/armor?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Cloud Functions(Node.js)",
-        "url": "https://cloud.google.com/functions?hl=ja"
+        "url": "https://cloud.google.com/functions?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
     "tagName": "クラウド(GCP)"
@@ -2365,6 +2557,28 @@
               "year": 2024
             },
             "version": "v1.6"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v1.6"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v1.6"
           }
         ]
       },
@@ -2645,6 +2859,26 @@
             "to": {
               "month": 3,
               "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           }
         ]
@@ -3606,6 +3840,28 @@
               "year": 2023
             },
             "version": "v27.5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v29"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v29"
           }
         ]
       },
@@ -3790,6 +4046,28 @@
             "to": {
               "month": 3,
               "year": 2024
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             },
             "version": "v3"
           }
@@ -4150,6 +4428,28 @@
               "year": 2024
             },
             "version": "v5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v5"
           }
         ]
       },
@@ -4178,6 +4478,28 @@
               "year": 2024
             },
             "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v0.7"
           }
         ]
       },
@@ -4195,12 +4517,47 @@
               "year": 2024
             },
             "version": "v3"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v3"
           }
         ]
       },
       {
         "name": "Prisma",
-        "url": "https://www.prisma.io/"
+        "url": "https://www.prisma.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v4"
+          }
+        ]
       },
       {
         "name": "ethers",
@@ -4216,16 +4573,64 @@
               "year": 2024
             },
             "version": "v6"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v6"
           }
         ]
       },
       {
         "name": "firebase-js-sdk",
-        "url": "https://github.com/firebase/firebase-js-sdk"
+        "url": "https://github.com/firebase/firebase-js-sdk",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v10"
+          }
+        ]
       },
       {
         "name": "firebase-admin-node",
-        "url": "https://github.com/firebase/firebase-admin-node"
+        "url": "https://github.com/firebase/firebase-admin-node",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v11"
+          }
+        ]
       },
       {
         "name": "NextAuth.js",
@@ -4588,6 +4993,26 @@
               "month": 3,
               "year": 2024
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
@@ -4796,6 +5221,26 @@
               "month": 3,
               "year": 2024
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
@@ -4821,6 +5266,26 @@
             "to": {
               "month": 3,
               "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           }
         ]
@@ -5005,6 +5470,26 @@
               "month": 3,
               "year": 2024
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
@@ -5049,6 +5534,16 @@
             },
             "to": {
               "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
               "year": 2023
             }
           }
@@ -5512,16 +6007,50 @@
               "month": 9,
               "year": 2018
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
           }
         ]
       },
       {
         "name": "Cloud Firestore",
-        "url": "https://firebase.google.com/products/firestore?hl=ja"
+        "url": "https://firebase.google.com/products/firestore?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
       },
       {
         "name": "Cloud Storage for Firebase",
-        "url": "https://firebase.google.com/products/storage?hl=ja"
+        "url": "https://firebase.google.com/products/storage?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
     "tagName": "クラウド(Firebase)"

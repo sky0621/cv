@@ -2,7 +2,6 @@
   {
     "skills": [
       {
-        "code": "android",
         "name": "Android(Java)",
         "versions": [
           {
@@ -38,7 +37,6 @@
         ]
       },
       {
-        "code": "cobol",
         "name": "COBOL",
         "url": "https://www.cobol.co.jp/cobol-nyuumon/kiso/k001/",
         "versions": [
@@ -55,7 +53,6 @@
         ]
       },
       {
-        "code": "golang",
         "name": "Golang",
         "url": "https://go.dev/",
         "versions": [
@@ -139,7 +136,6 @@
         ]
       },
       {
-        "code": "java",
         "name": "Java",
         "url": "https://www.java.com/ja/",
         "versions": [
@@ -363,7 +359,6 @@
         ]
       },
       {
-        "code": "javascript",
         "name": "JavaScript",
         "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
         "versions": [
@@ -450,7 +445,6 @@
         ]
       },
       {
-        "code": "kotlin",
         "name": "Kotlin",
         "url": "https://kotlinlang.org/",
         "versions": [
@@ -467,7 +461,6 @@
         ]
       },
       {
-        "code": "php",
         "name": "PHP",
         "url": "https://www.php.net/",
         "versions": [
@@ -485,7 +478,6 @@
         ]
       },
       {
-        "code": "python",
         "name": "Python",
         "url": "https://www.python.jp/",
         "versions": [
@@ -523,7 +515,6 @@
         ]
       },
       {
-        "code": "scala",
         "name": "Scala",
         "url": "https://www.scala-lang.org/",
         "versions": [
@@ -541,7 +532,6 @@
         ]
       },
       {
-        "code": "sql",
         "name": "SQL",
         "versions": [
           {
@@ -647,7 +637,6 @@
         ]
       },
       {
-        "code": "typescript",
         "name": "TypeScript",
         "url": "https://www.typescriptlang.org/",
         "versions": [
@@ -701,17 +690,59 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v4"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v5"
           }
         ]
       }
     ],
-    "tagCode": "language",
     "tagName": "プログラミング言語"
   },
   {
     "skills": [
       {
-        "code": "chi",
         "name": "chi",
         "url": "https://go-chi.io/#/",
         "versions": [
@@ -749,7 +780,6 @@
         ]
       },
       {
-        "code": "echo",
         "name": "Echo",
         "url": "https://echo.labstack.com/",
         "versions": [
@@ -786,7 +816,6 @@
         ]
       },
       {
-        "code": "gin",
         "name": "Gin",
         "url": "https://gin-gonic.com/ja/",
         "versions": [
@@ -804,7 +833,6 @@
         ]
       },
       {
-        "code": "kohana",
         "name": "Kohana",
         "versions": [
           {
@@ -820,7 +848,6 @@
         ]
       },
       {
-        "code": "play",
         "name": "play",
         "url": "https://www.playframework.com/",
         "versions": [
@@ -838,7 +865,6 @@
         ]
       },
       {
-        "code": "sastruts",
         "name": "SAStruts",
         "url": "https://sastruts.seasar.org/",
         "versions": [
@@ -855,7 +881,6 @@
         ]
       },
       {
-        "code": "seasar2",
         "name": "Seasar2",
         "url": "https://www.seasar.org/",
         "versions": [
@@ -922,7 +947,6 @@
         ]
       },
       {
-        "code": "spring",
         "name": "Spring",
         "url": "https://spring.io/",
         "versions": [
@@ -949,7 +973,6 @@
         ]
       },
       {
-        "code": "struts",
         "name": "Struts",
         "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html",
         "versions": [
@@ -1016,7 +1039,6 @@
         ]
       },
       {
-        "code": "terasoluna",
         "name": "TERASOLUNA",
         "url": "https://www.terasoluna.jp/",
         "versions": [
@@ -1033,13 +1055,11 @@
         ]
       }
     ],
-    "tagCode": "webframework",
     "tagName": "Webアプリケーションフレームワーク"
   },
   {
     "skills": [
       {
-        "code": "angular",
         "name": "Angular",
         "url": "https://angular.jp/",
         "versions": [
@@ -1057,7 +1077,6 @@
         ]
       },
       {
-        "code": "nuxtjs",
         "name": "NuxtJS",
         "url": "https://nuxtjs.org/ja/",
         "versions": [
@@ -1108,7 +1127,6 @@
         ]
       },
       {
-        "code": "react",
         "name": "React",
         "url": "https://ja.reactjs.org/",
         "versions": [
@@ -1122,11 +1140,54 @@
               "year": 2022
             },
             "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v16.13"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v18.2"
           }
         ]
       },
       {
-        "code": "vuejs",
         "name": "Vue.js",
         "url": "https://jp.vuejs.org/index.html",
         "versions": [
@@ -1186,15 +1247,63 @@
             "version": "v2"
           }
         ]
+      },
+      {
+        "name": "Next.js",
+        "url": "https://nextjs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v9.5"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v14.0"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v14.0"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v13.4"
+          }
+        ]
       }
     ],
-    "tagCode": "frontendframework",
     "tagName": "フロントエンドフレームワーク"
   },
   {
     "skills": [
       {
-        "code": "graphql",
         "name": "GraphQL",
         "url": "https://graphql.org/",
         "versions": [
@@ -1207,11 +1316,20 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
           }
         ]
       },
       {
-        "code": "grpc",
         "name": "gRPC",
         "url": "https://grpc.io/",
         "versions": [
@@ -1248,7 +1366,6 @@
         ]
       },
       {
-        "code": "rest",
         "name": "REST",
         "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
         "versions": [
@@ -1301,11 +1418,40 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "soap",
         "name": "SOAP",
         "versions": [
           {
@@ -1331,13 +1477,11 @@
         ]
       }
     ],
-    "tagCode": "communication",
     "tagName": "通信方式"
   },
   {
     "skills": [
       {
-        "code": "apigateway",
         "name": "API Gateway",
         "versions": [
           {
@@ -1353,7 +1497,6 @@
         ]
       },
       {
-        "code": "appenginegolangstandard",
         "name": "App Engine(Golang Standard)",
         "versions": [
           {
@@ -1369,7 +1512,6 @@
         ]
       },
       {
-        "code": "appenginejavastandard",
         "name": "App Engine(Java Standard)",
         "versions": [
           {
@@ -1395,7 +1537,6 @@
         ]
       },
       {
-        "code": "bigquery",
         "name": "BigQuery",
         "versions": [
           {
@@ -1421,7 +1562,6 @@
         ]
       },
       {
-        "code": "bigtable",
         "name": "Bigtable",
         "versions": [
           {
@@ -1437,7 +1577,6 @@
         ]
       },
       {
-        "code": "cloudbuild",
         "name": "Cloud Build",
         "versions": [
           {
@@ -1459,11 +1598,20 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
           }
         ]
       },
       {
-        "code": "clouddatastore",
         "name": "Cloud Datastore",
         "versions": [
           {
@@ -1509,7 +1657,6 @@
         ]
       },
       {
-        "code": "clouddeploy",
         "name": "Cloud Deploy",
         "versions": [
           {
@@ -1535,7 +1682,6 @@
         ]
       },
       {
-        "code": "cloudendpoints",
         "name": "Cloud Endpoints",
         "versions": [
           {
@@ -1551,7 +1697,6 @@
         ]
       },
       {
-        "code": "cloudfunctions",
         "name": "Cloud Functions",
         "versions": [
           {
@@ -1577,7 +1722,6 @@
         ]
       },
       {
-        "code": "cloudfunctionsgolang",
         "name": "Cloud Functions(Golang)",
         "versions": [
           {
@@ -1593,7 +1737,6 @@
         ]
       },
       {
-        "code": "cloudfunctionsnodejs",
         "name": "Cloud Functions(Node.js/TypeScript)",
         "versions": [
           {
@@ -1609,7 +1752,6 @@
         ]
       },
       {
-        "code": "cloudpubsub",
         "name": "Cloud Pub/Sub",
         "versions": [
           {
@@ -1645,7 +1787,6 @@
         ]
       },
       {
-        "code": "cloudrun",
         "name": "Cloud Run",
         "versions": [
           {
@@ -1667,11 +1808,40 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "cloudscheduler",
         "name": "Cloud Scheduler",
         "versions": [
           {
@@ -1693,11 +1863,20 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "cloudsqlmysql",
         "name": "Cloud SQL(MySQL)",
         "versions": [
           {
@@ -1709,11 +1888,20 @@
               "month": 6,
               "year": 2018
             }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "cloudsqlpostgres",
         "name": "Cloud SQL(PostgreSQL)",
         "versions": [
           {
@@ -1749,7 +1937,6 @@
         ]
       },
       {
-        "code": "cloudstorage",
         "name": "Cloud Storage",
         "versions": [
           {
@@ -1775,7 +1962,6 @@
         ]
       },
       {
-        "code": "cloudtasks",
         "name": "Cloud Tasks",
         "versions": [
           {
@@ -1801,7 +1987,6 @@
         ]
       },
       {
-        "code": "containerregistry",
         "name": "Container Registry",
         "versions": [
           {
@@ -1837,33 +2022,6 @@
         ]
       },
       {
-        "code": "firebaseauth",
-        "name": "FirebaseAuth",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          }
-        ]
-      },
-      {
-        "code": "firestorenativemode",
         "name": "Firestore(Native mode)",
         "versions": [
           {
@@ -1879,7 +2037,6 @@
         ]
       },
       {
-        "code": "gke",
         "name": "GKE",
         "versions": [
           {
@@ -1905,7 +2062,6 @@
         ]
       },
       {
-        "code": "memorystore",
         "name": "Memorystore",
         "versions": [
           {
@@ -1919,15 +2075,107 @@
             }
           }
         ]
+      },
+      {
+        "name": "Artifact Registry",
+        "url": "https://cloud.google.com/artifact-registry?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Load Balancing",
+        "url": "https://cloud.google.com/load-balancing?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Armor",
+        "url": "https://cloud.google.com/security/products/armor?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Functions(Node.js)",
+        "url": "https://cloud.google.com/functions?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
-    "tagCode": "cloudgcp",
     "tagName": "クラウド(GCP)"
   },
   {
     "skills": [
       {
-        "code": "chime",
         "name": "Chime",
         "url": "https://aws.amazon.com/jp/chime/",
         "versions": [
@@ -1944,7 +2192,6 @@
         ]
       },
       {
-        "code": "cloudfront",
         "name": "CloudFront",
         "versions": [
           {
@@ -1980,23 +2227,9 @@
         ]
       },
       {
-        "code": "codebuild",
-        "name": "CodeBuild",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
+        "name": "CodeBuild"
       },
       {
-        "code": "documentdb",
         "name": "DocumentDB (MongoDB 互換)",
         "url": "https://aws.amazon.com/jp/documentdb/",
         "versions": [
@@ -2013,7 +2246,6 @@
         ]
       },
       {
-        "code": "dynamodb",
         "name": "DynamoDB",
         "versions": [
           {
@@ -2029,7 +2261,6 @@
         ]
       },
       {
-        "code": "ecr",
         "name": "ECR",
         "versions": [
           {
@@ -2045,7 +2276,6 @@
         ]
       },
       {
-        "code": "ecs",
         "name": "ECS",
         "versions": [
           {
@@ -2071,7 +2301,6 @@
         ]
       },
       {
-        "code": "ec2",
         "name": "EC2",
         "versions": [
           {
@@ -2097,7 +2326,6 @@
         ]
       },
       {
-        "code": "eks",
         "name": "EKS",
         "versions": [
           {
@@ -2113,7 +2341,6 @@
         ]
       },
       {
-        "code": "elasticache",
         "name": "ElastiCache",
         "versions": [
           {
@@ -2129,7 +2356,6 @@
         ]
       },
       {
-        "code": "fargate",
         "name": "Fargate",
         "versions": [
           {
@@ -2145,7 +2371,6 @@
         ]
       },
       {
-        "code": "msk",
         "name": "MSK",
         "url": "https://aws.amazon.com/jp/msk/",
         "versions": [
@@ -2162,7 +2387,6 @@
         ]
       },
       {
-        "code": "rdsaurora",
         "name": "RDS(Aurora)",
         "versions": [
           {
@@ -2188,7 +2412,6 @@
         ]
       },
       {
-        "code": "rdsmysql",
         "name": "RDS(MySQL)",
         "versions": [
           {
@@ -2214,7 +2437,6 @@
         ]
       },
       {
-        "code": "redshift",
         "name": "RedShift",
         "versions": [
           {
@@ -2230,7 +2452,6 @@
         ]
       },
       {
-        "code": "sqs",
         "name": "SQS",
         "versions": [
           {
@@ -2246,7 +2467,6 @@
         ]
       },
       {
-        "code": "s3",
         "name": "S3",
         "versions": [
           {
@@ -2282,13 +2502,11 @@
         ]
       }
     ],
-    "tagCode": "cloudaws",
     "tagName": "クラウド(AWS)"
   },
   {
     "skills": [
       {
-        "code": "ansible",
         "name": "Ansible",
         "url": "https://www.ansible.com/",
         "versions": [
@@ -2305,7 +2523,6 @@
         ]
       },
       {
-        "code": "terraform",
         "name": "Terraform",
         "url": "https://www.terraform.io/",
         "versions": [
@@ -2329,11 +2546,43 @@
               "month": 12,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v1.6"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v1.6"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v1.6"
           }
         ]
       },
       {
-        "code": "vagrant",
         "name": "Vagrant",
         "url": "https://www.vagrantup.com/",
         "versions": [
@@ -2350,13 +2599,11 @@
         ]
       }
     ],
-    "tagCode": "infra",
     "tagName": "インフラ関連"
   },
   {
     "skills": [
       {
-        "code": "aix",
         "name": "AIX",
         "url": "https://www.ibm.com/jp-ja/products/aix",
         "versions": [
@@ -2373,7 +2620,6 @@
         ]
       },
       {
-        "code": "linuxcentos",
         "name": "Linux(CentOS)",
         "url": "https://www.centos.org/",
         "versions": [
@@ -2420,7 +2666,6 @@
         ]
       },
       {
-        "code": "linuxredhat",
         "name": "Linux(Red Hat)",
         "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux",
         "versions": [
@@ -2487,7 +2732,6 @@
         ]
       },
       {
-        "code": "linuxubuntu",
         "name": "Linux(Ubuntu)",
         "url": "https://www.ubuntulinux.jp/",
         "versions": [
@@ -2534,7 +2778,6 @@
         ]
       },
       {
-        "code": "macos",
         "name": "MacOS",
         "url": "https://www.apple.com/jp/macos/",
         "versions": [
@@ -2597,11 +2840,50 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "solaris",
         "name": "Solaris",
         "url": "https://www.oracle.com/jp/solaris/solaris11/",
         "versions": [
@@ -2668,7 +2950,6 @@
         ]
       },
       {
-        "code": "windows",
         "name": "Windows",
         "url": "https://www.microsoft.com/ja-jp/windows",
         "versions": [
@@ -2885,7 +3166,6 @@
         ]
       },
       {
-        "code": "zos",
         "name": "z/OS",
         "url": "https://www.ibm.com/products/zos",
         "versions": [
@@ -2902,7 +3182,6 @@
         ]
       },
       {
-        "code": "embeddedos",
         "name": "組み込みOS",
         "versions": [
           {
@@ -2918,13 +3197,11 @@
         ]
       }
     ],
-    "tagCode": "os",
     "tagName": "OS"
   },
   {
     "skills": [
       {
-        "code": "db2",
         "name": "DB2",
         "url": "https://www.ibm.com/jp-ja/products/db2",
         "versions": [
@@ -2951,7 +3228,6 @@
         ]
       },
       {
-        "code": "mysql",
         "name": "MySQL",
         "url": "https://www.mysql.com/jp/",
         "versions": [
@@ -2988,7 +3264,6 @@
         ]
       },
       {
-        "code": "oracle",
         "name": "Oracle",
         "url": "https://www.oracle.com/jp/database/technologies/",
         "versions": [
@@ -3095,7 +3370,6 @@
         ]
       },
       {
-        "code": "postgresql",
         "name": "PostgreSQL",
         "url": "https://www.postgresql.jp/",
         "versions": [
@@ -3132,7 +3406,6 @@
         ]
       },
       {
-        "code": "sqlite",
         "name": "SQLite",
         "url": "https://www.sqlite.org/index.html",
         "versions": [
@@ -3149,13 +3422,11 @@
         ]
       }
     ],
-    "tagCode": "database",
     "tagName": "データベース"
   },
   {
     "skills": [
       {
-        "code": "apollo",
         "name": "Apollo",
         "url": "https://www.apollographql.com/",
         "versions": [
@@ -3172,7 +3443,6 @@
         ]
       },
       {
-        "code": "awssdkgo",
         "name": "AWS SDK for Go",
         "url": "https://aws.amazon.com/jp/sdk-for-go/",
         "versions": [
@@ -3189,7 +3459,6 @@
         ]
       },
       {
-        "code": "axios",
         "name": "Axios",
         "url": "https://axios-http.com/",
         "versions": [
@@ -3216,7 +3485,6 @@
         ]
       },
       {
-        "code": "axis2",
         "name": "Axis2",
         "url": "https://axis.apache.org/axis2/java/core/",
         "versions": [
@@ -3233,7 +3501,6 @@
         ]
       },
       {
-        "code": "bootstrapvue",
         "name": "BootstrapVue",
         "versions": [
           {
@@ -3250,7 +3517,6 @@
         ]
       },
       {
-        "code": "cssmodules",
         "name": "CSS Modules",
         "url": "https://github.com/css-modules/css-modules",
         "versions": [
@@ -3267,7 +3533,6 @@
         ]
       },
       {
-        "code": "entgo",
         "name": "ent.",
         "url": "https://entgo.io/ja/",
         "versions": [
@@ -3284,7 +3549,6 @@
         ]
       },
       {
-        "code": "ejb",
         "name": "EJB",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html",
         "versions": [
@@ -3311,7 +3575,6 @@
         ]
       },
       {
-        "code": "gorm",
         "name": "GORM",
         "url": "https://gorm.io/ja_JP/",
         "versions": [
@@ -3358,7 +3621,6 @@
         ]
       },
       {
-        "code": "goverter",
         "name": "goverter",
         "url": "https://github.com/jmattheis/goverter",
         "versions": [
@@ -3375,7 +3637,6 @@
         ]
       },
       {
-        "code": "goswagger",
         "name": "go-swagger",
         "url": "https://goswagger.io/",
         "versions": [
@@ -3392,7 +3653,6 @@
         ]
       },
       {
-        "code": "gqlgen",
         "name": "gqlgen",
         "url": "https://gqlgen.com/",
         "versions": [
@@ -3409,7 +3669,6 @@
         ]
       },
       {
-        "code": "grpcgateway",
         "name": "gRPC-Gateway",
         "url": "https://grpc-ecosystem.github.io/grpc-gateway/",
         "versions": [
@@ -3426,7 +3685,6 @@
         ]
       },
       {
-        "code": "ibatis",
         "name": "iBatis",
         "url": "https://ibatis.apache.org/",
         "versions": [
@@ -3443,7 +3701,6 @@
         ]
       },
       {
-        "code": "javaservlet",
         "name": "JavaServlet",
         "versions": [
           {
@@ -3549,7 +3806,6 @@
         ]
       },
       {
-        "code": "jest",
         "name": "Jest",
         "url": "https://jestjs.io/ja/",
         "versions": [
@@ -3584,11 +3840,32 @@
               "year": 2023
             },
             "version": "v27.5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v29"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v29"
           }
         ]
       },
       {
-        "code": "jsp",
         "name": "JSP",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html",
         "versions": [
@@ -3695,7 +3972,6 @@
         ]
       },
       {
-        "code": "kafka",
         "name": "Kafka",
         "url": "https://kafka.apache.org/",
         "versions": [
@@ -3712,7 +3988,6 @@
         ]
       },
       {
-        "code": "nuxtcompositionapi",
         "name": "Nuxt Composition API",
         "url": "https://composition-api.nuxtjs.org/",
         "versions": [
@@ -3729,7 +4004,6 @@
         ]
       },
       {
-        "code": "prettier",
         "name": "Prettier",
         "url": "https://prettier.io/",
         "versions": [
@@ -3763,11 +4037,43 @@
               "year": 2022
             },
             "version": "v2.7"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v3"
           }
         ]
       },
       {
-        "code": "reacthooks",
         "name": "React Hooks",
         "url": "https://ja.reactjs.org/docs/hooks-intro.html",
         "versions": [
@@ -3784,7 +4090,6 @@
         ]
       },
       {
-        "code": "reacthookform",
         "name": "React Hook Form",
         "url": "https://react-hook-form.com/",
         "versions": [
@@ -3802,7 +4107,6 @@
         ]
       },
       {
-        "code": "reactrouter",
         "name": "React Router",
         "url": "https://reactrouter.com/en/main",
         "versions": [
@@ -3820,7 +4124,6 @@
         ]
       },
       {
-        "code": "redux",
         "name": "Redux",
         "url": "https://redux.js.org/",
         "versions": [
@@ -3838,7 +4141,6 @@
         ]
       },
       {
-        "code": "reduxtoolkit",
         "name": "Redux Toolkit",
         "url": "https://redux-toolkit.js.org/",
         "versions": [
@@ -3855,7 +4157,6 @@
         ]
       },
       {
-        "code": "scaffdog",
         "name": "scaffdog",
         "url": "https://scaff.dog/",
         "versions": [
@@ -3873,7 +4174,6 @@
         ]
       },
       {
-        "code": "sqlboiler",
         "name": "SQLBoiler",
         "url": "https://github.com/volatiletech/sqlboiler",
         "versions": [
@@ -3900,7 +4200,6 @@
         ]
       },
       {
-        "code": "sqldef",
         "name": "sqldef",
         "url": "https://sqldef.github.io/",
         "versions": [
@@ -3917,7 +4216,6 @@
         ]
       },
       {
-        "code": "storybook",
         "name": "Storybook",
         "url": "https://storybook.js.org/",
         "versions": [
@@ -3934,7 +4232,6 @@
         ]
       },
       {
-        "code": "s2dao",
         "name": "S2Dao",
         "url": "http://s2dao.seasar.org/ja/",
         "versions": [
@@ -3951,7 +4248,6 @@
         ]
       },
       {
-        "code": "s2jdbc",
         "name": "S2JDBC",
         "url": "https://s2container.seasar.org/2.4/ja/s2jdbc.html",
         "versions": [
@@ -3968,7 +4264,6 @@
         ]
       },
       {
-        "code": "vuetify",
         "name": "Vuetify",
         "url": "https://vuetifyjs.com/ja/",
         "versions": [
@@ -4005,7 +4300,6 @@
         ]
       },
       {
-        "code": "vuex",
         "name": "Vuex",
         "url": "https://vuex.vuejs.org/ja/",
         "versions": [
@@ -4032,7 +4326,6 @@
         ]
       },
       {
-        "code": "wire",
         "name": "wire",
         "url": "https://github.com/google/wire",
         "versions": [
@@ -4079,7 +4372,6 @@
         ]
       },
       {
-        "code": "workshopnetui",
         "name": "Workshop NetUI",
         "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html",
         "versions": [
@@ -4096,7 +4388,6 @@
         ]
       },
       {
-        "code": "zerolog",
         "name": "zerolog",
         "url": "https://github.com/rs/zerolog",
         "versions": [
@@ -4111,15 +4402,290 @@
             }
           }
         ]
+      },
+      {
+        "name": "Ant Design",
+        "url": "https://ant.design/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v4"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v5"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v5"
+          }
+        ]
+      },
+      {
+        "name": "Recoil",
+        "url": "https://recoiljs.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            },
+            "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v0.7"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v0.7"
+          }
+        ]
+      },
+      {
+        "name": "Zod",
+        "url": "https://zod.dev/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v3"
+          }
+        ]
+      },
+      {
+        "name": "Prisma",
+        "url": "https://www.prisma.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v4"
+          }
+        ]
+      },
+      {
+        "name": "ethers",
+        "url": "https://docs.ethers.org/v6/",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v6"
+          }
+        ]
+      },
+      {
+        "name": "firebase-js-sdk",
+        "url": "https://github.com/firebase/firebase-js-sdk",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v10"
+          }
+        ]
+      },
+      {
+        "name": "firebase-admin-node",
+        "url": "https://github.com/firebase/firebase-admin-node",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v11"
+          }
+        ]
+      },
+      {
+        "name": "NextAuth.js",
+        "url": "https://next-auth.js.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
+      },
+      {
+        "name": "TypeORM",
+        "url": "https://typeorm.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
+      },
+      {
+        "name": "Hasura",
+        "url": "https://hasura.io/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          }
+        ]
       }
     ],
-    "tagCode": "library",
     "tagName": "ライブラリ"
   },
   {
     "skills": [
       {
-        "code": "apache",
         "name": "Apache",
         "url": "https://httpd.apache.org/",
         "versions": [
@@ -4166,7 +4732,6 @@
         ]
       },
       {
-        "code": "tomcat",
         "name": "Tomcat",
         "url": "https://tomcat.apache.org/",
         "versions": [
@@ -4213,13 +4778,11 @@
         ]
       }
     ],
-    "tagCode": "middleware",
     "tagName": "ミドルウェア"
   },
   {
     "skills": [
       {
-        "code": "apiary",
         "name": "Apiary",
         "url": "https://apiary.io/",
         "versions": [
@@ -4236,7 +4799,6 @@
         ]
       },
       {
-        "code": "auth0",
         "name": "Auth0",
         "url": "https://auth0.com/jp",
         "versions": [
@@ -4263,7 +4825,6 @@
         ]
       },
       {
-        "code": "confluence",
         "name": "Confluence",
         "url": "https://www.atlassian.com/ja",
         "versions": [
@@ -4290,7 +4851,6 @@
         ]
       },
       {
-        "code": "github",
         "name": "GitHub",
         "url": "https://github.co.jp/",
         "versions": [
@@ -4312,6 +4872,26 @@
             "to": {
               "month": 3,
               "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
             }
           },
           {
@@ -4393,38 +4973,54 @@
               "month": 6,
               "year": 2023
             }
-          }
-        ]
-      },
-      {
-        "code": "gitlab",
-        "name": "GitLab",
-        "url": "https://about.gitlab.com/",
-        "versions": [
+          },
           {
             "from": {
-              "month": 12,
-              "year": 2017
+              "month": 4,
+              "year": 2024
             },
             "to": {
               "month": 6,
-              "year": 2018
+              "year": 2024
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2016
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
             },
             "to": {
               "month": 12,
-              "year": 2017
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           }
         ]
       },
       {
-        "code": "jira",
+        "name": "GitLab",
+        "url": "https://about.gitlab.com/"
+      },
+      {
         "name": "Jira",
         "url": "https://www.atlassian.com/ja/software/jira",
         "versions": [
@@ -4441,7 +5037,6 @@
         ]
       },
       {
-        "code": "jp1",
         "name": "JP1",
         "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html",
         "versions": [
@@ -4458,7 +5053,6 @@
         ]
       },
       {
-        "code": "sendgrid",
         "name": "SendGrid",
         "url": "https://www.twilio.com/ja/sendgrid/email-api",
         "versions": [
@@ -4495,7 +5089,6 @@
         ]
       },
       {
-        "code": "sentry",
         "name": "Sentry",
         "url": "https://sentry.io/welcome/",
         "versions": [
@@ -4542,7 +5135,6 @@
         ]
       },
       {
-        "code": "webnms",
         "name": "WebNMS",
         "url": "https://www.webnms.jp/",
         "versions": [
@@ -4559,7 +5151,6 @@
         ]
       },
       {
-        "code": "websam",
         "name": "WebSAM",
         "url": "https://jpn.nec.com/websam/index.html",
         "versions": [
@@ -4576,7 +5167,6 @@
         ]
       },
       {
-        "code": "wrike",
         "name": "Wrike",
         "url": "https://www.wrike.com/ja/",
         "versions": [
@@ -4593,7 +5183,6 @@
         ]
       },
       {
-        "code": "cybozu",
         "name": "サイボウズ",
         "url": "https://cybozu.co.jp/",
         "versions": [
@@ -4618,15 +5207,95 @@
             }
           }
         ]
+      },
+      {
+        "name": "GitHub Actions",
+        "url": "https://github.co.jp/features/actions",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/ja-jp",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          }
+        ]
       }
     ],
-    "tagCode": "service",
     "tagName": "外部サービス"
   },
   {
     "skills": [
       {
-        "code": "ajax",
         "name": "Ajax",
         "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX",
         "versions": [
@@ -4653,7 +5322,6 @@
         ]
       },
       {
-        "code": "cleanarchitecture",
         "name": "Clean Architecture",
         "versions": [
           {
@@ -4679,7 +5347,6 @@
         ]
       },
       {
-        "code": "css",
         "name": "CSS",
         "versions": [
           {
@@ -4705,7 +5372,6 @@
         ]
       },
       {
-        "code": "delphi",
         "name": "Delphi",
         "url": "https://www.embarcadero.com/jp/products/delphi",
         "versions": [
@@ -4722,7 +5388,6 @@
         ]
       },
       {
-        "code": "docker",
         "name": "docker",
         "url": "https://www.docker.com/",
         "versions": [
@@ -4785,11 +5450,50 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "dockercompose",
         "name": "docker-compose",
         "url": "https://docs.docker.jp/compose/toc.html",
         "versions": [
@@ -4832,11 +5536,20 @@
               "month": 6,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
           }
         ]
       },
       {
-        "code": "html",
         "name": "HTML",
         "url": "https://www.w3.org/",
         "versions": [
@@ -4882,16 +5595,6 @@
           },
           {
             "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2010
             },
@@ -4963,7 +5666,6 @@
         ]
       },
       {
-        "code": "jenkins",
         "name": "Jenkins",
         "url": "https://www.jenkins.io/",
         "versions": [
@@ -4980,7 +5682,6 @@
         ]
       },
       {
-        "code": "microservice",
         "name": "MicroService",
         "versions": [
           {
@@ -5006,7 +5707,6 @@
         ]
       },
       {
-        "code": "openapi",
         "name": "OpenAPI",
         "url": "https://www.openapis.org/",
         "versions": [
@@ -5035,7 +5735,6 @@
         ]
       },
       {
-        "code": "scrum",
         "name": "Scrum",
         "versions": [
           {
@@ -5051,7 +5750,6 @@
         ]
       },
       {
-        "code": "snmp",
         "name": "SNMP",
         "versions": [
           {
@@ -5067,7 +5765,6 @@
         ]
       },
       {
-        "code": "uml",
         "name": "UML",
         "versions": [
           {
@@ -5103,7 +5800,6 @@
         ]
       },
       {
-        "code": "xml",
         "name": "XML",
         "url": "https://www.w3.org/",
         "versions": [
@@ -5220,7 +5916,6 @@
         ]
       },
       {
-        "code": "xslt",
         "name": "XSLT",
         "url": "https://developer.mozilla.org/ja/docs/Web/XSLT",
         "versions": [
@@ -5237,7 +5932,6 @@
         ]
       },
       {
-        "code": "yarn",
         "name": "Yarn",
         "url": "https://yarnpkg.com/",
         "versions": [
@@ -5286,7 +5980,79 @@
         ]
       }
     ],
-    "tagCode": "others",
     "tagName": "その他"
+  },
+  {
+    "skills": [
+      {
+        "name": "Firebase Authentication",
+        "url": "https://firebase.google.com/docs/auth?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Firestore",
+        "url": "https://firebase.google.com/products/firestore?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Storage for Firebase",
+        "url": "https://firebase.google.com/products/storage?hl=ja",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          }
+        ]
+      }
+    ],
+    "tagName": "クラウド(Firebase)"
   }
 ]
