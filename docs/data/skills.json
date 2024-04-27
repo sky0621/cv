@@ -1482,6 +1482,562 @@
   {
     "skills": [
       {
+        "name": "DB2",
+        "url": "https://www.ibm.com/jp-ja/products/db2",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2006
+            },
+            "to": {
+              "month": 12,
+              "year": 2006
+            }
+          }
+        ]
+      },
+      {
+        "name": "MySQL",
+        "url": "https://www.mysql.com/jp/",
+        "versions": [
+          {
+            "from": {
+              "month": 4,
+              "year": 2006
+            },
+            "to": {
+              "month": 8,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2012
+            },
+            "to": {
+              "month": 6,
+              "year": 2013
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          }
+        ]
+      },
+      {
+        "name": "Oracle",
+        "url": "https://www.oracle.com/jp/database/technologies/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2016
+            },
+            "to": {
+              "month": 9,
+              "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2014
+            },
+            "to": {
+              "month": 3,
+              "year": 2016
+            }
+          }
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.jp/",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "to": {
+              "month": 8,
+              "year": 2010
+            }
+          }
+        ]
+      },
+      {
+        "name": "SQLite",
+        "url": "https://www.sqlite.org/index.html",
+        "versions": [
+          {
+            "from": {
+              "month": 10,
+              "year": 2011
+            },
+            "to": {
+              "month": 2,
+              "year": 2012
+            }
+          }
+        ]
+      }
+    ],
+    "tagName": "データベース"
+  },
+  {
+    "skills": [
+      {
+        "name": "Chime",
+        "url": "https://aws.amazon.com/jp/chime/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "CloudFront",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "CodeBuild"
+      },
+      {
+        "name": "DocumentDB (MongoDB 互換)",
+        "url": "https://aws.amazon.com/jp/documentdb/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "DynamoDB",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
+      },
+      {
+        "name": "ECR",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
+      },
+      {
+        "name": "ECS",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
+      },
+      {
+        "name": "EC2",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
+      },
+      {
+        "name": "EKS",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "ElastiCache",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fargate",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
+      },
+      {
+        "name": "MSK",
+        "url": "https://aws.amazon.com/jp/msk/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "RDS(Aurora)",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "RDS(MySQL)",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          }
+        ]
+      },
+      {
+        "name": "RedShift",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
+      },
+      {
+        "name": "SQS",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          }
+        ]
+      },
+      {
+        "name": "S3",
+        "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      }
+    ],
+    "tagName": "クラウド(AWS)"
+  },
+  {
+    "skills": [
+      {
         "name": "API Gateway",
         "versions": [
           {
@@ -2176,333 +2732,75 @@
   {
     "skills": [
       {
-        "name": "Chime",
-        "url": "https://aws.amazon.com/jp/chime/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "CloudFront",
+        "name": "Firebase Authentication",
+        "url": "https://firebase.google.com/docs/auth?hl=ja",
         "versions": [
           {
             "from": {
               "month": 11,
-              "year": 2016
+              "year": 2018
             },
             "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "CodeBuild"
-      },
-      {
-        "name": "DocumentDB (MongoDB 互換)",
-        "url": "https://aws.amazon.com/jp/documentdb/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "DynamoDB",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "ECR",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "ECS",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
+              "month": 5,
               "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
             },
             "to": {
               "month": 9,
-              "year": 2019
+              "year": 2018
             }
           },
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "EC2",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
+              "month": 10,
+              "year": 2023
             },
             "to": {
               "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "EKS",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
               "year": 2023
             }
           }
         ]
       },
       {
-        "name": "ElastiCache",
+        "name": "Cloud Firestore",
+        "url": "https://firebase.google.com/products/firestore?hl=ja",
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
+              "month": 10,
+              "year": 2023
             },
             "to": {
               "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "Fargate",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "MSK",
-        "url": "https://aws.amazon.com/jp/msk/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
               "year": 2023
             }
           }
         ]
       },
       {
-        "name": "RDS(Aurora)",
+        "name": "Cloud Storage for Firebase",
+        "url": "https://firebase.google.com/products/storage?hl=ja",
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
+              "month": 10,
               "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "RDS(MySQL)",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
             },
             "to": {
               "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "RedShift",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "SQS",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          }
-        ]
-      },
-      {
-        "name": "S3",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "to": {
-              "month": 6,
               "year": 2023
             }
           }
         ]
       }
     ],
-    "tagName": "クラウド(AWS)"
+    "tagName": "クラウド(Firebase)"
   },
   {
     "skills": [
@@ -3198,231 +3496,6 @@
       }
     ],
     "tagName": "OS"
-  },
-  {
-    "skills": [
-      {
-        "name": "DB2",
-        "url": "https://www.ibm.com/jp-ja/products/db2",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2006
-            },
-            "to": {
-              "month": 12,
-              "year": 2006
-            }
-          }
-        ]
-      },
-      {
-        "name": "MySQL",
-        "url": "https://www.mysql.com/jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          }
-        ]
-      },
-      {
-        "name": "Oracle",
-        "url": "https://www.oracle.com/jp/database/technologies/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2002
-            },
-            "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "PostgreSQL",
-        "url": "https://www.postgresql.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          }
-        ]
-      },
-      {
-        "name": "SQLite",
-        "url": "https://www.sqlite.org/index.html",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          }
-        ]
-      }
-    ],
-    "tagName": "データベース"
   },
   {
     "skills": [
@@ -5981,78 +6054,5 @@
       }
     ],
     "tagName": "その他"
-  },
-  {
-    "skills": [
-      {
-        "name": "Firebase Authentication",
-        "url": "https://firebase.google.com/docs/auth?hl=ja",
-        "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "Cloud Firestore",
-        "url": "https://firebase.google.com/products/firestore?hl=ja",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "Cloud Storage for Firebase",
-        "url": "https://firebase.google.com/products/storage?hl=ja",
-        "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          }
-        ]
-      }
-    ],
-    "tagName": "クラウド(Firebase)"
   }
 ]
