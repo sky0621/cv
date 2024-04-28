@@ -1,6 +1,6 @@
-import differenceInCalendarYears from 'date-fns/differenceInCalendarYears'
 import format from 'date-fns/format'
 import differenceInMonths from 'date-fns/differenceInMonths'
+import { intervalToDuration } from 'date-fns'
 
 export class CalculationService {
   ageFromBirthday(year: number, month: number, day: number): string {
@@ -8,7 +8,8 @@ export class CalculationService {
     try {
       const bDay = new Date(year, month - 1, day)
       const now = new Date()
-      const diff = differenceInCalendarYears(now, bDay)
+      const interval = intervalToDuration({ start: bDay, end: now })
+      const diff = interval.years ?? 0
       return diff.toString(10)
     } catch (e) {
       console.error(e)

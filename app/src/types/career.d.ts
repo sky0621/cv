@@ -31,8 +31,7 @@ export interface CareerSkillSet {
 
 export interface CareerSkill {
   id: number
-  key: string
   name: string
-  tagKey: string
+  tagId: number
   url: string
 }

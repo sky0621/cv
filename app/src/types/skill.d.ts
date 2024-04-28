@@ -7,7 +7,7 @@ export interface SkillGroup {
 }
 
 export interface Skill {
-  key: string
+  code: string
   name: string
   url: string
   versions: Version[]

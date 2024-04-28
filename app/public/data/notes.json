@@ -25,7 +25,7 @@
         "text": "【必須】バックエンドは Golang もしくは Java、Kotlin、Scala等のJVM系言語"
       },
       {
-        "text": "【必須】インフラは AWS または GCP"
+        "text": "【必須】インフラは GCP または AWS"
       },
       {
         "text": "GraphQLを使っている"
@@ -59,11 +59,11 @@
   {
     "items": [
       {
-        "text": "Vue.js(v3)"
+        "text": "Smart Contract"
       }
     ],
     "label": "家庭学習の状況",
-    "memo": "以下、写経、チュートリアル、検証実装を実施中。"
+    "memo": "以下、検証実装を実施中。"
   },
   {
     "items": [
