@@ -43,7 +43,7 @@
     "stylelint": "15.11.0",
     "stylelint-config-recommended": "11.0.0",
     "stylelint-config-standard": "32.0.0",
-    "typescript": "5.0.4",
+    "typescript": "5.7.3",
     "vite": "4.5.3",
     "vue-tsc": "1.8.27"
   }
