@@ -759,6 +759,37 @@
         ]
       },
       {
+        "name": "Scala",
+        "period": 13,
+        "url": "https://www.scala-lang.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v2.11"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            },
+            "version": "v2.13"
+          }
+        ]
+      },
+      {
         "name": "Kotlin",
         "period": 4,
         "url": "https://kotlinlang.org/",
@@ -773,25 +804,6 @@
               "month": 9,
               "year": 2019
             }
-          }
-        ]
-      },
-      {
-        "name": "Scala",
-        "period": 4,
-        "url": "https://www.scala-lang.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v2.11"
           }
         ]
       },
@@ -1440,7 +1452,7 @@
     "skills": [
       {
         "name": "REST",
-        "period": 43,
+        "period": 52,
         "url": "https://developer.mozilla.org/ja/docs/Glossary/REST",
         "versions": [
           {
@@ -1529,6 +1541,17 @@
             "to": {
               "month": 9,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
             }
           }
         ]
@@ -2296,6 +2319,45 @@
         ]
       },
       {
+        "name": "GKE",
+        "period": 38,
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          }
+        ]
+      },
+      {
         "name": "Cloud Run",
         "period": 36,
         "versions": [
@@ -2508,34 +2570,6 @@
             "to": {
               "month": 12,
               "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "GKE",
-        "period": 29,
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
             }
           }
         ]
@@ -3583,59 +3617,8 @@
         ]
       },
       {
-        "name": "Linux(Ubuntu)",
-        "period": 48,
-        "url": "https://www.ubuntulinux.jp/",
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          }
-        ]
-      },
-      {
         "name": "MacOS",
-        "period": 45,
+        "period": 54,
         "url": "https://www.apple.com/jp/macos/",
         "versions": [
           {
@@ -3746,6 +3729,68 @@
             "to": {
               "month": 9,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          }
+        ]
+      },
+      {
+        "name": "Linux(Ubuntu)",
+        "period": 48,
+        "url": "https://www.ubuntulinux.jp/",
+        "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "period": 14,
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
             }
           }
         ]
@@ -5390,7 +5435,7 @@
     "skills": [
       {
         "name": "GitHub",
-        "period": 116,
+        "period": 125,
         "url": "https://github.co.jp/",
         "versions": [
           {
@@ -5568,12 +5613,23 @@
               "month": 9,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
           }
         ]
       },
       {
         "name": "Sentry",
-        "period": 45,
+        "period": 54,
         "url": "https://sentry.io/welcome/",
         "versions": [
           {
@@ -5618,6 +5674,17 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
             }
           }
         ]
@@ -5721,55 +5788,8 @@
         ]
       },
       {
-        "name": "Confluence",
-        "period": 18,
-        "url": "https://www.atlassian.com/ja",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          }
-        ]
-      },
-      {
-        "name": "WebSAM",
-        "period": 15,
-        "url": "https://jpn.nec.com/websam/index.html",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "period": 15,
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          }
-        ]
-      },
-      {
         "name": "Notion",
-        "period": 12,
+        "period": 21,
         "url": "https://www.notion.so/ja-jp",
         "versions": [
           {
@@ -5815,6 +5835,115 @@
               "month": 9,
               "year": 2023
             }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          }
+        ]
+      },
+      {
+        "name": "Confluence",
+        "period": 18,
+        "url": "https://www.atlassian.com/ja",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          }
+        ]
+      },
+      {
+        "name": "GitHub Actions",
+        "period": 18,
+        "url": "https://github.co.jp/features/actions",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "period": 3,
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          }
+        ]
+      },
+      {
+        "name": "WebSAM",
+        "period": 15,
+        "url": "https://jpn.nec.com/websam/index.html",
+        "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "period": 15,
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
           }
         ]
       },
@@ -5850,46 +5979,6 @@
             "to": {
               "month": 11,
               "year": 2022
-            }
-          }
-        ]
-      },
-      {
-        "name": "GitHub Actions",
-        "period": 9,
-        "url": "https://github.co.jp/features/actions",
-        "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 3,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 9,
-              "year": 2023
             }
           }
         ]
@@ -6216,7 +6305,7 @@
       },
       {
         "name": "docker",
-        "period": 78,
+        "period": 87,
         "url": "https://www.docker.com/",
         "versions": [
           {
@@ -6327,6 +6416,17 @@
             "to": {
               "month": 9,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
             }
           }
         ]

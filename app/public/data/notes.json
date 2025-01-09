@@ -59,11 +59,11 @@
   {
     "items": [
       {
-        "text": "Smart Contract"
+        "text": "関数型ドメインモデリング"
       }
     ],
     "label": "家庭学習の状況",
-    "memo": "以下、検証実装を実施中。"
+    "memo": "以下、学習中。"
   },
   {
     "items": [

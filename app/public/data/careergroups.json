@@ -3,6 +3,129 @@
     "careers": [
       {
         "description": [
+          "小中学校向けの学習eポータルにおける、主に先生向けシステムの開発・保守。"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2024
+        },
+        "id": 91,
+        "name": "AI型学習eポータル開発・保守",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 116,
+                  "name": "Scala",
+                  "tagId": 28,
+                  "url": "https://www.scala-lang.org/"
+                },
+                "version": "v2.13"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 65,
+                  "name": "GKE",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "１開発メンバーとして、バックエンド開発を担当"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2025
+        }
+      }
+    ],
+    "id": 30,
+    "label": "EdTech系企業（小中学校がターゲット）にて就労中"
+  },
+  {
+    "careers": [
+      {
+        "description": [
           "ビットコイン関連のCoin（Bitcoin、Bitcoin Cash、eCash、Bitcoin SV、Bitcoin Gold）を送金するWebシステムに関して",
           "顧客からの要望対応やバグ修正を行う",
           "・画面数は約２０"
@@ -867,7 +990,7 @@
       }
     ],
     "id": 29,
-    "label": "Web3系企業にて就労中"
+    "label": "Web3系企業にて就労"
   },
   {
     "careers": [
