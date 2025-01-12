@@ -64,9 +64,6 @@ export default async function Page() {
         padding: "2rem",
       }}
     >
-      <h1>CV</h1>
-      <hr />
-
       <AboutSection
         attribute={attribute}
         activities={activities}

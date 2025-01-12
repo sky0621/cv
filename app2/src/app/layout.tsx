@@ -1,5 +1,4 @@
 import React from "react";
-import Providers from "./providers";
 
 export const metadata = {
   title: "sky0621 - CV",
@@ -13,9 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>
-        <Providers>{children}</Providers>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
