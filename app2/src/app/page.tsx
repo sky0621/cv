@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { Box, Container } from "@mui/material";
+
 import AboutSection from "./_components/AboutSection";
 import CareerSection from "./_components/CareerSection";
 import SkillSection from "./_components/SkillSection";
@@ -56,24 +56,28 @@ export default async function Page() {
   }
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
+    <main
+      style={{
+        width: "90%",
+        maxWidth: "1200px",
+        margin: "0 auto",
+        padding: "2rem",
+      }}
+    >
+      <h1>CV</h1>
+      <hr />
+
       <AboutSection
         attribute={attribute}
         activities={activities}
         qualifications={qualifications}
       />
 
-      <Box mt={6}>
-        <CareerSection careerGroups={careerGroups} />
-      </Box>
+      <CareerSection careerGroups={careerGroups} />
 
-      <Box mt={6}>
-        <SkillSection skills={skills.skills} />
-      </Box>
+      <SkillSection skills={skills.skills} />
 
-      <Box mt={6}>
-        <NoteSection notes={notes} />
-      </Box>
-    </Container>
+      <NoteSection notes={notes} />
+    </main>
   );
 }
