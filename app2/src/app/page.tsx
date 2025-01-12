@@ -15,7 +15,7 @@ import { ICareerGroup } from "./_components/interfaces/CareerInterfaces";
 import { ISkillsFile } from "./_components/interfaces/SkillInterfaces";
 import { INote } from "./_components/interfaces/NoteInterfaces";
 
-export const revalidate = 0;
+// export const revalidate = 0;
 
 export default async function Page() {
   const basePath = path.join(process.cwd(), "public", "data");
