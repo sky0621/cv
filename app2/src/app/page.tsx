@@ -75,7 +75,7 @@ export default async function Page() {
 
       <CareerSection careerGroups={careerGroups} />
 
-      <SkillSection skills={skills} />
+      <SkillSection skills={skills.skills} />
 
       <NoteSection notes={notes} />
     </main>
