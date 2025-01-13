@@ -1,9 +1,12 @@
+"use client";
+
 import {
   IActivity,
   IAttribute,
   IQualification,
 } from "./interfaces/AboutInterfaces";
 import React from "react";
+import { Typography } from "@mui/material";
 
 // Server Component (デフォルト)
 type AboutProps = {
@@ -19,6 +22,9 @@ export default function AboutSection({
 }: AboutProps) {
   return (
     <section id="about" style={{ marginTop: "2rem" }}>
+      <Typography variant="h3" gutterBottom>
+        About
+      </Typography>
       <h2>About</h2>
       {attribute && (
         <div
