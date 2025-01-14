@@ -1,0 +1,5889 @@
+[
+  {
+    "careers": [
+      {
+        "description": [
+          "小中学校向けの学習eポータルにおける、主に先生向けシステムの開発・保守。"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2024
+        },
+        "id": 91,
+        "name": "AI型学習eポータル開発・保守",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 116,
+                  "name": "Scala",
+                  "tagId": 28,
+                  "url": "https://www.scala-lang.org/"
+                },
+                "version": "v2.13"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 65,
+                  "name": "GKE",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "１開発メンバーとして、バックエンド開発を担当"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2025
+        }
+      }
+    ],
+    "id": 30,
+    "label": "EdTech系企業（小中学校がターゲット）にて就労中"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ビットコイン関連のCoin（Bitcoin、Bitcoin Cash、eCash、Bitcoin SV、Bitcoin Gold）を送金するWebシステムに関して",
+          "顧客からの要望対応やバグ修正を行う",
+          "・画面数は約２０"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2024
+        },
+        "id": 87,
+        "name": "ビットコイン送金WebシステムのIssue対応",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v4"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v16.13"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v9.5"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v4"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 170,
+                  "name": "NextAuth.js",
+                  "tagId": 37,
+                  "url": "https://next-auth.js.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 171,
+                  "name": "TypeORM",
+                  "tagId": 37,
+                  "url": "https://typeorm.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 172,
+                  "name": "Hasura",
+                  "tagId": 37,
+                  "url": "https://hasura.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 71,
+                  "name": "GraphQL",
+                  "tagId": 31,
+                  "url": "https://graphql.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "各機能に対する顧客からの要望対応やバグ修正"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2024
+        }
+      },
+      {
+        "description": [
+          "ソウルバウンドトークン(SBT)が付与されたアドレス以外はセキュリティトークン(ST)の移転ができないよう制御したスマートコントラクトを作成することで",
+          "秘密鍵流出時のセキュリティリスク軽減が可能であるかどうかを確認する実証実験",
+          "ST発行会社がスマートコントラクトを操作するためのWebシステムを開発",
+          "・画面数は２（ログイン、スマートコントラクト操作画面）",
+          "・ERC721をカスタマイズしたSBT発行用スマートコントラクトを作成",
+          "・ERC20準拠のST発行用スマートコントラクトを作成",
+          "・Ethereumチェーンを採用"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2024
+        },
+        "id": 88,
+        "name": "ソウルバウンドトークンを用いたセキュリティトークン移転制限の実証実験",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v14.0"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 159,
+                  "name": "Zod",
+                  "tagId": 37,
+                  "url": "https://zod.dev/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 161,
+                  "name": "ethers",
+                  "tagId": 37,
+                  "url": "https://docs.ethers.org/v6/"
+                },
+                "version": "v6"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 162,
+                  "name": "Artifact Registry",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/artifact-registry?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v1.6"
+              },
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "採用アーキテクチャの検討からリリース、運用・保守まで含め、Webシステム開発全般を基本的に１人で担当",
+              "（スマートコントラクトの実装は別担当に依頼）"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2024
+        }
+      },
+      {
+        "description": [
+          "寄付額に応じてNFTを発行できるシステムの開発。",
+          "・画面数は７（ログイン×３、ダッシュボード×３、NFT発行モーダル）",
+          "・ERC721準拠のNFT発行用スマートコントラクトを作成",
+          "・自社提供のカストディアルウォレットを使用",
+          "・Polygonチェーンを採用"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2023
+        },
+        "id": 89,
+        "name": "NFT発行システム開発",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v14.0"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 159,
+                  "name": "Zod",
+                  "tagId": 37,
+                  "url": "https://zod.dev/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 80,
+                  "name": "Jest",
+                  "tagId": 37,
+                  "url": "https://jestjs.io/ja/"
+                },
+                "version": "v29"
+              },
+              {
+                "skill": {
+                  "id": 161,
+                  "name": "ethers",
+                  "tagId": 37,
+                  "url": "https://docs.ethers.org/v6/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 166,
+                  "name": "firebase-js-sdk",
+                  "tagId": 37,
+                  "url": "https://github.com/firebase/firebase-js-sdk"
+                },
+                "version": "v10"
+              },
+              {
+                "skill": {
+                  "id": 167,
+                  "name": "firebase-admin-node",
+                  "tagId": 37,
+                  "url": "https://github.com/firebase/firebase-admin-node"
+                },
+                "version": "v11"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 168,
+                  "name": "Cloud Armor",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/security/products/armor?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 34,
+                  "name": "Cloud Scheduler",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 162,
+                  "name": "Artifact Registry",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/artifact-registry?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 163,
+                  "name": "Cloud Load Balancing",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/load-balancing?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 169,
+                  "name": "Cloud Functions(Node.js)",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/functions?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(Firebase)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 60,
+                  "name": "Firebase Authentication",
+                  "tagId": 41,
+                  "url": "https://firebase.google.com/docs/auth?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 173,
+                  "name": "Cloud Firestore",
+                  "tagId": 41,
+                  "url": "https://firebase.google.com/products/firestore?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 174,
+                  "name": "Cloud Storage for Firebase",
+                  "tagId": 41,
+                  "url": "https://firebase.google.com/products/storage?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v1.6"
+              },
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "採用アーキテクチャの検討からリリース、運用・保守まで含め、Webシステム開発全般を基本的に１人で担当",
+              "（スマートコントラクトの実装は別担当に依頼）"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2023
+        }
+      },
+      {
+        "description": [
+          "Webシステム上でセキュリティトークン(ST)及びステーブルコイン(SC)の移転や移転履歴確認ができるシステムの開発。",
+          "・画面数は３（ログイン、ダッシュボード、送金モーダル）",
+          "・ST及びSCの発行は他社が実施",
+          "・自社提供のカストディアルウォレットを使用",
+          "・Polygonチェーンを採用",
+          "・Testnetのみで実施"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2023
+        },
+        "id": 90,
+        "name": "セキュリティトークン・ステーブルコイン移転の実証実験",
+        "skillGroups": [
+          {
+            "label": "Frontend/Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 175,
+                  "name": "Next.js",
+                  "tagId": 30,
+                  "url": "https://nextjs.org/"
+                },
+                "version": "v13.4"
+              },
+              {
+                "skill": {
+                  "id": 157,
+                  "name": "Ant Design",
+                  "tagId": 37,
+                  "url": "https://ant.design/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 158,
+                  "name": "Recoil",
+                  "tagId": 37,
+                  "url": "https://recoiljs.org/"
+                },
+                "version": "v0.7"
+              },
+              {
+                "skill": {
+                  "id": 159,
+                  "name": "Zod",
+                  "tagId": 37,
+                  "url": "https://zod.dev/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 80,
+                  "name": "Jest",
+                  "tagId": 37,
+                  "url": "https://jestjs.io/ja/"
+                },
+                "version": "v29"
+              },
+              {
+                "skill": {
+                  "id": 160,
+                  "name": "Prisma",
+                  "tagId": 37,
+                  "url": "https://www.prisma.io/"
+                },
+                "version": "v4"
+              },
+              {
+                "skill": {
+                  "id": 161,
+                  "name": "ethers",
+                  "tagId": 37,
+                  "url": "https://docs.ethers.org/v6/"
+                },
+                "version": "v6"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 35,
+                  "name": "Cloud SQL(MySQL)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 162,
+                  "name": "Artifact Registry",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/artifact-registry?hl=ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 163,
+                  "name": "Cloud Load Balancing",
+                  "tagId": 32,
+                  "url": "https://cloud.google.com/load-balancing?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 164,
+                  "name": "GitHub Actions",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/features/actions"
+                }
+              },
+              {
+                "skill": {
+                  "id": 165,
+                  "name": "Notion",
+                  "tagId": 39,
+                  "url": "https://www.notion.so/ja-jp"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v1.6"
+              },
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 48,
+                  "name": "docker-compose",
+                  "tagId": 40,
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "採用アーキテクチャの検討からリリース、運用・保守まで含め、Webシステム開発全般を基本的に１人で担当",
+              "（ブロックチェーンとの対話部分の実装は別担当に依頼）"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2023
+        }
+      }
+    ],
+    "id": 29,
+    "label": "Web3系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ローンチ後１年ほど経過したサービスの機能追加や障害対応。"
+        ],
+        "from": {
+          "month": 12,
+          "year": 2022
+        },
+        "id": 86,
+        "name": "高等教育機関向けLMSエンハンス開発・保守",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 142,
+                  "name": "Vue.js",
+                  "tagId": 30,
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 95,
+                  "name": "NuxtJS",
+                  "tagId": 30,
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 96,
+                  "name": "Nuxt Composition API",
+                  "tagId": 37,
+                  "url": "https://composition-api.nuxtjs.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 143,
+                  "name": "Vuex",
+                  "tagId": 37,
+                  "url": "https://vuex.vuejs.org/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 20,
+                  "name": "BootstrapVue",
+                  "tagId": 37
+                },
+                "version": "v2.21"
+              },
+              {
+                "skill": {
+                  "id": 80,
+                  "name": "Jest",
+                  "tagId": 37,
+                  "url": "https://jestjs.io/ja/"
+                },
+                "version": "v27.5"
+              },
+              {
+                "skill": {
+                  "id": 130,
+                  "name": "Storybook",
+                  "tagId": 37,
+                  "url": "https://storybook.js.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 152,
+                  "name": "Yarn",
+                  "tagId": 40,
+                  "url": "https://yarnpkg.com/"
+                },
+                "version": "v1.22"
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.19"
+              },
+              {
+                "skill": {
+                  "id": 62,
+                  "name": "Gin",
+                  "tagId": 29,
+                  "url": "https://gin-gonic.com/ja/"
+                },
+                "version": "v1.7"
+              },
+              {
+                "skill": {
+                  "id": 147,
+                  "name": "wire",
+                  "tagId": 37,
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 67,
+                  "name": "GORM",
+                  "tagId": 37,
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 15,
+                  "name": "AWS SDK for Go",
+                  "tagId": 37,
+                  "url": "https://aws.amazon.com/jp/sdk-for-go/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 153,
+                  "name": "zerolog",
+                  "tagId": 37,
+                  "url": "https://github.com/rs/zerolog"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 55,
+                  "name": "EKS",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 49,
+                  "name": "DocumentDB (MongoDB 互換)",
+                  "tagId": 33,
+                  "url": "https://aws.amazon.com/jp/documentdb/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 93,
+                  "name": "MSK",
+                  "tagId": 33,
+                  "url": "https://aws.amazon.com/jp/msk/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 22,
+                  "name": "Chime",
+                  "tagId": 33,
+                  "url": "https://aws.amazon.com/jp/chime/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 134,
+                  "name": "S3",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 104,
+                  "name": "RDS(Aurora)",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 28,
+                  "name": "CloudFront",
+                  "tagId": 33
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 81,
+                  "name": "Jira",
+                  "tagId": 39,
+                  "url": "https://www.atlassian.com/ja/software/jira"
+                }
+              },
+              {
+                "skill": {
+                  "id": 40,
+                  "name": "Confluence",
+                  "tagId": 39,
+                  "url": "https://www.atlassian.com/ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 97,
+                  "name": "OpenAPI",
+                  "tagId": 40,
+                  "url": "https://www.openapis.org/"
+                },
+                "version": "v3"
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 48,
+                  "name": "docker-compose",
+                  "tagId": 40,
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 23,
+                  "name": "Clean Architecture",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 84,
+                  "name": "Kafka",
+                  "tagId": 37,
+                  "url": "https://kafka.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "１開発メンバーとして、バックエンド・フロントエンド問わず機能追加・障害対応を担当"
+            ],
+            "name": "フルスタック"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2023
+        }
+      }
+    ],
+    "id": 28,
+    "label": "EdTech系企業（大学・専門学校がターゲット）にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "学習塾生向けテキストプログラミング教育システムの新規リリース及び保守・運用。"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2022
+        },
+        "id": 85,
+        "name": "プログラミング教育システム開発・保守",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                },
+                "version": "v4.8"
+              },
+              {
+                "skill": {
+                  "id": 106,
+                  "name": "React",
+                  "tagId": 30,
+                  "url": "https://ja.reactjs.org/"
+                },
+                "version": "v18.2"
+              },
+              {
+                "skill": {
+                  "id": 109,
+                  "name": "React Router",
+                  "tagId": 37,
+                  "url": "https://reactrouter.com/en/main"
+                },
+                "version": "v6.4"
+              },
+              {
+                "skill": {
+                  "id": 107,
+                  "name": "React Hooks",
+                  "tagId": 37,
+                  "url": "https://ja.reactjs.org/docs/hooks-intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 111,
+                  "name": "Redux",
+                  "tagId": 37,
+                  "url": "https://redux.js.org/"
+                },
+                "version": "v8"
+              },
+              {
+                "skill": {
+                  "id": 112,
+                  "name": "Redux Toolkit",
+                  "tagId": 37,
+                  "url": "https://redux-toolkit.js.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 108,
+                  "name": "React Hook Form",
+                  "tagId": 37,
+                  "url": "https://react-hook-form.com/"
+                },
+                "version": "v7"
+              },
+              {
+                "skill": {
+                  "id": 43,
+                  "name": "CSS Modules",
+                  "tagId": 37,
+                  "url": "https://github.com/css-modules/css-modules"
+                }
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                },
+                "version": "v2.7"
+              },
+              {
+                "skill": {
+                  "id": 80,
+                  "name": "Jest",
+                  "tagId": 37,
+                  "url": "https://jestjs.io/ja/"
+                },
+                "version": "v27.5"
+              },
+              {
+                "skill": {
+                  "id": 115,
+                  "name": "scaffdog",
+                  "tagId": 37,
+                  "url": "https://scaff.dog/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 152,
+                  "name": "Yarn",
+                  "tagId": 40,
+                  "url": "https://yarnpkg.com/"
+                },
+                "version": "v1.22"
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.18"
+              },
+              {
+                "skill": {
+                  "id": 21,
+                  "name": "chi",
+                  "tagId": 29,
+                  "url": "https://go-chi.io/#/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 147,
+                  "name": "wire",
+                  "tagId": 37,
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 57,
+                  "name": "ent.",
+                  "tagId": 37,
+                  "url": "https://entgo.io/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 69,
+                  "name": "go-swagger",
+                  "tagId": 37,
+                  "url": "https://goswagger.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 68,
+                  "name": "goverter",
+                  "tagId": 37,
+                  "url": "https://github.com/jmattheis/goverter"
+                }
+              },
+              {
+                "skill": {
+                  "id": 127,
+                  "name": "sqldef",
+                  "tagId": 37,
+                  "url": "https://sqldef.github.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 54,
+                  "name": "EC2",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 53,
+                  "name": "ECS",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 59,
+                  "name": "Fargate",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 134,
+                  "name": "S3",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 104,
+                  "name": "RDS(Aurora)",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 105,
+                  "name": "RDS(MySQL)",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 28,
+                  "name": "CloudFront",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 24,
+                  "name": "Cloud Build",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 9,
+                  "name": "Apiary",
+                  "tagId": 39,
+                  "url": "https://apiary.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 119,
+                  "name": "SendGrid",
+                  "tagId": 39,
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 149,
+                  "name": "Wrike",
+                  "tagId": 39,
+                  "url": "https://www.wrike.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 40,
+                  "name": "Confluence",
+                  "tagId": 39,
+                  "url": "https://www.atlassian.com/ja"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 97,
+                  "name": "OpenAPI",
+                  "tagId": 40,
+                  "url": "https://www.openapis.org/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 48,
+                  "name": "docker-compose",
+                  "tagId": 40,
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 23,
+                  "name": "Clean Architecture",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 79,
+                  "name": "Jenkins",
+                  "tagId": 40,
+                  "url": "https://www.jenkins.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "１開発メンバーとして、旧ビジュアルプログラミング検定システムの保守を担当（２ヶ月程度）",
+              "１開発メンバーとして、新規テキストプログラミングシステムのバックエンド開発を担当（１ヶ月程度）"
+            ],
+            "name": "バックエンド"
+          },
+          {
+            "description": [
+              "１開発メンバーとして、新規テキストプログラミングシステムのフロントエンド開発を担当（１０ヶ月程度）",
+              "各機能開発の他、単体テストコードの拡充も担当"
+            ],
+            "name": "フロントエンド"
+          }
+        ],
+        "to": {
+          "month": 11,
+          "year": 2022
+        }
+      }
+    ],
+    "id": 27,
+    "label": "EdTech系企業（学習塾がターゲット）にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "動画広告専用の出稿管理システムの新規リリース。"
+        ],
+        "from": {
+          "month": 8,
+          "year": 2021
+        },
+        "id": 83,
+        "name": "Web広告出稿管理システム新規開発（番組表に対応した配信）",
+        "skillGroups": [
+          {
+            "label": "Frontend(SSR/SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 142,
+                  "name": "Vue.js",
+                  "tagId": 30,
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 95,
+                  "name": "NuxtJS",
+                  "tagId": 30,
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 141,
+                  "name": "Vuetify",
+                  "tagId": 37,
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 16,
+                  "name": "Axios",
+                  "tagId": 37,
+                  "url": "https://axios-http.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 80,
+                  "name": "Jest",
+                  "tagId": 37,
+                  "url": "https://jestjs.io/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 152,
+                  "name": "Yarn",
+                  "tagId": 40,
+                  "url": "https://yarnpkg.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.16"
+              },
+              {
+                "skill": {
+                  "id": 21,
+                  "name": "chi",
+                  "tagId": 29,
+                  "url": "https://go-chi.io/#/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 147,
+                  "name": "wire",
+                  "tagId": 37,
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 126,
+                  "name": "SQLBoiler",
+                  "tagId": 37,
+                  "url": "https://github.com/volatiletech/sqlboiler"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 36,
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 37,
+                  "name": "Cloud Storage",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 32,
+                  "name": "Cloud Pub/Sub",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 29,
+                  "name": "Cloud Functions",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 38,
+                  "name": "Cloud Tasks",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 34,
+                  "name": "Cloud Scheduler",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 91,
+                  "name": "Memorystore",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 10,
+                  "name": "API Gateway",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 24,
+                  "name": "Cloud Build",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 26,
+                  "name": "Cloud Deploy",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 41,
+                  "name": "Container Registry",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 14,
+                  "name": "Auth0",
+                  "tagId": 39,
+                  "url": "https://auth0.com/jp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 119,
+                  "name": "SendGrid",
+                  "tagId": 39,
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 48,
+                  "name": "docker-compose",
+                  "tagId": 40,
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 72,
+                  "name": "gRPC",
+                  "tagId": 31,
+                  "url": "https://grpc.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 73,
+                  "name": "gRPC-Gateway",
+                  "tagId": 37,
+                  "url": "https://grpc-ecosystem.github.io/grpc-gateway/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 89,
+                  "name": "Linux(Ubuntu)",
+                  "tagId": 35,
+                  "url": "https://www.ubuntulinux.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2021
+        }
+      },
+      {
+        "description": [
+          "動画広告専用の出稿管理システムの新規リリース及び保守・運用。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2019
+        },
+        "id": 84,
+        "name": "Web広告出稿管理システム新規開発（RTB/PMP）",
+        "skillGroups": [
+          {
+            "label": "Frontend(SSR/SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 142,
+                  "name": "Vue.js",
+                  "tagId": 30,
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 95,
+                  "name": "NuxtJS",
+                  "tagId": 30,
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 141,
+                  "name": "Vuetify",
+                  "tagId": 37,
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 11,
+                  "name": "Apollo",
+                  "tagId": 37,
+                  "url": "https://www.apollographql.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 102,
+                  "name": "Prettier",
+                  "tagId": 37,
+                  "url": "https://prettier.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 152,
+                  "name": "Yarn",
+                  "tagId": 40,
+                  "url": "https://yarnpkg.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.16"
+              },
+              {
+                "skill": {
+                  "id": 21,
+                  "name": "chi",
+                  "tagId": 29,
+                  "url": "https://go-chi.io/#/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 147,
+                  "name": "wire",
+                  "tagId": 37,
+                  "url": "https://github.com/google/wire"
+                }
+              },
+              {
+                "skill": {
+                  "id": 70,
+                  "name": "gqlgen",
+                  "tagId": 37,
+                  "url": "https://gqlgen.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 126,
+                  "name": "SQLBoiler",
+                  "tagId": 37,
+                  "url": "https://github.com/volatiletech/sqlboiler"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 65,
+                  "name": "GKE",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 33,
+                  "name": "Cloud Run",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 36,
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 37,
+                  "name": "Cloud Storage",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 32,
+                  "name": "Cloud Pub/Sub",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 29,
+                  "name": "Cloud Functions",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 61,
+                  "name": "Firestore(Native mode)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 38,
+                  "name": "Cloud Tasks",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 34,
+                  "name": "Cloud Scheduler",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 24,
+                  "name": "Cloud Build",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 26,
+                  "name": "Cloud Deploy",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 41,
+                  "name": "Container Registry",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 14,
+                  "name": "Auth0",
+                  "tagId": 39,
+                  "url": "https://auth0.com/jp"
+                }
+              },
+              {
+                "skill": {
+                  "id": 119,
+                  "name": "SendGrid",
+                  "tagId": 39,
+                  "url": "https://www.twilio.com/ja/sendgrid/email-api"
+                }
+              },
+              {
+                "skill": {
+                  "id": 120,
+                  "name": "Sentry",
+                  "tagId": 39,
+                  "url": "https://sentry.io/welcome/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 48,
+                  "name": "docker-compose",
+                  "tagId": 40,
+                  "url": "https://docs.docker.jp/compose/toc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 71,
+                  "name": "GraphQL",
+                  "tagId": 31,
+                  "url": "https://graphql.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 89,
+                  "name": "Linux(Ubuntu)",
+                  "tagId": 35,
+                  "url": "https://www.ubuntulinux.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能開発・品質強化を機能、技術スタック、得意フェーズ問わず全般的に担当"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 7,
+          "year": 2021
+        }
+      }
+    ],
+    "id": 26,
+    "label": "AdTech系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "サービス毎に異なるプログラミング言語・アーキテクチャを持つ医療系ポータルサイト"
+        ],
+        "from": {
+          "month": 6,
+          "year": 2019
+        },
+        "id": 82,
+        "name": "医療系ポータルサイトWebシステム保守・運用",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 142,
+                  "name": "Vue.js",
+                  "tagId": 30,
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              },
+              {
+                "skill": {
+                  "id": 124,
+                  "name": "Spring",
+                  "tagId": 29,
+                  "url": "https://spring.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 116,
+                  "name": "Scala",
+                  "tagId": 28,
+                  "url": "https://www.scala-lang.org/"
+                },
+                "version": "v2.11"
+              },
+              {
+                "skill": {
+                  "id": 100,
+                  "name": "play",
+                  "tagId": 29,
+                  "url": "https://www.playframework.com/"
+                },
+                "version": "v2.4"
+              },
+              {
+                "skill": {
+                  "id": 86,
+                  "name": "Kotlin",
+                  "tagId": 28,
+                  "url": "https://kotlinlang.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 53,
+                  "name": "ECS",
+                  "tagId": 33
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 136,
+                  "name": "Terraform",
+                  "tagId": 34,
+                  "url": "https://www.terraform.io/"
+                },
+                "version": "v0.11"
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "Java8/Springで構築されたサービスのエンハンス開発",
+              "Scala2.11/play2.4で構築されたサービスのエンハンス開発",
+              "Kotlin/SpringBoot/Vue.jsで構築されたサービスのエンハンス開発etc..."
+            ],
+            "name": "バックエンド/フロントエンド"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2019
+        }
+      }
+    ],
+    "id": 25,
+    "label": "MedTech系企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "防災用のIoT機器に対してWeb上からAPI経由で指示を出したり状態を管理するサービス"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2018
+        },
+        "id": 79,
+        "name": "防災用IoT機器管理Webシステム新規開発",
+        "skillGroups": [
+          {
+            "label": "Frontend(SPA)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 142,
+                  "name": "Vue.js",
+                  "tagId": 30,
+                  "url": "https://jp.vuejs.org/index.html"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 95,
+                  "name": "NuxtJS",
+                  "tagId": 30,
+                  "url": "https://nuxtjs.org/ja/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 143,
+                  "name": "Vuex",
+                  "tagId": 37,
+                  "url": "https://vuex.vuejs.org/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 141,
+                  "name": "Vuetify",
+                  "tagId": 37,
+                  "url": "https://vuetifyjs.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 16,
+                  "name": "Axios",
+                  "tagId": 37,
+                  "url": "https://axios-http.com/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.11"
+              },
+              {
+                "skill": {
+                  "id": 51,
+                  "name": "Echo",
+                  "tagId": 29,
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 67,
+                  "name": "GORM",
+                  "tagId": 37,
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 12,
+                  "name": "App Engine(Golang Standard)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 36,
+                  "name": "Cloud SQL(PostgreSQL)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 25,
+                  "name": "Cloud Datastore",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 19,
+                  "name": "Bigtable",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 31,
+                  "name": "Cloud Functions(Node.js/TypeScript)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 60,
+                  "name": "Firebase Authentication",
+                  "tagId": 41,
+                  "url": "https://firebase.google.com/docs/auth?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 113,
+                  "name": "REST",
+                  "tagId": 31,
+                  "url": "https://developer.mozilla.org/ja/docs/Glossary/REST"
+                }
+              },
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "プロトタイプ作成。"
+            ],
+            "name": "Backend(Go)側"
+          },
+          {
+            "description": [
+              "各機能(認証認可, お知らせ機能, 各種バッチ関連)の実装。"
+            ],
+            "name": "Frontend(Vue/Nuxt.js)側"
+          }
+        ],
+        "to": {
+          "month": 5,
+          "year": 2019
+        }
+      },
+      {
+        "description": [
+          "顧客の購買状況・行動を分析するサービス"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2018
+        },
+        "id": 80,
+        "name": "購買分析基盤新規開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 13,
+                  "name": "App Engine(Java Standard)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 25,
+                  "name": "Cloud Datastore",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 18,
+                  "name": "BigQuery",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "分析APIのベース部分の実装。（期間限定のサポート要員として参画）"
+            ],
+            "name": "Backend"
+          }
+        ],
+        "to": {
+          "month": 11,
+          "year": 2018
+        }
+      },
+      {
+        "description": [
+          "手書きの帳票を、あらかじめ登録しておいたテンプレートと突き合わせて（WebAPIを使って）識字分析するサービス"
+        ],
+        "from": {
+          "month": 8,
+          "year": 2018
+        },
+        "id": 81,
+        "name": "手書き帳票の識字Webシステム新規開発",
+        "skillGroups": [
+          {
+            "label": "Frontend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 6,
+                  "name": "Angular",
+                  "tagId": 30,
+                  "url": "https://angular.jp/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 138,
+                  "name": "TypeScript",
+                  "tagId": 28,
+                  "url": "https://www.typescriptlang.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v1.8"
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 13,
+                  "name": "App Engine(Java Standard)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 25,
+                  "name": "Cloud Datastore",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 18,
+                  "name": "BigQuery",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 27,
+                  "name": "Cloud Endpoints",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 60,
+                  "name": "Firebase Authentication",
+                  "tagId": 41,
+                  "url": "https://firebase.google.com/docs/auth?hl=ja"
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 90,
+                  "name": "MacOS",
+                  "tagId": 35,
+                  "url": "https://www.apple.com/jp/macos/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能改修全般。及びテストコードの充実化。"
+            ],
+            "name": "Backend"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2018
+        }
+      }
+    ],
+    "id": 24,
+    "label": "Google Cloud Platformパートナー会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "企業のFacebookボットとエンドユーザとのメッセージのやり取りをフックし、あらかじめ管理画面で設定したシナリオに応じたコンテンツを返却するサービス"
+        ],
+        "from": {
+          "month": 12,
+          "year": 2017
+        },
+        "id": 77,
+        "name": "Facebookメッセンジャーチャットボット開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.9"
+              },
+              {
+                "skill": {
+                  "id": 51,
+                  "name": "Echo",
+                  "tagId": 29,
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 67,
+                  "name": "GORM",
+                  "tagId": 37,
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 72,
+                  "name": "gRPC",
+                  "tagId": 31,
+                  "url": "https://grpc.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(GCP)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 65,
+                  "name": "GKE",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 35,
+                  "name": "Cloud SQL(MySQL)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 25,
+                  "name": "Cloud Datastore",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 32,
+                  "name": "Cloud Pub/Sub",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 30,
+                  "name": "Cloud Functions(Golang)",
+                  "tagId": 32
+                }
+              },
+              {
+                "skill": {
+                  "id": 41,
+                  "name": "Container Registry",
+                  "tagId": 32
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 92,
+                  "name": "MicroService",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 89,
+                  "name": "Linux(Ubuntu)",
+                  "tagId": 35,
+                  "url": "https://www.ubuntulinux.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "FacebookメッセンジャーAPIを使用したチャットボット機能の設計・開発・テスト等。",
+              "- Facebookから送信されるメッセージを受信してキューに積む機能",
+              "- エンドユーザのメッセンジャー端末に表示対象コンテンツを送信する機能",
+              "- エンドユーザのメッセンジャー端末に送信すべき内容を（AI機能を持つ他サービスから取得し）加工する機能"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2018
+        }
+      },
+      {
+        "description": [
+          "企業のLINEページにてエンドユーザとのやり取り（FAQやアンケート回答等）をWebhookのメッセージとして受信し、あらかじめ管理画面にて設定した特定キーワードに対する応答コンテンツなどを返す。",
+          "また、蓄積したエンドユーザとのメッセージのやり取りやアンケート回答結果からセグメンテーションを行い、セグメントを絞ったLINEメッセージを一斉配信する。"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2016
+        },
+        "id": 78,
+        "name": "LINEチャットボット開発",
+        "skillGroups": [
+          {
+            "label": "Backend",
+            "skills": [
+              {
+                "skill": {
+                  "id": 66,
+                  "name": "Golang",
+                  "tagId": 28,
+                  "url": "https://go.dev/"
+                },
+                "version": "v1.7"
+              },
+              {
+                "skill": {
+                  "id": 103,
+                  "name": "Python",
+                  "tagId": 28,
+                  "url": "https://www.python.jp/"
+                },
+                "version": "v2"
+              },
+              {
+                "skill": {
+                  "id": 51,
+                  "name": "Echo",
+                  "tagId": 29,
+                  "url": "https://echo.labstack.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 67,
+                  "name": "GORM",
+                  "tagId": 37,
+                  "url": "https://gorm.io/ja_JP/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 72,
+                  "name": "gRPC",
+                  "tagId": 31,
+                  "url": "https://grpc.io/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Infra(AWS)",
+            "skills": [
+              {
+                "skill": {
+                  "id": 54,
+                  "name": "EC2",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 134,
+                  "name": "S3",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 28,
+                  "name": "CloudFront",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 129,
+                  "name": "SQS",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 105,
+                  "name": "RDS(MySQL)",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 50,
+                  "name": "DynamoDB",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 110,
+                  "name": "RedShift",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 56,
+                  "name": "ElastiCache",
+                  "tagId": 33
+                }
+              },
+              {
+                "skill": {
+                  "id": 52,
+                  "name": "ECR",
+                  "tagId": 33
+                }
+              }
+            ]
+          },
+          {
+            "label": "External Services",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Others",
+            "skills": [
+              {
+                "skill": {
+                  "id": 47,
+                  "name": "docker",
+                  "tagId": 40,
+                  "url": "https://www.docker.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 7,
+                  "name": "Ansible",
+                  "tagId": 34,
+                  "url": "https://www.ansible.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 140,
+                  "name": "Vagrant",
+                  "tagId": 34,
+                  "url": "https://www.vagrantup.com/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 139,
+                  "name": "UML",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 92,
+                  "name": "MicroService",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 89,
+                  "name": "Linux(Ubuntu)",
+                  "tagId": 35,
+                  "url": "https://www.ubuntulinux.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "LINE-APIを使用したチャットボット機能の設計・開発・テスト・リリース作業等。",
+              "LINEから送信されるメッセージを受信、対応するコンテンツを返却するバックエンド側のメイン動線を担当。"
+            ],
+            "name": "バックエンド"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2017
+        }
+      }
+    ],
+    "id": 23,
+    "label": "AdTech系システム会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ネット予約No.1サービス"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2016
+        },
+        "id": 75,
+        "name": "飲食店予約サービスエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 82,
+                  "name": "JP1",
+                  "tagId": 39,
+                  "url": "https://www.hitachi.co.jp/Prod/comp/soft1/jp1/index.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "機能拡張、不具合修正の案件に要件を詰める段階からリリースまで担当。"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2016
+        }
+      },
+      {
+        "description": [
+          "オンラインでの授業動画視聴とドリル実施機能を提供し、実施結果を集約・分析することで、保護者への学習状況伝達や子供への次にトライすべき授業の促しなどを行う。"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2014
+        },
+        "id": 76,
+        "name": "小学生・中学生向け教育Webアプリエンハンス開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 139,
+                  "name": "UML",
+                  "tagId": 40
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 63,
+                  "name": "GitHub",
+                  "tagId": 39,
+                  "url": "https://github.co.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 117,
+                  "name": "Scrum",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 4,
+                  "name": "Ajax",
+                  "tagId": 40,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "2015/03まではサービスの商用化（決済機能付加）に向けた開発要員として参加。",
+              "メインとなる決済機能の方式設計から共通機能の実装部分を主に担当。",
+              "2015/04の商用化後の開発では追加機能（アンケート機能付加等）案件のアーキテクトとして参加。"
+            ],
+            "name": "ウォーターフォール開発（2014/11～2015/04）"
+          },
+          {
+            "description": [
+              "チームビルディングから参加。",
+              "クロスファンクショナルに全機能、全工程を横断的に実施。",
+              "主な着手案件は、「決済機能の追加」、「学習実績に応じたミッション提示機能の追加」、「保護者への（子供の）学習状況提示機能の追加」など。"
+            ],
+            "name": "Scrum開発（2015/05～2016/03）"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2016
+        }
+      }
+    ],
+    "id": 22,
+    "label": "某グループ企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iOS/AndroidアプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2014
+        },
+        "id": 73,
+        "name": "某大手損保会社が所有するアプリを集約するポータルサイト構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 94,
+                  "name": "MySQL",
+                  "tagId": 36,
+                  "url": "https://www.mysql.com/jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 156,
+                  "name": "サイボウズ",
+                  "tagId": 39,
+                  "url": "https://cybozu.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ／Batch 担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】",
+              "(6)リリース後運用方式検討担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      },
+      {
+        "description": [
+          "ビジネスロジックはWebシステムにて実現し、iPad/Androidタブレット用アプリがWebView内でWebシステムにアクセスする。"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2013
+        },
+        "id": 74,
+        "name": "某大手損保会社の保険料試算システムの保守・運用　※上のプロジェクトと期間重複",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                },
+                "version": "v6"
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 8,
+                  "name": "Apache",
+                  "tagId": 38,
+                  "url": "https://httpd.apache.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 137,
+                  "name": "Tomcat",
+                  "tagId": 38,
+                  "url": "https://tomcat.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 156,
+                  "name": "サイボウズ",
+                  "tagId": 39,
+                  "url": "https://cybozu.co.jp/"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "定期的に発生する保険料試算条件・項目見直しに伴うアプリ改修やエンドユーザ企業の２社統合に伴うシステムリプレースに着手。",
+              "以下のチーム体制となり、(3)を担当。",
+              "(1)プロジェクトマネージャ【１名】",
+              "(2)プロジェクトリーダー【１名】",
+              "(3)Webアプリ／Androidアプリ担当【１名】",
+              "(4)iOSアプリ担当【１名】",
+              "(5)テスト／その他作業担当【１名】"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2014
+        }
+      }
+    ],
+    "id": 21,
+    "label": "某サービス企業にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "静的サイトリニューアルや動画配信サイト構築等"
+        ],
+        "from": {
+          "month": 3,
+          "year": 2012
+        },
+        "id": 71,
+        "name": "各種Webサイト構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 99,
+                  "name": "PHP",
+                  "tagId": 28,
+                  "url": "https://www.php.net/"
+                },
+                "version": "v5"
+              },
+              {
+                "skill": {
+                  "id": 103,
+                  "name": "Python",
+                  "tagId": 28,
+                  "url": "https://www.python.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 85,
+                  "name": "Kohana",
+                  "tagId": 29
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 94,
+                  "name": "MySQL",
+                  "tagId": 36,
+                  "url": "https://www.mysql.com/jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 87,
+                  "name": "Linux(CentOS)",
+                  "tagId": 35,
+                  "url": "https://www.centos.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 42,
+                  "name": "CSS",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 4,
+                  "name": "Ajax",
+                  "tagId": 40,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/Guide/AJAX"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "別担当者が概要をまとめた要件に基づいて、設計からリリース、保守・運用まで全機能一人で担当。",
+              "以下、案件群を開発",
+              "- 某ゴルフ雑誌　静的サイトリニューアル",
+              "- 某娯楽メーカー動画配信サイト構築",
+              "- 某メーカーの子ども向け動画配信サイト構築",
+              "- 某メーカーのアニメ配信サイト構築",
+              "- 某ファッション口コミ情報共有サイト構築"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 6,
+          "year": 2013
+        }
+      },
+      {
+        "description": [
+          "Androidアプリの設計・実装・テスト全般。"
+        ],
+        "from": {
+          "month": 10,
+          "year": 2011
+        },
+        "id": 72,
+        "name": "某大手ゴルフメーカー向け販促用Androidアプリ開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 128,
+                  "name": "SQLite",
+                  "tagId": 36,
+                  "url": "https://www.sqlite.org/index.html"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 5,
+                  "name": "Android(Java)",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 42,
+                  "name": "CSS",
+                  "tagId": 40
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "画面デザイン会社担当者との打ち合わせ、仕様の詰め、及び、機能の実現可否の調査・検討、画面（遷移）・DB・SD保存情報・プリファレンス保持情報等、各種設計・実装。",
+              "対象機種ごとのテスト・不具合改修まで、デザイン・要件決定以後の全タスクを担当。",
+              "また、アプリリリース後、製品カタログの更新や機能追加も担当。"
+            ],
+            "name": "詳細"
+          },
+          {
+            "description": [
+              "主担当としてアサインされる。サポート役として別要員１名。"
+            ],
+            "name": "要員"
+          },
+          {
+            "description": [
+              "- スイングチェック（自分のスイングを録画。Webから落としたプロプレイヤーのスイング動画と同時比較再生。再生動画に線や○を表示しスイング軌道や重心の確認。）",
+              "- 製品カタログ表示(WebView)",
+              "- CM再生(BrightcovePlayer)",
+              "- クラブ、ボール選択チャート(WebView)",
+              "- 壁紙ダウンロード、壁紙設定"
+            ],
+            "name": "実装機能群"
+          }
+        ],
+        "to": {
+          "month": 2,
+          "year": 2012
+        }
+      }
+    ],
+    "id": 20,
+    "label": "某動画配信サービスシステム会社にて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 6,
+          "year": 2011
+        },
+        "id": 68,
+        "name": "某大手システム会社向けネットワーク管理システム開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS・プラットフォーム",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 144,
+                  "name": "WebNMS",
+                  "tagId": 39,
+                  "url": "https://www.webnms.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 121,
+                  "name": "SNMP",
+                  "tagId": 40
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2011
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 8,
+          "year": 2010
+        },
+        "id": 69,
+        "name": "某大手通信会社コンテンツ会員管理システム開発",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 114,
+                  "name": "SAStruts",
+                  "tagId": 29,
+                  "url": "https://sastruts.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 133,
+                  "name": "S2JDBC",
+                  "tagId": 37,
+                  "url": "https://s2container.seasar.org/2.4/ja/s2jdbc.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 17,
+                  "name": "Axis2",
+                  "tagId": 37,
+                  "url": "https://axis.apache.org/axis2/java/core/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 101,
+                  "name": "PostgreSQL",
+                  "tagId": 36,
+                  "url": "https://www.postgresql.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 122,
+                  "name": "SOAP",
+                  "tagId": 31
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "リモートサポートサービス申込み機能",
+              "Wifiスポット申込み機能",
+              "パスポートID登録機能"
+            ],
+            "name": "機能"
+          },
+          {
+            "description": [
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 5,
+          "year": 2011
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2010
+        },
+        "id": 70,
+        "name": "某大手不動産ポータルサイトリニューアル",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 124,
+                  "name": "Spring",
+                  "tagId": 29,
+                  "url": "https://spring.io/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 75,
+                  "name": "iBatis",
+                  "tagId": 37,
+                  "url": "https://ibatis.apache.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 101,
+                  "name": "PostgreSQL",
+                  "tagId": 36,
+                  "url": "https://www.postgresql.jp/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "集計バッチチーム"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 8,
+          "year": 2010
+        }
+      }
+    ],
+    "id": 19,
+    "label": "某システム会社経由の各種プロジェクトにて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 7,
+          "year": 2009
+        },
+        "id": 62,
+        "name": "SaaS基盤管理UIリプレース",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 135,
+                  "name": "TERASOLUNA",
+                  "tagId": 29,
+                  "url": "https://www.terasoluna.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "AmazonWebServiceと同等のサービスを構築する研究プロジェクト。"
+            ],
+            "name": "詳細"
+          },
+          {
+            "description": [
+              "認証・認可チーム",
+              "オンラインストレージ管理チーム。"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "４名チームの中でサブリーダーとして「オンラインストレージ」管理機能を担当（AmazonS3に相当）。",
+              "AmazonS3の英語マニュアルを元にUIを設計・実装。試験まで担当。"
+            ],
+            "name": "担当役割"
+          },
+          {
+            "description": [
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2010
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 5,
+          "year": 2009
+        },
+        "id": 63,
+        "name": "某大手コンビニエンスストア基盤リプレース",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 39,
+                  "name": "COBOL",
+                  "tagId": 28,
+                  "url": "https://www.cobol.co.jp/cobol-nyuumon/kiso/k001/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 46,
+                  "name": "Delphi",
+                  "tagId": 40,
+                  "url": "https://www.embarcadero.com/jp/products/delphi"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "現行解析チーム"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 5,
+          "year": 2009
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 3,
+          "year": 2009
+        },
+        "id": 64,
+        "name": "次世代ネットワーク回収代行システム構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "その他",
+            "skills": [
+              {
+                "skill": {
+                  "id": 122,
+                  "name": "SOAP",
+                  "tagId": 31
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "サービス登録・解約機能チーム"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 4,
+          "year": 2009
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 5,
+          "year": 2008
+        },
+        "id": 65,
+        "name": "某大手銀行グループファイナンスサービス会社の決済代行システム構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 118,
+                  "name": "Seasar2",
+                  "tagId": 29,
+                  "url": "https://www.seasar.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 132,
+                  "name": "S2Dao",
+                  "tagId": 37,
+                  "url": "http://s2dao.seasar.org/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 148,
+                  "name": "Workshop NetUI",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wlw/docs103/guide/webapplications/netui/conIntro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 58,
+                  "name": "EJB",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "決済種別ごとの基本情報管理(契約企業の情報、契約自体の情報も管理)／決済代行業のシステム化"
+            ],
+            "name": "詳細"
+          },
+          {
+            "description": [
+              "マスタ管理チームとして基本情報管理を担当。",
+              "決済情報管理グループのリーダーとしてアサインされる。１決済種別の設計・実装を担当しつつ、下に決済種別ごと最大５名のプログラマーがつく。"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "基本設計チームがおこした設計書を元に、決済種別ごと(銀行振込、クレジット決済、郵便振込、コンビニ払込み、ペイジー等)の基本情報をマスタ管理する機能を実装。"
+            ],
+            "name": "作業内容"
+          },
+          {
+            "description": [
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 2,
+          "year": 2009
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2007
+        },
+        "id": 66,
+        "name": "某大手電機メーカー営業支援システム運用・保守",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 125,
+                  "name": "SQL",
+                  "tagId": 28
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "フレームワーク・ライブラリ・ミドルウェア",
+            "skills": [
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          },
+          {
+            "label": "外部サービス",
+            "skills": [
+              {
+                "skill": {
+                  "id": 145,
+                  "name": "WebSAM",
+                  "tagId": 39,
+                  "url": "https://jpn.nec.com/websam/index.html"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "バッチ・運用・リリース管理チーム"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "要件定義",
+              "基本設計",
+              "詳細設計",
+              "実装",
+              "テスト",
+              "運用"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "SE",
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2008
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 8,
+          "year": 2006
+        },
+        "id": 67,
+        "name": "貿易保険引受業務システム構築",
+        "skillGroups": [
+          {
+            "label": "言語",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              }
+            ]
+          },
+          {
+            "label": "DB",
+            "skills": [
+              {
+                "skill": {
+                  "id": 45,
+                  "name": "DB2",
+                  "tagId": 36,
+                  "url": "https://www.ibm.com/jp-ja/products/db2"
+                }
+              }
+            ]
+          },
+          {
+            "label": "OS",
+            "skills": [
+              {
+                "skill": {
+                  "id": 3,
+                  "name": "AIX",
+                  "tagId": 35,
+                  "url": "https://www.ibm.com/jp-ja/products/aix"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "契約情報FD登録・契約台帳PDF出力機能構築チーム"
+            ],
+            "name": "チーム"
+          },
+          {
+            "description": [
+              "詳細設計",
+              "実装",
+              "テスト"
+            ],
+            "name": "開発工程"
+          },
+          {
+            "description": [
+              "PG"
+            ],
+            "name": "担当役割"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2006
+        }
+      }
+    ],
+    "id": 18,
+    "label": "某SIer経由の各種プロジェクトにて就労"
+  },
+  {
+    "careers": [
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2006
+        },
+        "id": 56,
+        "name": "某検索ポータルサイトリニューアル",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 103,
+                  "name": "Python",
+                  "tagId": 28,
+                  "url": "https://www.python.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 94,
+                  "name": "MySQL",
+                  "tagId": 36,
+                  "url": "https://www.mysql.com/jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "ニュース配信バッチチーム"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 8,
+          "year": 2006
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 11,
+          "year": 2005
+        },
+        "id": 57,
+        "name": "デジタルアーカイブ検索システムカスタマイズ",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 101,
+                  "name": "PostgreSQL",
+                  "tagId": 36,
+                  "url": "https://www.postgresql.jp/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 88,
+                  "name": "Linux(Red Hat)",
+                  "tagId": 35,
+                  "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux"
+                }
+              },
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              },
+              {
+                "skill": {
+                  "id": 151,
+                  "name": "XSLT",
+                  "tagId": 40,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/XSLT"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "META検索機能カスタマイズチーム"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 3,
+          "year": 2006
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 1,
+          "year": 2005
+        },
+        "id": 58,
+        "name": "某大手クレジットカード会社次世代基幹システム構築",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 58,
+                  "name": "EJB",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs92/ejb/understanding.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 45,
+                  "name": "DB2",
+                  "tagId": 36,
+                  "url": "https://www.ibm.com/jp-ja/products/db2"
+                }
+              },
+              {
+                "skill": {
+                  "id": 154,
+                  "name": "z/OS",
+                  "tagId": 35,
+                  "url": "https://www.ibm.com/products/zos"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "基本情報管理チーム。",
+              "【詳細】主に検索機能の画面設計を担当。画面設計書、画面遷移図の作成、及び、レビューのためのモックアップ作成。また、基本情報管理機能全体としてのER図作成も担当。"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 9,
+          "year": 2005
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 6,
+          "year": 2004
+        },
+        "id": 59,
+        "name": "i アプリ実行プラットフォームソフトバージョンアップ",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 155,
+                  "name": "組み込みOS",
+                  "tagId": 35
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "品質保証チーム"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 12,
+          "year": 2004
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 12,
+          "year": 2002
+        },
+        "id": 60,
+        "name": "モバイルEdyシステム構築",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 139,
+                  "name": "UML",
+                  "tagId": 40
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "マスタメンテナンスチーム"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 4,
+          "year": 2004
+        }
+      },
+      {
+        "description": [
+          "-"
+        ],
+        "from": {
+          "month": 4,
+          "year": 2002
+        },
+        "id": 61,
+        "name": "某企業社内人材紹介・人材派遣情報管理システム構築",
+        "skillGroups": [
+          {
+            "label": "-",
+            "skills": [
+              {
+                "skill": {
+                  "id": 76,
+                  "name": "Java",
+                  "tagId": 28,
+                  "url": "https://www.java.com/ja/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 74,
+                  "name": "HTML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 77,
+                  "name": "JavaScript",
+                  "tagId": 28,
+                  "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript"
+                }
+              },
+              {
+                "skill": {
+                  "id": 150,
+                  "name": "XML",
+                  "tagId": 40,
+                  "url": "https://www.w3.org/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 131,
+                  "name": "Struts",
+                  "tagId": 29,
+                  "url": "https://netbeans.apache.org/kb/docs/web/quickstart-webapps-struts_ja.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 83,
+                  "name": "JSP",
+                  "tagId": 37,
+                  "url": "https://docs.oracle.com/cd/F25597_01/document/products/wls/docs81/jsp/intro.html"
+                }
+              },
+              {
+                "skill": {
+                  "id": 78,
+                  "name": "JavaServlet",
+                  "tagId": 37
+                }
+              },
+              {
+                "skill": {
+                  "id": 98,
+                  "name": "Oracle",
+                  "tagId": 36,
+                  "url": "https://www.oracle.com/jp/database/technologies/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 123,
+                  "name": "Solaris",
+                  "tagId": 35,
+                  "url": "https://www.oracle.com/jp/solaris/solaris11/"
+                }
+              },
+              {
+                "skill": {
+                  "id": 146,
+                  "name": "Windows",
+                  "tagId": 35,
+                  "url": "https://www.microsoft.com/ja-jp/windows"
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "description": [
+              "各システム機能全般の製造・テスト"
+            ],
+            "name": "-"
+          }
+        ],
+        "to": {
+          "month": 11,
+          "year": 2002
+        }
+      }
+    ],
+    "id": 17,
+    "label": "正社員時代の約４年半のサマリ"
+  }
+]
