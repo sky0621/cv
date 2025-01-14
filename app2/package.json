@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.14.0",
     "@fontsource/inter": "^5.1.1",
     "@mui/joy": "^5.0.0-beta.51",
-    "next": "15.1.4",
+    "next": "^15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
