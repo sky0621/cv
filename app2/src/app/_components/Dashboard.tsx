@@ -11,6 +11,9 @@ import {
 } from "@/app/_components/interfaces/CareerInterfaces";
 import { ISkillDetail } from "@/app/_components/interfaces/SkillInterfaces";
 import { INote } from "@/app/_components/interfaces/NoteInterfaces";
+import React from "react";
+import { CircularProgress, Sheet } from "@mui/joy";
+// import { CssBaseline, CssVarsProvider } from "@mui/joy";
 
 type Props = {
   attribute: IAttribute | null;
@@ -23,8 +26,16 @@ type Props = {
 
 export default function Dashboard(props: Props) {
   return (
+    // <CssVarsProvider>
+    //   <CssBaseline />
     <div>
       Dashboard
+      <div>
+        <Sheet variant="outlined">Welcome!</Sheet>
+      </div>
+      <div>
+        <CircularProgress />
+      </div>
       <div>{props.attribute?.name}</div>
       <div>
         {props.careerGroups?.map((careerGroup: ICareerGroup, idx: number) => (
@@ -42,5 +53,6 @@ export default function Dashboard(props: Props) {
         ))}
       </div>
     </div>
+    // </CssVarsProvider>
   );
 }

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import React from "react";
+import "@fontsource/inter";
+import BaseProvider from "@/app/_components/BaseProvider";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "sky0621 - CV",
@@ -13,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <body>
+        <BaseProvider>{children}</BaseProvider>
+      </body>
     </html>
   );
 }
