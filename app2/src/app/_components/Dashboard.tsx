@@ -12,7 +12,15 @@ import {
 import { ISkillDetail } from "@/app/_components/interfaces/SkillInterfaces";
 import { INote } from "@/app/_components/interfaces/NoteInterfaces";
 import React from "react";
-import { CircularProgress, Sheet, Tab, TabList, Tabs } from "@mui/joy";
+import {
+  CircularProgress,
+  ListItemDecorator,
+  Sheet,
+  Tab,
+  TabList,
+  Tabs,
+} from "@mui/joy";
+import AttributionIcon from "@mui/icons-material/Attribution";
 
 type Props = {
   attribute: IAttribute | null;
@@ -33,7 +41,12 @@ export default function Dashboard(props: Props) {
         defaultValue={0}
       >
         <TabList disableUnderline sticky="top">
-          <Tab>Attribute</Tab>
+          <Tab>
+            <ListItemDecorator>
+              <AttributionIcon />
+            </ListItemDecorator>
+            Attribute
+          </Tab>
           <Tab>Skill</Tab>
           <Tab>Career</Tab>
           <Tab>Note</Tab>

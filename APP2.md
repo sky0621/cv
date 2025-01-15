@@ -13,7 +13,7 @@ yarn add @mui/joy @emotion/react @emotion/styled
 ```
 
 ```
-yarn add @fontsource/inter
+yarn add @mui/icons-material
 ```
 
 old
