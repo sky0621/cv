@@ -12,8 +12,7 @@ import {
 import { ISkillDetail } from "@/app/_components/interfaces/SkillInterfaces";
 import { INote } from "@/app/_components/interfaces/NoteInterfaces";
 import React from "react";
-import { CircularProgress, Sheet } from "@mui/joy";
-// import { CssBaseline, CssVarsProvider } from "@mui/joy";
+import { CircularProgress, Sheet, Tab, TabList, Tabs } from "@mui/joy";
 
 type Props = {
   attribute: IAttribute | null;
@@ -26,10 +25,20 @@ type Props = {
 
 export default function Dashboard(props: Props) {
   return (
-    // <CssVarsProvider>
-    //   <CssBaseline />
     <div>
-      Dashboard
+      <Tabs
+        aria-label="Dashboard Tabs"
+        orientation="horizontal"
+        size="lg"
+        defaultValue={0}
+      >
+        <TabList disableUnderline sticky="top">
+          <Tab>Attribute</Tab>
+          <Tab>Skill</Tab>
+          <Tab>Career</Tab>
+          <Tab>Note</Tab>
+        </TabList>
+      </Tabs>
       <div>
         <Sheet variant="outlined">Welcome!</Sheet>
       </div>
