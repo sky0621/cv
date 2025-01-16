@@ -5,7 +5,6 @@ type Props = {
 };
 
 export default function SkillPage(props: Props) {
-  console.info(props.skills);
   return (
     <div>
       {props.skills.map((skill, i) => (

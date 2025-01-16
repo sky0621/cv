@@ -8,7 +8,7 @@ import {
 import { ICareerGroup } from "@/app/_components/interfaces/CareerInterfaces";
 import { INote } from "@/app/_components/interfaces/NoteInterfaces";
 import React from "react";
-import { ListItemDecorator, Tab, TabList, TabPanel, Tabs } from "@mui/joy";
+import { Tab, tabClasses, TabList, TabPanel, Tabs } from "@mui/joy";
 import AttributionIcon from "@mui/icons-material/Attribution";
 import EditNoteIcon from "@mui/icons-material/EditNote";
 import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
@@ -32,33 +32,38 @@ export default function Dashboard(props: Props) {
   return (
     <Tabs
       aria-label="Dashboard Tabs"
-      orientation="horizontal"
       size="lg"
       defaultValue="attribute"
+      sx={{ bgcolor: "transparent" }}
     >
-      <TabList disableUnderline variant="soft" sticky="top">
+      <TabList
+        sticky="top"
+        disableUnderline
+        sx={{
+          p: 0.4,
+          gap: 0.4,
+          borderRadius: "lg",
+          bgcolor: "background.level2",
+          [`& .${tabClasses.root}[aria-selected="true"]`]: {
+            boxShadow: "md",
+            bgcolor: "background.level1",
+          },
+        }}
+      >
         <Tab value="attribute">
-          <ListItemDecorator>
-            <AttributionIcon />
-          </ListItemDecorator>
+          <AttributionIcon />
           Attribute
         </Tab>
         <Tab value="skill">
-          <ListItemDecorator>
-            <LaptopIcon />
-          </ListItemDecorator>
+          <LaptopIcon />
           Skill
         </Tab>
         <Tab value="career">
-          <ListItemDecorator>
-            <EditNoteIcon />
-          </ListItemDecorator>
+          <EditNoteIcon />
           Career
         </Tab>
         <Tab value="note">
-          <ListItemDecorator>
-            <ErrorOutlineIcon />
-          </ListItemDecorator>
+          <ErrorOutlineIcon />
           Note
         </Tab>
       </TabList>
