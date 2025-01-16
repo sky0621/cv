@@ -13,12 +13,12 @@ export interface ISkillVersion {
 
 export interface ISkillDetail {
   name: string;
-  period: number; // 累計経験期間
+  period: number;
   url?: string;
   versions: ISkillVersion[];
 }
 
-export interface ISkillsFile {
-  tagName: string; // 例: "プログラミング言語"
+export interface ISkill {
+  tagName: string;
   skills: ISkillDetail[];
 }

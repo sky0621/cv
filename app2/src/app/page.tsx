@@ -7,7 +7,7 @@ import {
   IQualification,
 } from "./_components/interfaces/AboutInterfaces";
 import { ICareerGroup } from "./_components/interfaces/CareerInterfaces";
-import { ISkillsFile } from "./_components/interfaces/SkillInterfaces";
+import { ISkill } from "./_components/interfaces/SkillInterfaces";
 import { INote } from "./_components/interfaces/NoteInterfaces";
 import Dashboard from "@/app/_components/Dashboard";
 
@@ -24,7 +24,7 @@ export default function HomePage() {
   let activities: IActivity[] = [];
   let qualifications: IQualification[] = [];
   let careerGroups: ICareerGroup[] = [];
-  let skills: ISkillsFile = { skills: [], tagName: "" };
+  let skills: ISkill[] = [];
   let notes: INote[] = [];
 
   try {
@@ -51,11 +51,11 @@ export default function HomePage() {
 
   return (
     <Dashboard
-      attribute={attribute}
+      attribute={attribute!}
       activities={activities}
       qualifications={qualifications}
       careerGroups={careerGroups}
-      skills={skills.skills}
+      skills={skills}
       notes={notes}
     />
   );
