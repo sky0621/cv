@@ -1,15 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import {
-  Box,
-  Drawer,
-  IconButton,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemContent,
-} from "@mui/joy";
+import { Box, Drawer, IconButton, Link, List, ListItem } from "@mui/joy";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useMediaQuery } from "@mui/material";
@@ -34,7 +26,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
   const sidebarContent = (
     <Box
       sx={{
-        width: isCollapsed ? 80 : 150,
+        width: isCollapsed ? 80 : 90,
         transition: "width 0.3s",
         bgColor: "background.level1",
         height: "100%",
@@ -59,15 +51,20 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
       )}
 
       <List>
-        {["Home", "Analytics", "Settings"].map((item, index) => (
-          <ListItem key={index}>
-            <ListItemButton>
-              <ListItemContent>
-                {isCollapsed && !isMobile ? item[0] : item}
-              </ListItemContent>
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem key="attribute">
+          <Link href="/">{isCollapsed && !isMobile ? "A" : "Attribute"}</Link>
+        </ListItem>
+        <ListItem key="skill">
+          <Link href="/skill">{isCollapsed && !isMobile ? "S" : "Skill"}</Link>
+        </ListItem>
+        <ListItem key="career">
+          <Link href="/career">
+            {isCollapsed && !isMobile ? "C" : "Career"}
+          </Link>
+        </ListItem>
+        <ListItem key="note">
+          <Link href="/note">{isCollapsed && !isMobile ? "N" : "Note"}</Link>
+        </ListItem>
       </List>
     </Box>
   );

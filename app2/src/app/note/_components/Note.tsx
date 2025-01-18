@@ -1,10 +1,12 @@
-import { INote } from "@/app/_components/interfaces/NoteInterfaces";
+"use client";
+
+import { INote } from "@/app/note/_components/NoteInterfaces";
 
 type Props = {
   notes: INote[];
 };
 
-export default function NotePage(props: Props) {
+export default function Note(props: Props) {
   return (
     <div>
       {props.notes.map((note, i) => (

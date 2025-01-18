@@ -1,13 +1,14 @@
 "use client";
 
-import { Box, IconButton, Typography } from "@mui/joy";
+import { Avatar, Box, IconButton, Typography } from "@mui/joy";
 import MenuIcon from "@mui/icons-material/Menu";
 
-interface HeaderProps {
+interface Props {
+  avatarUrl: string;
   onMenuClick: () => void;
 }
 
-export default function Header({ onMenuClick }: HeaderProps) {
+export default function Header(props: Props) {
   return (
     <Box
       component="header"
@@ -30,9 +31,12 @@ export default function Header({ onMenuClick }: HeaderProps) {
           margin: "0 auto",
         }}
       >
-        <Typography level="h4">Dashboard</Typography>
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          <Avatar src={props.avatarUrl} alt="sky0621" size="lg" />
+          <Typography level="h4">sky0621 - CV</Typography>
+        </Box>
         <IconButton
-          onClick={onMenuClick}
+          onClick={props.onMenuClick}
           sx={{ display: { xs: "inline-flex", sm: "none" } }}
         >
           <MenuIcon />

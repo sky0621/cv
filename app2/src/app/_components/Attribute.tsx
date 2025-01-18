@@ -1,8 +1,10 @@
+"use client";
+
 import {
   IActivity,
   IAttribute,
   IQualification,
-} from "@/app/_components/interfaces/AboutInterfaces";
+} from "@/app/_components/AboutInterfaces";
 
 type Props = {
   attribute: IAttribute;
@@ -10,7 +12,7 @@ type Props = {
   qualifications: IQualification[];
 };
 
-export default function AttributePage(props: Props) {
+export default function Attribute(props: Props) {
   return (
     <div>
       <div>

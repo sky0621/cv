@@ -2,13 +2,3 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
-/* SSR時のサイドバー非表示 */
-.sidebar {
-    display: none;
-}
-
-/* クライアントサイドで動的に適用 */
-.client-rendered .sidebar {
-    display: flex;
-}

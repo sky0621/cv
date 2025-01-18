@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import React from "react";
 import "@fontsource/inter";
-import ThemeRegistry from "@/app/_components/ThemeRegistry/ThemeRegistry";
+import Layout from "@/components/Layout";
+import ThemeRegistry from "@/components/ThemeRegistry/ThemeRegistry";
 
 export const metadata: Metadata = {
   title: "sky0621 - CV",
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <ThemeRegistry>{children}</ThemeRegistry>
+        <ThemeRegistry>
+          <Layout>{children}</Layout>
+        </ThemeRegistry>
       </body>
     </html>
   );

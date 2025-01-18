@@ -1,10 +1,10 @@
-import { ICareerGroup } from "@/app/_components/interfaces/CareerInterfaces";
+import { ICareerGroup } from "@/app/career/_components/CareerInterfaces";
 
 type Props = {
   careerGroups: ICareerGroup[];
 };
 
-export default function CareerPage(props: Props) {
+export default function Career(props: Props) {
   return (
     <div>
       {props.careerGroups.map((careerGroup, i) => (

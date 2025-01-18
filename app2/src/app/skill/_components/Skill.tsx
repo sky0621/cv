@@ -1,10 +1,10 @@
-import { ISkill } from "@/app/_components/interfaces/SkillInterfaces";
+import { ISkill } from "@/app/skill/_components/SkillInterfaces";
 
 type Props = {
   skills: ISkill[];
 };
 
-export default function SkillPage(props: Props) {
+export default function Skill(props: Props) {
   return (
     <div>
       {props.skills.map((skill, i) => (
