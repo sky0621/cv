@@ -5,10 +5,12 @@ import {
   IAttribute,
   IQualification,
 } from "@/app/_components/AboutInterfaces";
-import { Box, Card, CardContent, Typography } from "@mui/joy";
+import { Box, Card, CardContent, Link, Stack, Typography } from "@mui/joy";
 import calculateAge from "@/app/_components/AgeCalculator/AgeCalculator";
-import { CardMedia } from "@mui/material";
+import { CardHeader, CardMedia } from "@mui/material";
 import { DateTime } from "luxon";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
 
 type Props = {
   attribute: IAttribute;
@@ -23,6 +25,14 @@ export default function Attribute(props: Props) {
     props.attribute.birthday.day
   );
   const today = DateTime.now().toFormat("yyyy/MM/dd");
+  const activityIcon = (iconName: string) => {
+    switch (iconName) {
+      case "pi pi-github":
+        return <GitHubIcon />;
+      default:
+        return <LanguageIcon />;
+    }
+  };
   return (
     <Box sx={{ flex: 1, display: "flex", flexDirection: "column", gap: 1 }}>
       <Card variant="outlined" orientation="vertical">
@@ -66,31 +76,39 @@ export default function Attribute(props: Props) {
         </Card>
       </Card>
       <Card>
-        <div>
-          <div>
-            {props.activities.map((activity, i) => (
-              <div key={i}>
-                <div>name: {activity.name}</div>
-                <div>icon: {activity.icon}</div>
-                <div>url: {activity.url}</div>
-              </div>
-            ))}
+        <CardHeader title="Activities" />
+        <CardContent orientation="horizontal">
+          {props.activities.map((activity, i) => (
+            <Link
+              href={activity.url}
+              target="_blank"
+              key={i}
+              underline="none"
+              variant="soft"
+              color="neutral"
+              sx={{
+                padding: "0.5rem",
+                borderRadius: "0.8rem",
+              }}
+            >
+              <Stack direction="row" sx={{ marginRight: 0.5 }}>
+                {activityIcon(activity.icon)}
+              </Stack>
+              <div>{activity.name}</div>
+            </Link>
+          ))}
+        </CardContent>
+      </Card>
+      <Card>
+        {props.qualifications.map((qualification, i) => (
+          <div key={i}>
+            <div>name: {qualification.name}</div>
+            <div>url: {qualification.url}</div>
+            <div>organization: {qualification.organization}</div>
+            <div>memo: {qualification.memo}</div>
+            <div>gotDate: {qualification.gotDate}</div>
           </div>
-        </div>
-        <div>
-          <div>Qualification</div>
-          <div>
-            {props.qualifications.map((qualification, i) => (
-              <div key={i}>
-                <div>name: {qualification.name}</div>
-                <div>url: {qualification.url}</div>
-                <div>organization: {qualification.organization}</div>
-                <div>memo: {qualification.memo}</div>
-                <div>gotDate: {qualification.gotDate}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+        ))}
       </Card>
     </Box>
   );
