@@ -1,7 +1,7 @@
 "use client";
 
 import { Box, Container } from "@mui/joy";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Sidebar/Sidebar";
 import Header from "@/components/Header";
 import React, { useState } from "react";
 

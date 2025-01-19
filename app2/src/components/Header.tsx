@@ -27,7 +27,6 @@ export default function Header(props: Props) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          maxWidth: "1200px",
           margin: "0 auto",
         }}
       >

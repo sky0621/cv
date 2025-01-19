@@ -1,10 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Box, Drawer, IconButton, Link, List, ListItem } from "@mui/joy";
+import { Box, Drawer, IconButton, List } from "@mui/joy";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useMediaQuery } from "@mui/material";
+import TerminalIcon from "@mui/icons-material/Terminal";
+import ViewTimelineOutlinedIcon from "@mui/icons-material/ViewTimelineOutlined";
+import EditNoteIcon from "@mui/icons-material/EditNote";
+import SideItem from "@/components/Sidebar/SideItem/SideItem";
+import FaceIcon from "@mui/icons-material/Face";
 
 interface SidebarProps {
   open: boolean;
@@ -26,7 +31,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
   const sidebarContent = (
     <Box
       sx={{
-        width: isCollapsed ? 80 : 90,
+        width: isCollapsed ? 50 : 120,
         transition: "width 0.3s",
         bgColor: "background.level1",
         height: "100%",
@@ -51,20 +56,42 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
       )}
 
       <List>
-        <ListItem key="attribute">
-          <Link href="/">{isCollapsed && !isMobile ? "A" : "Attribute"}</Link>
-        </ListItem>
-        <ListItem key="skill">
-          <Link href="/skill">{isCollapsed && !isMobile ? "S" : "Skill"}</Link>
-        </ListItem>
-        <ListItem key="career">
-          <Link href="/career">
-            {isCollapsed && !isMobile ? "C" : "Career"}
-          </Link>
-        </ListItem>
-        <ListItem key="note">
-          <Link href="/note">{isCollapsed && !isMobile ? "N" : "Note"}</Link>
-        </ListItem>
+        <SideItem
+          key="attribute"
+          label="Attribute"
+          linkUrl="/"
+          collapsed={isCollapsed}
+          mobile={isMobile}
+        >
+          <FaceIcon />
+        </SideItem>
+        <SideItem
+          key="skill"
+          label="Skill"
+          linkUrl="/skill"
+          collapsed={isCollapsed}
+          mobile={isMobile}
+        >
+          <TerminalIcon />
+        </SideItem>
+        <SideItem
+          key="career"
+          label="Career"
+          linkUrl="/career"
+          collapsed={isCollapsed}
+          mobile={isMobile}
+        >
+          <ViewTimelineOutlinedIcon />
+        </SideItem>
+        <SideItem
+          key="note"
+          label="Note"
+          linkUrl="/note"
+          collapsed={isCollapsed}
+          mobile={isMobile}
+        >
+          <EditNoteIcon />
+        </SideItem>
       </List>
     </Box>
   );
@@ -75,7 +102,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
       onClose={onClose}
       sx={{
         "& .MuiDrawer-paper": {
-          width: 250,
+          width: 150,
         },
       }}
     >
