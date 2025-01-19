@@ -30,7 +30,7 @@ export default function Header(props: Props) {
           margin: "0 auto",
         }}
       >
-        <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
           <Avatar src={props.avatarUrl} alt="sky0621" size="lg" />
           <Typography level="h4">sky0621 - CV</Typography>
         </Box>

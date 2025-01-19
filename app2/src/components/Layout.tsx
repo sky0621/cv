@@ -5,7 +5,12 @@ import Sidebar from "@/components/Sidebar/Sidebar";
 import Header from "@/components/Header";
 import React, { useState } from "react";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+type Props = {
+  avatarUrl: string;
+  children: React.ReactNode;
+};
+
+export default function Layout(props: Props) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <Box sx={{ display: "flex", minHeight: "100vh" }}>
@@ -14,8 +19,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       {/* メインコンテンツ */}
       <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
-        <Header avatarUrl="" onMenuClick={() => setSidebarOpen(true)} />
-        <Container sx={{ flex: 1, py: 2 }}>{children}</Container>
+        <Header
+          avatarUrl={props.avatarUrl}
+          onMenuClick={() => setSidebarOpen(true)}
+        />
+        <Container sx={{ flex: 1, py: 2 }}>{props.children}</Container>
       </Box>
     </Box>
   );
