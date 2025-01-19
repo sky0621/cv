@@ -31,12 +31,10 @@ export default function DashboardPage() {
     console.error("Failed to read JSON files:", err);
   }
   return (
-    <>
-      <Attribute
-        attribute={attribute!}
-        activities={activities}
-        qualifications={qualifications}
-      />
-    </>
+    <Attribute
+      attribute={attribute!}
+      activities={activities}
+      qualifications={qualifications}
+    />
   );
 }
