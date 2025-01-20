@@ -1,16 +1,16 @@
 "use client";
 
-import {
-  IActivity,
-  IAttribute,
-  IQualification,
-} from "@/app/_components/AboutInterfaces";
 import { Box, Card, CardContent, Link, Stack, Typography } from "@mui/joy";
-import calculateAge from "@/app/_components/AgeCalculator/AgeCalculator";
 import { CardHeader, CardMedia } from "@mui/material";
 import { DateTime } from "luxon";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
+import calculateAge from "@/app/_components/_functions/calculateAge";
+import {
+  IActivity,
+  IAttribute,
+  IQualification,
+} from "@/app/_components/_interfaces/attribute";
 
 type Props = {
   attribute: IAttribute;

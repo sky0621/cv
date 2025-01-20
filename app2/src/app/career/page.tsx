@@ -1,8 +1,8 @@
 import React from "react";
 import path from "path";
-import { ICareerGroup } from "@/app/career/_components/CareerInterfaces";
 import fs from "fs";
 import Career from "@/app/career/_components/Career";
+import { ICareerGroup } from "@/app/career/_components/_interface/career";
 
 export default function CareerPage() {
   const basePath = path.join(process.cwd(), "public", "data");

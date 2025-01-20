@@ -4,7 +4,7 @@ import "@fontsource/inter";
 import Layout from "@/components/Layout";
 import ThemeRegistry from "@/components/ThemeRegistry/ThemeRegistry";
 import path from "path";
-import { IAttribute } from "@/app/_components/AboutInterfaces";
+import { IAttribute } from "@/app/_components/_models/AboutInterfaces";
 import fs from "fs";
 
 export const metadata: Metadata = {

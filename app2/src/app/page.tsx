@@ -1,12 +1,12 @@
 import React from "react";
 import path from "path";
+import fs from "fs";
+import Attribute from "@/app/_components/Attribute";
 import {
   IActivity,
   IAttribute,
   IQualification,
-} from "@/app/_components/AboutInterfaces";
-import fs from "fs";
-import Attribute from "@/app/_components/Attribute";
+} from "@/app/_components/_interface/attribute";
 
 export default function DashboardPage() {
   const basePath = path.join(process.cwd(), "public", "data");

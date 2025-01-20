@@ -1,4 +1,24 @@
-import { ICareerGroup } from "@/app/career/_components/CareerInterfaces";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionGroup,
+  AccordionSummary,
+  Box,
+  Typography,
+} from "@mui/joy";
+import { ICareerGroup } from "@/app/career/_components/_interfaces/career";
+import {
+  getCareerGroupStartYm,
+  getCareerStartYm,
+} from "@/app/career/_components/_functions/getStartYm";
+import {
+  calculateCareerDifference,
+  calculateCareerGroupDifference,
+} from "@/app/career/_components/_functions/calculateDifference";
+import {
+  getCareerEndYm,
+  getCareerGroupEndYm,
+} from "@/app/career/_components/_functions/getEndYm";
 
 type Props = {
   careerGroups: ICareerGroup[];
@@ -6,65 +26,69 @@ type Props = {
 
 export default function Career(props: Props) {
   return (
-    <div>
+    <>
       {props.careerGroups.map((careerGroup, i) => (
-        <div key={i}>
-          <div>label: {careerGroup.label}</div>
-          <div>
-            {careerGroup.careers.map((career, i) => (
-              <div key={i}>
-                <div>name: {career.name}</div>
-                <div>
-                  from:
-                  {career.from.year}/{career.from.month}
-                </div>
-                <div>
-                  to:
-                  {career.to?.year}/{career.to?.month}
-                </div>
-                <div>
-                  {career.description.map((desc, i) => (
-                    <div key={i}>
-                      <div>{desc}</div>
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  tasks
-                  {career.tasks.map((task, i) => (
-                    <div key={i}>
-                      <div>name: {task.name}</div>
-                      <div>
-                        {task.description.map((desc, i) => (
-                          <div key={i}>
-                            <div>{desc}</div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  skillGroups
-                  {career.skillGroups.map((skillGroup, i) => (
-                    <div key={i}>
-                      <div>label: {skillGroup.label}</div>
-                      <div>
-                        {skillGroup.skills.map((skill, i) => (
-                          <div key={i}>
-                            <div>name: {skill.skill.name}</div>
-                            <div>url: {skill.skill.url}</div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <AccordionGroup
+          key={i}
+          variant="outlined"
+          sx={{
+            marginBottom: "0.5rem",
+            padding: "0.5rem",
+            borderRadius: "0.5rem",
+          }}
+        >
+          <Accordion>
+            <AccordionSummary>
+              <Box>
+                <Typography level="title-sm">
+                  <span>{getCareerGroupStartYm(careerGroup)}</span>
+                  <span style={{ marginLeft: "0.5rem" }}>~</span>
+                  <span style={{ marginLeft: "0.5rem" }}>
+                    {getCareerGroupEndYm(careerGroup)}
+                  </span>
+                  <span style={{ marginLeft: "0.5rem" }}>
+                    ({calculateCareerGroupDifference(careerGroup)})
+                  </span>
+                </Typography>
+                <Typography level="title-lg">{careerGroup.label}</Typography>
+              </Box>
+            </AccordionSummary>
+            <AccordionDetails>
+              {careerGroup.careers.map((career, i) => (
+                <Accordion
+                  key={i}
+                  sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}
+                >
+                  <AccordionSummary>
+                    <Box>
+                      <Typography level="title-sm">
+                        <span>{getCareerStartYm(career)}</span>
+                        <span style={{ marginLeft: "0.5rem" }}>~</span>
+                        <span style={{ marginLeft: "0.5rem" }}>
+                          {getCareerEndYm(career)}
+                        </span>
+                        <span style={{ marginLeft: "0.5rem" }}>
+                          ({calculateCareerDifference(career)})
+                        </span>
+                      </Typography>
+                      <Typography level="title-md">{career.name}</Typography>
+                    </Box>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Box>
+                      {career.description.map((desc, i) => (
+                        <Typography key={i} level="body-sm">
+                          {desc}
+                        </Typography>
+                      ))}
+                    </Box>
+                  </AccordionDetails>
+                </Accordion>
+              ))}
+            </AccordionDetails>
+          </Accordion>
+        </AccordionGroup>
       ))}
-    </div>
+    </>
   );
 }

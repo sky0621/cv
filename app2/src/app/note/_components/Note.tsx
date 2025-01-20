@@ -1,6 +1,6 @@
 "use client";
 
-import { INote } from "@/app/note/_components/NoteInterfaces";
+import { INote } from "@/app/note/_components/_interfaces/note";
 
 type Props = {
   notes: INote[];

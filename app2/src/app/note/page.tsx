@@ -1,8 +1,8 @@
 import React from "react";
 import path from "path";
-import { INote } from "@/app/note/_components/NoteInterfaces";
 import fs from "fs";
 import Note from "@/app/note/_components/Note";
+import { INote } from "@/app/note/_components/_interfaces/note";
 
 export default function NotePage() {
   const basePath = path.join(process.cwd(), "public", "data");
