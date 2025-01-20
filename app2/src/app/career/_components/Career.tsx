@@ -4,6 +4,11 @@ import {
   AccordionGroup,
   AccordionSummary,
   Box,
+  Card,
+  CardContent,
+  Divider,
+  Link,
+  Stack,
   Typography,
 } from "@mui/joy";
 import { ICareerGroup } from "@/app/career/_components/_interfaces/career";
@@ -33,7 +38,7 @@ export default function Career(props: Props) {
           variant="outlined"
           sx={{
             marginBottom: "0.5rem",
-            padding: "0.5rem",
+            padding: "0.3rem",
             borderRadius: "0.5rem",
           }}
         >
@@ -50,14 +55,18 @@ export default function Career(props: Props) {
                     ({calculateCareerGroupDifference(careerGroup)})
                   </span>
                 </Typography>
-                <Typography level="title-lg">{careerGroup.label}</Typography>
+                <Typography level="h3">{careerGroup.label}</Typography>
               </Box>
             </AccordionSummary>
             <AccordionDetails>
               {careerGroup.careers.map((career, i) => (
                 <Accordion
                   key={i}
-                  sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}
+                  variant="outlined"
+                  sx={{
+                    marginTop: "0.5rem",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <AccordionSummary>
                     <Box>
@@ -71,7 +80,7 @@ export default function Career(props: Props) {
                           ({calculateCareerDifference(career)})
                         </span>
                       </Typography>
-                      <Typography level="title-md">{career.name}</Typography>
+                      <Typography level="title-lg">{career.name}</Typography>
                     </Box>
                   </AccordionSummary>
                   <AccordionDetails>
@@ -80,6 +89,63 @@ export default function Career(props: Props) {
                         <Typography key={i} level="body-sm">
                           {desc}
                         </Typography>
+                      ))}
+                      <Divider
+                        sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}
+                      />
+                      <Typography level="title-sm">担当タスク</Typography>
+                      {career.tasks.map((task, i) => (
+                        <Box key={i} sx={{ marginLeft: "1rem" }}>
+                          {task.name !== "-" ? (
+                            <Typography>【{task.name}】</Typography>
+                          ) : (
+                            ""
+                          )}
+                          {task.description.map((desc, i) => (
+                            <Typography key={i}>{desc}</Typography>
+                          ))}
+                        </Box>
+                      ))}
+                      <Typography level="title-sm" sx={{ marginTop: "1rem" }}>
+                        使用技術
+                      </Typography>
+                      {career.skillGroups.map((skillGroup, i) => (
+                        <Box key={i} sx={{ marginLeft: "1rem" }}>
+                          {skillGroup.label !== "-" ? (
+                            <Typography>【{skillGroup.label}】</Typography>
+                          ) : (
+                            ""
+                          )}
+                          <Stack
+                            direction="row"
+                            spacing="1rem"
+                            sx={{ marginLeft: "1rem", marginBottom: "1rem" }}
+                          >
+                            {skillGroup.skills.map((skill, i) => (
+                              <Link
+                                key={i}
+                                href={skill.skill.url}
+                                underline="none"
+                                color="neutral"
+                                target="_blank"
+                              >
+                                <Card variant="soft">
+                                  <CardContent>
+                                    <Typography level="body-sm">
+                                      {skill.skill.name}
+                                    </Typography>
+                                    <Typography
+                                      level="body-xs"
+                                      sx={{ marginLeft: "0.5rem" }}
+                                    >
+                                      {skill.version}
+                                    </Typography>
+                                  </CardContent>
+                                </Card>
+                              </Link>
+                            ))}
+                          </Stack>
+                        </Box>
                       ))}
                     </Box>
                   </AccordionDetails>
