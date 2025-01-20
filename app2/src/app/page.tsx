@@ -6,7 +6,7 @@ import {
   IActivity,
   IAttribute,
   IQualification,
-} from "@/app/_components/_interface/attribute";
+} from "@/app/_components/_interfaces/attribute";
 
 export default function DashboardPage() {
   const basePath = path.join(process.cwd(), "public", "data");

@@ -4,8 +4,8 @@ import "@fontsource/inter";
 import Layout from "@/components/Layout";
 import ThemeRegistry from "@/components/ThemeRegistry/ThemeRegistry";
 import path from "path";
-import { IAttribute } from "@/app/_components/_models/AboutInterfaces";
 import fs from "fs";
+import { IAttribute } from "@/app/_components/_interfaces/attribute";
 
 export const metadata: Metadata = {
   title: "sky0621 - CV",
