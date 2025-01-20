@@ -94,21 +94,50 @@ export default function Attribute(props: Props) {
               <Stack direction="row" sx={{ marginRight: 0.5 }}>
                 {activityIcon(activity.icon)}
               </Stack>
-              <div>{activity.name}</div>
+              <Stack>{activity.name}</Stack>
             </Link>
           ))}
         </CardContent>
       </Card>
       <Card>
-        {props.qualifications.map((qualification, i) => (
-          <div key={i}>
-            <div>name: {qualification.name}</div>
-            <div>url: {qualification.url}</div>
-            <div>organization: {qualification.organization}</div>
-            <div>memo: {qualification.memo}</div>
-            <div>gotDate: {qualification.gotDate}</div>
-          </div>
-        ))}
+        <CardHeader title="Qualifications" />
+        <CardContent orientation="horizontal">
+          {props.qualifications.map((qualification, i) => (
+            <Link
+              href={qualification.url}
+              target="_blank"
+              key={i}
+              underline="none"
+              variant="soft"
+              color="neutral"
+              sx={{
+                padding: "0.5rem",
+                borderRadius: "0.8rem",
+              }}
+            >
+              <Stack
+                direction="column"
+                sx={{ marginRight: "0.5rem", padding: "0.5rem" }}
+              >
+                <Typography level="title-lg" sx={{ marginBottom: "0.5rem" }}>
+                  {qualification.name}
+                </Typography>
+                <Typography level="body-md">
+                  <span style={{ fontSize: "0.8rem" }}>Date:</span>{" "}
+                  {qualification.gotDate}
+                </Typography>
+                <Typography level="body-md">
+                  <span style={{ fontSize: "0.8rem" }}>Job:</span>{" "}
+                  {qualification.organization}
+                </Typography>
+                <Typography level="body-md">
+                  <span style={{ fontSize: "0.8rem" }}>Note:</span>{" "}
+                  {qualification.memo}
+                </Typography>
+              </Stack>
+            </Link>
+          ))}
+        </CardContent>
       </Card>
     </Box>
   );
