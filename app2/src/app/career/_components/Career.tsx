@@ -7,6 +7,7 @@ import {
   Card,
   CardContent,
   Divider,
+  Grid,
   Link,
   Stack,
   Typography,
@@ -93,7 +94,7 @@ export default function Career(props: Props) {
                       <Divider
                         sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}
                       />
-                      <Typography level="title-sm">担当タスク</Typography>
+                      <Typography level="title-sm">・担当タスク</Typography>
                       {career.tasks.map((task, i) => (
                         <Box key={i} sx={{ marginLeft: "1rem" }}>
                           {task.name !== "-" ? (
@@ -102,24 +103,34 @@ export default function Career(props: Props) {
                             ""
                           )}
                           {task.description.map((desc, i) => (
-                            <Typography key={i}>{desc}</Typography>
+                            <Typography key={i} sx={{ marginLeft: "1rem" }}>
+                              {desc}
+                            </Typography>
                           ))}
                         </Box>
                       ))}
                       <Typography level="title-sm" sx={{ marginTop: "1rem" }}>
-                        使用技術
+                        ・使用技術
                       </Typography>
                       {career.skillGroups.map((skillGroup, i) => (
-                        <Box key={i} sx={{ marginLeft: "1rem" }}>
+                        <Stack key={i} sx={{ marginLeft: "1rem" }}>
                           {skillGroup.label !== "-" ? (
-                            <Typography>【{skillGroup.label}】</Typography>
+                            <Typography sx={{ marginBottom: "0.5rem" }}>
+                              【{skillGroup.label}】
+                            </Typography>
                           ) : (
                             ""
                           )}
-                          <Stack
-                            direction="row"
-                            spacing="1rem"
-                            sx={{ marginLeft: "1rem", marginBottom: "1rem" }}
+                          <Grid
+                            key={i}
+                            container
+                            spacing={{ xs: 1, md: 2 }}
+                            columns={{ xs: 4, sm: 8, md: 12 }}
+                            sx={{
+                              marginLeft: "1rem",
+                              marginBottom: "1rem",
+                              flexGrow: 1,
+                            }}
                           >
                             {skillGroup.skills.map((skill, i) => (
                               <Link
@@ -129,7 +140,7 @@ export default function Career(props: Props) {
                                 color="neutral"
                                 target="_blank"
                               >
-                                <Card variant="soft">
+                                <Card variant="soft" sx={{ margin: "0.2rem" }}>
                                   <CardContent>
                                     <Typography level="body-sm">
                                       {skill.skill.name}
@@ -144,8 +155,8 @@ export default function Career(props: Props) {
                                 </Card>
                               </Link>
                             ))}
-                          </Stack>
-                        </Box>
+                          </Grid>
+                        </Stack>
                       ))}
                     </Box>
                   </AccordionDetails>
