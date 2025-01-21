@@ -2,9 +2,10 @@ import {
   ICareer,
   ICareerGroup,
 } from "@/app/career/_components/_interfaces/career";
+import { formatYm } from "@/app/_functions/formatYm";
 
 export function getCareerStartYm(career: ICareer) {
-  return `${career.from.year} / ${career.from.month}`;
+  return formatYm(career.from.year, career.from.month);
 }
 
 export function getCareerGroupStartYm(careerGroup: ICareerGroup) {

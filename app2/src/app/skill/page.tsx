@@ -1,6 +1,6 @@
 import React from "react";
 import path from "path";
-import { ISkill } from "@/app/skill/_components/SkillInterfaces";
+import { ISkill } from "@/app/skill/_components/_interfaces/SkillInterfaces";
 import fs from "fs";
 import Skill from "@/app/skill/_components/Skill";
 

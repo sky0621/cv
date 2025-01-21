@@ -2,10 +2,11 @@ import {
   ICareer,
   ICareerGroup,
 } from "@/app/career/_components/_interfaces/career";
+import { formatYm } from "@/app/_functions/formatYm";
 
 export function getCareerEndYm(career: ICareer) {
   if (career.to) {
-    return `${career.to.year} / ${career.to.month}`;
+    return formatYm(career.to.year, career.to.month);
   }
   return " / ";
 }
