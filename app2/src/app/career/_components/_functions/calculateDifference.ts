@@ -4,7 +4,7 @@ import {
   ICareerGroup,
 } from "@/app/career/_components/_interfaces/career";
 
-export function _calculateDifference(
+function _calculateDifference(
   fromY: number,
   fromM: number,
   toY: number,
