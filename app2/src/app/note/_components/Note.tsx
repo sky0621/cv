@@ -25,7 +25,7 @@ export default function Note(props: Props) {
             <div>
               {note.items.map((item, i) => (
                 <div key={i} style={{ marginBottom: "0.5rem" }}>
-                  {item.text}
+                  ・{item.text}
                   <br />
                 </div>
               ))}

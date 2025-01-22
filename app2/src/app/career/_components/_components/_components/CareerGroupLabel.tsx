@@ -3,6 +3,7 @@ import { ICareerGroup } from "@/app/career/_components/_interfaces/career";
 import { getCareerGroupStartYm } from "@/app/career/_components/_functions/getStartYm";
 import { calculateCareerGroupDifference } from "@/app/career/_components/_functions/calculateDifference";
 import { getCareerGroupEndYm } from "@/app/career/_components/_functions/getEndYm";
+import Period from "@/components/Period/Period";
 
 type Props = {
   careerGroup: ICareerGroup;
@@ -14,12 +15,7 @@ export default function CareerGroupLabel(props: Props) {
   const period = calculateCareerGroupDifference(props.careerGroup);
   return (
     <>
-      <Typography level="title-sm">
-        <span>{startYm}</span>
-        <span style={{ marginLeft: "0.5rem" }}>~</span>
-        <span style={{ marginLeft: "0.5rem" }}>{endYm}</span>
-        <span style={{ marginLeft: "0.5rem" }}>({period})</span>
-      </Typography>
+      <Period startYm={startYm} endYm={endYm} period={period} />
       <Typography level="h3">{props.careerGroup.label}</Typography>
     </>
   );
