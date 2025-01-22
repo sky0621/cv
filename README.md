@@ -2,7 +2,7 @@
 
 ## description
 
-GitHub Pages にて公開している [Curriculum-Vitae](https://sky0621.github.io/cv/) のソース。
+Vercel上で公開している [Curriculum-Vitae](https://cv-lovat-theta-75.vercel.app/) のソース。
 
 ## relation
 
@@ -12,19 +12,24 @@ GitHub Pages にて公開している [Curriculum-Vitae](https://sky0621.github.
 
 ### Basic
 ![Basic](pics/basic.png)
-![Basic](pics/basic2.png)
+
+### Skill
+![Skill](pics/skill.png)
+
+![Skill2](pics/skill2.png)
+
+![Skill3](pics/skill3.png)
+
+#### open
+![Skill](pics/skill_open.png)
 
 ### Career
 ![Career](pics/career.png)
 
 #### open
-![Career](pics/career2.png)
+![Career](pics/career_open.png)
 
-### Skill
-![Skill](pics/skill.png)
-
-#### open
-![Skill](pics/skill2.png)
+![Career2](pics/career_open2.png)
 
 ### Note
 ![Note](pics/note.png)
@@ -36,7 +41,3 @@ GitHub Pages にて公開している [Curriculum-Vitae](https://sky0621.github.
 GitHub Pages にて表示する経歴書のソース。
 
 画面に表示する情報は Axios を介して取得する実装にしているがデータソースは [cv-admin](https://github.com/sky0621/cv-admin) 側で生成した JSON を読む形にしている。
-
-### docs
-
-app の `yarn run build` によって、この配下に GitHub Pages でホストするSPAリソースが生成される。
