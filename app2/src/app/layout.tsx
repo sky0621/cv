@@ -6,6 +6,7 @@ import ThemeRegistry from "@/components/ThemeRegistry/ThemeRegistry";
 import path from "path";
 import fs from "fs";
 import { IAttribute } from "@/app/_components/_interfaces/attribute";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "sky0621 - CV",
@@ -34,6 +35,7 @@ export default function RootLayout({
     <html lang="ja">
       <body>
         <ThemeRegistry>
+          <SpeedInsights />
           <Layout avatarUrl={avatarUrl}>{children}</Layout>
         </ThemeRegistry>
       </body>
