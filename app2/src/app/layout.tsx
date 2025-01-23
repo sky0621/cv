@@ -7,6 +7,7 @@ import path from "path";
 import fs from "fs";
 import { IAttribute } from "@/app/_components/_interfaces/attribute";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "sky0621 - CV",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body>
         <ThemeRegistry>
           <SpeedInsights />
+          <Analytics />
           <Layout avatarUrl={avatarUrl}>{children}</Layout>
         </ThemeRegistry>
       </body>
