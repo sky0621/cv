@@ -8,6 +8,178 @@
         "versions": [
           {
             "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v1.8"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2018
+            },
+            "period": 2,
+            "to": {
+              "month": 11,
+              "year": 2018
+            },
+            "version": "v1.8"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "period": 2,
+            "to": {
+              "month": 9,
+              "year": 2018
+            },
+            "version": "v1.8"
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2016
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2016
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2014
+            },
+            "period": 17,
+            "to": {
+              "month": 3,
+              "year": 2016
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2014
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
+            },
+            "version": "v6"
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "period": 5,
+            "to": {
+              "month": 8,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "period": 2,
+            "to": {
+              "month": 4,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "period": 10,
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "period": 15,
+            "to": {
+              "month": 3,
+              "year": 2008
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2006
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
               "month": 4,
               "year": 2006
             },
@@ -71,119 +243,13 @@
               "month": 11,
               "year": 2002
             }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "period": 2,
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "period": 10,
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "period": 15,
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2006
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "period": 5,
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            },
-            "version": "v6"
-          },
+          }
+        ]
+      },
+      {
+        "name": "SQL",
+        "period": 99,
+        "versions": [
           {
             "from": {
               "month": 4,
@@ -193,8 +259,7 @@
             "to": {
               "month": 9,
               "year": 2016
-            },
-            "version": "v6"
+            }
           },
           {
             "from": {
@@ -205,104 +270,17 @@
             "to": {
               "month": 3,
               "year": 2016
-            },
-            "version": "v6"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2018
-            },
-            "period": 2,
-            "to": {
-              "month": 11,
-              "year": 2018
-            },
-            "version": "v1.8"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "period": 2,
-            "to": {
-              "month": 9,
-              "year": 2018
-            },
-            "version": "v1.8"
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v1.8"
-          }
-        ]
-      },
-      {
-        "name": "SQL",
-        "period": 99,
-        "versions": [
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "period": 10,
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2007
-            },
-            "period": 15,
-            "to": {
-              "month": 3,
-              "year": 2008
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
             }
           },
           {
             "from": {
               "month": 4,
-              "year": 2010
+              "year": 2014
             },
-            "period": 5,
+            "period": 6,
             "to": {
-              "month": 8,
-              "year": 2010
+              "month": 9,
+              "year": 2014
             }
           },
           {
@@ -329,35 +307,57 @@
           },
           {
             "from": {
-              "month": 4,
-              "year": 2014
+              "month": 8,
+              "year": 2010
             },
-            "period": 6,
+            "period": 10,
             "to": {
-              "month": 9,
-              "year": 2014
+              "month": 5,
+              "year": 2011
             }
           },
           {
             "from": {
               "month": 4,
-              "year": 2016
+              "year": 2010
             },
-            "period": 6,
+            "period": 5,
             "to": {
-              "month": 9,
-              "year": 2016
+              "month": 8,
+              "year": 2010
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2014
+              "month": 7,
+              "year": 2009
             },
-            "period": 17,
+            "period": 9,
             "to": {
               "month": 3,
-              "year": 2016
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "period": 10,
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2007
+            },
+            "period": 15,
+            "to": {
+              "month": 3,
+              "year": 2008
             }
           }
         ]
@@ -367,6 +367,61 @@
         "period": 84,
         "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript",
         "versions": [
+          {
+            "from": {
+              "month": 3,
+              "year": 2012
+            },
+            "period": 16,
+            "to": {
+              "month": 6,
+              "year": 2013
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2011
+            },
+            "period": 5,
+            "to": {
+              "month": 2,
+              "year": 2012
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "period": 10,
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
           {
             "from": {
               "month": 1,
@@ -399,61 +454,6 @@
               "month": 11,
               "year": 2002
             }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "period": 10,
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "period": 16,
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "period": 5,
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
           }
         ]
       },
@@ -462,6 +462,66 @@
         "period": 73,
         "url": "https://go.dev/",
         "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v1.19"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v1.18"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            },
+            "version": "v1.16"
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            },
+            "version": "v1.16"
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
+            },
+            "version": "v1.11"
+          },
           {
             "from": {
               "month": 12,
@@ -485,66 +545,6 @@
               "year": 2017
             },
             "version": "v1.7"
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            },
-            "version": "v1.11"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            },
-            "version": "v1.16"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            },
-            "version": "v1.16"
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v1.18"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v1.19"
           }
         ]
       },
@@ -553,62 +553,6 @@
         "period": 59,
         "url": "https://www.typescriptlang.org/",
         "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2018
-            },
-            "period": 2,
-            "to": {
-              "month": 9,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v4.8"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          },
           {
             "from": {
               "month": 4,
@@ -656,6 +600,62 @@
               "year": 2023
             },
             "version": "v5"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v4.8"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2018
+            },
+            "period": 2,
+            "to": {
+              "month": 9,
+              "year": 2018
+            }
           }
         ]
       },
@@ -666,14 +666,15 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2006
+              "month": 11,
+              "year": 2016
             },
-            "period": 5,
+            "period": 14,
             "to": {
-              "month": 8,
-              "year": 2006
-            }
+              "month": 12,
+              "year": 2017
+            },
+            "version": "v2"
           },
           {
             "from": {
@@ -688,15 +689,14 @@
           },
           {
             "from": {
-              "month": 11,
-              "year": 2016
+              "month": 4,
+              "year": 2006
             },
-            "period": 14,
+            "period": 5,
             "to": {
-              "month": 12,
-              "year": 2017
-            },
-            "version": "v2"
+              "month": 8,
+              "year": 2006
+            }
           }
         ]
       },
@@ -704,17 +704,6 @@
         "name": "Android(Java)",
         "period": 26,
         "versions": [
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "period": 5,
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
           {
             "from": {
               "month": 4,
@@ -735,6 +724,17 @@
             "to": {
               "month": 9,
               "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2011
+            },
+            "period": 5,
+            "to": {
+              "month": 2,
+              "year": 2012
             }
           }
         ]
@@ -765,18 +765,6 @@
         "versions": [
           {
             "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v2.11"
-          },
-          {
-            "from": {
               "month": 7,
               "year": 2024
             },
@@ -786,6 +774,18 @@
               "year": 2025
             },
             "version": "v2.13"
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v2.11"
           }
         ]
       },
@@ -837,24 +837,24 @@
         "versions": [
           {
             "from": {
-              "month": 5,
-              "year": 2008
+              "month": 4,
+              "year": 2016
             },
-            "period": 10,
+            "period": 6,
             "to": {
-              "month": 2,
-              "year": 2009
+              "month": 9,
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 8,
-              "year": 2010
+              "month": 11,
+              "year": 2014
             },
-            "period": 10,
+            "period": 17,
             "to": {
-              "month": 5,
-              "year": 2011
+              "month": 3,
+              "year": 2016
             }
           },
           {
@@ -881,24 +881,24 @@
           },
           {
             "from": {
-              "month": 4,
-              "year": 2016
+              "month": 8,
+              "year": 2010
             },
-            "period": 6,
+            "period": 10,
             "to": {
-              "month": 9,
-              "year": 2016
+              "month": 5,
+              "year": 2011
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2014
+              "month": 5,
+              "year": 2008
             },
-            "period": 17,
+            "period": 10,
             "to": {
-              "month": 3,
-              "year": 2016
+              "month": 2,
+              "year": 2009
             }
           }
         ]
@@ -910,24 +910,13 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2005
+              "month": 8,
+              "year": 2010
             },
-            "period": 9,
+            "period": 10,
             "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "period": 8,
-            "to": {
-              "month": 11,
-              "year": 2002
+              "month": 5,
+              "year": 2011
             }
           },
           {
@@ -965,13 +954,24 @@
           },
           {
             "from": {
-              "month": 8,
-              "year": 2010
+              "month": 1,
+              "year": 2005
             },
-            "period": 10,
+            "period": 9,
             "to": {
-              "month": 5,
-              "year": 2011
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "period": 8,
+            "to": {
+              "month": 11,
+              "year": 2002
             }
           }
         ]
@@ -981,6 +981,18 @@
         "period": 38,
         "url": "https://go-chi.io/#/",
         "versions": [
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v5"
+          },
           {
             "from": {
               "month": 8,
@@ -1002,18 +1014,6 @@
               "month": 7,
               "year": 2021
             }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v5"
           }
         ]
       },
@@ -1022,6 +1022,17 @@
         "period": 28,
         "url": "https://echo.labstack.com/",
         "versions": [
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
           {
             "from": {
               "month": 12,
@@ -1042,17 +1053,6 @@
             "to": {
               "month": 12,
               "year": 2017
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
             }
           }
         ]
@@ -1099,17 +1099,6 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2010
-            },
-            "period": 5,
-            "to": {
-              "month": 8,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
               "month": 6,
               "year": 2019
             },
@@ -1117,6 +1106,17 @@
             "to": {
               "month": 9,
               "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2010
+            },
+            "period": 5,
+            "to": {
+              "month": 8,
+              "year": 2010
             }
           }
         ]
@@ -1189,13 +1189,37 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
+              "month": 12,
+              "year": 2022
             },
             "period": 7,
             "to": {
-              "month": 5,
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            },
+            "version": "v2"
+          },
+          {
+            "from": {
+              "month": 10,
               "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
             },
             "version": "v2"
           },
@@ -1213,37 +1237,13 @@
           },
           {
             "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
+              "month": 11,
+              "year": 2018
             },
             "period": 7,
             "to": {
-              "month": 6,
-              "year": 2023
+              "month": 5,
+              "year": 2019
             },
             "version": "v2"
           }
@@ -1256,13 +1256,13 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
+              "month": 12,
+              "year": 2022
             },
             "period": 7,
             "to": {
-              "month": 5,
-              "year": 2019
+              "month": 6,
+              "year": 2023
             },
             "version": "v2"
           },
@@ -1292,13 +1292,13 @@
           },
           {
             "from": {
-              "month": 12,
-              "year": 2022
+              "month": 11,
+              "year": 2018
             },
             "period": 7,
             "to": {
-              "month": 6,
-              "year": 2023
+              "month": 5,
+              "year": 2019
             },
             "version": "v2"
           }
@@ -1309,18 +1309,6 @@
         "period": 23,
         "url": "https://ja.reactjs.org/",
         "versions": [
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v18.2"
-          },
           {
             "from": {
               "month": 4,
@@ -1366,6 +1354,18 @@
             "to": {
               "month": 9,
               "year": 2023
+            },
+            "version": "v18.2"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
             },
             "version": "v18.2"
           }
@@ -1457,57 +1457,13 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
+              "month": 7,
+              "year": 2024
             },
-            "period": 7,
+            "period": 9,
             "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
+              "month": 3,
+              "year": 2025
             }
           },
           {
@@ -1545,13 +1501,57 @@
           },
           {
             "from": {
-              "month": 7,
-              "year": 2024
+              "month": 12,
+              "year": 2022
             },
-            "period": 9,
+            "period": 7,
             "to": {
-              "month": 3,
-              "year": 2025
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
             }
           }
         ]
@@ -1561,6 +1561,17 @@
         "period": 26,
         "url": "https://grpc.io/",
         "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
           {
             "from": {
               "month": 12,
@@ -1582,17 +1593,6 @@
               "month": 12,
               "year": 2017
             }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
           }
         ]
       },
@@ -1603,17 +1603,6 @@
         "versions": [
           {
             "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
               "month": 4,
               "year": 2024
             },
@@ -1621,6 +1610,17 @@
             "to": {
               "month": 6,
               "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
             }
           }
         ]
@@ -1631,17 +1631,6 @@
         "versions": [
           {
             "from": {
-              "month": 3,
-              "year": 2009
-            },
-            "period": 2,
-            "to": {
-              "month": 4,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2010
             },
@@ -1649,6 +1638,17 @@
             "to": {
               "month": 5,
               "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2009
+            },
+            "period": 2,
+            "to": {
+              "month": 4,
+              "year": 2009
             }
           }
         ]
@@ -1665,35 +1665,35 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2005
+              "month": 4,
+              "year": 2016
             },
-            "period": 5,
+            "period": 6,
             "to": {
-              "month": 3,
-              "year": 2006
+              "month": 9,
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 12,
-              "year": 2002
+              "month": 11,
+              "year": 2014
             },
             "period": 17,
             "to": {
-              "month": 4,
-              "year": 2004
+              "month": 3,
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 4,
-              "year": 2002
+              "month": 6,
+              "year": 2011
             },
-            "period": 8,
+            "period": 4,
             "to": {
-              "month": 11,
-              "year": 2002
+              "month": 9,
+              "year": 2011
             }
           },
           {
@@ -1742,35 +1742,35 @@
           },
           {
             "from": {
-              "month": 6,
-              "year": 2011
+              "month": 11,
+              "year": 2005
             },
-            "period": 4,
+            "period": 5,
             "to": {
-              "month": 9,
-              "year": 2011
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "period": 17,
+            "to": {
+              "month": 4,
+              "year": 2004
             }
           },
           {
             "from": {
               "month": 4,
-              "year": 2016
+              "year": 2002
             },
-            "period": 6,
+            "period": 8,
             "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
               "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
-              "month": 3,
-              "year": 2016
+              "year": 2002
             }
           }
         ]
@@ -1783,12 +1783,12 @@
           {
             "from": {
               "month": 4,
-              "year": 2006
+              "year": 2014
             },
-            "period": 5,
+            "period": 6,
             "to": {
-              "month": 8,
-              "year": 2006
+              "month": 9,
+              "year": 2014
             }
           },
           {
@@ -1805,12 +1805,12 @@
           {
             "from": {
               "month": 4,
-              "year": 2014
+              "year": 2006
             },
-            "period": 6,
+            "period": 5,
             "to": {
-              "month": 9,
-              "year": 2014
+              "month": 8,
+              "year": 2006
             }
           }
         ]
@@ -1820,17 +1820,6 @@
         "period": 20,
         "url": "https://www.postgresql.jp/",
         "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "period": 5,
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
           {
             "from": {
               "month": 8,
@@ -1852,6 +1841,17 @@
               "month": 8,
               "year": 2010
             }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "period": 5,
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
           }
         ]
       },
@@ -1862,17 +1862,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "period": 9,
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2006
             },
@@ -1880,6 +1869,17 @@
             "to": {
               "month": 12,
               "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "period": 9,
+            "to": {
+              "month": 9,
+              "year": 2005
             }
           }
         ]
@@ -1913,13 +1913,13 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
               "month": 12,
-              "year": 2017
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
             }
           },
           {
@@ -1935,13 +1935,13 @@
           },
           {
             "from": {
-              "month": 12,
-              "year": 2022
+              "month": 11,
+              "year": 2016
             },
-            "period": 7,
+            "period": 14,
             "to": {
-              "month": 6,
-              "year": 2023
+              "month": 12,
+              "year": 2017
             }
           }
         ]
@@ -1952,13 +1952,13 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
               "month": 12,
-              "year": 2017
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
             }
           },
           {
@@ -1974,13 +1974,13 @@
           },
           {
             "from": {
-              "month": 12,
-              "year": 2022
+              "month": 11,
+              "year": 2016
             },
-            "period": 7,
+            "period": 14,
             "to": {
-              "month": 6,
-              "year": 2023
+              "month": 12,
+              "year": 2017
             }
           }
         ]
@@ -1991,17 +1991,6 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
               "month": 1,
               "year": 2022
             },
@@ -2009,6 +1998,17 @@
             "to": {
               "month": 11,
               "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "period": 14,
+            "to": {
+              "month": 12,
+              "year": 2017
             }
           }
         ]
@@ -2019,17 +2019,6 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
-          {
-            "from": {
               "month": 1,
               "year": 2022
             },
@@ -2037,6 +2026,17 @@
             "to": {
               "month": 11,
               "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "period": 14,
+            "to": {
+              "month": 12,
+              "year": 2017
             }
           }
         ]
@@ -2047,17 +2047,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
               "month": 12,
               "year": 2022
             },
@@ -2065,6 +2054,17 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
             }
           }
         ]
@@ -2075,17 +2075,6 @@
         "versions": [
           {
             "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
               "month": 1,
               "year": 2022
             },
@@ -2093,6 +2082,17 @@
             "to": {
               "month": 11,
               "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
             }
           }
         ]
@@ -2285,6 +2285,17 @@
         "versions": [
           {
             "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
               "month": 8,
               "year": 2021
             },
@@ -2303,17 +2314,6 @@
             "to": {
               "month": 7,
               "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
             }
           }
         ]
@@ -2324,28 +2324,6 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
               "month": 7,
               "year": 2024
             },
@@ -2354,23 +2332,6 @@
               "month": 3,
               "year": 2025
             }
-          }
-        ]
-      },
-      {
-        "name": "Cloud Run",
-        "period": 36,
-        "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
           },
           {
             "from": {
@@ -2383,6 +2344,23 @@
               "year": 2021
             }
           },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Run",
+        "period": 36,
+        "versions": [
           {
             "from": {
               "month": 1,
@@ -2415,23 +2393,6 @@
               "month": 9,
               "year": 2023
             }
-          }
-        ]
-      },
-      {
-        "name": "Cloud Pub/Sub",
-        "period": 34,
-        "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
           },
           {
             "from": {
@@ -2453,6 +2414,45 @@
             "to": {
               "month": 7,
               "year": 2021
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Pub/Sub",
+        "period": 34,
+        "versions": [
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
             }
           }
         ]
@@ -2463,17 +2463,6 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2021
             },
@@ -2492,6 +2481,17 @@
             "to": {
               "month": 7,
               "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
             }
           }
         ]
@@ -2502,17 +2502,6 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2021
             },
@@ -2531,6 +2520,17 @@
             "to": {
               "month": 7,
               "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
             }
           }
         ]
@@ -2541,6 +2541,17 @@
         "versions": [
           {
             "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
               "month": 8,
               "year": 2021
             },
@@ -2559,17 +2570,6 @@
             "to": {
               "month": 7,
               "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
             }
           }
         ]
@@ -2709,17 +2709,6 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
               "month": 11,
               "year": 2018
             },
@@ -2750,13 +2739,7 @@
               "month": 9,
               "year": 2018
             }
-          }
-        ]
-      },
-      {
-        "name": "Cloud SQL(MySQL)",
-        "period": 10,
-        "versions": [
+          },
           {
             "from": {
               "month": 12,
@@ -2767,7 +2750,13 @@
               "month": 6,
               "year": 2018
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "Cloud SQL(MySQL)",
+        "period": 10,
+        "versions": [
           {
             "from": {
               "month": 7,
@@ -2777,6 +2766,17 @@
             "to": {
               "month": 9,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
             }
           }
         ]
@@ -3073,6 +3073,17 @@
         "versions": [
           {
             "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
               "month": 11,
               "year": 2018
             },
@@ -3091,17 +3102,6 @@
             "to": {
               "month": 9,
               "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
             }
           }
         ]
@@ -3154,29 +3154,6 @@
         "versions": [
           {
             "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            },
-            "version": "v0.11"
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
               "month": 1,
               "year": 2024
             },
@@ -3210,6 +3187,29 @@
               "year": 2023
             },
             "version": "v1.6"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            },
+            "version": "v0.11"
           }
         ]
       },
@@ -3262,67 +3262,100 @@
           {
             "from": {
               "month": 4,
-              "year": 2006
+              "year": 2016
             },
-            "period": 5,
+            "period": 6,
             "to": {
-              "month": 8,
-              "year": 2006
+              "month": 9,
+              "year": 2016
             }
           },
           {
             "from": {
               "month": 11,
-              "year": 2005
+              "year": 2014
             },
-            "period": 5,
+            "period": 17,
             "to": {
               "month": 3,
-              "year": 2006
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 1,
-              "year": 2005
+              "month": 4,
+              "year": 2014
             },
-            "period": 9,
+            "period": 6,
             "to": {
               "month": 9,
-              "year": 2005
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2012
+            },
+            "period": 16,
+            "to": {
+              "month": 6,
+              "year": 2013
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2011
+            },
+            "period": 5,
+            "to": {
+              "month": 2,
+              "year": 2012
             }
           },
           {
             "from": {
               "month": 6,
-              "year": 2004
+              "year": 2011
             },
-            "period": 7,
+            "period": 4,
             "to": {
-              "month": 12,
-              "year": 2004
+              "month": 9,
+              "year": 2011
             }
           },
           {
             "from": {
-              "month": 12,
-              "year": 2002
+              "month": 8,
+              "year": 2010
             },
-            "period": 17,
+            "period": 10,
             "to": {
-              "month": 4,
-              "year": 2004
+              "month": 5,
+              "year": 2011
             }
           },
           {
             "from": {
               "month": 4,
-              "year": 2002
+              "year": 2010
             },
-            "period": 8,
+            "period": 5,
             "to": {
-              "month": 11,
-              "year": 2002
+              "month": 8,
+              "year": 2010
             }
           },
           {
@@ -3393,110 +3426,15 @@
           },
           {
             "from": {
-              "month": 6,
-              "year": 2011
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
               "month": 4,
-              "year": 2010
+              "year": 2006
             },
             "period": 5,
             "to": {
               "month": 8,
-              "year": 2010
+              "year": 2006
             }
           },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "period": 16,
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "period": 5,
-            "to": {
-              "month": 2,
-              "year": 2012
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "Solaris",
-        "period": 57,
-        "url": "https://www.oracle.com/jp/solaris/solaris11/",
-        "versions": [
           {
             "from": {
               "month": 11,
@@ -3506,6 +3444,28 @@
             "to": {
               "month": 3,
               "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "period": 9,
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2004
+            },
+            "period": 7,
+            "to": {
+              "month": 12,
+              "year": 2004
             }
           },
           {
@@ -3529,7 +3489,14 @@
               "month": 11,
               "year": 2002
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "Solaris",
+        "period": 57,
+        "url": "https://www.oracle.com/jp/solaris/solaris11/",
+        "versions": [
           {
             "from": {
               "month": 3,
@@ -3562,6 +3529,39 @@
               "month": 3,
               "year": 2008
             }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "period": 5,
+            "to": {
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "period": 17,
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "period": 8,
+            "to": {
+              "month": 11,
+              "year": 2002
+            }
           }
         ]
       },
@@ -3572,13 +3572,13 @@
         "versions": [
           {
             "from": {
-              "month": 3,
-              "year": 2012
+              "month": 11,
+              "year": 2014
             },
-            "period": 16,
+            "period": 17,
             "to": {
-              "month": 6,
-              "year": 2013
+              "month": 3,
+              "year": 2016
             }
           },
           {
@@ -3605,13 +3605,13 @@
           },
           {
             "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
               "month": 3,
-              "year": 2016
+              "year": 2012
+            },
+            "period": 16,
+            "to": {
+              "month": 6,
+              "year": 2013
             }
           }
         ]
@@ -3621,6 +3621,94 @@
         "period": 54,
         "url": "https://www.apple.com/jp/macos/",
         "versions": [
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "period": 3,
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "period": 3,
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
+            }
+          },
           {
             "from": {
               "month": 11,
@@ -3653,94 +3741,6 @@
               "month": 9,
               "year": 2018
             }
-          },
-          {
-            "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 6,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 3,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 9,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2024
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2025
-            }
           }
         ]
       },
@@ -3749,28 +3749,6 @@
         "period": 48,
         "url": "https://www.ubuntulinux.jp/",
         "versions": [
-          {
-            "from": {
-              "month": 12,
-              "year": 2017
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2018
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
-              "month": 12,
-              "year": 2017
-            }
-          },
           {
             "from": {
               "month": 8,
@@ -3792,6 +3770,28 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2017
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "period": 14,
+            "to": {
+              "month": 12,
+              "year": 2017
+            }
           }
         ]
       },
@@ -3800,39 +3800,6 @@
         "period": 38,
         "url": "https://www.redhat.com/ja/technologies/linux-platforms/enterprise-linux",
         "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
-            },
-            "period": 5,
-            "to": {
-              "month": 8,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2005
-            },
-            "period": 5,
-            "to": {
-              "month": 3,
-              "year": 2006
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
           {
             "from": {
               "month": 6,
@@ -3864,6 +3831,39 @@
             "to": {
               "month": 8,
               "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2006
+            },
+            "period": 5,
+            "to": {
+              "month": 8,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2005
+            },
+            "period": 5,
+            "to": {
+              "month": 3,
+              "year": 2006
             }
           }
         ]
@@ -3932,6 +3932,83 @@
         "versions": [
           {
             "from": {
+              "month": 4,
+              "year": 2016
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2014
+            },
+            "period": 17,
+            "to": {
+              "month": 3,
+              "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "period": 10,
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
               "month": 1,
               "year": 2005
             },
@@ -3961,83 +4038,6 @@
             "to": {
               "month": 11,
               "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "period": 10,
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
-              "month": 3,
-              "year": 2016
             }
           }
         ]
@@ -4049,6 +4049,83 @@
         "versions": [
           {
             "from": {
+              "month": 4,
+              "year": 2016
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2014
+            },
+            "period": 17,
+            "to": {
+              "month": 3,
+              "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2009
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2010
+            }
+          },
+          {
+            "from": {
+              "month": 5,
+              "year": 2008
+            },
+            "period": 10,
+            "to": {
+              "month": 2,
+              "year": 2009
+            }
+          },
+          {
+            "from": {
               "month": 1,
               "year": 2005
             },
@@ -4079,83 +4156,6 @@
               "month": 11,
               "year": 2002
             }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 5,
-              "year": 2008
-            },
-            "period": 10,
-            "to": {
-              "month": 2,
-              "year": 2009
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2016
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2016
-            }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
           }
         ]
       },
@@ -4166,25 +4166,39 @@
         "versions": [
           {
             "from": {
-              "month": 8,
-              "year": 2021
+              "month": 1,
+              "year": 2024
             },
-            "period": 5,
+            "period": 3,
             "to": {
-              "month": 12,
-              "year": 2021
-            }
+              "month": 3,
+              "year": 2024
+            },
+            "version": "v3"
           },
           {
             "from": {
               "month": 10,
-              "year": 2019
+              "year": 2023
             },
-            "period": 22,
+            "period": 3,
             "to": {
+              "month": 12,
+              "year": 2023
+            },
+            "version": "v3"
+          },
+          {
+            "from": {
               "month": 7,
-              "year": 2021
-            }
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
+            },
+            "version": "v3"
           },
           {
             "from": {
@@ -4200,39 +4214,25 @@
           },
           {
             "from": {
-              "month": 1,
-              "year": 2024
+              "month": 8,
+              "year": 2021
             },
-            "period": 3,
+            "period": 5,
             "to": {
-              "month": 3,
-              "year": 2024
-            },
-            "version": "v3"
+              "month": 12,
+              "year": 2021
+            }
           },
           {
             "from": {
               "month": 10,
-              "year": 2023
+              "year": 2019
             },
-            "period": 3,
+            "period": 22,
             "to": {
-              "month": 12,
-              "year": 2023
-            },
-            "version": "v3"
-          },
-          {
-            "from": {
               "month": 7,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 9,
-              "year": 2023
-            },
-            "version": "v3"
+              "year": 2021
+            }
           }
         ]
       },
@@ -4241,6 +4241,28 @@
         "period": 45,
         "url": "https://github.com/google/wire",
         "versions": [
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
           {
             "from": {
               "month": 8,
@@ -4262,18 +4284,14 @@
               "month": 7,
               "year": 2021
             }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
+          }
+        ]
+      },
+      {
+        "name": "GORM",
+        "period": 35,
+        "url": "https://gorm.io/ja_JP/",
+        "versions": [
           {
             "from": {
               "month": 12,
@@ -4284,14 +4302,18 @@
               "month": 6,
               "year": 2023
             }
-          }
-        ]
-      },
-      {
-        "name": "GORM",
-        "period": 35,
-        "url": "https://gorm.io/ja_JP/",
-        "versions": [
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
+          },
           {
             "from": {
               "month": 12,
@@ -4313,28 +4335,6 @@
               "month": 12,
               "year": 2017
             }
-          },
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
           }
         ]
       },
@@ -4343,17 +4343,6 @@
         "period": 34,
         "url": "https://vuetifyjs.com/ja/",
         "versions": [
-          {
-            "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
           {
             "from": {
               "month": 8,
@@ -4375,6 +4364,17 @@
               "month": 7,
               "year": 2021
             }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
+            }
           }
         ]
       },
@@ -4383,41 +4383,6 @@
         "period": 29,
         "url": "https://jestjs.io/ja/",
         "versions": [
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v27.5"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v27.5"
-          },
           {
             "from": {
               "month": 10,
@@ -4441,6 +4406,41 @@
               "year": 2023
             },
             "version": "v29"
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v27.5"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v27.5"
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
           }
         ]
       },
@@ -4516,17 +4516,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2005
-            },
-            "period": 9,
-            "to": {
-              "month": 9,
-              "year": 2005
-            }
-          },
-          {
-            "from": {
               "month": 5,
               "year": 2008
             },
@@ -4534,6 +4523,17 @@
             "to": {
               "month": 2,
               "year": 2009
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "period": 9,
+            "to": {
+              "month": 9,
+              "year": 2005
             }
           }
         ]
@@ -4545,17 +4545,6 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
               "month": 12,
               "year": 2022
             },
@@ -4563,6 +4552,17 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
             }
           }
         ]
@@ -4574,17 +4574,6 @@
         "versions": [
           {
             "from": {
-              "month": 11,
-              "year": 2018
-            },
-            "period": 7,
-            "to": {
-              "month": 5,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
               "month": 8,
               "year": 2021
             },
@@ -4592,6 +4581,17 @@
             "to": {
               "month": 12,
               "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2018
+            },
+            "period": 7,
+            "to": {
+              "month": 5,
+              "year": 2019
             }
           }
         ]
@@ -5334,28 +5334,6 @@
           {
             "from": {
               "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
               "year": 2016
             },
             "period": 6,
@@ -5373,6 +5351,28 @@
             "to": {
               "month": 3,
               "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
             }
           }
         ]
@@ -5385,28 +5385,6 @@
           {
             "from": {
               "month": 4,
-              "year": 2014
-            },
-            "period": 6,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2013
-            },
-            "period": 15,
-            "to": {
-              "month": 9,
-              "year": 2014
-            }
-          },
-          {
-            "from": {
-              "month": 4,
               "year": 2016
             },
             "period": 6,
@@ -5424,6 +5402,28 @@
             "to": {
               "month": 3,
               "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2014
+            },
+            "period": 6,
+            "to": {
+              "month": 9,
+              "year": 2014
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2013
+            },
+            "period": 15,
+            "to": {
+              "month": 9,
+              "year": 2014
             }
           }
         ]
@@ -5440,46 +5440,112 @@
         "versions": [
           {
             "from": {
-              "month": 4,
-              "year": 2016
+              "month": 7,
+              "year": 2024
             },
-            "period": 6,
+            "period": 9,
             "to": {
-              "month": 9,
-              "year": 2016
+              "month": 3,
+              "year": 2025
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2014
+              "month": 4,
+              "year": 2024
             },
-            "period": 17,
+            "period": 3,
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "period": 3,
             "to": {
               "month": 3,
-              "year": 2016
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
             }
           },
           {
             "from": {
               "month": 12,
-              "year": 2017
+              "year": 2022
             },
             "period": 7,
             "to": {
               "month": 6,
-              "year": 2018
+              "year": 2023
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2016
+              "month": 1,
+              "year": 2022
             },
-            "period": 14,
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
             "to": {
               "month": 12,
-              "year": 2017
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 6,
+              "year": 2019
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2019
             }
           },
           {
@@ -5517,112 +5583,46 @@
           },
           {
             "from": {
-              "month": 6,
-              "year": 2019
-            },
-            "period": 4,
-            "to": {
-              "month": 9,
-              "year": 2019
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
               "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
+              "year": 2017
             },
             "period": 7,
             "to": {
               "month": 6,
-              "year": 2023
+              "year": 2018
+            }
+          },
+          {
+            "from": {
+              "month": 11,
+              "year": 2016
+            },
+            "period": 14,
+            "to": {
+              "month": 12,
+              "year": 2017
             }
           },
           {
             "from": {
               "month": 4,
-              "year": 2024
+              "year": 2016
             },
-            "period": 3,
-            "to": {
-              "month": 6,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 3,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2023
-            },
-            "period": 3,
+            "period": 6,
             "to": {
               "month": 9,
-              "year": 2023
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 7,
-              "year": 2024
+              "month": 11,
+              "year": 2014
             },
-            "period": 9,
+            "period": 17,
             "to": {
               "month": 3,
-              "year": 2025
+              "year": 2016
             }
           }
         ]
@@ -5634,35 +5634,13 @@
         "versions": [
           {
             "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
               "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
+              "year": 2024
             },
-            "period": 11,
+            "period": 9,
             "to": {
-              "month": 11,
-              "year": 2022
+              "month": 3,
+              "year": 2025
             }
           },
           {
@@ -5678,22 +5656,15 @@
           },
           {
             "from": {
-              "month": 7,
-              "year": 2024
+              "month": 1,
+              "year": 2022
             },
-            "period": 9,
+            "period": 11,
             "to": {
-              "month": 3,
-              "year": 2025
+              "month": 11,
+              "year": 2022
             }
-          }
-        ]
-      },
-      {
-        "name": "SendGrid",
-        "period": 38,
-        "url": "https://www.twilio.com/ja/sendgrid/email-api",
-        "versions": [
+          },
           {
             "from": {
               "month": 8,
@@ -5715,7 +5686,14 @@
               "month": 7,
               "year": 2021
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "SendGrid",
+        "period": 38,
+        "url": "https://www.twilio.com/ja/sendgrid/email-api",
+        "versions": [
           {
             "from": {
               "month": 1,
@@ -5725,6 +5703,28 @@
             "to": {
               "month": 11,
               "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
             }
           }
         ]
@@ -5794,6 +5794,17 @@
         "versions": [
           {
             "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          },
+          {
+            "from": {
               "month": 4,
               "year": 2024
             },
@@ -5835,17 +5846,6 @@
               "month": 9,
               "year": 2023
             }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2024
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2025
-            }
           }
         ]
       },
@@ -5856,17 +5856,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
               "month": 12,
               "year": 2022
             },
@@ -5874,6 +5863,17 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
             }
           }
         ]
@@ -5883,6 +5883,17 @@
         "period": 18,
         "url": "https://github.co.jp/features/actions",
         "versions": [
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          },
           {
             "from": {
               "month": 1,
@@ -5914,17 +5925,6 @@
             "to": {
               "month": 9,
               "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2024
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2025
             }
           }
         ]
@@ -6054,79 +6054,24 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2005
+              "month": 4,
+              "year": 2016
             },
-            "period": 9,
+            "period": 6,
             "to": {
               "month": 9,
-              "year": 2005
+              "year": 2016
             }
           },
           {
             "from": {
-              "month": 12,
-              "year": 2002
+              "month": 11,
+              "year": 2014
             },
             "period": 17,
             "to": {
-              "month": 4,
-              "year": 2004
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2002
-            },
-            "period": 8,
-            "to": {
-              "month": 11,
-              "year": 2002
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2009
-            },
-            "period": 9,
-            "to": {
               "month": 3,
-              "year": 2010
-            }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2010
-            },
-            "period": 10,
-            "to": {
-              "month": 5,
-              "year": 2011
-            }
-          },
-          {
-            "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "period": 16,
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2011
-            },
-            "period": 5,
-            "to": {
-              "month": 2,
-              "year": 2012
+              "year": 2016
             }
           },
           {
@@ -6153,53 +6098,46 @@
           },
           {
             "from": {
-              "month": 4,
-              "year": 2016
+              "month": 3,
+              "year": 2012
             },
-            "period": 6,
+            "period": 16,
             "to": {
-              "month": 9,
-              "year": 2016
+              "month": 6,
+              "year": 2013
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2014
-            },
-            "period": 17,
-            "to": {
-              "month": 3,
-              "year": 2016
-            }
-          }
-        ]
-      },
-      {
-        "name": "XML",
-        "period": 94,
-        "url": "https://www.w3.org/",
-        "versions": [
-          {
-            "from": {
-              "month": 4,
-              "year": 2006
+              "month": 10,
+              "year": 2011
             },
             "period": 5,
             "to": {
+              "month": 2,
+              "year": 2012
+            }
+          },
+          {
+            "from": {
               "month": 8,
-              "year": 2006
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
             }
           },
           {
             "from": {
-              "month": 11,
-              "year": 2005
+              "month": 7,
+              "year": 2009
             },
-            "period": 5,
+            "period": 9,
             "to": {
               "month": 3,
-              "year": 2006
+              "year": 2010
             }
           },
           {
@@ -6233,6 +6171,35 @@
             "to": {
               "month": 11,
               "year": 2002
+            }
+          }
+        ]
+      },
+      {
+        "name": "XML",
+        "period": 94,
+        "url": "https://www.w3.org/",
+        "versions": [
+          {
+            "from": {
+              "month": 6,
+              "year": 2011
+            },
+            "period": 4,
+            "to": {
+              "month": 9,
+              "year": 2011
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2010
+            },
+            "period": 10,
+            "to": {
+              "month": 5,
+              "year": 2011
             }
           },
           {
@@ -6281,24 +6248,57 @@
           },
           {
             "from": {
-              "month": 6,
-              "year": 2011
+              "month": 4,
+              "year": 2006
             },
-            "period": 4,
+            "period": 5,
             "to": {
-              "month": 9,
-              "year": 2011
+              "month": 8,
+              "year": 2006
             }
           },
           {
             "from": {
-              "month": 8,
-              "year": 2010
+              "month": 11,
+              "year": 2005
             },
-            "period": 10,
+            "period": 5,
             "to": {
-              "month": 5,
-              "year": 2011
+              "month": 3,
+              "year": 2006
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2005
+            },
+            "period": 9,
+            "to": {
+              "month": 9,
+              "year": 2005
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2002
+            },
+            "period": 17,
+            "to": {
+              "month": 4,
+              "year": 2004
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2002
+            },
+            "period": 8,
+            "to": {
+              "month": 11,
+              "year": 2002
             }
           }
         ]
@@ -6308,6 +6308,105 @@
         "period": 87,
         "url": "https://www.docker.com/",
         "versions": [
+          {
+            "from": {
+              "month": 7,
+              "year": 2024
+            },
+            "period": 9,
+            "to": {
+              "month": 3,
+              "year": 2025
+            }
+          },
+          {
+            "from": {
+              "month": 4,
+              "year": 2024
+            },
+            "period": 3,
+            "to": {
+              "month": 6,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2024
+            },
+            "period": 3,
+            "to": {
+              "month": 3,
+              "year": 2024
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 12,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
+              "month": 8,
+              "year": 2021
+            },
+            "period": 5,
+            "to": {
+              "month": 12,
+              "year": 2021
+            }
+          },
+          {
+            "from": {
+              "month": 10,
+              "year": 2019
+            },
+            "period": 22,
+            "to": {
+              "month": 7,
+              "year": 2021
+            }
+          },
           {
             "from": {
               "month": 12,
@@ -6329,105 +6428,6 @@
               "month": 12,
               "year": 2017
             }
-          },
-          {
-            "from": {
-              "month": 8,
-              "year": 2021
-            },
-            "period": 5,
-            "to": {
-              "month": 12,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2019
-            },
-            "period": 22,
-            "to": {
-              "month": 7,
-              "year": 2021
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 4,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 6,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2024
-            },
-            "period": 3,
-            "to": {
-              "month": 3,
-              "year": 2024
-            }
-          },
-          {
-            "from": {
-              "month": 10,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 12,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 9,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2024
-            },
-            "period": 9,
-            "to": {
-              "month": 3,
-              "year": 2025
-            }
           }
         ]
       },
@@ -6438,6 +6438,39 @@
         "versions": [
           {
             "from": {
+              "month": 7,
+              "year": 2023
+            },
+            "period": 3,
+            "to": {
+              "month": 9,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            }
+          },
+          {
+            "from": {
               "month": 8,
               "year": 2021
             },
@@ -6457,39 +6490,6 @@
               "month": 7,
               "year": 2021
             }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            }
-          },
-          {
-            "from": {
-              "month": 7,
-              "year": 2023
-            },
-            "period": 3,
-            "to": {
-              "month": 9,
-              "year": 2023
-            }
           }
         ]
       },
@@ -6499,13 +6499,13 @@
         "versions": [
           {
             "from": {
-              "month": 12,
-              "year": 2002
+              "month": 11,
+              "year": 2016
             },
-            "period": 17,
+            "period": 14,
             "to": {
-              "month": 4,
-              "year": 2004
+              "month": 12,
+              "year": 2017
             }
           },
           {
@@ -6521,13 +6521,13 @@
           },
           {
             "from": {
-              "month": 11,
-              "year": 2016
-            },
-            "period": 14,
-            "to": {
               "month": 12,
-              "year": 2017
+              "year": 2002
+            },
+            "period": 17,
+            "to": {
+              "month": 4,
+              "year": 2004
             }
           }
         ]
@@ -6539,6 +6539,30 @@
         "versions": [
           {
             "from": {
+              "month": 12,
+              "year": 2022
+            },
+            "period": 7,
+            "to": {
+              "month": 6,
+              "year": 2023
+            },
+            "version": "v1.22"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v1.22"
+          },
+          {
+            "from": {
               "month": 8,
               "year": 2021
             },
@@ -6558,30 +6582,6 @@
               "month": 7,
               "year": 2021
             }
-          },
-          {
-            "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v1.22"
-          },
-          {
-            "from": {
-              "month": 12,
-              "year": 2022
-            },
-            "period": 7,
-            "to": {
-              "month": 6,
-              "year": 2023
-            },
-            "version": "v1.22"
           }
         ]
       },
@@ -6592,17 +6592,6 @@
         "versions": [
           {
             "from": {
-              "month": 3,
-              "year": 2012
-            },
-            "period": 16,
-            "to": {
-              "month": 6,
-              "year": 2013
-            }
-          },
-          {
-            "from": {
               "month": 11,
               "year": 2014
             },
@@ -6610,6 +6599,17 @@
             "to": {
               "month": 3,
               "year": 2016
+            }
+          },
+          {
+            "from": {
+              "month": 3,
+              "year": 2012
+            },
+            "period": 16,
+            "to": {
+              "month": 6,
+              "year": 2013
             }
           }
         ]
@@ -6676,17 +6676,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            }
-          },
-          {
-            "from": {
               "month": 12,
               "year": 2022
             },
@@ -6694,6 +6683,17 @@
             "to": {
               "month": 6,
               "year": 2023
+            }
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
             }
           }
         ]
@@ -6705,18 +6705,6 @@
         "versions": [
           {
             "from": {
-              "month": 1,
-              "year": 2022
-            },
-            "period": 11,
-            "to": {
-              "month": 11,
-              "year": 2022
-            },
-            "version": "v2"
-          },
-          {
-            "from": {
               "month": 12,
               "year": 2022
             },
@@ -6726,6 +6714,18 @@
               "year": 2023
             },
             "version": "v3"
+          },
+          {
+            "from": {
+              "month": 1,
+              "year": 2022
+            },
+            "period": 11,
+            "to": {
+              "month": 11,
+              "year": 2022
+            },
+            "version": "v2"
           }
         ]
       },
